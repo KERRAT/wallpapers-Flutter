@@ -10,18 +10,18 @@ final _logger = Logger('PhotosList');
 class PhotosList extends StatelessWidget {
   const PhotosList({
     Key? key,
+    required this.photos,
     required this.appData,
     required this.lng,
   }) : super(key: key);
 
+  final List<int> photos;
   final AppData appData;
   final String lng;
 
   @override
   Widget build(BuildContext context) {
     _logger.finest('Building PhotosList');
-
-    final allPhotos = [...appData.newItems, ...appData.top];
 
     return GridView.builder(
       padding: EdgeInsets.zero,
@@ -31,9 +31,9 @@ class PhotosList extends StatelessWidget {
         crossAxisSpacing: 0,
         mainAxisSpacing: 0,
       ),
-      itemCount: allPhotos.length,
+      itemCount: photos.length,
       itemBuilder: (context, index) {
-        final photoId = allPhotos[index];
+        final photoId = photos[index];
 
         return GestureDetector(
           onTap: () {
@@ -44,7 +44,7 @@ class PhotosList extends StatelessWidget {
               builder: (BuildContext context) {
                 return CreatePhotoForm(
                   photoId: photoId,
-                  photoIds: allPhotos,
+                  photoIds: photos,
                   linkShow: appData.imagesPreview,
                   linkSet: appData.imagesSetWallpapers,
                   linkShare: appData.fullAdShare,

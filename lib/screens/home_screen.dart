@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tasks_app/main.dart';
 import 'package:flutter_tasks_app/screens/drawers/custom_drawer.dart';
-import 'package:http/http.dart' as http;
+import 'package:flutter_tasks_app/screens/photos/app_data_singleton.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'dart:convert';
 
 import '../gen_l10n/app_localizations.dart';
 import 'photos/list.dart';
@@ -22,6 +21,8 @@ class MyHomePage extends StatefulWidget {
   MyHomePageState createState() => MyHomePageState();
 }
 
+enum SelectedButton { newPhotos, top, favorite }
+
 // _MyHomePageState is the state object for MyHomePage.
 class MyHomePageState extends State<MyHomePage> {
   late Future<AppData> _appDataFuture;
@@ -29,6 +30,7 @@ class MyHomePageState extends State<MyHomePage> {
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
   String _selectedCategoryId = '';
   late String _currentLanguage;
+  SelectedButton _selectedButton = SelectedButton.newPhotos;
   final Map<String, String> _languageNames = {
     'en': 'English',
     'de': 'Deutsch',
@@ -42,7 +44,13 @@ class MyHomePageState extends State<MyHomePage> {
     super.initState();
     _logger.finest('Initializing MyHomePage');
     _currentLanguage = widget.language;
-    _appDataFuture = _fetchAppData();
+    _appDataFuture = AppDataRepository().fetchAppData();
+  }
+
+  void _onButtonSelected(SelectedButton button) {
+    setState(() {
+      _selectedButton = button;
+    });
   }
 
   Future<void> _onLanguageSelected(
@@ -52,7 +60,6 @@ class MyHomePageState extends State<MyHomePage> {
     await prefs.setString('selected_language', language);
     setState(() {
       _currentLanguage = MyApp.of(context)?.setLocale(language) ?? 'en';
-      _appDataFuture = _fetchAppData();
     });
   }
 
@@ -63,51 +70,37 @@ class MyHomePageState extends State<MyHomePage> {
     });
   }
 
-  // _fetchAppData fetches AppData from the remote server.
-  Future<AppData> _fetchAppData() async {
-    _logger.finest('Fetching AppData');
-    try {
-      final response = await http.get(Uri.parse(
-          'https://cf-phonewall4k.com/android/serwery_glowna.json'));
-      if (response.statusCode == 200) {
-        _logger.finest('AppData fetched successfully');
-        return AppData.fromJson(jsonDecode(response.body));
-      } else {
-        _logger.warning(
-            'Failed to load AppData from main server, status code: ${response.statusCode}');
-        throw Exception('Failed to load AppData from main server');
-      }
-    } catch (e) {
-      _logger.warning('Failed to load AppData from main server, trying secondary server');
-      final response = await http.get(Uri.parse(
-          'http://phonewall4k.com/android/serwery_glowna.json'));
-      if (response.statusCode == 200) {
-        _logger.finest('AppData fetched successfully from secondary server');
-        return AppData.fromJson(jsonDecode(response.body));
-      } else {
-        _logger.warning(
-            'Failed to load AppData from secondary server, status code: ${response.statusCode}');
-        throw Exception('Failed to load AppData from secondary server');
-      }
-    }
-  }
-
   // build returns the widget tree for MyHomePage.
   @override
   Widget build(BuildContext context) {
     _logger.finest('Building MyHomePage');
+
     return FutureBuilder<AppData>(
       future: _appDataFuture,
       builder: (context, snapshot) {
         if (snapshot.hasData) {
           _appData = snapshot.data!;
+
+          List<int> photos;
+          switch (_selectedButton) {
+            case SelectedButton.newPhotos:
+              photos = _appData.newItems;
+              break;
+            case SelectedButton.top:
+              photos = _appData.top;
+              break;
+            default:
+              photos = [..._appData.newItems, ..._appData.top];
+          }
+
           return Scaffold(
             key: _scaffoldKey,
             body: Stack(
               children: [
                 PhotosList(
-                  appData: _appData,
+                  photos: photos,
                   lng: _currentLanguage,
+                  appData: _appData,
                 ),
                 Positioned(
                   top: 50,
@@ -127,7 +120,23 @@ class MyHomePageState extends State<MyHomePage> {
                     ),
                   ),
                 ),
-
+                Positioned(
+                  bottom: 30,
+                  child: Container(
+                    width: MediaQuery.of(context).size.width,
+                    child: Center(
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          _buildButton(SelectedButton.newPhotos, 'New'),
+                          const SizedBox(width: 20),
+                          _buildButton(SelectedButton.top, 'Top'),
+                          // You can add here button for Favorite photos
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
               ],
             ),
             drawer: CustomDrawer(
@@ -149,6 +158,18 @@ class MyHomePageState extends State<MyHomePage> {
           );
         }
       },
+    );
+  }
+
+  Widget _buildButton(SelectedButton button, String title) {
+    return ElevatedButton(
+      onPressed: () => _onButtonSelected(button),
+      style: ButtonStyle(
+        backgroundColor: MaterialStateProperty.all<Color>(
+          _selectedButton == button ? Colors.blue : Colors.grey,
+        ),
+      ),
+      child: Text(title),
     );
   }
 }
