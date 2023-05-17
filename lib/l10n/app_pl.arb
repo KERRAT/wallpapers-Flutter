@@ -1,0 +1,14 @@
+{
+  "no_internet": "Brak połączenia z internetem",
+  "fill_input_fields": "Proszę wypełnić wszystkie pola wejściowe.",
+  "create_card": "Utwórz kartę",
+  "bottom_caption": "Napis na dole",
+  "wishes_name": "Życzy TWOJE IMIĘ",
+  "choose_wish": "Wybierz życzenie",
+  "poem": "Wiersz",
+  "enter_poem": "Wpisz wiersz...",
+  "view_all_texts": "Zobacz wszystkie teksty",
+  "image_saved": "Obraz zapisany w galerii",
+  "image_save_failed": "Nie udało się zapisać obrazu w galerii",
+  "error_occurred": "Wystąpił błąd!"
+}

@@ -1,0 +1,14 @@
+{
+  "no_internet": "Keine Internetverbindung",
+  "fill_input_fields": "Bitte füllen Sie alle Eingabefelder aus.",
+  "create_card": "Karte erstellen",
+  "bottom_caption": "Unterschrift unten",
+  "wishes_name": "Wünscht IHR NAME",
+  "choose_wish": "Wunsch auswählen",
+  "poem": "Gedicht",
+  "enter_poem": "Gedicht eingeben...",
+  "view_all_texts": "Alle Texte anzeigen",
+  "image_saved": "Bild in der Galerie gespeichert",
+  "image_save_failed": "Bild konnte nicht in der Galerie gespeichert werden",
+  "error_occurred": "Ein Fehler ist aufgetreten!"
+}

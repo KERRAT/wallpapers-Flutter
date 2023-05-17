@@ -1,0 +1,14 @@
+{
+  "no_internet": "No internet connection",
+  "fill_input_fields": "Please fill in all the input fields.",
+  "create_card": "Create card",
+  "bottom_caption": "A bottom caption",
+  "wishes_name": "Wishes YOUR NAME",
+  "choose_wish": "Choose a wish",
+  "poem": "Poem",
+  "enter_poem": "Enter poem...",
+  "view_all_texts": "View All Texts",
+  "image_saved": "Image saved to gallery",
+  "image_save_failed": "Failed to save image to gallery",
+  "error_occurred": "An error has occurred!"
+}

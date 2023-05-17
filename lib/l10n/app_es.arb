@@ -1,0 +1,14 @@
+{
+  "no_internet": "Sin conexión a internet",
+  "fill_input_fields": "Por favor, complete todos los campos de entrada.",
+  "create_card": "Crear tarjeta",
+  "bottom_caption": "Subtítulo inferior",
+  "wishes_name": "Deseo TU NOMBRE",
+  "choose_wish": "Elegir un deseo",
+  "poem": "Poema",
+  "enter_poem": "Introducir poema...",
+  "view_all_texts": "Ver todos los textos",
+  "image_saved": "Imagen guardada en la galería",
+  "image_save_failed": "No se pudo guardar la imagen en la galería",
+  "error_occurred": "¡Ha ocurrido un error!"
+}
