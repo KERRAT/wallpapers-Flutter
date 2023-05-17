@@ -1,12 +1,9 @@
 import 'package:async_wallpaper/async_wallpaper.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 class WallpaperHandler {
-  // Platform messages are asynchronous, so we initialize in an async method.
-  static Future<void> setWallpaperHome(String link, int photoId) async {
+  static Future<String> setWallpaperHome(String link, int photoId) async {
     String result;
-    // Platform messages may fail, so we use a try/catch PlatformException.
     try {
       result = await AsyncWallpaper.setWallpaper(
         url: link.replaceAll('[ID]', photoId.toString()),
@@ -15,19 +12,18 @@ class WallpaperHandler {
         toastDetails: ToastDetails.success(),
         errorToastDetails: ToastDetails.error(),
       )
-          ? 'Wallpaper set'
+          ? 'Wallpaper set ✔️'
           : 'Failed to get wallpaper.';
     } on PlatformException {
       result = 'Failed to get wallpaper.';
     } catch (e) {
       result = 'Failed with exception: $e';
     }
+    return result;
   }
 
-  // Platform messages are asynchronous, so we initialize in an async method.
-  static Future<void> setWallpaperLock(String link, int photoId) async {
+  static Future<String> setWallpaperLock(String link, int photoId) async {
     String result;
-    // Platform messages may fail, so we use a try/catch PlatformException.
     try {
       result = await AsyncWallpaper.setWallpaper(
         url: link.replaceAll('[ID]', photoId.toString()),
@@ -36,13 +32,13 @@ class WallpaperHandler {
         toastDetails: ToastDetails.success(),
         errorToastDetails: ToastDetails.error(),
       )
-          ? 'Wallpaper set'
+          ? 'Wallpaper set ✔️'
           : 'Failed to get wallpaper.';
     } on PlatformException {
       result = 'Failed to get wallpaper.';
     } catch (e) {
       result = 'Failed with exception: $e';
     }
-
+    return result;
   }
 }

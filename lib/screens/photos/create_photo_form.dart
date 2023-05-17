@@ -1,6 +1,4 @@
-import 'package:async_wallpaper/async_wallpaper.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_tasks_app/screens/photos/form_elements/displayed_photo.dart';
 import 'package:flutter_tasks_app/screens/photos/form_elements/return_button.dart';
 import 'package:flutter_tasks_app/widgets/responsive_layout.dart';
@@ -104,10 +102,37 @@ class CreatePhotoFormState extends State<CreatePhotoForm> {
                       backgroundColor: Colors.blue,
                       radius: 30,  // Make the icon bigger
                       child: IconButton(
-                        iconSize: 30.0, // Make the icon bigger
+                        iconSize: 30.0,
                         color: Colors.white,
                         icon: const Icon(Icons.mobile_screen_share_sharp),
-                        onPressed: () => WallpaperHandler.setWallpaperHome(widget.linkSet, currentPhotoId),
+                        onPressed: () {
+                          showDialog(
+                            context: context,
+                            builder: (BuildContext context) {
+                              return FutureBuilder<String>(
+                                future: WallpaperHandler.setWallpaperHome(widget.linkSet, currentPhotoId),
+                                builder: (BuildContext context, AsyncSnapshot<String> snapshot) {
+                                  if (snapshot.connectionState == ConnectionState.waiting) {
+                                    return AlertDialog(
+                                      content: Row(
+                                        mainAxisAlignment: MainAxisAlignment.center,
+                                        children: const <Widget>[
+                                          CircularProgressIndicator(),
+                                          SizedBox(width: 10),
+                                          Text("Loading..."),
+                                        ],
+                                      ),
+                                    );
+                                  } else {
+                                    return AlertDialog(
+                                      content: Text(snapshot.data ?? 'Error'),
+                                    );
+                                  }
+                                },
+                              );
+                            },
+                          );
+                        },
                       ),
                     ),
                     const SizedBox(width: 10.0),  // Add some space
@@ -115,10 +140,37 @@ class CreatePhotoFormState extends State<CreatePhotoForm> {
                       backgroundColor: Colors.blue,
                       radius: 30,  // Make the icon bigger
                       child: IconButton(
-                        iconSize: 30.0, // Make the icon bigger
+                        iconSize: 30.0,
                         color: Colors.white,
-                        icon: const Icon(Icons.phonelink_lock_sharp),
-                        onPressed: () => WallpaperHandler.setWallpaperLock(widget.linkSet, currentPhotoId),
+                        icon: const Icon(Icons.mobile_screen_share_sharp),
+                        onPressed: () {
+                          showDialog(
+                            context: context,
+                            builder: (BuildContext context) {
+                              return FutureBuilder<String>(
+                                future: WallpaperHandler.setWallpaperLock(widget.linkSet, currentPhotoId),
+                                builder: (BuildContext context, AsyncSnapshot<String> snapshot) {
+                                  if (snapshot.connectionState == ConnectionState.waiting) {
+                                    return AlertDialog(
+                                      content: Row(
+                                        mainAxisAlignment: MainAxisAlignment.center,
+                                        children: const <Widget>[
+                                          CircularProgressIndicator(),
+                                          SizedBox(width: 10),
+                                          Text("Loading..."),
+                                        ],
+                                      ),
+                                    );
+                                  } else {
+                                    return AlertDialog(
+                                      content: Text(snapshot.data ?? 'Error'),
+                                    );
+                                  }
+                                },
+                              );
+                            },
+                          );
+                        },
                       ),
                     ),
                     const SizedBox(width: 20.0),  // Add some space
