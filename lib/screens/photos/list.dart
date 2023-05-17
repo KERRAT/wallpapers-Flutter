@@ -27,7 +27,7 @@ class PhotosList extends StatelessWidget {
       padding: EdgeInsets.zero,
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 2,
-        childAspectRatio: 9 / 12,
+        childAspectRatio: 320/568,
         crossAxisSpacing: 0,
         mainAxisSpacing: 0,
       ),
@@ -45,10 +45,10 @@ class PhotosList extends StatelessWidget {
                 return CreatePhotoForm(
                   photoId: photoId,
                   photoIds: allPhotos,
-                  link_show: appData.imagesPreview,
-                  link_set: appData.imagesSetWallpapers,
-                  link_share: appData.fullAdShare,
-                  link_download: appData.imagesDownload,
+                  linkShow: appData.imagesPreview,
+                  linkSet: appData.imagesSetWallpapers,
+                  linkShare: appData.fullAdShare,
+                  linkDownload: appData.imagesDownload,
                   lng: lng,
                 );
               },
