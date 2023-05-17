@@ -5,11 +5,8 @@ import 'package:sizer/sizer.dart';
 class LayoutHelpers {
   static double getAspectRatio(BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;
-    if (screenWidth <= 540) {
-      return 0.71;
-    } else {
-      return 0.85;
-    }
+    double screenHeight = MediaQuery.of(context).size.height * 0.8;
+    return screenWidth / screenHeight;
   }
 
   static double getWidthFactor(BuildContext context) {

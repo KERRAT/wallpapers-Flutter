@@ -35,6 +35,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   mockito: ^5.4.0
+  async_wallpaper: ^2.0.2
 
 
 

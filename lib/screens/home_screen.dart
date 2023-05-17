@@ -66,15 +66,29 @@ class MyHomePageState extends State<MyHomePage> {
   // _fetchAppData fetches AppData from the remote server.
   Future<AppData> _fetchAppData() async {
     _logger.finest('Fetching AppData');
-    final response = await http.get(Uri.parse(
-        'https://creategreetingcards.eu/android_json/glowny_$_currentLanguage.json'));
-    if (response.statusCode == 200) {
-      _logger.finest('AppData fetched successfully');
-      return AppData.fromJson(jsonDecode(response.body));
-    } else {
-      _logger.warning(
-          'Failed to load AppData, status code: ${response.statusCode}');
-      throw Exception('Failed to load AppData');
+    try {
+      final response = await http.get(Uri.parse(
+          'https://cf-phonewall4k.com/android/serwery_glowna.json'));
+      if (response.statusCode == 200) {
+        _logger.finest('AppData fetched successfully');
+        return AppData.fromJson(jsonDecode(response.body));
+      } else {
+        _logger.warning(
+            'Failed to load AppData from main server, status code: ${response.statusCode}');
+        throw Exception('Failed to load AppData from main server');
+      }
+    } catch (e) {
+      _logger.warning('Failed to load AppData from main server, trying secondary server');
+      final response = await http.get(Uri.parse(
+          'http://phonewall4k.com/android/serwery_glowna.json'));
+      if (response.statusCode == 200) {
+        _logger.finest('AppData fetched successfully from secondary server');
+        return AppData.fromJson(jsonDecode(response.body));
+      } else {
+        _logger.warning(
+            'Failed to load AppData from secondary server, status code: ${response.statusCode}');
+        throw Exception('Failed to load AppData from secondary server');
+      }
     }
   }
 
@@ -92,12 +106,6 @@ class MyHomePageState extends State<MyHomePage> {
             body: Stack(
               children: [
                 PhotosList(
-                  photos: _selectedCategoryId.isEmpty
-                      ? _appData.photos
-                      : _appData.photos
-                          .where((photo) =>
-                              photo.categories.contains(_selectedCategoryId))
-                          .toList(),
                   appData: _appData,
                   lng: _currentLanguage,
                 ),
@@ -123,7 +131,6 @@ class MyHomePageState extends State<MyHomePage> {
               ],
             ),
             drawer: CustomDrawer(
-              categories: _appData.categories,
               onCategorySelected: _onCategorySelected,
             ),
           );

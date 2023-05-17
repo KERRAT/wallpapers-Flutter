@@ -2,16 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:logging/logging.dart';
 
-import 'package:flutter_tasks_app/models/category.dart';
-
 final Logger _logger = Logger('CustomDrawer');
 
 class CustomDrawer extends StatelessWidget {
   const CustomDrawer(
-      {Key? key, required this.categories, required this.onCategorySelected})
+      {Key? key, required this.onCategorySelected})
       : super(key: key);
 
-  final List<Category> categories;
   final ValueChanged<String> onCategorySelected;
 
   @override
@@ -51,7 +48,7 @@ class CustomDrawer extends StatelessWidget {
                 Expanded(
                   child: ListView.builder(
                     padding: const EdgeInsets.only(top: 5, bottom: 50),
-                    itemCount: categories.length,
+                    itemCount: 10,
                     itemBuilder: (context, index) {
                       return ListTile(
                         leading: Container(
@@ -61,11 +58,11 @@ class CustomDrawer extends StatelessWidget {
                             shape: BoxShape.circle,
                           ),
                           child: SvgPicture.asset(
-                            'assets/categories/${categories[index].id}.svg',
+                            'assets/categories/0.svg',
                           ),
                         ),
                         title: Text(
-                          categories[index].name,
+                          '123',
                           style: const TextStyle(
                             fontWeight: FontWeight.bold,
                             color: Colors.black,
@@ -73,8 +70,8 @@ class CustomDrawer extends StatelessWidget {
                         ),
                         onTap: () {
                           _logger.info(
-                              'Category selected: ${categories[index].id}');
-                          onCategorySelected(categories[index].id);
+                              'Category selected: ${0}');
+                          onCategorySelected('0');
                           Navigator.pop(context);
                         },
                       );

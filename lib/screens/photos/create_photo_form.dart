@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tasks_app/models/photo/photo.dart';
-import 'package:flutter_tasks_app/models/servers/default_servers.dart';
 import 'package:flutter_tasks_app/screens/photos/form_elements/displayed_photo.dart';
 import 'package:flutter_tasks_app/screens/photos/form_elements/return_button.dart';
 import 'package:flutter_tasks_app/widgets/responsive_layout.dart';
@@ -9,20 +7,20 @@ import 'package:logging/logging.dart';
 final _logger = Logger('CreatePhotoForm');
 
 class CreatePhotoForm extends StatefulWidget {
-  final Photo photo;
-  final List<Photo> photos;
-  final List<dynamic> wishListItems;
-  final DefaultServers servers;
+  final int photoId;
+  final List<int> photoIds;
   final String lng;
+  final String link_show;
+  final String link_set;
+  final String link_share;
+  final String link_download;
 
   // Constructor for CreatePhotoForm
   const CreatePhotoForm({
     Key? key,
-    required this.photo,
-    required this.photos,
-    required this.servers,
-    required this.wishListItems,
-    required this.lng,
+    required this.photoId,
+    required this.photoIds,
+    required this.lng, required this.link_show, required this.link_set, required this.link_share, required this.link_download,
   }) : super(key: key);
 
   @override
@@ -30,25 +28,17 @@ class CreatePhotoForm extends StatefulWidget {
 }
 
 class CreatePhotoFormState extends State<CreatePhotoForm> {
-
   late PageController _pageController;
   late int initialPage;
-
-  late String adresGen;
-  late String adresGenV2;
 
   @override
   void initState() {
     super.initState();
-    initialPage = widget.photos.indexWhere((photo) => photo.id == widget.photo.id);
+    initialPage = widget.photoIds.indexOf(widget.photoId);
     _pageController = PageController(initialPage: initialPage);
-
-    adresGen = widget.servers.addressGen;
-    adresGenV2 = widget.servers.addressGenV2;
 
     _logger.info('Initialized CreatePhotoFormState');
   }
-
 
   // Function to handle back button press
   void _handleBack() {
@@ -67,10 +57,10 @@ class CreatePhotoFormState extends State<CreatePhotoForm> {
           children: [
             PageView.builder(
               controller: _pageController,
-              itemCount: widget.photos.length,
+              itemCount: widget.photoIds.length,
               itemBuilder: (BuildContext context, int index) {
                 return DisplayPhoto(
-                  photoId: widget.photos[index].id,
+                  photoId: widget.photoIds[index],
                   lng: widget.lng,
                 );
               },
@@ -78,10 +68,10 @@ class CreatePhotoFormState extends State<CreatePhotoForm> {
             Align(
               alignment: Alignment.centerLeft,
               child: IconButton(
-                icon: Icon(Icons.arrow_back),
+                icon: const Icon(Icons.arrow_back),
                 onPressed: () {
                   _pageController.previousPage(
-                    duration: Duration(milliseconds: 300),
+                    duration: const Duration(milliseconds: 300),
                     curve: Curves.easeInOut,
                   );
                 },
@@ -90,7 +80,7 @@ class CreatePhotoFormState extends State<CreatePhotoForm> {
             Align(
               alignment: Alignment.centerRight,
               child: IconButton(
-                icon: Icon(Icons.arrow_forward),
+                icon: const Icon(Icons.arrow_forward),
                 onPressed: () {
                   _pageController.nextPage(
                     duration: const Duration(milliseconds: 300),
@@ -112,19 +102,6 @@ class CreatePhotoFormState extends State<CreatePhotoForm> {
           ],
         ),
       ),
-    );
-  }
-
-  Widget _buildContent(BuildContext context) {
-    return Column(
-        children: [
-        SizedBox(height: MediaQuery.of(context).devicePixelRatio * 10),
-          DisplayPhoto(
-            photoId: widget.photo.id,
-            lng: widget.lng,
-          ),
-          SizedBox(height: MediaQuery.of(context).devicePixelRatio * 10),
-        ],
     );
   }
 }
