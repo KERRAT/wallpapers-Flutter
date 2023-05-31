@@ -40,11 +40,10 @@ class PhotosList extends StatelessWidget {
         return GestureDetector(
           onTap: () {
             _logger.finest('Photo item tapped: $photoId');
-            showDialog(
-              context: context,
-              barrierDismissible: true,
-              builder: (BuildContext context) {
-                return CreatePhotoForm(
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (BuildContext context) => CreatePhotoForm(
                   photoId: photoId,
                   photoIds: photos,
                   onLikeToggle: onLikeToggle,
@@ -53,8 +52,9 @@ class PhotosList extends StatelessWidget {
                   linkShare: appData.fullAdShare,
                   linkDownload: appData.imagesDownload,
                   lng: lng,
-                );
-              },
+                ),
+                fullscreenDialog: true,
+              ),
             );
           },
           child: Card(

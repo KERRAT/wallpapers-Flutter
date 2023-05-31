@@ -36,16 +36,21 @@ class CreatePhotoForm extends StatefulWidget {
   _CreatePhotoFormState createState() => _CreatePhotoFormState();
 }
 
+
 class _CreatePhotoFormState extends State<CreatePhotoForm> {
   late final PageController _pageController;
   late final int initialPage;
   late int currentPhotoId;
+  static const double viewportFraction = 1.2;
 
   @override
   void initState() {
     super.initState();
     initialPage = widget.photoIds.indexOf(widget.photoId);
-    _pageController = PageController(initialPage: initialPage);
+    _pageController = PageController(
+      initialPage: initialPage,
+      viewportFraction: viewportFraction, // control the number of pages you want to show in a view
+    );
     currentPhotoId = widget.photoId;
     _logger.info('Initialized CreatePhotoFormState');
     WidgetsBinding.instance.addPostFrameCallback((_) async {
@@ -72,11 +77,16 @@ class _CreatePhotoFormState extends State<CreatePhotoForm> {
                 await Provider.of<LikeState>(context, listen: false).checkLikeStatus(currentPhotoId);
               },
               itemBuilder: (BuildContext context, int index) {
+                if (index < widget.photoIds.length + 5) { // ensure that only next 5 images are precached
+                  precacheImage(NetworkImage(widget.linkShow.replaceAll('[ID]', "${widget.photoIds[index]}")), context); // precacheImage is used to prefetch the images
+                }
                 return DisplayPhoto(
                   photoId: widget.photoIds[index],
                   lng: widget.lng,
                 );
               },
+              pageSnapping: false,
+              physics: const PageOverscrollPhysics(velocityPerOverscroll: 1000), // Add this line to enable the scroll physics of your choice. This one is for inertia
             ),
             NavigationCircles(_pageController),
             Align(
@@ -108,4 +118,52 @@ class _CreatePhotoFormState extends State<CreatePhotoForm> {
     _logger.info('Back button pressed');
     Navigator.pop(context);
   }
+}
+
+
+class PageOverscrollPhysics extends ScrollPhysics {
+  final double velocityPerOverscroll;
+  final double viewportFraction;
+
+  const PageOverscrollPhysics({
+    ScrollPhysics? parent,
+    this.velocityPerOverscroll = 1000,
+    this.viewportFraction = _CreatePhotoFormState.viewportFraction,
+  }) : super(parent: parent);
+
+  @override
+  PageOverscrollPhysics applyTo(ScrollPhysics? ancestor) {
+    return PageOverscrollPhysics(
+      parent: buildParent(ancestor)!,
+      velocityPerOverscroll: velocityPerOverscroll,
+      viewportFraction: viewportFraction,
+    );
+  }
+
+  double _getTargetPixels(ScrollMetrics position, double velocity) {
+    double page = (position.pixels - position.viewportDimension * (1 - viewportFraction) / 2) /
+        (position.viewportDimension * viewportFraction);
+    page += velocity / (velocityPerOverscroll * viewportFraction);
+    double pixels = page.roundToDouble() * (position.viewportDimension * viewportFraction) -
+        position.viewportDimension * (1 - viewportFraction) / 2;
+    return pixels;
+  }
+
+  @override
+  Simulation? createBallisticSimulation(
+      ScrollMetrics position, double velocity) {
+    if ((velocity <= 0.0 && position.pixels <= position.minScrollExtent) ||
+        (velocity >= 0.0 && position.pixels >= position.maxScrollExtent)) {
+      return super.createBallisticSimulation(position, velocity);
+    }
+    final double target = _getTargetPixels(position, velocity);
+    if (target != position.pixels) {
+      return ScrollSpringSimulation(spring, position.pixels, target, velocity,
+          tolerance: tolerance);
+    }
+    return null;
+  }
+
+  @override
+  bool get allowImplicitScrolling => false;
 }

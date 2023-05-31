@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tasks_app/widgets/responsive_layout.dart';
 import 'package:logging/logging.dart';
 
 class DisplayPhoto extends StatefulWidget {
@@ -42,23 +41,21 @@ class DisplayPhotoState extends State<DisplayPhoto> {
   @override
   Widget build(BuildContext context) {
     _logger.info('Building DisplayPhoto widget');
-    double aspectRatio = LayoutHelpers.getAspectRatio(context);
-    final screenSize = MediaQuery.of(context).size;
-    final screenWidth = screenSize.width;
-    // Calculate the padding based on the screen size
-    final paddingHorizontal = screenWidth * 0.015;
+    final screenSize = MediaQuery
+        .of(context)
+        .size;
 
     return SingleChildScrollView(
       child: LayoutBuilder(
         builder: (BuildContext context, BoxConstraints constraints) {
-          return Padding(
-            padding: EdgeInsets.symmetric(horizontal: paddingHorizontal),
-              child: AspectRatio(
-                  aspectRatio: aspectRatio,
-                  child: Image.network(imageUrl)
-                ),
-              );
-
+          return SizedBox(
+            width: screenSize.width,
+            height: screenSize.height,
+            child: Image.network(
+              imageUrl,
+              fit: BoxFit.cover,
+            ),
+          );
         },
       ),
     );

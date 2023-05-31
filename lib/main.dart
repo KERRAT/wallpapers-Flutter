@@ -24,7 +24,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   // Setting system UI mode and style
-  SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
+  SystemChrome.setEnabledSystemUIMode(SystemUiMode.leanBack);
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
     statusBarColor: Colors.transparent,
     statusBarIconBrightness: Brightness.dark,
