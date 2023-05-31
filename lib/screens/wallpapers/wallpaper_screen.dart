@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tasks_app/screens/photos/form_elements/displayed_photo.dart';
-import 'package:flutter_tasks_app/screens/photos/form_elements/return_button.dart';
+import 'package:flutter_tasks_app/screens/wallpapers/wallpaper_screen_elements/displayed_wallpaper.dart';
+import 'package:flutter_tasks_app/screens/wallpapers/wallpaper_screen_elements/return_button.dart';
 import 'package:flutter_tasks_app/widgets/responsive_layout.dart';
 import 'package:logging/logging.dart';
 import 'package:provider/provider.dart';
-import 'bottom_row.dart';
-import 'like_controller.dart';
-import 'navigation_circles.dart';
+import 'wallpaper_screen_elements/bottom_row.dart';
+import '../../widgets/like_controller.dart';
+import 'wallpaper_screen_elements/change_photo_buttons.dart';
 
 final _logger = Logger('CreatePhotoForm');
 

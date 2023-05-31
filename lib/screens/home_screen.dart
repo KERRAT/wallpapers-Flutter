@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tasks_app/main.dart';
 import 'package:flutter_tasks_app/screens/drawers/custom_drawer.dart';
-import 'package:flutter_tasks_app/screens/photos/app_data_singleton.dart';
+import 'package:flutter_tasks_app/models/app_data_singleton.dart';
+import 'package:flutter_tasks_app/screens/wallpapers/list.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../gen_l10n/app_localizations.dart';
-import 'photos/list.dart';
 import 'package:flutter_tasks_app/models/app_data.dart';
 import 'package:logging/logging.dart';
 import 'package:flutter_svg/svg.dart';

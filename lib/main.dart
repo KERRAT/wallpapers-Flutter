@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_tasks_app/screens/internet_connection_checker.dart';
-import 'package:flutter_tasks_app/screens/photos/like_controller.dart';
+import 'package:flutter_tasks_app/widgets/like_controller.dart';
 import 'package:logging/logging.dart';
 import 'package:logging_appenders/logging_appenders.dart';
 import 'package:provider/provider.dart';

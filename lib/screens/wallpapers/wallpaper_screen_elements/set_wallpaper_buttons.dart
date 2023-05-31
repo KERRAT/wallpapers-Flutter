@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../widgets/set_wallpaper.dart';
+import '../../../widgets/set_wallpaper.dart';
 
 class WallpaperButtons extends StatelessWidget {
   final String linkSet;

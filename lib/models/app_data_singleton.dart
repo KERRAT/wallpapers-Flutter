@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:logging/logging.dart';
-import '../../models/app_data.dart';
+import 'app_data.dart';
 
 final _logger = Logger('AppDataRepository');
 

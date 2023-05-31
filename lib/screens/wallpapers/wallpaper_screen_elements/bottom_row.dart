@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tasks_app/screens/photos/wallpaper_buttons.dart';
+import 'package:flutter_tasks_app/screens/wallpapers/wallpaper_screen_elements/set_wallpaper_buttons.dart';
 
-import 'create_photo_form.dart';
+import '../wallpaper_screen.dart';
 
 class BottomRow extends StatelessWidget {
   final Function toggleLike;
