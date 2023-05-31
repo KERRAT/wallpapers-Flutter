@@ -3,8 +3,9 @@ import 'package:flutter_tasks_app/screens/photos/form_elements/displayed_photo.d
 import 'package:flutter_tasks_app/screens/photos/form_elements/return_button.dart';
 import 'package:flutter_tasks_app/widgets/responsive_layout.dart';
 import 'package:logging/logging.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import 'package:provider/provider.dart';
 import 'bottom_row.dart';
+import 'like_controller.dart';
 import 'navigation_circles.dart';
 
 final _logger = Logger('CreatePhotoForm');
@@ -39,8 +40,6 @@ class _CreatePhotoFormState extends State<CreatePhotoForm> {
   late final PageController _pageController;
   late final int initialPage;
   late int currentPhotoId;
-  bool _isLiked = false;
-  late List<String> _likedPhotos;
 
   @override
   void initState() {
@@ -48,48 +47,10 @@ class _CreatePhotoFormState extends State<CreatePhotoForm> {
     initialPage = widget.photoIds.indexOf(widget.photoId);
     _pageController = PageController(initialPage: initialPage);
     currentPhotoId = widget.photoId;
-    _likedPhotos = [];
     _logger.info('Initialized CreatePhotoFormState');
-    checkLikeStatus().then((_) {
-      setState(() {});
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      await Provider.of<LikeState>(context, listen: false).checkLikeStatus(currentPhotoId);
     });
-  }
-
-  Future<void> getLikedPhotos() async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    _likedPhotos = prefs.getStringList('likedPhotos') ?? [];
-    if (_likedPhotos.contains(currentPhotoId.toString())) {
-      setState(() {
-        _isLiked = true;
-      });
-    }else{
-      _isLiked = false;
-    }
-  }
-
-  Future<void> toggleLike() async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    setState(() {
-      _isLiked = !_isLiked;
-    });
-
-    if (_isLiked) {
-      _likedPhotos.add(currentPhotoId.toString());
-    } else {
-      _likedPhotos.remove(currentPhotoId.toString());
-    }
-    widget.onLikeToggle();
-    prefs.setStringList('likedPhotos', _likedPhotos);
-  }
-
-  Future<void> checkLikeStatus() async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    _likedPhotos = prefs.getStringList('likedPhotos') ?? [];
-    if (_likedPhotos.contains(currentPhotoId.toString())) {
-      _isLiked = true;
-    } else {
-      _isLiked = false;
-    }
   }
 
   @override
@@ -104,11 +65,11 @@ class _CreatePhotoFormState extends State<CreatePhotoForm> {
             PageView.builder(
               controller: _pageController,
               itemCount: widget.photoIds.length,
-              onPageChanged: (int index) {
+              onPageChanged: (int index) async {
                 setState(() {
                   currentPhotoId = widget.photoIds[index];
                 });
-                checkLikeStatus();
+                await Provider.of<LikeState>(context, listen: false).checkLikeStatus(currentPhotoId);
               },
               itemBuilder: (BuildContext context, int index) {
                 return DisplayPhoto(
@@ -127,7 +88,15 @@ class _CreatePhotoFormState extends State<CreatePhotoForm> {
             ),
             Align(
               alignment: Alignment.bottomCenter,
-              child: BottomRow(isLiked: _isLiked, toggleLike: toggleLike, widget: widget, currentPhotoId: currentPhotoId, isTablet: isTablet),
+              child: Consumer<LikeState>(
+                builder: (context, likeState, _) => BottomRow(
+                  isLiked: likeState.isLiked,
+                  toggleLike: () => {likeState.toggleLike(currentPhotoId), widget.onLikeToggle()},
+                  widget: widget,
+                  currentPhotoId: currentPhotoId,
+                  isTablet: isTablet,
+                ),
+              ),
             ),
           ],
         ),

@@ -2,8 +2,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_tasks_app/screens/internet_connection_checker.dart';
+import 'package:flutter_tasks_app/screens/photos/like_controller.dart';
 import 'package:logging/logging.dart';
 import 'package:logging_appenders/logging_appenders.dart';
+import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:sizer/sizer.dart';
@@ -48,8 +50,17 @@ void main() async {
   }
 
   // Running the app
-  runApp(MyApp(
-      language: savedLanguage != null ? Locale(savedLanguage) : deviceLocale));
+  runApp(
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (context) => LikeState()),
+        // add other providers here
+      ],
+      child: MyApp(
+          language: savedLanguage != null ? Locale(savedLanguage) : deviceLocale
+      ),
+    ),
+  );
 }
 
 class MyApp extends StatefulWidget {
@@ -120,9 +131,12 @@ class MyAppState extends State<MyApp> {
         ],
         supportedLocales: MyApp._availableLocales.toList(),
         locale: _locale,
-        home: Scaffold(
-          body: InternetConnectionChecker(
-            language: _locale.languageCode,
+        home: ChangeNotifierProvider(
+          create: (context) => LikeState(),
+          child: Scaffold(
+            body: InternetConnectionChecker(
+              language: _locale.languageCode,
+            ),
           ),
         ),
       );

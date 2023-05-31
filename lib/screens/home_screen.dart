@@ -23,7 +23,6 @@ class MyHomePage extends StatefulWidget {
 
 enum SelectedButton { newPhotos, top, favorite }
 
-// _MyHomePageState is the state object for MyHomePage.
 class MyHomePageState extends State<MyHomePage> {
   late Future<AppData> _appDataFuture;
   late AppData _appData;
