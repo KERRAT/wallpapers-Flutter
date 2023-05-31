@@ -60,7 +60,7 @@ class WallpaperButtons extends StatelessWidget {
           child: IconButton(
             iconSize: 30.0,
             color: Colors.white,
-            icon: const Icon(Icons.mobile_screen_share_sharp),
+            icon: const Icon(Icons.phonelink_lock),
             onPressed: () {
               showDialog(
                 context: context,

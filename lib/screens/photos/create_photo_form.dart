@@ -1,37 +1,46 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tasks_app/screens/photos/form_elements/displayed_photo.dart';
 import 'package:flutter_tasks_app/screens/photos/form_elements/return_button.dart';
-import 'package:flutter_tasks_app/screens/photos/wallpaper_buttons.dart';
 import 'package:flutter_tasks_app/widgets/responsive_layout.dart';
 import 'package:logging/logging.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'bottom_row.dart';
+import 'navigation_circles.dart';
 
 final _logger = Logger('CreatePhotoForm');
 
 class CreatePhotoForm extends StatefulWidget {
   final int photoId;
   final List<int> photoIds;
+  final VoidCallback onLikeToggle;
   final String lng;
   final String linkShow;
   final String linkSet;
   final String linkShare;
   final String linkDownload;
 
-  // Constructor for CreatePhotoForm
   const CreatePhotoForm({
     Key? key,
     required this.photoId,
     required this.photoIds,
-    required this.lng, required this.linkShow, required this.linkSet, required this.linkShare, required this.linkDownload,
+    required this.lng,
+    required this.linkShow,
+    required this.linkSet,
+    required this.linkShare,
+    required this.linkDownload,
+    required this.onLikeToggle,
   }) : super(key: key);
 
   @override
-  CreatePhotoFormState createState() => CreatePhotoFormState();
+  _CreatePhotoFormState createState() => _CreatePhotoFormState();
 }
 
-class CreatePhotoFormState extends State<CreatePhotoForm> {
-  late PageController _pageController;
-  late int initialPage;
+class _CreatePhotoFormState extends State<CreatePhotoForm> {
+  late final PageController _pageController;
+  late final int initialPage;
   late int currentPhotoId;
+  bool _isLiked = false;
+  late List<String> _likedPhotos;
 
   @override
   void initState() {
@@ -39,13 +48,48 @@ class CreatePhotoFormState extends State<CreatePhotoForm> {
     initialPage = widget.photoIds.indexOf(widget.photoId);
     _pageController = PageController(initialPage: initialPage);
     currentPhotoId = widget.photoId;
+    _likedPhotos = [];
     _logger.info('Initialized CreatePhotoFormState');
+    checkLikeStatus().then((_) {
+      setState(() {});
+    });
   }
 
-  // Function to handle back button press
-  void _handleBack() {
-    _logger.info('Back button pressed');
-    Navigator.pop(context);
+  Future<void> getLikedPhotos() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    _likedPhotos = prefs.getStringList('likedPhotos') ?? [];
+    if (_likedPhotos.contains(currentPhotoId.toString())) {
+      setState(() {
+        _isLiked = true;
+      });
+    }else{
+      _isLiked = false;
+    }
+  }
+
+  Future<void> toggleLike() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    setState(() {
+      _isLiked = !_isLiked;
+    });
+
+    if (_isLiked) {
+      _likedPhotos.add(currentPhotoId.toString());
+    } else {
+      _likedPhotos.remove(currentPhotoId.toString());
+    }
+    widget.onLikeToggle();
+    prefs.setStringList('likedPhotos', _likedPhotos);
+  }
+
+  Future<void> checkLikeStatus() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    _likedPhotos = prefs.getStringList('likedPhotos') ?? [];
+    if (_likedPhotos.contains(currentPhotoId.toString())) {
+      _isLiked = true;
+    } else {
+      _isLiked = false;
+    }
   }
 
   @override
@@ -53,7 +97,7 @@ class CreatePhotoFormState extends State<CreatePhotoForm> {
     _logger.info('Building CreatePhotoForm widget');
     bool isTablet = LayoutHelpers.isTablet(context);
     return Scaffold(
-      backgroundColor: Colors.transparent,  // Set the background color to transparent
+      backgroundColor: Colors.transparent,
       body: SafeArea(
         child: Stack(
           children: [
@@ -64,6 +108,7 @@ class CreatePhotoFormState extends State<CreatePhotoForm> {
                 setState(() {
                   currentPhotoId = widget.photoIds[index];
                 });
+                checkLikeStatus();
               },
               itemBuilder: (BuildContext context, int index) {
                 return DisplayPhoto(
@@ -72,40 +117,7 @@ class CreatePhotoFormState extends State<CreatePhotoForm> {
                 );
               },
             ),
-            Align(
-              alignment: Alignment.centerLeft,
-              child: CircleAvatar(
-                backgroundColor: Colors.black.withOpacity(0.5), // Semi-transparent black
-                child: GestureDetector(
-                  onTap: () {
-                    _pageController.previousPage(
-                      duration: const Duration(milliseconds: 300),
-                      curve: Curves.easeIn,
-                    );
-                  },
-                  child: const Padding(
-                      padding: EdgeInsets.only(left: 10),
-                      child: Icon(Icons.arrow_back_ios, color: Colors.white, size: 30.0),
-                  )
-                ),
-              ),
-            ),
-            Align(
-              alignment: Alignment.centerRight,
-              child: CircleAvatar(
-                backgroundColor: Colors.black.withOpacity(0.5), // Semi-transparent black
-                child: GestureDetector(
-                  onTap: () {
-                    _pageController.nextPage(
-                      duration: const Duration(milliseconds: 300),
-                      curve: Curves.easeIn,
-                    );
-                  },
-                  child: Icon(Icons.arrow_forward_ios, color: Colors.white, size: 30.0),
-                ),
-              ),
-            ),
-
+            NavigationCircles(_pageController),
             Align(
               alignment: Alignment.topRight,
               child: Padding(
@@ -115,38 +127,16 @@ class CreatePhotoFormState extends State<CreatePhotoForm> {
             ),
             Align(
               alignment: Alignment.bottomCenter,
-              child: Padding(
-                padding: EdgeInsets.only(
-                  bottom: MediaQuery.of(context).size.height *
-                      (isTablet ? 0.02 : 0.01),
-                ),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    CircleAvatar(
-                      backgroundColor: Colors.white,
-                      child: IconButton(
-                          icon: const Icon(Icons.favorite_border), // Heart icon
-                          onPressed: (){}
-                      ),
-                    ),
-                    const SizedBox(width: 20.0),  // Add some space
-                    WallpaperButtons(linkSet: widget.linkSet, currentPhotoId: currentPhotoId),
-                    const SizedBox(width: 20.0),  // Add some space
-                    CircleAvatar(
-                      backgroundColor: Colors.white,
-                      child: IconButton(
-                          icon: const Icon(Icons.share), // Share icon
-                          onPressed: () {}
-                      ),
-                    ),
-                  ],
-                ),
-              ),
+              child: BottomRow(isLiked: _isLiked, toggleLike: toggleLike, widget: widget, currentPhotoId: currentPhotoId, isTablet: isTablet),
             ),
           ],
         ),
       ),
     );
+  }
+
+  void _handleBack() {
+    _logger.info('Back button pressed');
+    Navigator.pop(context);
   }
 }

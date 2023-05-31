@@ -38,18 +38,35 @@ class MyHomePageState extends State<MyHomePage> {
     'pl': 'Polski'
   };
 
-  // initState is called when the state object is created.
+  List<int> _favoritePhotos = [];
+
+  Future<void> _fetchFavoritePhotos() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    _favoritePhotos = prefs.getStringList('likedPhotos')?.map((photoId) => int.parse(photoId)).toList() ?? [];
+  }
+
+
   @override
   void initState() {
     super.initState();
     _logger.finest('Initializing MyHomePage');
     _currentLanguage = widget.language;
     _appDataFuture = AppDataRepository().fetchAppData();
+    _fetchFavoritePhotos();
   }
 
   void _onButtonSelected(SelectedButton button) {
+    if (button == SelectedButton.favorite) {
+      refreshFavoritePhotos();
+    }
     setState(() {
       _selectedButton = button;
+    });
+  }
+
+  void refreshFavoritePhotos() {
+    _fetchFavoritePhotos().then((_) {
+      setState(() {});
     });
   }
 
@@ -89,6 +106,9 @@ class MyHomePageState extends State<MyHomePage> {
             case SelectedButton.top:
               photos = _appData.top;
               break;
+            case SelectedButton.favorite:
+              photos = _favoritePhotos;
+              break;
             default:
               photos = [..._appData.newItems, ..._appData.top];
           }
@@ -101,6 +121,7 @@ class MyHomePageState extends State<MyHomePage> {
                   photos: photos,
                   lng: _currentLanguage,
                   appData: _appData,
+                  onLikeToggle: refreshFavoritePhotos,
                 ),
                 Positioned(
                   top: 50,
@@ -122,7 +143,7 @@ class MyHomePageState extends State<MyHomePage> {
                 ),
                 Positioned(
                   bottom: 30,
-                  child: Container(
+                  child: SizedBox(
                     width: MediaQuery.of(context).size.width,
                     child: Center(
                       child: Row(
@@ -131,7 +152,8 @@ class MyHomePageState extends State<MyHomePage> {
                           _buildButton(SelectedButton.newPhotos, 'New'),
                           const SizedBox(width: 20),
                           _buildButton(SelectedButton.top, 'Top'),
-                          // You can add here button for Favorite photos
+                          const SizedBox(width: 20),
+                          _buildButton(SelectedButton.favorite, 'Favorite'),
                         ],
                       ),
                     ),

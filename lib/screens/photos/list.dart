@@ -13,11 +13,13 @@ class PhotosList extends StatelessWidget {
     required this.photos,
     required this.appData,
     required this.lng,
+    required this.onLikeToggle,
   }) : super(key: key);
 
   final List<int> photos;
   final AppData appData;
   final String lng;
+  final VoidCallback onLikeToggle;
 
   @override
   Widget build(BuildContext context) {
@@ -45,6 +47,7 @@ class PhotosList extends StatelessWidget {
                 return CreatePhotoForm(
                   photoId: photoId,
                   photoIds: photos,
+                  onLikeToggle: onLikeToggle,
                   linkShow: appData.imagesPreview,
                   linkSet: appData.imagesSetWallpapers,
                   linkShare: appData.fullAdShare,
