@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:logging/logging.dart';
 
+import '../../gen_l10n/app_localizations.dart';
+
 final Logger _logger = Logger('CustomDrawer');
 
 class CustomDrawer extends StatelessWidget {
@@ -61,9 +63,9 @@ class CustomDrawer extends StatelessWidget {
                             'assets/categories/0.svg',
                           ),
                         ),
-                        title: const Text(
-                          '123',
-                          style: TextStyle(
+                        title:  Text(
+                          AppLocalizations.of(context).categories,
+                          style: const TextStyle(
                             fontWeight: FontWeight.bold,
                             color: Colors.black,
                           ),

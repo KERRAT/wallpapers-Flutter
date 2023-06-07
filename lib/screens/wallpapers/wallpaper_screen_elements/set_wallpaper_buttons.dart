@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../../gen_l10n/app_localizations.dart';
 import '../../../widgets/set_wallpaper.dart';
 
 class WallpaperButtons extends StatelessWidget {
@@ -18,7 +19,7 @@ class WallpaperButtons extends StatelessWidget {
       children: [
         CircleAvatar(
           backgroundColor: Colors.blue,
-          radius: 30,  // Make the icon bigger
+          radius: 30, // Make the icon bigger
           child: IconButton(
             iconSize: 30.0,
             color: Colors.white,
@@ -28,16 +29,23 @@ class WallpaperButtons extends StatelessWidget {
                 context: context,
                 builder: (BuildContext context) {
                   return FutureBuilder<String>(
-                    future: WallpaperHandler.setWallpaperHome(linkSet, currentPhotoId),
-                    builder: (BuildContext context, AsyncSnapshot<String> snapshot) {
+                    future: WallpaperHandler.setWallpaperHome(
+                        linkSet,
+                        currentPhotoId,
+                        AppLocalizations.of(context)
+                            .wallpaper_changed_ekran_glowny,
+                        AppLocalizations.of(context).error),
+                    builder:
+                        (BuildContext context, AsyncSnapshot<String> snapshot) {
                       if (snapshot.connectionState == ConnectionState.waiting) {
                         return AlertDialog(
                           content: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
-                            children: const <Widget>[
-                              CircularProgressIndicator(),
-                              SizedBox(width: 10),
-                              Text("Loading..."),
+                            children: <Widget>[
+                              const CircularProgressIndicator(),
+                              const SizedBox(width: 10),
+                              Text(
+                                  AppLocalizations.of(context).info_loading_is_in_progress),
                             ],
                           ),
                         );
@@ -53,10 +61,10 @@ class WallpaperButtons extends StatelessWidget {
             },
           ),
         ),
-        const SizedBox(width: 10.0),  // Add some space
+        const SizedBox(width: 10.0), // Add some space
         CircleAvatar(
           backgroundColor: Colors.blue,
-          radius: 30,  // Make the icon bigger
+          radius: 30, // Make the icon bigger
           child: IconButton(
             iconSize: 30.0,
             color: Colors.white,
@@ -66,16 +74,23 @@ class WallpaperButtons extends StatelessWidget {
                 context: context,
                 builder: (BuildContext context) {
                   return FutureBuilder<String>(
-                    future: WallpaperHandler.setWallpaperLock(linkSet, currentPhotoId),
-                    builder: (BuildContext context, AsyncSnapshot<String> snapshot) {
+                    future: WallpaperHandler.setWallpaperLock(
+                        linkSet,
+                        currentPhotoId,
+                        AppLocalizations.of(context)
+                            .wallpaper_changed_ekran_blokady,
+                        AppLocalizations.of(context).error),
+                    builder:
+                        (BuildContext context, AsyncSnapshot<String> snapshot) {
                       if (snapshot.connectionState == ConnectionState.waiting) {
                         return AlertDialog(
                           content: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
-                            children: const <Widget>[
-                              CircularProgressIndicator(),
-                              SizedBox(width: 10),
-                              Text("Loading..."),
+                            children: <Widget>[
+                              const CircularProgressIndicator(),
+                              const SizedBox(width: 10),
+                              Text(
+                                  AppLocalizations.of(context).info_loading_is_in_progress),
                             ],
                           ),
                         );

@@ -30,12 +30,6 @@ class MyHomePageState extends State<MyHomePage> {
   String _selectedCategoryId = '';
   late String _currentLanguage;
   SelectedButton _selectedButton = SelectedButton.newPhotos;
-  final Map<String, String> _languageNames = {
-    'en': 'English',
-    'de': 'Deutsch',
-    'es': 'Española',
-    'pl': 'Polski'
-  };
 
   List<int> _favoritePhotos = [];
 
@@ -66,16 +60,6 @@ class MyHomePageState extends State<MyHomePage> {
   void refreshFavoritePhotos() {
     _fetchFavoritePhotos().then((_) {
       setState(() {});
-    });
-  }
-
-  Future<void> _onLanguageSelected(
-      String language, BuildContext context) async {
-    _logger.finest('Language selected: $language');
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    await prefs.setString('selected_language', language);
-    setState(() {
-      _currentLanguage = MyApp.of(context)?.setLocale(language) ?? 'en';
     });
   }
 
@@ -148,11 +132,11 @@ class MyHomePageState extends State<MyHomePage> {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          _buildButton(SelectedButton.newPhotos, 'New'),
+                          _buildButton(SelectedButton.newPhotos, AppLocalizations.of(context).menu_najnowsze),
                           const SizedBox(width: 20),
-                          _buildButton(SelectedButton.top, 'Top'),
+                          _buildButton(SelectedButton.top, AppLocalizations.of(context).menu_najlepsze),
                           const SizedBox(width: 20),
-                          _buildButton(SelectedButton.favorite, 'Favorite'),
+                          _buildButton(SelectedButton.favorite, AppLocalizations.of(context).menu_ulubione),
                         ],
                       ),
                     ),

@@ -6,8 +6,6 @@ import 'package:flutter_tasks_app/widgets/like_controller.dart';
 import 'package:logging/logging.dart';
 import 'package:logging_appenders/logging_appenders.dart';
 import 'package:provider/provider.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:sizer/sizer.dart';
 
 import 'gen_l10n/app_localizations.dart';
@@ -34,17 +32,12 @@ void main() async {
 
   _logger.finest('App started');
 
-  // Setting up available locales
-  Set<Locale> availableLocales = MyApp._availableLocales;
-
-  // Loading saved language preference
-  SharedPreferences prefs = await SharedPreferences.getInstance();
-  String? savedLanguage = prefs.getString('selected_language');
   Locale deviceLocale = WidgetsBinding.instance.window.locale;
 
-  // Checking if device locale is supported
-  if (!availableLocales
-      .any((locale) => locale.languageCode == deviceLocale.languageCode)) {
+  bool isLocaleSupported = AppLocalizations.localizationsDelegates
+      .any((delegate) => delegate.isSupported(deviceLocale));
+
+  if (!isLocaleSupported) {
     deviceLocale = const Locale('en');
   }
 
@@ -56,7 +49,7 @@ void main() async {
         // add other providers here
       ],
       child: MyApp(
-          language: savedLanguage != null ? Locale(savedLanguage) : deviceLocale
+          language: deviceLocale
       ),
     ),
   );
@@ -69,18 +62,6 @@ class MyApp extends StatefulWidget {
 
   @override
   MyAppState createState() => MyAppState();
-
-  // List of supported locales
-  static final Set<Locale> _availableLocales = {
-    const Locale('en'),
-    const Locale('de'),
-    const Locale('es'),
-    const Locale('pl'),
-    const Locale('fr'),
-  };
-
-  // Getter for available locales
-  static Set<Locale> get availableLocales => _availableLocales;
 
   // Method to get ancestor state of MyAppState
   static MyAppState? of(BuildContext context) =>
@@ -123,13 +104,8 @@ class MyAppState extends State<MyApp> {
                       fontSize: 18, fontWeight: FontWeight.bold),
                   child: child!));
         },
-        localizationsDelegates: const [
-          AppLocalizations.delegate,
-          GlobalMaterialLocalizations.delegate,
-          GlobalWidgetsLocalizations.delegate,
-          GlobalCupertinoLocalizations.delegate,
-        ],
-        supportedLocales: MyApp._availableLocales.toList(),
+        localizationsDelegates: AppLocalizations.localizationsDelegates,
+        supportedLocales: AppLocalizations.supportedLocales,
         locale: _locale,
         home: ChangeNotifierProvider(
           create: (context) => LikeState(),
