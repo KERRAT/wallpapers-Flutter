@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Wallpapers iontach 4K</string>
+<string name="udostepnij_tresc">Faigh aip https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Socruithe</string>
+<string name="drawer_open">Oscail</string>
+<string name="drawer_close">Dún iarratais</string>
+<string name="change_wallpaper_index_message">Téigh go dtí an páipéar balla</string>
+<string name="error_message_wrong_number">uimhir neamhbhailí</string>
+<string name="set">Submit</string>
+<string name="cancel">Cealaigh</string>
+<string name="notification_image_downloaded_show_image">Taispeáin ballapháipéir</string>
+<string name="error">earráid</string>
+<string name="no_internet_connection">Níl nasc idirlín</string>
+<string name="turn_on_wifi">Cas ar an idirlíon</string>
+<string name="try_again">Déan iarracht arís</string>
+<string name="exit">An slí amach</string>
+<string name="no_favorites_message">páipéar balla a chur le do rogha pearsanta cliceáil:</string>
+<string name="back">Tuairisceán</string>
+<string name="rate_the_app">Ráta an app</string>
+<string name="info_loading_is_in_progress">Sonraí a luchtú ...</string>
+<string name="wallpaper_has_been_set_message">Tá an páipéar balla athraíodh</string>
+<string name="wallpaper_has_been_downloaded_message">Tá an páipéar balla sábháilte san gailearaí</string>
+<string name="wallpaper_is_loading_message">Páipéar balla á luchtú ...</string>
+<string name="exit_confirmation_message">Ar mhaith leat an t-iarratas a fhágáil?</string>
+<string name="wallpaper_changed">Tá an páipéar balla athraíodh</string>
+<string name="message_on_download_complete">Tá an páipéar balla sábháilte san gailearaí</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Ar mhaith leat an t-iarratas a fhágáil?</string>
+<string name="wallpaper_changed_ekran_blokady">The lock screen wallpaper has been changed</string>
+<string name="wallpaper_changed_ekran_glowny">Athraíodh páipéar balla an scáileáin bhaile</string>
+<string name="wallpapers_download_message">Tá an páipéar balla sábháilte san gailearaí</string>
+<string name="please_wait">Fán le do thoil...</string>
+<string name="share_wallpapers">Comhroinn páipéar balla</string>
+<string name="categories">Catagóirí</string>
+<string name="search_category">Cuardaigh catagóirí ...</string>
+<string name="set_lockscreen">Socraigh ar an scáileán glasála</string>
+<string name="set_screen">Socraigh ar an scáileán baile</string>
+<string name="menu_najlepsze">Fearr</string>
+<string name="menu_najnowsze">Nua</string>
+<string name="menu_ulubione">Mo Favorites</string>
+<string name="exit_message">Féach apps eile.</string>
+<string name="exit_polecamy">An slí amach</string>
+<string name="exit_share">Mol app</string>
+<string name="exit_share_text">Faigh aip</string>
+<string name="exit_rate_app">App rátáil</string>
+<string name="wcag_menu">Roghchlár</string>
+<string name="wcag_nastepna">Ar aghaidh</string>
+<string name="wcag_poprzednia">Roimhe Seo</string>
+<string name="wcag_udostepnij">Comhroinn páipéar balla</string>
+<string name="wcag_ulubione">Mo Favorites</string>
+<string name="wcag_ustaw_tapete">Socraigh ar an scáileán baile</string>
+<string name="wcag_ustaw_tapete_blokada">Socraigh ar an scáileán glasála</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

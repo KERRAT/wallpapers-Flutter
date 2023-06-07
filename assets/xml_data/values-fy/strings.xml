@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Amazing wallpapers 4K</string>
+<string name="udostepnij_tresc">App krije https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">ynstellings</string>
+<string name="drawer_open">Iepenje</string>
+<string name="drawer_close">close applikaasjes</string>
+<string name="change_wallpaper_index_message">Gean nei it wallpaper</string>
+<string name="error_message_wrong_number">Ûnjildich nûmer</string>
+<string name="set">submit</string>
+<string name="cancel">ôfbrekke</string>
+<string name="notification_image_downloaded_show_image">show wallpaper</string>
+<string name="error">fersin</string>
+<string name="no_internet_connection">Gjin ynternet ferbining</string>
+<string name="turn_on_wifi">run ynternet</string>
+<string name="try_again">Graach werhelje</string>
+<string name="exit">Útgong</string>
+<string name="no_favorites_message">Om heakjen wallpaper oan jo favoriten klik:</string>
+<string name="back">Back</string>
+<string name="rate_the_app">Beoardielje de app</string>
+<string name="info_loading_is_in_progress">It is laden ...</string>
+<string name="wallpaper_has_been_set_message">De wallpaper is feroare</string>
+<string name="wallpaper_has_been_downloaded_message">De wallpaper is bewarre oan de galerij</string>
+<string name="wallpaper_is_loading_message">Loading wallpaper ...</string>
+<string name="exit_confirmation_message">Binne jo wis dat jo de applikaasje wolle slute?</string>
+<string name="wallpaper_changed">De wallpaper is feroare</string>
+<string name="message_on_download_complete">De wallpaper is bewarre oan de galerij</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Binne jo wis dat jo de applikaasje wolle slute?</string>
+<string name="wallpaper_changed_ekran_blokady">It behang fan it skoatteltoets is feroare</string>
+<string name="wallpaper_changed_ekran_glowny">De wallpaper foar it thús skerm is feroare</string>
+<string name="wallpapers_download_message">De wallpaper is bewarre oan de galerij</string>
+<string name="please_wait">Wachtsje even asjebleaft...</string>
+<string name="share_wallpapers">Diel wallpaper</string>
+<string name="categories">Kategoryen</string>
+<string name="search_category">Sykje op kategory ...</string>
+<string name="set_lockscreen">Set op it slot skerm</string>
+<string name="set_screen">Set op it hûs skerm</string>
+<string name="menu_najlepsze">De bêste</string>
+<string name="menu_najnowsze">Nije</string>
+<string name="menu_ulubione">Myn favoriten</string>
+<string name="exit_message">Besjoch recommended applikaasjes.</string>
+<string name="exit_polecamy">Útgong</string>
+<string name="exit_share">Diele app</string>
+<string name="exit_share_text">App krije</string>
+<string name="exit_rate_app">Rate app</string>
+<string name="wcag_menu">Menu</string>
+<string name="wcag_nastepna">Folgjende</string>
+<string name="wcag_poprzednia">Foarige</string>
+<string name="wcag_udostepnij">Diel wallpaper</string>
+<string name="wcag_ulubione">Myn favoriten</string>
+<string name="wcag_ustaw_tapete">Set op it hûs skerm</string>
+<string name="wcag_ustaw_tapete_blokada">Set op it slot skerm</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

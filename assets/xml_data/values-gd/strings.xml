@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Wallpapers iongantach 4K</string>
+<string name="udostepnij_tresc">Faigh app https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Roghainnean</string>
+<string name="drawer_open">Fosgail</string>
+<string name="drawer_close">Dùin iarrtasan</string>
+<string name="change_wallpaper_index_message">Rach gu wallpaper</string>
+<string name="error_message_wrong_number">Wrong uile</string>
+<string name="set">Dearbhaich</string>
+<string name="cancel">Sguir dheth</string>
+<string name="notification_image_downloaded_show_image">Seall wallpaper</string>
+<string name="error">mearachd</string>
+<string name="no_internet_connection">Chan eil ceangal eadar-lìon</string>
+<string name="turn_on_wifi">Turn on the internet</string>
+<string name="try_again">Feuch a-rithist</string>
+<string name="exit">Exit</string>
+<string name="no_favorites_message">Put air gu Cuir ri roghainnean</string>
+<string name="back">Air ais</string>
+<string name="rate_the_app">Dèan measadh air an aplacaid</string>
+<string name="info_loading_is_in_progress">Loading ...</string>
+<string name="wallpaper_has_been_set_message">Tha wallpaper air atharrachadh</string>
+<string name="wallpaper_has_been_downloaded_message">Tha wallpaper air a bhith air an sàbhaladh gu \'ghaileiridh</string>
+<string name="wallpaper_is_loading_message">Fuirich mionaid ...</string>
+<string name="exit_confirmation_message">A bheil thu airson an tagradh fhàgail?</string>
+<string name="wallpaper_changed">Tha wallpaper air atharrachadh</string>
+<string name="message_on_download_complete">Tha wallpaper air a bhith air an sàbhaladh gu \'ghaileiridh</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">A bheil thu airson an tagradh fhàgail?</string>
+<string name="wallpaper_changed_ekran_blokady">Chaidh am pàipear-balla sgrion glasaidh atharrachadh</string>
+<string name="wallpaper_changed_ekran_glowny">Chaidh am pàipear-balla sgrion dachaigh atharrachadh</string>
+<string name="wallpapers_download_message">Tha wallpaper air a bhith air an sàbhaladh gu \'ghaileiridh</string>
+<string name="please_wait">Fuirich mionaid...</string>
+<string name="share_wallpapers">Roinn pàipear-balla</string>
+<string name="categories">Roinnean-seòrsa</string>
+<string name="search_category">Lorg roinnean ...</string>
+<string name="set_lockscreen">Suidhich air an sgrìn glas</string>
+<string name="set_screen">Suidhich air an sgrìn dachaigh</string>
+<string name="menu_najlepsze">Top</string>
+<string name="menu_najnowsze">Ùra</string>
+<string name="menu_ulubione">Favorites</string>
+<string name="exit_message">Faic moladh iarrtasan.</string>
+<string name="exit_polecamy">Dùin e</string>
+<string name="exit_share">Mol app</string>
+<string name="exit_share_text">Faigh app</string>
+<string name="exit_rate_app">Roinn beachd</string>
+<string name="wcag_menu">Clàr-innse</string>
+<string name="wcag_nastepna">Air adhart</string>
+<string name="wcag_poprzednia">Air ais</string>
+<string name="wcag_udostepnij">Roinn pàipear-balla</string>
+<string name="wcag_ulubione">Favorites</string>
+<string name="wcag_ustaw_tapete">Suidhich air an sgrìn dachaigh</string>
+<string name="wcag_ustaw_tapete_blokada">Suidhich air an sgrìn glas</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

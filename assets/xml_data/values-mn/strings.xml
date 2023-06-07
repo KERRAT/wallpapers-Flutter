@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Гайхалтай ханын зураг 4K</string>
+<string name="udostepnij_tresc">Апп авах https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Тохиргоо</string>
+<string name="drawer_open">нээх</string>
+<string name="drawer_close">Програмыг хаах</string>
+<string name="change_wallpaper_index_message">Дэлгэцийн зураг руу очих</string>
+<string name="error_message_wrong_number">Буруу дугаар</string>
+<string name="set">Баталгаажуулна</string>
+<string name="cancel">Цуцлах</string>
+<string name="notification_image_downloaded_show_image">Зураг харуулах</string>
+<string name="error">error</string>
+<string name="no_internet_connection">Интернет холболт байхгүй</string>
+<string name="turn_on_wifi">Интернет ажиллуулах</string>
+<string name="try_again">Дахин</string>
+<string name="exit">Гарах</string>
+<string name="no_favorites_message">Дуртай зүйлс дээр нэмэх бол товшино уу</string>
+<string name="back">Буцах</string>
+<string name="rate_the_app">Апп-ыг үнэлнэ үү</string>
+<string name="info_loading_is_in_progress">Ачаалж байна ...</string>
+<string name="wallpaper_has_been_set_message">Фото зураг өөрчлөгдсөн</string>
+<string name="wallpaper_has_been_downloaded_message">Фон зураг нь галерейд нэмж оруулав</string>
+<string name="wallpaper_is_loading_message">Ханын зургийг ачаалж байна ...</string>
+<string name="exit_confirmation_message">Та програмаас гарахыг хүсч байна уу?</string>
+<string name="wallpaper_changed">Фото зураг өөрчлөгдсөн</string>
+<string name="message_on_download_complete">Фон зураг нь галерейд нэмж оруулав</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Та програмаас гарахыг хүсч байна уу?</string>
+<string name="wallpaper_changed_ekran_blokady">Дэлгэц түгжих дэлгэцийн зураг өөрчлөгдсөн байна</string>
+<string name="wallpaper_changed_ekran_glowny">Нүүр дэлгэцийн ханын зураг өөрчлөгдсөн байна</string>
+<string name="wallpapers_download_message">Фон зураг нь галерейд нэмж оруулав</string>
+<string name="please_wait">Түр хүлээнэ үү ...</string>
+<string name="share_wallpapers">Share wallpaper</string>
+<string name="categories">Ангилалууд</string>
+<string name="search_category">Ангилалаар хайх ...</string>
+<string name="set_lockscreen">Түгжих дэлгэц дээр тавь</string>
+<string name="set_screen">Эх дэлгэц дээр тохируулах</string>
+<string name="menu_najlepsze">Шилдэг</string>
+<string name="menu_najnowsze">Шинэ</string>
+<string name="menu_ulubione">Миний дуртай</string>
+<string name="exit_message">Санал болгосон програмуудыг харах.</string>
+<string name="exit_polecamy">Гарах</string>
+<string name="exit_share">Хуваалцах</string>
+<string name="exit_share_text">Апп авах</string>
+<string name="exit_rate_app">Үнэлгээ нэмэх</string>
+<string name="wcag_menu">Цэс</string>
+<string name="wcag_nastepna">Дараачийн</string>
+<string name="wcag_poprzednia">Өмнөх</string>
+<string name="wcag_udostepnij">Share wallpaper</string>
+<string name="wcag_ulubione">Миний дуртай</string>
+<string name="wcag_ustaw_tapete">Эх дэлгэц дээр тохируулах</string>
+<string name="wcag_ustaw_tapete_blokada">Түгжих дэлгэц дээр тавь</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

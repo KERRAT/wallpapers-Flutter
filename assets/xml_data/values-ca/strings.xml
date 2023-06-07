@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Fons de pantalla increïbles 4K</string>
+<string name="udostepnij_tresc">Baixeu l\'aplicació https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Configuració</string>
+<string name="drawer_open">Obre</string>
+<string name="drawer_close">Tanqueu el programa</string>
+<string name="change_wallpaper_index_message">Aneu al fons de pantalla</string>
+<string name="error_message_wrong_number">Número incorrecte</string>
+<string name="set">Confirma</string>
+<string name="cancel">Cancel</string>
+<string name="notification_image_downloaded_show_image">Mostra fons de pantalla</string>
+<string name="error">Error</string>
+<string name="no_internet_connection">No hi ha connexió a Internet</string>
+<string name="turn_on_wifi">Executar Internet</string>
+<string name="try_again">try again</string>
+<string name="exit">Surt</string>
+<string name="no_favorites_message">Per afegir fons de pantalla als vostres preferits feu clic a:</string>
+<string name="back">Pas enrere</string>
+<string name="rate_the_app">Valoreu l\'aplicació</string>
+<string name="info_loading_is_in_progress">Loading ...</string>
+<string name="wallpaper_has_been_set_message">S\'ha canviat el fons de pantalla</string>
+<string name="wallpaper_has_been_downloaded_message">El fons de pantalla s\'ha desat a la galeria</string>
+<string name="wallpaper_is_loading_message">Espereu ...</string>
+<string name="exit_confirmation_message">Esteu segur que voleu tancar l’aplicació?</string>
+<string name="wallpaper_changed">S\'ha canviat el fons de pantalla</string>
+<string name="message_on_download_complete">El fons de pantalla s\'ha desat a la galeria</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Esteu segur que voleu tancar l’aplicació?</string>
+<string name="wallpaper_changed_ekran_blokady">S\'ha canviat el fons de pantalla de bloqueig</string>
+<string name="wallpaper_changed_ekran_glowny">S\'ha canviat el fons de pantalla de la pantalla d\'inici</string>
+<string name="wallpapers_download_message">El fons de pantalla s\'ha desat a la galeria</string>
+<string name="please_wait">Espereu ...</string>
+<string name="share_wallpapers">Compartir fons de pantalla</string>
+<string name="categories">Categories</string>
+<string name="search_category">Cerca per categories ...</string>
+<string name="set_lockscreen">Configureu la pantalla de bloqueig</string>
+<string name="set_screen">Estableix a la pantalla inicial</string>
+<string name="menu_najlepsze">El millor</string>
+<string name="menu_najnowsze">Noves</string>
+<string name="menu_ulubione">Els meus favorits</string>
+<string name="exit_message">Mostra les aplicacions recomanades.</string>
+<string name="exit_polecamy">Sortida</string>
+<string name="exit_share">Comparteix amb amics</string>
+<string name="exit_share_text">Baixeu l\'aplicació</string>
+<string name="exit_rate_app">Valoreu app</string>
+<string name="wcag_menu">Menú</string>
+<string name="wcag_nastepna">Pròxim</string>
+<string name="wcag_poprzednia">Anterior</string>
+<string name="wcag_udostepnij">Compartir fons de pantalla</string>
+<string name="wcag_ulubione">Els meus favorits</string>
+<string name="wcag_ustaw_tapete">Estableix a la pantalla inicial</string>
+<string name="wcag_ustaw_tapete_blokada">Configureu la pantalla de bloqueig</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

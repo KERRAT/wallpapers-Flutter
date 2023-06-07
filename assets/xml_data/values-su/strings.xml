@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Wallpaper endah 4K</string>
+<string name="udostepnij_tresc">Meunangkeun aplikasi https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">setélan</string>
+<string name="drawer_open">Buka</string>
+<string name="drawer_close">Tutup aplikasi</string>
+<string name="change_wallpaper_index_message">Buka wallpaper nu</string>
+<string name="error_message_wrong_number">Invalid number</string>
+<string name="set">ngeceskeun</string>
+<string name="cancel">ngabatalkeun</string>
+<string name="notification_image_downloaded_show_image">Tembongkeun wallpaper</string>
+<string name="error">kasalahan</string>
+<string name="no_internet_connection">Taya sambungan internét</string>
+<string name="turn_on_wifi">Turn on the internet</string>
+<string name="try_again">ngulang</string>
+<string name="exit">Kaluar</string>
+<string name="no_favorites_message">Klik pikeun nambahkeun ka paporit</string>
+<string name="back">Balik deui</string>
+<string name="rate_the_app">Rate the app</string>
+<string name="info_loading_is_in_progress">Loading ...</string>
+<string name="wallpaper_has_been_set_message">wallpaper geus robah</string>
+<string name="wallpaper_has_been_downloaded_message">poto geus ditambahkeun kana galeri</string>
+<string name="wallpaper_is_loading_message">Loading wallpaper ...</string>
+<string name="exit_confirmation_message">Naha anjeun badé kaluar tina aplikasi?</string>
+<string name="wallpaper_changed">wallpaper geus robah</string>
+<string name="message_on_download_complete">poto geus ditambahkeun kana galeri</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Naha anjeun badé kaluar tina aplikasi?</string>
+<string name="wallpaper_changed_ekran_blokady">Kunci layar konci parantos dirobih</string>
+<string name="wallpaper_changed_ekran_glowny">Latar konci layar konci anu diropéa</string>
+<string name="wallpapers_download_message">poto geus ditambahkeun kana galeri</string>
+<string name="please_wait">Punten antosan...</string>
+<string name="share_wallpapers">Bagikeun wallpaper</string>
+<string name="categories">Kategori</string>
+<string name="search_category">Milarian kategori ...</string>
+<string name="set_lockscreen">Atur dina layar konci</string>
+<string name="set_screen">Disetel dina layar utama</string>
+<string name="menu_najlepsze">Pangalusna</string>
+<string name="menu_najnowsze">Anyar</string>
+<string name="menu_ulubione">Karesep kuring</string>
+<string name="exit_message">View recommended applications.</string>
+<string name="exit_polecamy">Kaluar</string>
+<string name="exit_share">Nyarankeun app</string>
+<string name="exit_share_text">Meunangkeun aplikasi</string>
+<string name="exit_rate_app">Meunteun</string>
+<string name="wcag_menu">Ménu</string>
+<string name="wcag_nastepna">Teras</string>
+<string name="wcag_poprzednia">Saméméhna</string>
+<string name="wcag_udostepnij">Bagikeun wallpaper</string>
+<string name="wcag_ulubione">Karesep kuring</string>
+<string name="wcag_ustaw_tapete">Disetel dina layar utama</string>
+<string name="wcag_ustaw_tapete_blokada">Atur dina layar konci</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

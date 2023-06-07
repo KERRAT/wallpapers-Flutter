@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<array name="category_ids">
+<item>0</item>
+<item>63</item>
+<item>64</item>
+<item>54</item>
+<item>14</item>
+<item>80</item>
+<item>78</item>
+<item>76</item>
+<item>34</item>
+<item>55</item>
+<item>30</item>
+<item>23</item>
+<item>84</item>
+<item>86</item>
+<item>71</item>
+<item>85</item>
+<item>77</item>
+<item>11</item>
+<item>90</item>
+<item>53</item>
+<item>83</item>
+<item>62</item>
+<item>4</item>
+<item>81</item>
+<item>7</item>
+<item>29</item>
+<item>19</item>
+<item>5</item>
+<item>49</item>
+<item>70</item>
+<item>12</item>
+<item>22</item>
+<item>61</item>
+<item>17</item>
+<item>87</item>
+<item>28</item>
+<item>25</item>
+<item>15</item>
+<item>51</item>
+<item>6</item>
+<item>16</item>
+<item>20</item>
+<item>79</item>
+<item>31</item>
+<item>42</item>
+<item>38</item>
+<item>46</item>
+<item>10</item>
+<item>1</item>
+<item>66</item>
+<item>21</item>
+<item>75</item>
+<item>45</item>
+<item>68</item>
+<item>8</item>
+<item>47</item>
+<item>58</item>
+<item>52</item>
+<item>9</item>
+<item>2</item>
+<item>74</item>
+<item>39</item>
+<item>13</item>
+<item>65</item>
+<item>60</item>
+<item>82</item>
+<item>50</item>
+<item>59</item>
+<item>33</item>
+<item>26</item>
+<item>69</item>
+<item>32</item>
+<item>72</item>
+<item>18</item>
+<item>56</item>
+<item>35</item>
+<item>24</item>
+<item>88</item>
+<item>3</item>
+<item>48</item>
+<item>27</item>
+<item>37</item>
+<item>73</item>
+<item>57</item>
+<item>67</item>
+</array>
+<array name="category_names">
+<item>બધા</item>
+<item>3D</item>
+<item>4 ડી ગુણવત્તા</item>
+<item>Thanksgiving Day</item>
+<item>જંગલો</item>
+<item>રમકડાં</item>
+<item>અન્ય</item>
+<item>આગ</item>
+<item>ઇમારતો</item>
+<item>ઇસ્ટર</item>
+<item>ઉનાળો</item>
+<item>ઉષ્ણકટિબંધીય</item>
+<item>એબ્સ્ટ્રેક્શન્સ</item>
+<item>ઓપ્ટિકલ ભ્રમ</item>
+<item>કાર</item>
+<item>કાલ્પનિક જમીન</item>
+<item>કોફી</item>
+<item>કોરલ રીફ્સ</item>
+<item>કોસમોસ</item>
+<item>ક્રિસમસ</item>
+<item>ક્રેક્ડ સ્ક્રીન</item>
+<item>ખોપરીઓ</item>
+<item>ગલુડિયાઓ</item>
+<item>ગ્રેફિટી</item>
+<item>ઘોડા</item>
+<item>ચાર ઋતુઓ</item>
+<item>છોડ</item>
+<item>જંતુઓ</item>
+<item>જન્મદિવસ</item>
+<item>જહાજો</item>
+<item>જ્વાળામુખી</item>
+<item>ટાપુઓ</item>
+<item>ડાર્ક હોરર</item>
+<item>તળાવો</item>
+<item>તૂટેલા હૃદય</item>
+<item>તોફાન</item>
+<item>દરિયાકિનારા</item>
+<item>ધોધ</item>
+<item>નવા વર્ષની</item>
+<item>પક્ષીઓ</item>
+<item>પર્વતો</item>
+<item>પાંદડા</item>
+<item>પાણી</item>
+<item>પાનખર</item>
+<item>પિંક</item>
+<item>પુરુષો</item>
+<item>પોત</item>
+<item>પ્રકૃતિ</item>
+<item>પ્રાણીઓ</item>
+<item>ફૂટબોલ</item>
+<item>ફૂલો</item>
+<item>બાઇક</item>
+<item>બાળકો</item>
+<item>બાસ્કેટબૉલ</item>
+<item>બિલાડી</item>
+<item>બેકગ્રાઉન્ડ્સ</item>
+<item>ભાવનાપ્રધાન</item>
+<item>મહિલા દિવસ</item>
+<item>માછલીઓ</item>
+<item>મીઠી પ્રાણીઓ</item>
+<item>મોટરસાયકલ્સ</item>
+<item>રંગો</item>
+<item>રણ</item>
+<item>રમતગમત</item>
+<item>રમૂજી</item>
+<item>રેખાંકનો</item>
+<item>લગ્ન</item>
+<item>લવ</item>
+<item>વસંત</item>
+<item>વાદળી મહાસાગરો</item>
+<item>વાહનો</item>
+<item>વિન્ટર</item>
+<item>વિમાનો</item>
+<item>વૃક્ષો</item>
+<item>વેલેન્ટાઇન ડે</item>
+<item>શહેરો રાત્રે</item>
+<item>શાકભાજી અને ફળો</item>
+<item>શેલો</item>
+<item>શ્વાન</item>
+<item>સંજોગો</item>
+<item>સૂર્યાસ્ત</item>
+<item>સ્ત્રી</item>
+<item>સ્પેસશીપ</item>
+<item>હેલોવીન</item>
+<item>હૉકી</item>
+</array>
+<array name="category_hints">
+<item>બધા</item>
+<item>3D</item>
+<item>4 ડી ગુણવત્તા</item>
+<item>Thanksgiving Day</item>
+<item>જંગલો</item>
+<item>રમકડાં</item>
+<item>અન્ય</item>
+<item>આગ</item>
+<item>ઇમારતો</item>
+<item>ઇસ્ટર</item>
+<item>ઉનાળો</item>
+<item>ઉષ્ણકટિબંધીય ઉષ્ણકટિબંધીય </item>
+<item>એબ્સ્ટ્રેક્શન્સ</item>
+<item>ઓપ્ટિકલ ભ્રમ</item>
+<item>કાર</item>
+<item>કાલ્પનિક જમીન</item>
+<item>કોફી</item>
+<item>કોરલ રીફ્સ</item>
+<item>કોસમોસ</item>
+<item>ક્રિસમસ</item>
+<item>ક્રેક્ડ સ્ક્રીન</item>
+<item>ખોપરીઓ</item>
+<item>ગલુડિયાઓ</item>
+<item>ગ્રેફિટી</item>
+<item>ઘોડા</item>
+<item>ચાર ઋતુઓ</item>
+<item>છોડ</item>
+<item>જંતુઓ</item>
+<item>જન્મદિવસ</item>
+<item>જહાજો</item>
+<item>જ્વાળામુખી</item>
+<item>ટાપુઓ</item>
+<item>ડાર્ક હોરર</item>
+<item>તળાવો</item>
+<item>તૂટેલા હૃદય</item>
+<item>તોફાન</item>
+<item>દરિયાકિનારા</item>
+<item>ધોધ</item>
+<item>નવા વર્ષની</item>
+<item>પક્ષીઓ</item>
+<item>પર્વતો</item>
+<item>પાંદડા</item>
+<item>પાણી</item>
+<item>પાનખર</item>
+<item>પિંક</item>
+<item>પુરુષો</item>
+<item>પોત</item>
+<item>પ્રકૃતિ</item>
+<item>પ્રાણીઓ</item>
+<item>ફૂટબોલ</item>
+<item>ફૂલો</item>
+<item>બાઇક</item>
+<item>બાળકો</item>
+<item>બાસ્કેટબૉલ</item>
+<item>બિલાડી</item>
+<item>બેકગ્રાઉન્ડ્સ</item>
+<item>ભાવનાપ્રધાન</item>
+<item>મહિલા દિવસ</item>
+<item>માછલીઓ</item>
+<item>મીઠી પ્રાણીઓ</item>
+<item>મોટરસાયકલ્સ</item>
+<item>રંગો</item>
+<item>રણ</item>
+<item>રમતગમત</item>
+<item>રમૂજી</item>
+<item>રેખાંકનો</item>
+<item>લગ્ન</item>
+<item>લવ</item>
+<item>વસંત</item>
+<item>વાદળી મહાસાગરો</item>
+<item>વાહનો</item>
+<item>વિન્ટર</item>
+<item>વિમાનો</item>
+<item>વૃક્ષો</item>
+<item>વેલેન્ટાઇન ડે</item>
+<item>શહેરો રાત્રે</item>
+<item>શાકભાજી અને ફળો</item>
+<item>શેલો</item>
+<item>શ્વાન</item>
+<item>સંજોગો</item>
+<item>સૂર્યાસ્ત</item>
+<item>સ્ત્રી</item>
+<item>સ્પેસશીપ</item>
+<item>હેલોવીન</item>
+<item>હૉકી</item>
+</array>
+<integer-array name="category_images">
+<item>@drawable/c0</item>
+<item>@drawable/c63</item>
+<item>@drawable/c64</item>
+<item>@drawable/c54</item>
+<item>@drawable/c14</item>
+<item>@drawable/c80</item>
+<item>@drawable/c78</item>
+<item>@drawable/c76</item>
+<item>@drawable/c34</item>
+<item>@drawable/c55</item>
+<item>@drawable/c30</item>
+<item>@drawable/c23</item>
+<item>@drawable/c84</item>
+<item>@drawable/c86</item>
+<item>@drawable/c71</item>
+<item>@drawable/c85</item>
+<item>@drawable/c77</item>
+<item>@drawable/c11</item>
+<item>@drawable/c90</item>
+<item>@drawable/c53</item>
+<item>@drawable/c83</item>
+<item>@drawable/c62</item>
+<item>@drawable/c4</item>
+<item>@drawable/c81</item>
+<item>@drawable/c7</item>
+<item>@drawable/c29</item>
+<item>@drawable/c19</item>
+<item>@drawable/c5</item>
+<item>@drawable/c49</item>
+<item>@drawable/c70</item>
+<item>@drawable/c12</item>
+<item>@drawable/c22</item>
+<item>@drawable/c61</item>
+<item>@drawable/c17</item>
+<item>@drawable/c87</item>
+<item>@drawable/c28</item>
+<item>@drawable/c25</item>
+<item>@drawable/c15</item>
+<item>@drawable/c51</item>
+<item>@drawable/c6</item>
+<item>@drawable/c16</item>
+<item>@drawable/c20</item>
+<item>@drawable/c79</item>
+<item>@drawable/c31</item>
+<item>@drawable/c42</item>
+<item>@drawable/c38</item>
+<item>@drawable/c46</item>
+<item>@drawable/c10</item>
+<item>@drawable/c1</item>
+<item>@drawable/c66</item>
+<item>@drawable/c21</item>
+<item>@drawable/c75</item>
+<item>@drawable/c45</item>
+<item>@drawable/c68</item>
+<item>@drawable/c8</item>
+<item>@drawable/c47</item>
+<item>@drawable/c58</item>
+<item>@drawable/c52</item>
+<item>@drawable/c9</item>
+<item>@drawable/c2</item>
+<item>@drawable/c74</item>
+<item>@drawable/c39</item>
+<item>@drawable/c13</item>
+<item>@drawable/c65</item>
+<item>@drawable/c60</item>
+<item>@drawable/c82</item>
+<item>@drawable/c50</item>
+<item>@drawable/c59</item>
+<item>@drawable/c33</item>
+<item>@drawable/c26</item>
+<item>@drawable/c69</item>
+<item>@drawable/c32</item>
+<item>@drawable/c72</item>
+<item>@drawable/c18</item>
+<item>@drawable/c56</item>
+<item>@drawable/c35</item>
+<item>@drawable/c24</item>
+<item>@drawable/c88</item>
+<item>@drawable/c3</item>
+<item>@drawable/c48</item>
+<item>@drawable/c27</item>
+<item>@drawable/c37</item>
+<item>@drawable/c73</item>
+<item>@drawable/c57</item>
+<item>@drawable/c67</item>
+</integer-array>
+</resources>

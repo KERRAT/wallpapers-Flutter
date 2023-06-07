@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Papéis de parede incríveis 4K</string>
+<string name="udostepnij_tresc">Baixe o aplicativo https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Configurações</string>
+<string name="drawer_open">Abra</string>
+<string name="drawer_close">Fechar aplicativos</string>
+<string name="change_wallpaper_index_message">Vá para o papel de parede</string>
+<string name="error_message_wrong_number">Número inválido</string>
+<string name="set">confirme</string>
+<string name="cancel">Cancelar</string>
+<string name="notification_image_downloaded_show_image">Mostrar papel de parede</string>
+<string name="error">erro</string>
+<string name="no_internet_connection">Sem conexão à internet</string>
+<string name="turn_on_wifi">Execute a internet</string>
+<string name="try_again">Repita novamente</string>
+<string name="exit">Saída</string>
+<string name="no_favorites_message">Clique para adicionar aos favoritos</string>
+<string name="back">Retorna</string>
+<string name="rate_the_app">Avalie o aplicativo</string>
+<string name="info_loading_is_in_progress">Carregando ...</string>
+<string name="wallpaper_has_been_set_message">O papel de parede foi alterado</string>
+<string name="wallpaper_has_been_downloaded_message">A foto foi adicionada à galeria</string>
+<string name="wallpaper_is_loading_message">Carregando papel de parede ...</string>
+<string name="exit_confirmation_message">Sair do aplicativo?</string>
+<string name="wallpaper_changed">O papel de parede foi alterado</string>
+<string name="message_on_download_complete">A foto foi adicionada à galeria</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Tem certeza de que deseja fechar o aplicativo?</string>
+<string name="wallpaper_changed_ekran_blokady">O papel de parede da tela de bloqueio foi alterado</string>
+<string name="wallpaper_changed_ekran_glowny">O papel de parede da tela inicial foi alterado</string>
+<string name="wallpapers_download_message">A foto foi adicionada à galeria</string>
+<string name="please_wait">Por favor, espere...</string>
+<string name="share_wallpapers">Compartilhe papel de parede</string>
+<string name="categories">Categoria</string>
+<string name="search_category">Pesquisar categorias ...</string>
+<string name="set_lockscreen">Definir na tela de bloqueio</string>
+<string name="set_screen">Definir na tela inicial</string>
+<string name="menu_najlepsze">Melhores</string>
+<string name="menu_najnowsze">Novas</string>
+<string name="menu_ulubione">Meus favoritos</string>
+<string name="exit_message">Veja os aplicativos recomendados.</string>
+<string name="exit_polecamy">Saída</string>
+<string name="exit_share">Recomendar app</string>
+<string name="exit_share_text">Baixe o aplicativo</string>
+<string name="exit_rate_app">Avaliar</string>
+<string name="wcag_menu">Cardápio</string>
+<string name="wcag_nastepna">Próximo</string>
+<string name="wcag_poprzednia">Anterior</string>
+<string name="wcag_udostepnij">Compartilhe papel de parede</string>
+<string name="wcag_ulubione">Meus favoritos</string>
+<string name="wcag_ustaw_tapete">Definir na tela inicial</string>
+<string name="wcag_ustaw_tapete_blokada">Definir na tela de bloqueio</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">خلفيات مذهلة</string>
+<string name="udostepnij_tresc">احصل على التطبيق https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">إعدادات</string>
+<string name="drawer_open">افتح</string>
+<string name="drawer_close">إغلاق التطبيقات</string>
+<string name="change_wallpaper_index_message">انتقل إلى الصورة</string>
+<string name="error_message_wrong_number">رقم غير صحيح</string>
+<string name="set">تؤكد</string>
+<string name="cancel">إلغاء</string>
+<string name="notification_image_downloaded_show_image">عرض ورق الجدران</string>
+<string name="error">خطأ</string>
+<string name="no_internet_connection">لا يوجد اتصال بالإنترنت</string>
+<string name="turn_on_wifi">تشغيل الإنترنت</string>
+<string name="try_again">مرة أخرى</string>
+<string name="exit">ىخرج</string>
+<string name="no_favorites_message">لإضافة خلفية إلى المفضلة لديك انقر فوق:</string>
+<string name="back">الى الخلف</string>
+<string name="rate_the_app">معدل البرنامج</string>
+<string name="info_loading_is_in_progress">قيد التحميل ...</string>
+<string name="wallpaper_has_been_set_message">تم تغيير خلفية</string>
+<string name="wallpaper_has_been_downloaded_message">تمت إضافة الصور إلى المعرض</string>
+<string name="wallpaper_is_loading_message">جارٍ تحميل خلفية ...</string>
+<string name="exit_confirmation_message">هل أنت متأكد من أنك تريد إغلاق التطبيق؟</string>
+<string name="wallpaper_changed">تم تغيير خلفية</string>
+<string name="message_on_download_complete">تمت إضافة الصور إلى المعرض</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">هل أنت متأكد من أنك تريد إغلاق التطبيق؟</string>
+<string name="wallpaper_changed_ekran_blokady">تم تغيير خلفية شاشة القفل</string>
+<string name="wallpaper_changed_ekran_glowny">تم تغيير خلفية الشاشة الرئيسية</string>
+<string name="wallpapers_download_message">تمت إضافة الصور إلى المعرض</string>
+<string name="please_wait">أرجو الإنتظار...</string>
+<string name="share_wallpapers">مشاركة ورق الحائط</string>
+<string name="categories">فئات</string>
+<string name="search_category">البحث عن فئات ...</string>
+<string name="set_lockscreen">تعيين على قفل الشاشة</string>
+<string name="set_screen">تعيين على الشاشة الرئيسية</string>
+<string name="menu_najlepsze">أفضل</string>
+<string name="menu_najnowsze">الجديدة</string>
+<string name="menu_ulubione">مفضلتي</string>
+<string name="exit_message">عرض التطبيقات الموصى بها.</string>
+<string name="exit_polecamy">أغلقه</string>
+<string name="exit_share">شارك مع الاصدقاء</string>
+<string name="exit_share_text">احصل على التطبيق</string>
+<string name="exit_rate_app">إضافة تصنيف</string>
+<string name="wcag_menu">محتويات</string>
+<string name="wcag_nastepna">التالي</string>
+<string name="wcag_poprzednia">إلى الوراء</string>
+<string name="wcag_udostepnij">مشاركة ورق الحائط</string>
+<string name="wcag_ulubione">مفضلتي</string>
+<string name="wcag_ustaw_tapete">تعيين على الشاشة الرئيسية</string>
+<string name="wcag_ustaw_tapete_blokada">تعيين على قفل الشاشة</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

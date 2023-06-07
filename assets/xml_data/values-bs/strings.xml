@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Nevjerovatne pozadine 4K</string>
+<string name="udostepnij_tresc">Nabavite aplikaciju https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Postavke</string>
+<string name="drawer_open">Otvorite</string>
+<string name="drawer_close">Zatvori aplikacije</string>
+<string name="change_wallpaper_index_message">Idi na fotografiju</string>
+<string name="error_message_wrong_number">Pogrešan broj</string>
+<string name="set">Potvrdi</string>
+<string name="cancel">Otkaži</string>
+<string name="notification_image_downloaded_show_image">Prikaži tapet</string>
+<string name="error">greška</string>
+<string name="no_internet_connection">Nema internet veze</string>
+<string name="turn_on_wifi">Pokrenite internet</string>
+<string name="try_again">Ponovite molim</string>
+<string name="exit">Izlaz</string>
+<string name="no_favorites_message">Da biste dodali pozadinu u svoje omiljene kliknite:</string>
+<string name="back">Nazad</string>
+<string name="rate_the_app">Ocenite aplikaciju</string>
+<string name="info_loading_is_in_progress">Učitavanje je u toku ...</string>
+<string name="wallpaper_has_been_set_message">Promenjena pozadina</string>
+<string name="wallpaper_has_been_downloaded_message">Fotografija je dodata u galeriju</string>
+<string name="wallpaper_is_loading_message">Molimo sačekajte ...</string>
+<string name="exit_confirmation_message">Želite li napustiti aplikaciju?</string>
+<string name="wallpaper_changed">Promenjena pozadina</string>
+<string name="message_on_download_complete">Fotografija je dodata u galeriju</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Želite li napustiti aplikaciju?</string>
+<string name="wallpaper_changed_ekran_blokady">Pozadina zaključanog zaslona je promijenjena</string>
+<string name="wallpaper_changed_ekran_glowny">Pozadina početnog zaslona je promijenjena</string>
+<string name="wallpapers_download_message">Fotografija je dodata u galeriju</string>
+<string name="please_wait">Molimo sačekajte ...</string>
+<string name="share_wallpapers">Podijelite pozadinu</string>
+<string name="categories">Kategorije</string>
+<string name="search_category">Potražite kategorije ...</string>
+<string name="set_lockscreen">Postavite na zaključani ekran</string>
+<string name="set_screen">Postavite na početnom ekranu</string>
+<string name="menu_najlepsze">Najbolje</string>
+<string name="menu_najnowsze">Nove</string>
+<string name="menu_ulubione">Moji omiljeni</string>
+<string name="exit_message">Pogledajte preporučene aplikacije.</string>
+<string name="exit_polecamy">Izlaz</string>
+<string name="exit_share">Dijeli aplikaciju</string>
+<string name="exit_share_text">Nabavite aplikaciju</string>
+<string name="exit_rate_app">Dodajte ocjenu</string>
+<string name="wcag_menu">Sadržaj</string>
+<string name="wcag_nastepna">Sljedeći</string>
+<string name="wcag_poprzednia">Prethodno</string>
+<string name="wcag_udostepnij">Podijelite pozadinu</string>
+<string name="wcag_ulubione">Moji omiljeni</string>
+<string name="wcag_ustaw_tapete">Postavite na početnom ekranu</string>
+<string name="wcag_ustaw_tapete_blokada">Postavite na zaključani ekran</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

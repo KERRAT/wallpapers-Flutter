@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<array name="category_ids">
+<item>0</item>
+<item>63</item>
+<item>64</item>
+<item>60</item>
+<item>73</item>
+<item>24</item>
+<item>14</item>
+<item>80</item>
+<item>84</item>
+<item>38</item>
+<item>86</item>
+<item>10</item>
+<item>35</item>
+<item>61</item>
+<item>20</item>
+<item>31</item>
+<item>55</item>
+<item>87</item>
+<item>12</item>
+<item>17</item>
+<item>25</item>
+<item>34</item>
+<item>70</item>
+<item>85</item>
+<item>46</item>
+<item>56</item>
+<item>58</item>
+<item>77</item>
+<item>71</item>
+<item>66</item>
+<item>81</item>
+<item>83</item>
+<item>53</item>
+<item>88</item>
+<item>7</item>
+<item>32</item>
+<item>45</item>
+<item>68</item>
+<item>30</item>
+<item>48</item>
+<item>27</item>
+<item>79</item>
+<item>19</item>
+<item>50</item>
+<item>76</item>
+<item>22</item>
+<item>54</item>
+<item>29</item>
+<item>3</item>
+<item>4</item>
+<item>15</item>
+<item>26</item>
+<item>6</item>
+<item>11</item>
+<item>13</item>
+<item>42</item>
+<item>47</item>
+<item>90</item>
+<item>49</item>
+<item>51</item>
+<item>28</item>
+<item>5</item>
+<item>8</item>
+<item>37</item>
+<item>75</item>
+<item>52</item>
+<item>62</item>
+<item>18</item>
+<item>78</item>
+<item>21</item>
+<item>16</item>
+<item>9</item>
+<item>74</item>
+<item>59</item>
+<item>33</item>
+<item>39</item>
+<item>82</item>
+<item>69</item>
+<item>72</item>
+<item>1</item>
+<item>65</item>
+<item>23</item>
+<item>2</item>
+<item>67</item>
+<item>57</item>
+</array>
+<array name="category_names">
+<item>அனைத்து</item>
+<item>3D</item>
+<item>4D தரம்</item>
+<item>Funny</item>
+<item>Spaceships</item>
+<item>Vegetables and fruits</item>
+<item>காடுகள்</item>
+<item>பொம்மைகள்</item>
+<item>அப்ஸ்ட்ராக்ஷன்</item>
+<item>ஆண்கள்</item>
+<item>ஆப்டிகல் மாயைகள்</item>
+<item>இயற்கை</item>
+<item>இரவில் நகரங்கள்</item>
+<item>இருண்ட திகில்</item>
+<item>இலைகள்</item>
+<item>இலையுதிர்</item>
+<item>ஈஸ்டர்</item>
+<item>உடைந்த இதயங்கள்</item>
+<item>எரிமலைகள்</item>
+<item>ஏரிகள்</item>
+<item>கடற்கரைகள்</item>
+<item>கட்டிடங்கள்</item>
+<item>கப்பல்கள்</item>
+<item>கற்பனை நிலம்</item>
+<item>கலவையும்</item>
+<item>காதலர் தினம்</item>
+<item>காதல்</item>
+<item>காப்பி</item>
+<item>கார்கள்</item>
+<item>கால்பந்து</item>
+<item>கிராஃபிட்டி</item>
+<item>கிராக் திரை</item>
+<item>கிறிஸ்துமஸ்</item>
+<item>குண்டுகள்</item>
+<item>குதிரைகள்</item>
+<item>குளிர்காலம்</item>
+<item>குழந்தைகள்</item>
+<item>கூடைப்பந்து</item>
+<item>கோடை</item>
+<item>கொண்டாட்டங்கள்</item>
+<item>சன்செட்</item>
+<item>தண்ணீர்</item>
+<item>தாவரங்கள்</item>
+<item>திருமணங்கள்</item>
+<item>தீ</item>
+<item>தீவுகள்</item>
+<item>நன்றி தினம்</item>
+<item>நான்கு பருவங்கள்</item>
+<item>நாய்கள்</item>
+<item>நாய்க்குட்டிகள்</item>
+<item>நீர்வீழ்ச்சிகள்</item>
+<item>நீல பெருங்கடல்கள்</item>
+<item>பறவைகள்</item>
+<item>பவள திட்டுகள்</item>
+<item>பாலைவனங்கள்</item>
+<item>பிங்க்</item>
+<item>பின்னணிகள்</item>
+<item>பிரபஞ்சம்</item>
+<item>பிறந்தநாள்</item>
+<item>புத்தாண்டு ஈவ்</item>
+<item>புயல்கள்</item>
+<item>பூச்சிகள்</item>
+<item>பூனைகள்</item>
+<item>பெண்கள்</item>
+<item>பைக்குகள்</item>
+<item>மகளிர் தினம்</item>
+<item>மண்டை</item>
+<item>மரங்கள்</item>
+<item>மற்றவை</item>
+<item>மலர்கள்</item>
+<item>மலைகள்</item>
+<item>மீன்கள்</item>
+<item>மோட்டார்</item>
+<item>லவ்</item>
+<item>வசந்த</item>
+<item>வண்ணங்கள்</item>
+<item>வரைபடங்கள்</item>
+<item>வாகனங்கள்</item>
+<item>விமானங்கள்</item>
+<item>விலங்குகள்</item>
+<item>விளையாட்டு</item>
+<item>வெப்பமண்டல</item>
+<item>ஸ்வீட்</item>
+<item>ஹாக்கி</item>
+<item>ஹாலோவீன்</item>
+</array>
+<array name="category_hints">
+<item>அனைத்து</item>
+<item>3D</item>
+<item>4D தரம்</item>
+<item>Funny</item>
+<item>Spaceships</item>
+<item>Vegetables and fruits</item>
+<item>காடுகள்</item>
+<item>பொம்மைகள்</item>
+<item>அப்ஸ்ட்ராக்ஷன்</item>
+<item>ஆண்கள்</item>
+<item>ஆப்டிகல் மாயைகள்</item>
+<item>இயற்கை</item>
+<item>இரவில் நகரங்கள்</item>
+<item>இருண்ட திகில்</item>
+<item>இலைகள்</item>
+<item>இலையுதிர்</item>
+<item>ஈஸ்டர்</item>
+<item>உடைந்த இதயங்கள்</item>
+<item>எரிமலைகள்</item>
+<item>ஏரிகள்</item>
+<item>கடற்கரைகள்</item>
+<item>கட்டிடங்கள்</item>
+<item>கப்பல்கள்</item>
+<item>கற்பனை நிலம்</item>
+<item>கலவையும்</item>
+<item>காதலர் தினம்</item>
+<item>காதல்</item>
+<item>காப்பி</item>
+<item>கார்கள்</item>
+<item>கால்பந்து</item>
+<item>கிராஃபிட்டி</item>
+<item>கிராக் திரை</item>
+<item>கிறிஸ்துமஸ்</item>
+<item>குண்டுகள்</item>
+<item>குதிரைகள்</item>
+<item>குளிர்காலம்</item>
+<item>குழந்தைகள்</item>
+<item>கூடைப்பந்து</item>
+<item>கோடை</item>
+<item>கொண்டாட்டங்கள்</item>
+<item>சன்செட்</item>
+<item>தண்ணீர்</item>
+<item>தாவரங்கள்</item>
+<item>திருமணங்கள்</item>
+<item>தீ</item>
+<item>தீவுகள்</item>
+<item>நன்றி தினம்</item>
+<item>நான்கு பருவங்கள்</item>
+<item>நாய்கள்</item>
+<item>நாய்க்குட்டிகள்</item>
+<item>நீர்வீழ்ச்சிகள்</item>
+<item>நீல பெருங்கடல்கள்</item>
+<item>பறவைகள்</item>
+<item>பவள திட்டுகள்</item>
+<item>பாலைவனங்கள்</item>
+<item>பிங்க்</item>
+<item>பின்னணிகள்</item>
+<item>பிரபஞ்சம்</item>
+<item>பிறந்தநாள்</item>
+<item>புத்தாண்டு ஈவ்</item>
+<item>புயல்கள்</item>
+<item>பூச்சிகள்</item>
+<item>பூனைகள்</item>
+<item>பெண்கள்</item>
+<item>பைக்குகள்</item>
+<item>மகளிர் தினம்</item>
+<item>மண்டை</item>
+<item>மரங்கள்</item>
+<item>மற்றவை</item>
+<item>மலர்கள்</item>
+<item>மலைகள்</item>
+<item>மீன்கள்</item>
+<item>மோட்டார்</item>
+<item>லவ்</item>
+<item>வசந்த</item>
+<item>வண்ணங்கள்</item>
+<item>வரைபடங்கள்</item>
+<item>வாகனங்கள்</item>
+<item>விமானங்கள்</item>
+<item>விலங்குகள்</item>
+<item>விளையாட்டு</item>
+<item>வெப்பமண்டல வெப்பமண்டல </item>
+<item>ஸ்வீட்</item>
+<item>ஹாக்கி</item>
+<item>ஹாலோவீன்</item>
+</array>
+<integer-array name="category_images">
+<item>@drawable/c0</item>
+<item>@drawable/c63</item>
+<item>@drawable/c64</item>
+<item>@drawable/c60</item>
+<item>@drawable/c73</item>
+<item>@drawable/c24</item>
+<item>@drawable/c14</item>
+<item>@drawable/c80</item>
+<item>@drawable/c84</item>
+<item>@drawable/c38</item>
+<item>@drawable/c86</item>
+<item>@drawable/c10</item>
+<item>@drawable/c35</item>
+<item>@drawable/c61</item>
+<item>@drawable/c20</item>
+<item>@drawable/c31</item>
+<item>@drawable/c55</item>
+<item>@drawable/c87</item>
+<item>@drawable/c12</item>
+<item>@drawable/c17</item>
+<item>@drawable/c25</item>
+<item>@drawable/c34</item>
+<item>@drawable/c70</item>
+<item>@drawable/c85</item>
+<item>@drawable/c46</item>
+<item>@drawable/c56</item>
+<item>@drawable/c58</item>
+<item>@drawable/c77</item>
+<item>@drawable/c71</item>
+<item>@drawable/c66</item>
+<item>@drawable/c81</item>
+<item>@drawable/c83</item>
+<item>@drawable/c53</item>
+<item>@drawable/c88</item>
+<item>@drawable/c7</item>
+<item>@drawable/c32</item>
+<item>@drawable/c45</item>
+<item>@drawable/c68</item>
+<item>@drawable/c30</item>
+<item>@drawable/c48</item>
+<item>@drawable/c27</item>
+<item>@drawable/c79</item>
+<item>@drawable/c19</item>
+<item>@drawable/c50</item>
+<item>@drawable/c76</item>
+<item>@drawable/c22</item>
+<item>@drawable/c54</item>
+<item>@drawable/c29</item>
+<item>@drawable/c3</item>
+<item>@drawable/c4</item>
+<item>@drawable/c15</item>
+<item>@drawable/c26</item>
+<item>@drawable/c6</item>
+<item>@drawable/c11</item>
+<item>@drawable/c13</item>
+<item>@drawable/c42</item>
+<item>@drawable/c47</item>
+<item>@drawable/c90</item>
+<item>@drawable/c49</item>
+<item>@drawable/c51</item>
+<item>@drawable/c28</item>
+<item>@drawable/c5</item>
+<item>@drawable/c8</item>
+<item>@drawable/c37</item>
+<item>@drawable/c75</item>
+<item>@drawable/c52</item>
+<item>@drawable/c62</item>
+<item>@drawable/c18</item>
+<item>@drawable/c78</item>
+<item>@drawable/c21</item>
+<item>@drawable/c16</item>
+<item>@drawable/c9</item>
+<item>@drawable/c74</item>
+<item>@drawable/c59</item>
+<item>@drawable/c33</item>
+<item>@drawable/c39</item>
+<item>@drawable/c82</item>
+<item>@drawable/c69</item>
+<item>@drawable/c72</item>
+<item>@drawable/c1</item>
+<item>@drawable/c65</item>
+<item>@drawable/c23</item>
+<item>@drawable/c2</item>
+<item>@drawable/c67</item>
+<item>@drawable/c57</item>
+</integer-array>
+</resources>

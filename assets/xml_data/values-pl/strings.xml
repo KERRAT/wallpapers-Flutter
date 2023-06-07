@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Niesamowite tapety 4K</string>
+<string name="udostepnij_tresc">Pobierz aplikację https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Ustawienia</string>
+<string name="drawer_open">Otwórz</string>
+<string name="drawer_close">Zamknij aplikacje</string>
+<string name="change_wallpaper_index_message">Przejdź do tapety</string>
+<string name="error_message_wrong_number">Zły numer</string>
+<string name="set">Zatwierdź</string>
+<string name="cancel">Anuluj</string>
+<string name="notification_image_downloaded_show_image">Pokaż tapetę</string>
+<string name="error">błąd</string>
+<string name="no_internet_connection">Brak połączenia z internetem</string>
+<string name="turn_on_wifi">Włącz internet</string>
+<string name="try_again">Spróbuj ponownie</string>
+<string name="exit">Wyjdź</string>
+<string name="no_favorites_message">Aby dodać tapetę do swoich ulubionych kliknij:</string>
+<string name="back">Powrót</string>
+<string name="rate_the_app">Oceń aplikację</string>
+<string name="info_loading_is_in_progress">Trwa ładowanie ...</string>
+<string name="wallpaper_has_been_set_message">Tapeta została zmieniona</string>
+<string name="wallpaper_has_been_downloaded_message">Tapeta została zapisana w galerii</string>
+<string name="wallpaper_is_loading_message">Ładowanie tapety ...</string>
+<string name="exit_confirmation_message">Czy na pewno chcesz zamknąć aplikację?</string>
+<string name="wallpaper_changed">Tapeta została zmieniona</string>
+<string name="message_on_download_complete">Tapeta została zapisana w galerii</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Czy na pewno chcesz zamknąć aplikację?</string>
+<string name="wallpaper_changed_ekran_blokady">Tapeta ekranu blokady została zmieniona</string>
+<string name="wallpaper_changed_ekran_glowny">Tapeta ekranu głównego została zmieniona</string>
+<string name="wallpapers_download_message">Tapeta została zapisana w galerii</string>
+<string name="please_wait">Proszę czekać...</string>
+<string name="share_wallpapers">Udostępnij tapetę</string>
+<string name="categories">Kategorie</string>
+<string name="search_category">Wyszukaj kategorie ...</string>
+<string name="set_lockscreen">Ustaw na ekranie blokady</string>
+<string name="set_screen">Ustaw na ekranie głównym</string>
+<string name="menu_najlepsze">Najlepsze</string>
+<string name="menu_najnowsze">Nowe</string>
+<string name="menu_ulubione">Moje ulubione</string>
+<string name="exit_message">Zobacz inne aplikacje.</string>
+<string name="exit_polecamy">Wyjście</string>
+<string name="exit_share">Rekomenduj App</string>
+<string name="exit_share_text">Pobierz aplikację</string>
+<string name="exit_rate_app">Oceń aplikację</string>
+<string name="wcag_menu">Menu</string>
+<string name="wcag_nastepna">Następny</string>
+<string name="wcag_poprzednia">Poprzedni</string>
+<string name="wcag_udostepnij">Udostępnij tapetę</string>
+<string name="wcag_ulubione">Moje ulubione</string>
+<string name="wcag_ustaw_tapete">Ustaw na ekranie głównym</string>
+<string name="wcag_ustaw_tapete_blokada">Ustaw na ekranie blokady</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Papurau Wal Rhyfeddol 4K</string>
+<string name="udostepnij_tresc">Cael app https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Settings</string>
+<string name="drawer_open">Agorwch</string>
+<string name="drawer_close">ceisiadau Cau</string>
+<string name="change_wallpaper_index_message">Ewch i\'r papur wal</string>
+<string name="error_message_wrong_number">rhif annilys</string>
+<string name="set">cadarnhau</string>
+<string name="cancel">Diddymu</string>
+<string name="notification_image_downloaded_show_image">Dangos papur wal</string>
+<string name="error">gwall</string>
+<string name="no_internet_connection">Dim cysylltiad rhyngrwyd</string>
+<string name="turn_on_wifi">Turn on the internet</string>
+<string name="try_again">ailadrodd eto</string>
+<string name="exit">Allanfa</string>
+<string name="no_favorites_message">I ychwanegu papur wal ar eich ffefrynnau cliciwch:</string>
+<string name="back">Dychwelyd</string>
+<string name="rate_the_app">Cyfraddwch yr app</string>
+<string name="info_loading_is_in_progress">Loading ...</string>
+<string name="wallpaper_has_been_set_message">Mae\'r papur wal wedi ei newid</string>
+<string name="wallpaper_has_been_downloaded_message">Mae\'r papur wal wedi ei gadw i\'r oriel</string>
+<string name="wallpaper_is_loading_message">Llwytho ...</string>
+<string name="exit_confirmation_message">Ydych chi\'n siŵr eich bod chi am gau\'r cais?</string>
+<string name="wallpaper_changed">Mae\'r papur wal wedi ei newid</string>
+<string name="message_on_download_complete">Mae\'r papur wal wedi ei gadw i\'r oriel</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Ydych chi\'n siŵr eich bod chi am gau\'r cais?</string>
+<string name="wallpaper_changed_ekran_blokady">Mae\'r papur wal sgrin clo wedi\'i newid</string>
+<string name="wallpaper_changed_ekran_glowny">Mae\'r papur wal sgrin cartref wedi\'i newid</string>
+<string name="wallpapers_download_message">Mae\'r papur wal wedi ei gadw i\'r oriel</string>
+<string name="please_wait">Arhoswch os gwelwch yn dda...</string>
+<string name="share_wallpapers">Rhannu papur wal</string>
+<string name="categories">Categorïau</string>
+<string name="search_category">Chwilio am gategorïau ...</string>
+<string name="set_lockscreen">Wedi\'i osod ar sgrin y clo</string>
+<string name="set_screen">Wedi\'i osod ar y sgrin cartref</string>
+<string name="menu_najlepsze">Gorau</string>
+<string name="menu_najnowsze">Newydd</string>
+<string name="menu_ulubione">Fy ffefrynnau</string>
+<string name="exit_message">See other apps.</string>
+<string name="exit_polecamy">Ymadael</string>
+<string name="exit_share">Rhannu ap</string>
+<string name="exit_share_text">Cael app</string>
+<string name="exit_rate_app">Cyfradd</string>
+<string name="wcag_menu">Bwydlen</string>
+<string name="wcag_nastepna">Nesaf</string>
+<string name="wcag_poprzednia">Blaenorol</string>
+<string name="wcag_udostepnij">Rhannu papur wal</string>
+<string name="wcag_ulubione">Fy ffefrynnau</string>
+<string name="wcag_ustaw_tapete">Wedi\'i osod ar y sgrin cartref</string>
+<string name="wcag_ustaw_tapete_blokada">Wedi\'i osod ar sgrin y clo</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

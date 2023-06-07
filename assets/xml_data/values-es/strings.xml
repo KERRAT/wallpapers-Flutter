@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Fondos de pantalla increíbles 4K</string>
+<string name="udostepnij_tresc">Obtener aplicaciones https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Ajustes</string>
+<string name="drawer_open">Abrir</string>
+<string name="drawer_close">Cerrar aplicaciones</string>
+<string name="change_wallpaper_index_message">Ir al fondo de pantalla</string>
+<string name="error_message_wrong_number">Número equivocado</string>
+<string name="set">Enviar</string>
+<string name="cancel">Cancelar</string>
+<string name="notification_image_downloaded_show_image">Mostrar fondo de pantalla</string>
+<string name="error">error</string>
+<string name="no_internet_connection">Sin conexión a Internet</string>
+<string name="turn_on_wifi">Ejecutar internet</string>
+<string name="try_again">Repita por favor</string>
+<string name="exit">Salida</string>
+<string name="no_favorites_message">Para agregar fondo de pantalla a tus favoritos haz clic en:</string>
+<string name="back">Regreso</string>
+<string name="rate_the_app">Califica la aplicación</string>
+<string name="info_loading_is_in_progress">La carga está en curso ...</string>
+<string name="wallpaper_has_been_set_message">Fondo de pantalla cambiado</string>
+<string name="wallpaper_has_been_downloaded_message">La foto ha sido añadida a la galería</string>
+<string name="wallpaper_is_loading_message">Cargando fondo de pantalla ...</string>
+<string name="exit_confirmation_message">¿Seguro que quieres cerrar la aplicación?</string>
+<string name="wallpaper_changed">Fondo de pantalla cambiado</string>
+<string name="message_on_download_complete">La foto ha sido añadida a la galería</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">¿Seguro que quieres cerrar la aplicación?</string>
+<string name="wallpaper_changed_ekran_blokady">El fondo de la pantalla de bloqueo ha cambiado</string>
+<string name="wallpaper_changed_ekran_glowny">El fondo de pantalla de la pantalla de inicio ha cambiado</string>
+<string name="wallpapers_download_message">La foto ha sido añadida a la galería</string>
+<string name="please_wait">Por favor espera...</string>
+<string name="share_wallpapers">Compartir fondo de pantalla</string>
+<string name="categories">Categorías</string>
+<string name="search_category">Buscar por categoría ...</string>
+<string name="set_lockscreen">Establecer en la pantalla de bloqueo</string>
+<string name="set_screen">Establecer en la pantalla de inicio</string>
+<string name="menu_najlepsze">Mejores</string>
+<string name="menu_najnowsze">Nuevas</string>
+<string name="menu_ulubione">Mis favoritos</string>
+<string name="exit_message">Vea las aplicaciones recomendadas.</string>
+<string name="exit_polecamy">Salida</string>
+<string name="exit_share">Enviar a amigos</string>
+<string name="exit_share_text">Obtener aplicaciones</string>
+<string name="exit_rate_app">Compartir opinión</string>
+<string name="wcag_menu">Menú</string>
+<string name="wcag_nastepna">Próximo</string>
+<string name="wcag_poprzednia">Previo</string>
+<string name="wcag_udostepnij">Compartir fondo de pantalla</string>
+<string name="wcag_ulubione">Mis favoritos</string>
+<string name="wcag_ustaw_tapete">Establecer en la pantalla de inicio</string>
+<string name="wcag_ustaw_tapete_blokada">Establecer en la pantalla de bloqueo</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

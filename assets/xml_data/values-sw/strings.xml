@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Mandhari ya Kustaajabisha 4K</string>
+<string name="udostepnij_tresc">Pata programu https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Mipangilio</string>
+<string name="drawer_open">Fungua</string>
+<string name="drawer_close">Funga programu</string>
+<string name="change_wallpaper_index_message">Nenda kwenye picha</string>
+<string name="error_message_wrong_number">Nambari isiyo sahihi</string>
+<string name="set">Thibitisha</string>
+<string name="cancel">Cancel</string>
+<string name="notification_image_downloaded_show_image">Onyesha picha</string>
+<string name="error">Kosa</string>
+<string name="no_internet_connection">Hakuna uhusiano wa internet</string>
+<string name="turn_on_wifi">Run internet</string>
+<string name="try_again">tena</string>
+<string name="exit">Utgång</string>
+<string name="no_favorites_message">Ili kuongeza picha kwenye favorites yako bonyeza:</string>
+<string name="back">Nyuma</string>
+<string name="rate_the_app">Kadiria programu</string>
+<string name="info_loading_is_in_progress">Inapakia ...</string>
+<string name="wallpaper_has_been_set_message">Picha imebadilika</string>
+<string name="wallpaper_has_been_downloaded_message">Picha imeongezwa kwenye nyumba ya sanaa</string>
+<string name="wallpaper_is_loading_message">Inapakia Ukuta ...</string>
+<string name="exit_confirmation_message">Je! Una uhakika unataka kufunga programu?</string>
+<string name="wallpaper_changed">Picha imebadilika</string>
+<string name="message_on_download_complete">Picha imeongezwa kwenye nyumba ya sanaa</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Je! Una uhakika unataka kufunga programu?</string>
+<string name="wallpaper_changed_ekran_blokady">Karatasi ya skrini ya kufuli imebadilishwa</string>
+<string name="wallpaper_changed_ekran_glowny">Usuli wa skrini iliyofungwa imesasishwa</string>
+<string name="wallpapers_download_message">Picha imeongezwa kwenye nyumba ya sanaa</string>
+<string name="please_wait">Tafadhali subiri...</string>
+<string name="share_wallpapers">Shiriki Ukuta</string>
+<string name="categories">Jamii</string>
+<string name="search_category">Tafuta kategoria ...</string>
+<string name="set_lockscreen">Weka skrini ya kufuli</string>
+<string name="set_screen">Weka skrini ya nyumbani</string>
+<string name="menu_najlepsze">Juu</string>
+<string name="menu_najnowsze">Mpya</string>
+<string name="menu_ulubione">Vipendwa vyangu</string>
+<string name="exit_message">Angalia programu zingine.</string>
+<string name="exit_polecamy">Utgång</string>
+<string name="exit_share">Pendekeza app</string>
+<string name="exit_share_text">Pata programu</string>
+<string name="exit_rate_app">Kiwango</string>
+<string name="wcag_menu">Menyu</string>
+<string name="wcag_nastepna">Inayofuata</string>
+<string name="wcag_poprzednia">Iliyotangulia</string>
+<string name="wcag_udostepnij">Shiriki Ukuta</string>
+<string name="wcag_ulubione">Vipendwa vyangu</string>
+<string name="wcag_ustaw_tapete">Weka skrini ya nyumbani</string>
+<string name="wcag_ustaw_tapete_blokada">Weka skrini ya kufuli</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

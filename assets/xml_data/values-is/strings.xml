@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Ótrúlegt veggfóður 4K</string>
+<string name="udostepnij_tresc">Fáðu app https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Stillingar</string>
+<string name="drawer_open">Opnaðu</string>
+<string name="drawer_close">Loka forritum</string>
+<string name="change_wallpaper_index_message">Fara á myndina</string>
+<string name="error_message_wrong_number">Ógilt númer</string>
+<string name="set">Staðfesta</string>
+<string name="cancel">Hætta við</string>
+<string name="notification_image_downloaded_show_image">Sýna veggfóður</string>
+<string name="error">error</string>
+<string name="no_internet_connection">Engin nettengingu</string>
+<string name="turn_on_wifi">Kveiktu á internetinu</string>
+<string name="try_again">Endurtaka Vinsamlegast</string>
+<string name="exit">Hætta</string>
+<string name="no_favorites_message">Smelltu til að bæta við eftirlæti</string>
+<string name="back">Fara aftur</string>
+<string name="rate_the_app">Meta appið</string>
+<string name="info_loading_is_in_progress">Hleður gögn ...</string>
+<string name="wallpaper_has_been_set_message">Breytt veggfóður</string>
+<string name="wallpaper_has_been_downloaded_message">Mynd bætt við galleríið</string>
+<string name="wallpaper_is_loading_message">Hleður veggfóður ...</string>
+<string name="exit_confirmation_message">Ertu viss um að þú viljir loka forritinu?</string>
+<string name="wallpaper_changed">Breytt veggfóður</string>
+<string name="message_on_download_complete">Mynd bætt við galleríið</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Ertu viss um að þú viljir loka forritinu?</string>
+<string name="wallpaper_changed_ekran_blokady">Veggfóður læsiskjásins hefur verið breytt</string>
+<string name="wallpaper_changed_ekran_glowny">Veggfóður heimaskjásins hefur verið breytt</string>
+<string name="wallpapers_download_message">Mynd bætt við galleríið</string>
+<string name="please_wait">Vinsamlegast bíðið...</string>
+<string name="share_wallpapers">Deildu veggfóðri</string>
+<string name="categories">Flokkar</string>
+<string name="search_category">Leita að flokkum ...</string>
+<string name="set_lockscreen">Settu á lásskjánum</string>
+<string name="set_screen">Stilltu á heimaskjánum</string>
+<string name="menu_najlepsze">Bestu</string>
+<string name="menu_najnowsze">Nýju</string>
+<string name="menu_ulubione">Uppáhalds mínir</string>
+<string name="exit_message">Skoða mælt forrit.</string>
+<string name="exit_polecamy">Hætta</string>
+<string name="exit_share">Mæli með appi</string>
+<string name="exit_share_text">Fáðu app</string>
+<string name="exit_rate_app">Deildu skoðun</string>
+<string name="wcag_menu">Matseðill</string>
+<string name="wcag_nastepna">Næst</string>
+<string name="wcag_poprzednia">Fyrri</string>
+<string name="wcag_udostepnij">Deildu veggfóðri</string>
+<string name="wcag_ulubione">Uppáhalds mínir</string>
+<string name="wcag_ustaw_tapete">Stilltu á heimaskjánum</string>
+<string name="wcag_ustaw_tapete_blokada">Settu á lásskjánum</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

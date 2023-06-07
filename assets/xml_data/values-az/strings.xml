@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Gözəl divar kağızları 4K</string>
+<string name="udostepnij_tresc">Tətbiq alın https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Ayarlar</string>
+<string name="drawer_open">açın</string>
+<string name="drawer_close">Proqramlar bağlayın</string>
+<string name="change_wallpaper_index_message">Divar kağızı gedin</string>
+<string name="error_message_wrong_number">Yanlış sayı</string>
+<string name="set">Təsdiq edin</string>
+<string name="cancel">Ləğv et</string>
+<string name="notification_image_downloaded_show_image">Divar kağızı göstər</string>
+<string name="error">Səhv</string>
+<string name="no_internet_connection">İnternet bağlantısı yoxdur</string>
+<string name="turn_on_wifi">İnternetə qoşulun</string>
+<string name="try_again">Yenidən təkrarlayın</string>
+<string name="exit">Çıxın</string>
+<string name="no_favorites_message">To add wallpaper to your favorites click:</string>
+<string name="back">Geri</string>
+<string name="rate_the_app">Tətbiqi qiymətləndirin</string>
+<string name="info_loading_is_in_progress">Yüklənir ...</string>
+<string name="wallpaper_has_been_set_message">Divar kağızı dəyişdirildi</string>
+<string name="wallpaper_has_been_downloaded_message">Şəkil qalereyaya əlavə edildi</string>
+<string name="wallpaper_is_loading_message">Yüklənir ...</string>
+<string name="exit_confirmation_message">Tətbiqi bağlamaq istədiyinizə əminsiniz?</string>
+<string name="wallpaper_changed">Divar kağızı dəyişdirildi</string>
+<string name="message_on_download_complete">Şəkil qalereyaya əlavə edildi</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Tətbiqi bağlamaq istədiyinizə əminsiniz?</string>
+<string name="wallpaper_changed_ekran_blokady">Kilid ekran divar kağızı dəyişdirildi</string>
+<string name="wallpaper_changed_ekran_glowny">Ev ekranın divar kağızı dəyişdirildi</string>
+<string name="wallpapers_download_message">Şəkil qalereyaya əlavə edildi</string>
+<string name="please_wait">Zəhmət olmasa, gözləyin...</string>
+<string name="share_wallpapers">Divar kağızı paylaşın</string>
+<string name="categories">Kateqoriyalar</string>
+<string name="search_category">Kateqoriyalar axtar ...</string>
+<string name="set_lockscreen">Kilit ekranında qurun</string>
+<string name="set_screen">Ana ekranda qurun</string>
+<string name="menu_najlepsze">Ən yaxşı</string>
+<string name="menu_najnowsze">Yeni</string>
+<string name="menu_ulubione">Mənim sevimlilərim</string>
+<string name="exit_message">Digər tətbiqlərə baxın.</string>
+<string name="exit_polecamy">Çıx</string>
+<string name="exit_share">Proqramı paylaşın</string>
+<string name="exit_share_text">Tətbiq alın</string>
+<string name="exit_rate_app">Rəy paylaş</string>
+<string name="wcag_menu">Menyu</string>
+<string name="wcag_nastepna">Sonrakı</string>
+<string name="wcag_poprzednia">Əvvəlki</string>
+<string name="wcag_udostepnij">Divar kağızı paylaşın</string>
+<string name="wcag_ulubione">Mənim sevimlilərim</string>
+<string name="wcag_ustaw_tapete">Ana ekranda qurun</string>
+<string name="wcag_ustaw_tapete_blokada">Kilit ekranında qurun</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

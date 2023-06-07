@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">حیرت انگیز وال پیپر</string>
+<string name="udostepnij_tresc">ایپ حاصل کریں https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">ترتیبات</string>
+<string name="drawer_open">کھولیں</string>
+<string name="drawer_close">ایپلی کیشنز بند کریں</string>
+<string name="change_wallpaper_index_message">وال پیپر پر جائیں</string>
+<string name="error_message_wrong_number">غلط نمبر</string>
+<string name="set">تصدیق کریں</string>
+<string name="cancel">منسوخ کریں</string>
+<string name="notification_image_downloaded_show_image">وال پیپر دکھائیں</string>
+<string name="error">غلطی</string>
+<string name="no_internet_connection">کوئی انٹرنیٹ کنکشن نہیں ہے</string>
+<string name="turn_on_wifi">انٹرنیٹ کو چالو کریں</string>
+<string name="try_again">براہ مہربانی دوبارہ کر</string>
+<string name="exit">باہر نکلیں</string>
+<string name="no_favorites_message">پسندیدہ میں شامل کرنے کے لئے کلک کریں</string>
+<string name="back">پیچھے</string>
+<string name="rate_the_app">Rate the app</string>
+<string name="info_loading_is_in_progress">لوڈ کر رہا ہے ...</string>
+<string name="wallpaper_has_been_set_message">وال پیپر تبدیل کر دیا گیا ہے</string>
+<string name="wallpaper_has_been_downloaded_message">وال پیپر گیلری، نگارخانہ میں محفوظ کردی گئی ہے</string>
+<string name="wallpaper_is_loading_message">وال پیپر لوڈ کر رہا ہے ...</string>
+<string name="exit_confirmation_message">کیا آپ واقعی درخواست بند کرنا چاہتے ہیں؟</string>
+<string name="wallpaper_changed">وال پیپر تبدیل کر دیا گیا ہے</string>
+<string name="message_on_download_complete">وال پیپر گیلری، نگارخانہ میں محفوظ کردی گئی ہے</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">کیا آپ واقعی درخواست بند کرنا چاہتے ہیں؟</string>
+<string name="wallpaper_changed_ekran_blokady">لاک اسکرین وال پیپر تبدیل کر دیا گیا ہے</string>
+<string name="wallpaper_changed_ekran_glowny">ہوم اسکرین وال پیپر تبدیل کر دیا گیا ہے</string>
+<string name="wallpapers_download_message">وال پیپر گیلری، نگارخانہ میں محفوظ کردی گئی ہے</string>
+<string name="please_wait">برائے مہربانی انتظار کریں...</string>
+<string name="share_wallpapers">وال پیپر بانٹیں</string>
+<string name="categories">اقسام</string>
+<string name="search_category">زمرے تلاش کریں ...</string>
+<string name="set_lockscreen">تالا اسکرین پر سیٹ کریں</string>
+<string name="set_screen">ہوم اسکرین پر سیٹ کریں</string>
+<string name="menu_najlepsze">اوپر</string>
+<string name="menu_najnowsze">نئی</string>
+<string name="menu_ulubione">پسندیدہ</string>
+<string name="exit_message">سفارش کردہ ایپلی کیشنز دیکھیں.</string>
+<string name="exit_polecamy">باہر نکلیں</string>
+<string name="exit_share">ایپ تجویز کریں۔</string>
+<string name="exit_share_text">ایپ حاصل کریں</string>
+<string name="exit_rate_app">رائے شیئر کریں۔</string>
+<string name="wcag_menu">مینو</string>
+<string name="wcag_nastepna">اگلے</string>
+<string name="wcag_poprzednia">پچھلا</string>
+<string name="wcag_udostepnij">وال پیپر بانٹیں</string>
+<string name="wcag_ulubione">پسندیدہ</string>
+<string name="wcag_ustaw_tapete">ہوم اسکرین پر سیٹ کریں</string>
+<string name="wcag_ustaw_tapete_blokada">تالا اسکرین پر سیٹ کریں</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Upeita 4K-taustakuvia</string>
+<string name="udostepnij_tresc">Hanki sovellus https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">asetukset</string>
+<string name="drawer_open">Avaa</string>
+<string name="drawer_close">Sulje sovellukset</string>
+<string name="change_wallpaper_index_message">Mene taustakuvaan</string>
+<string name="error_message_wrong_number">Väärä numero</string>
+<string name="set">Vahvistaa</string>
+<string name="cancel">Peruuttaa</string>
+<string name="notification_image_downloaded_show_image">Näytä taustakuva</string>
+<string name="error">virhe</string>
+<string name="no_internet_connection">Ei Internet-yhteyttä</string>
+<string name="turn_on_wifi">Suorita internet</string>
+<string name="try_again">try again</string>
+<string name="exit">Poistuminen</string>
+<string name="no_favorites_message">Voit lisätä taustakuvan suosikkeihisi napsauttamalla:</string>
+<string name="back">Takaisin</string>
+<string name="rate_the_app">Arvioi sovellus</string>
+<string name="info_loading_is_in_progress">Se latautuu ...</string>
+<string name="wallpaper_has_been_set_message">Taustakuvaa on muutettu</string>
+<string name="wallpaper_has_been_downloaded_message">Taustakuva on tallennettu galleriaan</string>
+<string name="wallpaper_is_loading_message">Taustakuvan lataaminen ...</string>
+<string name="exit_confirmation_message">Haluatko varmasti sulkea sovelluksen?</string>
+<string name="wallpaper_changed">Taustakuvaa on muutettu</string>
+<string name="message_on_download_complete">Taustakuva on tallennettu galleriaan</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Haluatko varmasti sulkea sovelluksen?</string>
+<string name="wallpaper_changed_ekran_blokady">Lukitusnäytön taustakuva on vaihdettu</string>
+<string name="wallpaper_changed_ekran_glowny">Kotinäytön taustakuva on vaihdettu</string>
+<string name="wallpapers_download_message">Taustakuva on tallennettu galleriaan</string>
+<string name="please_wait">Odota...</string>
+<string name="share_wallpapers">Jaa taustakuva</string>
+<string name="categories">Luokat</string>
+<string name="search_category">Hae luokittain ...</string>
+<string name="set_lockscreen">Aseta lukitusnäytölle</string>
+<string name="set_screen">Aseta aloitusnäytössä</string>
+<string name="menu_najlepsze">Parhaat</string>
+<string name="menu_najnowsze">Uudet</string>
+<string name="menu_ulubione">Suosikit</string>
+<string name="exit_message">Katso muut sovellukset.</string>
+<string name="exit_polecamy">Poistu</string>
+<string name="exit_share">Jaa sovellus</string>
+<string name="exit_share_text">Hanki sovellus</string>
+<string name="exit_rate_app">Rate</string>
+<string name="wcag_menu">Valikko</string>
+<string name="wcag_nastepna">Seuraava</string>
+<string name="wcag_poprzednia">Edellinen</string>
+<string name="wcag_udostepnij">Jaa taustakuva</string>
+<string name="wcag_ulubione">Suosikit</string>
+<string name="wcag_ustaw_tapete">Aseta aloitusnäytössä</string>
+<string name="wcag_ustaw_tapete_blokada">Aseta lukitusnäytölle</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

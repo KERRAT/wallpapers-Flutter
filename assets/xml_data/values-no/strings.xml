@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Fantastiske bakgrunnsbilder 4K</string>
+<string name="udostepnij_tresc">Få appen https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">innstillinger</string>
+<string name="drawer_open">Åpne</string>
+<string name="drawer_close">Lukk applikasjoner</string>
+<string name="change_wallpaper_index_message">Gå til tapetet</string>
+<string name="error_message_wrong_number">Feil nummer</string>
+<string name="set">Bekrefte</string>
+<string name="cancel">Avbryt</string>
+<string name="notification_image_downloaded_show_image">Vis bakgrunnsbilde</string>
+<string name="error">feil</string>
+<string name="no_internet_connection">Ingen internettforbindelse</string>
+<string name="turn_on_wifi">Kjør internett</string>
+<string name="try_again">Gjenta</string>
+<string name="exit">Exit</string>
+<string name="no_favorites_message">Klikk for å legge til i favoritter</string>
+<string name="back">Буцах</string>
+<string name="rate_the_app">Vurder appen</string>
+<string name="info_loading_is_in_progress">Laster pågår ...</string>
+<string name="wallpaper_has_been_set_message">Bakgrunnen er endret</string>
+<string name="wallpaper_has_been_downloaded_message">Bakgrunnen er lagret i galleriet</string>
+<string name="wallpaper_is_loading_message">Laster bakgrunnsbilde ...</string>
+<string name="exit_confirmation_message">Er du sikker på at du vil lukke søknaden?</string>
+<string name="wallpaper_changed">Bakgrunnen er endret</string>
+<string name="message_on_download_complete">Bakgrunnen er lagret i galleriet</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Er du sikker på at du vil lukke søknaden?</string>
+<string name="wallpaper_changed_ekran_blokady">Bakgrunnen for låseskjermen er endret</string>
+<string name="wallpaper_changed_ekran_glowny">Bakgrunn for låseskjerm oppdatert</string>
+<string name="wallpapers_download_message">Bakgrunnen er lagret i galleriet</string>
+<string name="please_wait">Vennligst vent...</string>
+<string name="share_wallpapers">Del bakgrunnsbilde</string>
+<string name="categories">Kategorier</string>
+<string name="search_category">Søk etter kategorier ...</string>
+<string name="set_lockscreen">Sett på låseskjermen</string>
+<string name="set_screen">Sett på startskjermbildet</string>
+<string name="menu_najlepsze">Beste</string>
+<string name="menu_najnowsze">Nye</string>
+<string name="menu_ulubione">Mine favoritter</string>
+<string name="exit_message">Se andre apper.</string>
+<string name="exit_polecamy">Exit</string>
+<string name="exit_share">Del venner</string>
+<string name="exit_share_text">Få appen</string>
+<string name="exit_rate_app">Vurder app</string>
+<string name="wcag_menu">Meny</string>
+<string name="wcag_nastepna">Neste</string>
+<string name="wcag_poprzednia">Tidligere</string>
+<string name="wcag_udostepnij">Del bakgrunnsbilde</string>
+<string name="wcag_ulubione">Mine favoritter</string>
+<string name="wcag_ustaw_tapete">Sett på startskjermbildet</string>
+<string name="wcag_ustaw_tapete_blokada">Sett på låseskjermen</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

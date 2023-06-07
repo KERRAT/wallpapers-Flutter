@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Erstaunliche Hintergrundbilder 4K</string>
+<string name="udostepnij_tresc">Die App holen https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Einstellungen</string>
+<string name="drawer_open">öffne</string>
+<string name="drawer_close">Anwendungen schließen</string>
+<string name="change_wallpaper_index_message">Gehen Sie auf die Tapete</string>
+<string name="error_message_wrong_number">Falsche Nummer</string>
+<string name="set">Bestätigen</string>
+<string name="cancel">Stornieren</string>
+<string name="notification_image_downloaded_show_image">Tapete anzeigen</string>
+<string name="error">Fehler</string>
+<string name="no_internet_connection">Keine Internetverbindung</string>
+<string name="turn_on_wifi">Internet laufen lassen</string>
+<string name="try_again">Bitte wiederholen</string>
+<string name="exit">Exit</string>
+<string name="no_favorites_message">Klicken Sie hier, um zu Favoriten hinzuzufügen</string>
+<string name="back">Rückkehr</string>
+<string name="rate_the_app">Bewerte die App</string>
+<string name="info_loading_is_in_progress">Lade Daten ...</string>
+<string name="wallpaper_has_been_set_message">Die Tapete wurde geändert</string>
+<string name="wallpaper_has_been_downloaded_message">Wallpaper zur Galerie hinzugefügt</string>
+<string name="wallpaper_is_loading_message">Wallpaper wird geladen ...</string>
+<string name="exit_confirmation_message">Möchten Sie die Anwendung wirklich schließen?</string>
+<string name="wallpaper_changed">Die Tapete wurde geändert</string>
+<string name="message_on_download_complete">Wallpaper zur Galerie hinzugefügt</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Möchten Sie die Anwendung wirklich schließen?</string>
+<string name="wallpaper_changed_ekran_blokady">Das Hintergrundbild des Sperrbildschirms wurde geändert</string>
+<string name="wallpaper_changed_ekran_glowny">Das Hintergrundbild des Startbildschirms wurde geändert</string>
+<string name="wallpapers_download_message">Wallpaper zur Galerie hinzugefügt</string>
+<string name="please_wait">Warten Sie mal...</string>
+<string name="share_wallpapers">Tapete teilen</string>
+<string name="categories">Kategorien</string>
+<string name="search_category">Suche nach Kategorien ...</string>
+<string name="set_lockscreen">Auf dem Sperrbildschirm einstellen</string>
+<string name="set_screen">Auf dem Startbildschirm einstellen</string>
+<string name="menu_najlepsze">Besten</string>
+<string name="menu_najnowsze">Neuen</string>
+<string name="menu_ulubione">Meine Favoriten</string>
+<string name="exit_message">Empfohlene Anwendungen ansehen.</string>
+<string name="exit_polecamy">Ausgang</string>
+<string name="exit_share">App teilen</string>
+<string name="exit_share_text">Die App holen</string>
+<string name="exit_rate_app">Bewertungs App</string>
+<string name="wcag_menu">Speisekarte</string>
+<string name="wcag_nastepna">Nächste</string>
+<string name="wcag_poprzednia">Vorherige</string>
+<string name="wcag_udostepnij">Tapete teilen</string>
+<string name="wcag_ulubione">Meine Favoriten</string>
+<string name="wcag_ustaw_tapete">Auf dem Startbildschirm einstellen</string>
+<string name="wcag_ustaw_tapete_blokada">Auf dem Sperrbildschirm einstellen</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

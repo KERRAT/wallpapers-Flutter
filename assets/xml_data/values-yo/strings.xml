@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Awọn iṣẹṣọ ogiri iyanu 4K</string>
+<string name="udostepnij_tresc">Gba app https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Eto</string>
+<string name="drawer_open">Ṣii</string>
+<string name="drawer_close">Close ohun elo</string>
+<string name="change_wallpaper_index_message">Lọ si awọn fọto</string>
+<string name="error_message_wrong_number">invalid nọmba</string>
+<string name="set">jẹrisi</string>
+<string name="cancel">fagilee</string>
+<string name="notification_image_downloaded_show_image">show ogiri</string>
+<string name="error">aṣiṣe</string>
+<string name="no_internet_connection">Ko si isopọ Ayelujara</string>
+<string name="turn_on_wifi">Tan lori ayelujara</string>
+<string name="try_again">tun Jọwọ</string>
+<string name="exit">Jade</string>
+<string name="no_favorites_message">Tẹ lati fi si awọn ayanfẹ</string>
+<string name="back">Pada</string>
+<string name="rate_the_app">Oṣuwọn app naa</string>
+<string name="info_loading_is_in_progress">Ikojọpọ ...</string>
+<string name="wallpaper_has_been_set_message">Awọn ogiri ti a ti yi pada</string>
+<string name="wallpaper_has_been_downloaded_message">Awọn fọto ti a ti fi kun si awọn gallery</string>
+<string name="wallpaper_is_loading_message">Jọwọ duro ...</string>
+<string name="exit_confirmation_message">Ṣe o da ọ loju pe o fẹ pa ohun elo duro?</string>
+<string name="wallpaper_changed">Awọn ogiri ti a ti yi pada</string>
+<string name="message_on_download_complete">Awọn fọto ti a ti fi kun si awọn gallery</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Ṣe o da ọ loju pe o fẹ pa ohun elo duro?</string>
+<string name="wallpaper_changed_ekran_blokady">Iṣẹṣọ ogiri iboju titiipa ti yipada</string>
+<string name="wallpaper_changed_ekran_glowny">Atilẹyin iboju iboju titiipa ti ni imudojuiwọn</string>
+<string name="wallpapers_download_message">Awọn fọto ti a ti fi kun si awọn gallery</string>
+<string name="please_wait">Jọwọ duro...</string>
+<string name="share_wallpapers">Pin ogiri ogiri rẹ</string>
+<string name="categories">Awọn</string>
+<string name="search_category">Wa nipa isori ...</string>
+<string name="set_lockscreen">Ṣeto lori iboju titiipa</string>
+<string name="set_screen">Ṣeto lori iboju ile</string>
+<string name="menu_najlepsze">Oke</string>
+<string name="menu_najnowsze">Tuntun</string>
+<string name="menu_ulubione">Awọn ayanfẹ mi</string>
+<string name="exit_message">Ri miiran lw.</string>
+<string name="exit_polecamy">Jade</string>
+<string name="exit_share">Ṣeduro app</string>
+<string name="exit_share_text">Gba app</string>
+<string name="exit_rate_app">Oṣuwọn</string>
+<string name="wcag_menu">Akojọ aṣyn</string>
+<string name="wcag_nastepna">Itele</string>
+<string name="wcag_poprzednia">Ti tẹlẹ</string>
+<string name="wcag_udostepnij">Pin ogiri ogiri rẹ</string>
+<string name="wcag_ulubione">Awọn ayanfẹ mi</string>
+<string name="wcag_ustaw_tapete">Ṣeto lori iboju ile</string>
+<string name="wcag_ustaw_tapete_blokada">Ṣeto lori iboju titiipa</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

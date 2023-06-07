@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Fantastiese agtergronde 4K</string>
+<string name="udostepnij_tresc">Kry app https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Settings</string>
+<string name="drawer_open">Maak</string>
+<string name="drawer_close">Maak die program toe</string>
+<string name="change_wallpaper_index_message">Gaan na die foto</string>
+<string name="error_message_wrong_number">Ongeldige nommer</string>
+<string name="set">bevestig</string>
+<string name="cancel">kanselleer</string>
+<string name="notification_image_downloaded_show_image">Wys plakpapier</string>
+<string name="error">fout</string>
+<string name="no_internet_connection">Geen internet konneksie nie</string>
+<string name="turn_on_wifi">Begin internet</string>
+<string name="try_again">probeer weer</string>
+<string name="exit">Uitgang</string>
+<string name="no_favorites_message">Om agtergrond by jou gunstelinge te voeg, klik:</string>
+<string name="back">Terug</string>
+<string name="rate_the_app">Gradeer die app</string>
+<string name="info_loading_is_in_progress">Dit laai tans ...</string>
+<string name="wallpaper_has_been_set_message">Die agtergrond is verander</string>
+<string name="wallpaper_has_been_downloaded_message">Die foto is by die gallery gevoeg</string>
+<string name="wallpaper_is_loading_message">Wag asseblief ...</string>
+<string name="exit_confirmation_message">Is u seker dat u die aansoek wil sluit?</string>
+<string name="wallpaper_changed">Die agtergrond is verander</string>
+<string name="message_on_download_complete">Die foto is by die gallery gevoeg</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Is u seker dat u die aansoek wil sluit?</string>
+<string name="wallpaper_changed_ekran_blokady">Die agtergrond van die sluitskerm is verander</string>
+<string name="wallpaper_changed_ekran_glowny">Die agtergrond van die tuisskerm is verander</string>
+<string name="wallpapers_download_message">Die foto is by die gallery gevoeg</string>
+<string name="please_wait">Wag asseblief...</string>
+<string name="share_wallpapers">Deel agtergrond</string>
+<string name="categories">Kategorieë</string>
+<string name="search_category">Soek vir kategorieë ...</string>
+<string name="set_lockscreen">Set on the lock screen</string>
+<string name="set_screen">Stel op die tuisskerm</string>
+<string name="menu_najlepsze">Top</string>
+<string name="menu_najnowsze">Nuwe</string>
+<string name="menu_ulubione">My Gunstelinge</string>
+<string name="exit_message">Sien ander programme.</string>
+<string name="exit_polecamy">Maak dit toe</string>
+<string name="exit_share">Beveel app aan</string>
+<string name="exit_share_text">Kry app</string>
+<string name="exit_rate_app">Beoordeel app</string>
+<string name="wcag_menu">Spyskaart</string>
+<string name="wcag_nastepna">Volgende</string>
+<string name="wcag_poprzednia">Vorige</string>
+<string name="wcag_udostepnij">Deel agtergrond</string>
+<string name="wcag_ulubione">My Gunstelinge</string>
+<string name="wcag_ustaw_tapete">Stel op die tuisskerm</string>
+<string name="wcag_ustaw_tapete_blokada">Set on the lock screen</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

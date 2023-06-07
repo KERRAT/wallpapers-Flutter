@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Erstaunlech Wallpaper 4K</string>
+<string name="udostepnij_tresc">Kritt d\'App https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Astellunge</string>
+<string name="drawer_open">Open</string>
+<string name="drawer_close">Zoumaachen Programm</string>
+<string name="change_wallpaper_index_message">Go to the wallpaper</string>
+<string name="error_message_wrong_number">Invalid Zuel</string>
+<string name="set">confirméieren</string>
+<string name="cancel">annuléieren</string>
+<string name="notification_image_downloaded_show_image">Show photo</string>
+<string name="error">Feeler</string>
+<string name="no_internet_connection">No internet connection</string>
+<string name="turn_on_wifi">Run Internet</string>
+<string name="try_again">Widderhuelen</string>
+<string name="exit">Exit</string>
+<string name="no_favorites_message">Klickt fir Favoritten ze Foto</string>
+<string name="back">Zréck</string>
+<string name="rate_the_app">Bewäert d\'App</string>
+<string name="info_loading_is_in_progress">Loading ...</string>
+<string name="wallpaper_has_been_set_message">Photo geännert</string>
+<string name="wallpaper_has_been_downloaded_message">D\'Foto gouf an der Galerie dobäi</string>
+<string name="wallpaper_is_loading_message">WEG warten ...</string>
+<string name="exit_confirmation_message">Wëllt Dir d\'Applikatioun ausloossen?</string>
+<string name="wallpaper_changed">Photo geännert</string>
+<string name="message_on_download_complete">D\'Foto gouf an der Galerie dobäi</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Wëllt Dir d\'Applikatioun ausloossen?</string>
+<string name="wallpaper_changed_ekran_blokady">De gespaarten Ecran Wallpaper gouf geännert</string>
+<string name="wallpaper_changed_ekran_glowny">D\'Hausbildschierm gouf geännert</string>
+<string name="wallpapers_download_message">D\'Foto gouf an der Galerie dobäi</string>
+<string name="please_wait">WEG warten ...</string>
+<string name="share_wallpapers">Deelen Tapeten</string>
+<string name="categories">Kategorien</string>
+<string name="search_category">Sicht no Kategorien ...</string>
+<string name="set_lockscreen">Setzt um Schlësselbildschirm</string>
+<string name="set_screen">Setzt den Home Screen</string>
+<string name="menu_najlepsze">Top</string>
+<string name="menu_najnowsze">New</string>
+<string name="menu_ulubione">Favoritten</string>
+<string name="exit_message">View recommandéiert Uwendungen.</string>
+<string name="exit_polecamy">Sortie</string>
+<string name="exit_share">Deelen App</string>
+<string name="exit_share_text">Kritt d\'App</string>
+<string name="exit_rate_app">Taux</string>
+<string name="wcag_menu">Menu</string>
+<string name="wcag_nastepna">Nächst</string>
+<string name="wcag_poprzednia">No hannen</string>
+<string name="wcag_udostepnij">Deelen Tapeten</string>
+<string name="wcag_ulubione">Favoritten</string>
+<string name="wcag_ustaw_tapete">Setzt den Home Screen</string>
+<string name="wcag_ustaw_tapete_blokada">Setzt um Schlësselbildschirm</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

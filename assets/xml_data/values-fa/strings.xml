@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">تصاویر پس زمینه شگفت انگیز</string>
+<string name="udostepnij_tresc">آپلیکیشین را دریافت کن https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">تنظیمات</string>
+<string name="drawer_open">را باز</string>
+<string name="drawer_close">بستن برنامه</string>
+<string name="change_wallpaper_index_message">به تصویر زمینه بروید</string>
+<string name="error_message_wrong_number">شماره اشتباه</string>
+<string name="set">تایید</string>
+<string name="cancel">لغو</string>
+<string name="notification_image_downloaded_show_image">نمایش تصویر زمینه</string>
+<string name="error">خطا</string>
+<string name="no_internet_connection">بدون اتصال به اینترنت</string>
+<string name="turn_on_wifi">اجرای اینترنت</string>
+<string name="try_again">دوباره</string>
+<string name="exit">خروج</string>
+<string name="no_favorites_message">برای افزودن به موارد دلخواه کلیک کنید</string>
+<string name="back">بازگشت</string>
+<string name="rate_the_app">برنامه را ارزیابی کنید</string>
+<string name="info_loading_is_in_progress">بارگذاری ...</string>
+<string name="wallpaper_has_been_set_message">تصویر زمینه تغییر کرده است</string>
+<string name="wallpaper_has_been_downloaded_message">عکس به گالری اضافه شده است</string>
+<string name="wallpaper_is_loading_message">درحال بارگیری تصویر زمینه ...</string>
+<string name="exit_confirmation_message">آیا مطمئن هستید که می خواهید برنامه را ببندید؟</string>
+<string name="wallpaper_changed">تصویر زمینه تغییر کرده است</string>
+<string name="message_on_download_complete">عکس به گالری اضافه شده است</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">آیا مطمئن هستید که می خواهید برنامه را ببندید؟</string>
+<string name="wallpaper_changed_ekran_blokady">تصویر زمینه صفحه قفل تغییر کرده است</string>
+<string name="wallpaper_changed_ekran_glowny">تصویر زمینه صفحه اصلی تغییر کرده است</string>
+<string name="wallpapers_download_message">عکس به گالری اضافه شده است</string>
+<string name="please_wait">لطفا صبر کنید...</string>
+<string name="share_wallpapers">اشتراک تصویر زمینه</string>
+<string name="categories">دسته بندی ها</string>
+<string name="search_category">جستجوی دسته ها ...</string>
+<string name="set_lockscreen">روی صفحه قفل تنظیم کنید</string>
+<string name="set_screen">روی صفحه اصلی تنظیم کنید</string>
+<string name="menu_najlepsze">بهترین</string>
+<string name="menu_najnowsze">های جدید</string>
+<string name="menu_ulubione">های مورد علاقه من</string>
+<string name="exit_message">برنامه های دیگر را ببینید</string>
+<string name="exit_polecamy">خروج</string>
+<string name="exit_share">برنامه را توصیه کنید</string>
+<string name="exit_share_text">آپلیکیشین را دریافت کن</string>
+<string name="exit_rate_app">اضافه کردن رتبه</string>
+<string name="wcag_menu">منو</string>
+<string name="wcag_nastepna">بعد</string>
+<string name="wcag_poprzednia">قبلی</string>
+<string name="wcag_udostepnij">اشتراک تصویر زمینه</string>
+<string name="wcag_ulubione">های مورد علاقه من</string>
+<string name="wcag_ustaw_tapete">روی صفحه اصلی تنظیم کنید</string>
+<string name="wcag_ustaw_tapete_blokada">روی صفحه قفل تنظیم کنید</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Hình nền tuyệt vời 4K</string>
+<string name="udostepnij_tresc">Tải ứng dụng https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Cài đặt</string>
+<string name="drawer_open">Mở</string>
+<string name="drawer_close">Đóng ứng dụng</string>
+<string name="change_wallpaper_index_message">Đi tới hình nền</string>
+<string name="error_message_wrong_number">Số không hợp lệ</string>
+<string name="set">Xác nhận</string>
+<string name="cancel">Hủy</string>
+<string name="notification_image_downloaded_show_image">Hiển thị hình nền</string>
+<string name="error">lỗi</string>
+<string name="no_internet_connection">Không có kết nối Internet</string>
+<string name="turn_on_wifi">Bật internet</string>
+<string name="try_again">thử lại</string>
+<string name="exit">Lối thoát</string>
+<string name="no_favorites_message">Để thêm hình nền vào mục ưa thích của bạn, hãy nhấp vào:</string>
+<string name="back">Trở về</string>
+<string name="rate_the_app">Đánh giá ứng dụng</string>
+<string name="info_loading_is_in_progress">Nó đang tải ...</string>
+<string name="wallpaper_has_been_set_message">Hình nền đã được thay đổi</string>
+<string name="wallpaper_has_been_downloaded_message">Hình nền đã được lưu vào thư viện</string>
+<string name="wallpaper_is_loading_message">Đang tải hình nền ...</string>
+<string name="exit_confirmation_message">Bạn có chắc chắn muốn đóng ứng dụng?</string>
+<string name="wallpaper_changed">Hình nền đã được thay đổi</string>
+<string name="message_on_download_complete">Hình nền đã được lưu vào thư viện</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Bạn có chắc chắn muốn đóng ứng dụng?</string>
+<string name="wallpaper_changed_ekran_blokady">Hình nền màn hình khóa đã được thay đổi</string>
+<string name="wallpaper_changed_ekran_glowny">Hình nền màn hình chính đã được thay đổi</string>
+<string name="wallpapers_download_message">Hình nền đã được lưu vào thư viện</string>
+<string name="please_wait">Vui lòng đợi ...</string>
+<string name="share_wallpapers">Chia sẻ hình nền</string>
+<string name="categories">Thể loại</string>
+<string name="search_category">Tìm kiếm các danh mục ...</string>
+<string name="set_lockscreen">Đặt trên màn hình khóa</string>
+<string name="set_screen">Đặt trên màn hình chính</string>
+<string name="menu_najlepsze">Hàng đầu</string>
+<string name="menu_najnowsze">Mới</string>
+<string name="menu_ulubione">Mục yêu thích của tôi</string>
+<string name="exit_message">Xem các ứng dụng khác.</string>
+<string name="exit_polecamy">Lối ra</string>
+<string name="exit_share">Chia sẻ bạn bè</string>
+<string name="exit_share_text">Tải ứng dụng</string>
+<string name="exit_rate_app">Tỷ lệ</string>
+<string name="wcag_menu">Thực đơn</string>
+<string name="wcag_nastepna">Tiếp theo</string>
+<string name="wcag_poprzednia">Trước</string>
+<string name="wcag_udostepnij">Chia sẻ hình nền</string>
+<string name="wcag_ulubione">Mục yêu thích của tôi</string>
+<string name="wcag_ustaw_tapete">Đặt trên màn hình chính</string>
+<string name="wcag_ustaw_tapete_blokada">Đặt trên màn hình khóa</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

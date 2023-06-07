@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">అద్భుతమైన వాల్‌పేపర్‌లు 4K</string>
+<string name="udostepnij_tresc">అనువర్తనం పొందండి https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">సెట్టింగులు</string>
+<string name="drawer_open">తెరవండి</string>
+<string name="drawer_close">అనువర్తనాలను మూసివేయండి</string>
+<string name="change_wallpaper_index_message">వాల్పేపర్కి వెళ్ళండి</string>
+<string name="error_message_wrong_number">తప్పు సంఖ్య</string>
+<string name="set">నిర్ధారించండి</string>
+<string name="cancel">రద్దు</string>
+<string name="notification_image_downloaded_show_image">వాల్పేపర్ చూపించు</string>
+<string name="error">లోపం</string>
+<string name="no_internet_connection">No internet connection</string>
+<string name="turn_on_wifi">ఇంటర్నెట్ను ప్రారంభించండి</string>
+<string name="try_again">దయచేసి మళ్ళి చెప్పండి</string>
+<string name="exit">నిష్క్రమించు</string>
+<string name="no_favorites_message">మీ ఇష్టాలకు వాల్పేపర్ని జోడించడానికి క్లిక్ చేయండి:</string>
+<string name="back">తిరిగి</string>
+<string name="rate_the_app">అనువర్తనాన్ని రేట్ చేయండి</string>
+<string name="info_loading_is_in_progress">లోడ్ ...</string>
+<string name="wallpaper_has_been_set_message">వాల్పేపర్ మార్చబడింది</string>
+<string name="wallpaper_has_been_downloaded_message">The wallpaper has been saved to the gallery</string>
+<string name="wallpaper_is_loading_message">వాల్పేపర్ని లోడ్ చేస్తోంది ...</string>
+<string name="exit_confirmation_message">అప్లికేషన్ నుండి నిష్క్రమించాలా?</string>
+<string name="wallpaper_changed">వాల్పేపర్ మార్చబడింది</string>
+<string name="message_on_download_complete">The wallpaper has been saved to the gallery</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">మీరు ఖచ్చితంగా అప్లికేషన్‌ను మూసివేయాలనుకుంటున్నారా?</string>
+<string name="wallpaper_changed_ekran_blokady">లాక్ స్క్రీన్ వాల్‌పేపర్ మార్చబడింది</string>
+<string name="wallpaper_changed_ekran_glowny">హోమ్ స్క్రీన్ వాల్‌పేపర్ మార్చబడింది</string>
+<string name="wallpapers_download_message">The wallpaper has been saved to the gallery</string>
+<string name="please_wait">దయచేసి వేచి ఉండండి ...</string>
+<string name="share_wallpapers">వాల్‌పేపర్‌ను భాగస్వామ్యం చేయండి</string>
+<string name="categories">కేటగిరీలు</string>
+<string name="search_category">వర్గాల కోసం శోధించండి ...</string>
+<string name="set_lockscreen">లాక్ స్క్రీన్పై అమర్చండి</string>
+<string name="set_screen">హోమ్ స్క్రీన్పై సెట్ చేయండి</string>
+<string name="menu_najlepsze">ఉత్తమమైనది</string>
+<string name="menu_najnowsze">క్రొత్త</string>
+<string name="menu_ulubione">నాకు ఇష్టమైనవి</string>
+<string name="exit_message">సిఫార్సు చేసిన అనువర్తనాలను వీక్షించండి.</string>
+<string name="exit_polecamy">బయటకి దారి</string>
+<string name="exit_share">యాప్ షేరింగ్</string>
+<string name="exit_share_text">అనువర్తనం పొందండి</string>
+<string name="exit_rate_app">రేట్ చేయండి</string>
+<string name="wcag_menu">మెను</string>
+<string name="wcag_nastepna">ముందుకు</string>
+<string name="wcag_poprzednia">మునుపటి</string>
+<string name="wcag_udostepnij">వాల్‌పేపర్‌ను భాగస్వామ్యం చేయండి</string>
+<string name="wcag_ulubione">నాకు ఇష్టమైనవి</string>
+<string name="wcag_ustaw_tapete">హోమ్ స్క్రీన్పై సెట్ చేయండి</string>
+<string name="wcag_ustaw_tapete_blokada">లాక్ స్క్రీన్పై అమర్చండి</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

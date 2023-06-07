@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<array name="category_ids">
+<item>0</item>
+<item>63</item>
+<item>64</item>
+<item>80</item>
+<item>14</item>
+<item>73</item>
+<item>84</item>
+<item>86</item>
+<item>78</item>
+<item>55</item>
+<item>54</item>
+<item>23</item>
+<item>20</item>
+<item>34</item>
+<item>25</item>
+<item>77</item>
+<item>71</item>
+<item>5</item>
+<item>7</item>
+<item>53</item>
+<item>65</item>
+<item>81</item>
+<item>32</item>
+<item>88</item>
+<item>15</item>
+<item>12</item>
+<item>46</item>
+<item>61</item>
+<item>60</item>
+<item>24</item>
+<item>62</item>
+<item>22</item>
+<item>35</item>
+<item>3</item>
+<item>4</item>
+<item>29</item>
+<item>79</item>
+<item>26</item>
+<item>6</item>
+<item>83</item>
+<item>16</item>
+<item>42</item>
+<item>38</item>
+<item>10</item>
+<item>1</item>
+<item>66</item>
+<item>85</item>
+<item>39</item>
+<item>28</item>
+<item>76</item>
+<item>8</item>
+<item>30</item>
+<item>75</item>
+<item>68</item>
+<item>90</item>
+<item>45</item>
+<item>18</item>
+<item>13</item>
+<item>52</item>
+<item>37</item>
+<item>9</item>
+<item>87</item>
+<item>74</item>
+<item>82</item>
+<item>58</item>
+<item>59</item>
+<item>51</item>
+<item>33</item>
+<item>69</item>
+<item>72</item>
+<item>50</item>
+<item>56</item>
+<item>31</item>
+<item>48</item>
+<item>17</item>
+<item>19</item>
+<item>2</item>
+<item>27</item>
+<item>70</item>
+<item>11</item>
+<item>67</item>
+<item>47</item>
+<item>49</item>
+<item>21</item>
+<item>57</item>
+</array>
+<array name="category_names">
+<item>ಎಲ್ಲಾ</item>
+<item>3D</item>
+<item>4 ಡಿ ಗುಣಮಟ್ಟ</item>
+<item>ಆಟಿಕೆಗಳು</item>
+<item>ಕಾಡುಗಳು</item>
+<item>ಅಂತರಿಕ್ಷಹಡಗುಗಳು</item>
+<item>ಅಮೂರ್ತತೆಗಳು</item>
+<item>ಆಪ್ಟಿಕಲ್ ಭ್ರಮೆಗಳು</item>
+<item>ಇತರೆ</item>
+<item>ಈಸ್ಟರ್</item>
+<item>ಉಪಕಾರ ಸ್ಮರಣೆ ದಿವಸ</item>
+<item>ಉಷ್ಣವಲಯಗಳು</item>
+<item>ಎಲೆಗಳು</item>
+<item>ಕಟ್ಟಡಗಳು</item>
+<item>ಕಡಲತೀರಗಳು</item>
+<item>ಕಾಫಿ</item>
+<item>ಕಾರುಗಳು</item>
+<item>ಕೀಟಗಳು</item>
+<item>ಕುದುರೆಗಳು</item>
+<item>ಕ್ರಿಸ್ಮಸ್</item>
+<item>ಕ್ರೀಡಾ</item>
+<item>ಗೀಚುಬರಹ</item>
+<item>ಚಳಿಗಾಲ</item>
+<item>ಚಿಪ್ಪುಗಳು</item>
+<item>ಜಲಪಾತಗಳು</item>
+<item>ಜ್ವಾಲಾಮುಖಿಗಳು</item>
+<item>ಟೆಕಶ್ಚರ್</item>
+<item>ಡಾರ್ಕ್ ಭಯಾನಕತೆಯನ್</item>
+<item>ತಮಾಷೆಯ</item>
+<item>ತರಕಾರಿಗಳು, ಹಣ್ಣು</item>
+<item>ತಲೆಬುರುಡೆಗಳು</item>
+<item>ದ್ವೀಪಗಳು</item>
+<item>ನಗರಗಳು ರಾತ್ರಿ</item>
+<item>ನಾಯಿಗಳು</item>
+<item>ನಾಯಿಗಳು</item>
+<item>ನಾಲ್ಕು ಋತುಗಳು</item>
+<item>ನೀರು</item>
+<item>ನೀಲಿ ಸಾಗರಗಳು</item>
+<item>ಪಕ್ಷಿಗಳ</item>
+<item>ಪರದೆಯ ಬಿರುಕು</item>
+<item>ಪರ್ವತಗಳು</item>
+<item>ಪಿಂಕ್</item>
+<item>ಪುರುಷರು</item>
+<item>ಪ್ರಕೃತಿ</item>
+<item>ಪ್ರಾಣಿಗಳು</item>
+<item>ಫುಟ್ಬಾಲ್</item>
+<item>ಫ್ಯಾಂಟಸಿ ಭೂಮಿ</item>
+<item>ಬಣ್ಣಗಳು</item>
+<item>ಬಿರುಗಾಳಿಗಳು</item>
+<item>ಬೆಂಕಿ</item>
+<item>ಬೆಕ್ಕುಗಳು</item>
+<item>ಬೇಸಿಗೆ</item>
+<item>ಬೈಕುಗಳು</item>
+<item>ಬ್ಯಾಸ್ಕೆಟ್ಬಾಲ್</item>
+<item>ಬ್ರಹ್ಮಾಂಡ</item>
+<item>ಮಕ್ಕಳ</item>
+<item>ಮರಗಳು</item>
+<item>ಮರುಭೂಮಿಗಳು</item>
+<item>ಮಹಿಳಾ ದಿನದಂದು</item>
+<item>ಮಹಿಳೆಗೆ</item>
+<item>ಮೀನುಗಳು</item>
+<item>ಮುರಿದ ಹೃದಯಗಳು</item>
+<item>ಮೋಟಾರ್ಸೈಕಲ್ಸ್</item>
+<item>ರೇಖಾಚಿತ್ರಗಳು</item>
+<item>ರೋಮ್ಯಾಂಟಿಕ್</item>
+<item>ಲವ್</item>
+<item>ವರ್ಷದ ಮುನ್ನಾದಿನದ</item>
+<item>ವಸಂತ</item>
+<item>ವಾಹನಗಳು</item>
+<item>ವಿಮಾನಗಳು</item>
+<item>ವಿವಾಹಗಳು</item>
+<item>ವ್ಯಾಲೆಂಟೈನ್ಸ್ ಡೇ</item>
+<item>ಶರತ್ಕಾಲ</item>
+<item>ಸಂದರ್ಭಗಳು</item>
+<item>ಸರೋವರಗಳು</item>
+<item>ಸಸ್ಯಗಳು</item>
+<item>ಸಿಹಿ ಪ್ರಾಣಿಗಳು</item>
+<item>ಸೂರ್ಯಾಸ್ತಗಳು</item>
+<item>ಹಡಗುಗಳು</item>
+<item>ಹವಳ ದಂಡಗಳು</item>
+<item>ಹಾಕಿ</item>
+<item>ಹಿನ್ನೆಲೆಗಳು</item>
+<item>ಹುಟ್ಟುಹಬ್ಬ</item>
+<item>ಹೂವುಗಳು</item>
+<item>ಹ್ಯಾಲೋವೀನ್</item>
+</array>
+<array name="category_hints">
+<item>ಎಲ್ಲಾ</item>
+<item>3D</item>
+<item>4 ಡಿ ಗುಣಮಟ್ಟ</item>
+<item>ಆಟಿಕೆಗಳು</item>
+<item>ಕಾಡುಗಳು</item>
+<item>ಅಂತರಿಕ್ಷಹಡಗುಗಳು</item>
+<item>ಅಮೂರ್ತತೆಗಳು</item>
+<item>ಆಪ್ಟಿಕಲ್ ಭ್ರಮೆಗಳು</item>
+<item>ಇತರೆ</item>
+<item>ಈಸ್ಟರ್</item>
+<item>ಉಪಕಾರ ಸ್ಮರಣೆ ದಿವಸ</item>
+<item>ಉಷ್ಣವಲಯಗಳು</item>
+<item>ಎಲೆಗಳು</item>
+<item>ಕಟ್ಟಡಗಳು</item>
+<item>ಕಡಲತೀರಗಳು</item>
+<item>ಕಾಫಿ</item>
+<item>ಕಾರುಗಳು</item>
+<item>ಕೀಟಗಳು</item>
+<item>ಕುದುರೆಗಳು</item>
+<item>ಕ್ರಿಸ್ಮಸ್</item>
+<item>ಕ್ರೀಡಾ</item>
+<item>ಗೀಚುಬರಹ</item>
+<item>ಚಳಿಗಾಲ</item>
+<item>ಚಿಪ್ಪುಗಳು</item>
+<item>ಜಲಪಾತಗಳು</item>
+<item>ಜ್ವಾಲಾಮುಖಿಗಳು</item>
+<item>ಟೆಕಶ್ಚರ್</item>
+<item>ಡಾರ್ಕ್ ಭಯಾನಕತೆಯನ್</item>
+<item>ತಮಾಷೆಯ</item>
+<item>ತರಕಾರಿಗಳು, ಹಣ್ಣು</item>
+<item>ತಲೆಬುರುಡೆಗಳು</item>
+<item>ದ್ವೀಪಗಳು</item>
+<item>ನಗರಗಳು ರಾತ್ರಿ</item>
+<item>ನಾಯಿಗಳು</item>
+<item>ನಾಯಿಗಳು</item>
+<item>ನಾಲ್ಕು ಋತುಗಳು</item>
+<item>ನೀರು</item>
+<item>ನೀಲಿ ಸಾಗರಗಳು</item>
+<item>ಪಕ್ಷಿಗಳ</item>
+<item>ಪರದೆಯ ಬಿರುಕು</item>
+<item>ಪರ್ವತಗಳು</item>
+<item>ಪಿಂಕ್</item>
+<item>ಪುರುಷರು</item>
+<item>ಪ್ರಕೃತಿ</item>
+<item>ಪ್ರಾಣಿಗಳು</item>
+<item>ಫುಟ್ಬಾಲ್</item>
+<item>ಫ್ಯಾಂಟಸಿ ಭೂಮಿ</item>
+<item>ಬಣ್ಣಗಳು</item>
+<item>ಬಿರುಗಾಳಿಗಳು</item>
+<item>ಬೆಂಕಿ</item>
+<item>ಬೆಕ್ಕುಗಳು</item>
+<item>ಬೇಸಿಗೆ</item>
+<item>ಬೈಕುಗಳು</item>
+<item>ಬ್ಯಾಸ್ಕೆಟ್ಬಾಲ್</item>
+<item>ಬ್ರಹ್ಮಾಂಡ</item>
+<item>ಮಕ್ಕಳ ಮಕ್ಕಳ </item>
+<item>ಮರಗಳು</item>
+<item>ಮರುಭೂಮಿಗಳು</item>
+<item>ಮಹಿಳಾ ದಿನದಂದು</item>
+<item>ಮಹಿಳೆಗೆ</item>
+<item>ಮೀನುಗಳು</item>
+<item>ಮುರಿದ ಹೃದಯಗಳು</item>
+<item>ಮೋಟಾರ್ಸೈಕಲ್ಸ್</item>
+<item>ರೇಖಾಚಿತ್ರಗಳು</item>
+<item>ರೋಮ್ಯಾಂಟಿಕ್</item>
+<item>ಲವ್</item>
+<item>ವರ್ಷದ ಮುನ್ನಾದಿನದ</item>
+<item>ವಸಂತ</item>
+<item>ವಾಹನಗಳು</item>
+<item>ವಿಮಾನಗಳು</item>
+<item>ವಿವಾಹಗಳು</item>
+<item>ವ್ಯಾಲೆಂಟೈನ್ಸ್ ಡೇ</item>
+<item>ಶರತ್ಕಾಲ</item>
+<item>ಸಂದರ್ಭಗಳು</item>
+<item>ಸರೋವರಗಳು</item>
+<item>ಸಸ್ಯಗಳು</item>
+<item>ಸಿಹಿ ಪ್ರಾಣಿಗಳು</item>
+<item>ಸೂರ್ಯಾಸ್ತಗಳು</item>
+<item>ಹಡಗುಗಳು</item>
+<item>ಹವಳ ದಂಡಗಳು</item>
+<item>ಹಾಕಿ</item>
+<item>ಹಿನ್ನೆಲೆಗಳು</item>
+<item>ಹುಟ್ಟುಹಬ್ಬ</item>
+<item>ಹೂವುಗಳು</item>
+<item>ಹ್ಯಾಲೋವೀನ್</item>
+</array>
+<integer-array name="category_images">
+<item>@drawable/c0</item>
+<item>@drawable/c63</item>
+<item>@drawable/c64</item>
+<item>@drawable/c80</item>
+<item>@drawable/c14</item>
+<item>@drawable/c73</item>
+<item>@drawable/c84</item>
+<item>@drawable/c86</item>
+<item>@drawable/c78</item>
+<item>@drawable/c55</item>
+<item>@drawable/c54</item>
+<item>@drawable/c23</item>
+<item>@drawable/c20</item>
+<item>@drawable/c34</item>
+<item>@drawable/c25</item>
+<item>@drawable/c77</item>
+<item>@drawable/c71</item>
+<item>@drawable/c5</item>
+<item>@drawable/c7</item>
+<item>@drawable/c53</item>
+<item>@drawable/c65</item>
+<item>@drawable/c81</item>
+<item>@drawable/c32</item>
+<item>@drawable/c88</item>
+<item>@drawable/c15</item>
+<item>@drawable/c12</item>
+<item>@drawable/c46</item>
+<item>@drawable/c61</item>
+<item>@drawable/c60</item>
+<item>@drawable/c24</item>
+<item>@drawable/c62</item>
+<item>@drawable/c22</item>
+<item>@drawable/c35</item>
+<item>@drawable/c3</item>
+<item>@drawable/c4</item>
+<item>@drawable/c29</item>
+<item>@drawable/c79</item>
+<item>@drawable/c26</item>
+<item>@drawable/c6</item>
+<item>@drawable/c83</item>
+<item>@drawable/c16</item>
+<item>@drawable/c42</item>
+<item>@drawable/c38</item>
+<item>@drawable/c10</item>
+<item>@drawable/c1</item>
+<item>@drawable/c66</item>
+<item>@drawable/c85</item>
+<item>@drawable/c39</item>
+<item>@drawable/c28</item>
+<item>@drawable/c76</item>
+<item>@drawable/c8</item>
+<item>@drawable/c30</item>
+<item>@drawable/c75</item>
+<item>@drawable/c68</item>
+<item>@drawable/c90</item>
+<item>@drawable/c45</item>
+<item>@drawable/c18</item>
+<item>@drawable/c13</item>
+<item>@drawable/c52</item>
+<item>@drawable/c37</item>
+<item>@drawable/c9</item>
+<item>@drawable/c87</item>
+<item>@drawable/c74</item>
+<item>@drawable/c82</item>
+<item>@drawable/c58</item>
+<item>@drawable/c59</item>
+<item>@drawable/c51</item>
+<item>@drawable/c33</item>
+<item>@drawable/c69</item>
+<item>@drawable/c72</item>
+<item>@drawable/c50</item>
+<item>@drawable/c56</item>
+<item>@drawable/c31</item>
+<item>@drawable/c48</item>
+<item>@drawable/c17</item>
+<item>@drawable/c19</item>
+<item>@drawable/c2</item>
+<item>@drawable/c27</item>
+<item>@drawable/c70</item>
+<item>@drawable/c11</item>
+<item>@drawable/c67</item>
+<item>@drawable/c47</item>
+<item>@drawable/c49</item>
+<item>@drawable/c21</item>
+<item>@drawable/c57</item>
+</integer-array>
+</resources>

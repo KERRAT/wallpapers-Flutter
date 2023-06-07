@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">आश्चर्यकारक वॉलपेपर 4K</string>
+<string name="udostepnij_tresc">अ‍ॅप मिळवा https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">सेटिंग्ज</string>
+<string name="drawer_open">उघडा</string>
+<string name="drawer_close">अनुप्रयोग बंद करा</string>
+<string name="change_wallpaper_index_message">वॉलपेपरवर जा</string>
+<string name="error_message_wrong_number">अवैध नंबर</string>
+<string name="set">पुष्टी</string>
+<string name="cancel">रद्द करा</string>
+<string name="notification_image_downloaded_show_image">वॉलपेपर दर्शवा</string>
+<string name="error">error</string>
+<string name="no_internet_connection">कोणतेही इंटरनेट कनेक्शन नाही</string>
+<string name="turn_on_wifi">इंटरनेट चालवा</string>
+<string name="try_again">पुन्हा प्रयत्न करा</string>
+<string name="exit">निर्गमन करा</string>
+<string name="no_favorites_message">आवडींमध्ये जोडण्यासाठी क्लिक करा</string>
+<string name="back">Back</string>
+<string name="rate_the_app">अॅपला रेट करा</string>
+<string name="info_loading_is_in_progress">लोड करीत आहे ...</string>
+<string name="wallpaper_has_been_set_message">वॉलपेपर बदलला गेला आहे</string>
+<string name="wallpaper_has_been_downloaded_message">The wallpaper has been saved to the gallery</string>
+<string name="wallpaper_is_loading_message">वॉलपेपर लोड करीत आहे ...</string>
+<string name="exit_confirmation_message">आपण अनुप्रयोगातून बाहेर पडू इच्छिता?</string>
+<string name="wallpaper_changed">वॉलपेपर बदलला गेला आहे</string>
+<string name="message_on_download_complete">The wallpaper has been saved to the gallery</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">आपण अनुप्रयोगातून बाहेर पडू इच्छिता?</string>
+<string name="wallpaper_changed_ekran_blokady">लॉक स्क्रीन वॉलपेपर बदलला आहे</string>
+<string name="wallpaper_changed_ekran_glowny">होम स्क्रीन वॉलपेपर बदलला आहे</string>
+<string name="wallpapers_download_message">The wallpaper has been saved to the gallery</string>
+<string name="please_wait">कृपया थांबा...</string>
+<string name="share_wallpapers">वॉलपेपर सामायिक करा</string>
+<string name="categories">कॅटेगरीज</string>
+<string name="search_category">श्रेण्या शोधा ...</string>
+<string name="set_lockscreen">लॉक स्क्रीनवर सेट करा</string>
+<string name="set_screen">होम स्क्रीनवर सेट करा</string>
+<string name="menu_najlepsze">सर्वोत्कृष्ट</string>
+<string name="menu_najnowsze">नवीन</string>
+<string name="menu_ulubione">माझे आवडते</string>
+<string name="exit_message">इतर अॅप्स पहा.</string>
+<string name="exit_polecamy">बाहेर पडा</string>
+<string name="exit_share">अॅप शेअरिंग</string>
+<string name="exit_share_text">अ‍ॅप मिळवा</string>
+<string name="exit_rate_app">रेटिंग जोडा</string>
+<string name="wcag_menu">मेनू</string>
+<string name="wcag_nastepna">पुढे</string>
+<string name="wcag_poprzednia">मागील</string>
+<string name="wcag_udostepnij">वॉलपेपर सामायिक करा</string>
+<string name="wcag_ulubione">माझे आवडते</string>
+<string name="wcag_ustaw_tapete">होम स्क्रीनवर सेट करा</string>
+<string name="wcag_ustaw_tapete_blokada">लॉक स्क्रीनवर सेट करा</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

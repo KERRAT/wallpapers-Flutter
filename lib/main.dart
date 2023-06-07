@@ -76,6 +76,7 @@ class MyApp extends StatefulWidget {
     const Locale('de'),
     const Locale('es'),
     const Locale('pl'),
+    const Locale('fr'),
   };
 
   // Getter for available locales
@@ -118,9 +119,9 @@ class MyAppState extends State<MyApp> {
           return MediaQuery(
               data: MediaQuery.of(context).copyWith(textScaleFactor: 1.0),
               child: DefaultTextStyle(
-                  child: child!,
                   style: const TextStyle(
-                      fontSize: 18, fontWeight: FontWeight.bold)));
+                      fontSize: 18, fontWeight: FontWeight.bold),
+                  child: child!));
         },
         localizationsDelegates: const [
           AppLocalizations.delegate,

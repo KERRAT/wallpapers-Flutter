@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Nga pepapātū Mīharo 4K</string>
+<string name="udostepnij_tresc">Tikina he taupānga https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">tautuhinga</string>
+<string name="drawer_open">whakatuwhera</string>
+<string name="drawer_close">Katia tono</string>
+<string name="change_wallpaper_index_message">Haere ki te pepapātū</string>
+<string name="error_message_wrong_number">tau hē</string>
+<string name="set">Whakaū</string>
+<string name="cancel">Whakakore</string>
+<string name="notification_image_downloaded_show_image">Whakaatu pepapātū</string>
+<string name="error">hapa</string>
+<string name="no_internet_connection">Kāore he hononga ipurangi</string>
+<string name="turn_on_wifi">Turn on the internet</string>
+<string name="try_again">Tukurua koa</string>
+<string name="exit">Katia</string>
+<string name="no_favorites_message">Pāwhiritia ki tāpiri ki makau</string>
+<string name="back">Hoki</string>
+<string name="rate_the_app">Whakatauria te taupānga</string>
+<string name="info_loading_is_in_progress">Kei te utaina ...</string>
+<string name="wallpaper_has_been_set_message">The wallpaper has been changed</string>
+<string name="wallpaper_has_been_downloaded_message">Kua te pepapātū kua ora ki te taiwhanga</string>
+<string name="wallpaper_is_loading_message">Tatari koa ...</string>
+<string name="exit_confirmation_message">Kei te hiahia koe ki te kati i te tono?</string>
+<string name="wallpaper_changed">The wallpaper has been changed</string>
+<string name="message_on_download_complete">Kua te pepapātū kua ora ki te taiwhanga</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Kei te hiahia koe ki te kati i te tono?</string>
+<string name="wallpaper_changed_ekran_blokady">Kua hurihia te pepapātuhi Matapihi</string>
+<string name="wallpaper_changed_ekran_glowny">The home screen wallpaper has been changed</string>
+<string name="wallpapers_download_message">Kua te pepapātū kua ora ki te taiwhanga</string>
+<string name="please_wait">Tatari koa ...</string>
+<string name="share_wallpapers">Tiri pepapakitaki</string>
+<string name="categories">Kāwai</string>
+<string name="search_category">Rapua ma te waahanga ...</string>
+<string name="set_lockscreen">Whakatakotoria ki runga i te mata raka</string>
+<string name="set_screen">Tautuhia ki te mata o te kāinga</string>
+<string name="menu_najlepsze">Best</string>
+<string name="menu_najnowsze">Hou</string>
+<string name="menu_ulubione">Aku tino pai</string>
+<string name="exit_message">Tirohia te tahi atu taupānga.</string>
+<string name="exit_polecamy">Putaatu</string>
+<string name="exit_share">Tiri taupānga</string>
+<string name="exit_share_text">Tikina he taupānga</string>
+<string name="exit_rate_app">Reiti taupānga</string>
+<string name="wcag_menu">Tahua</string>
+<string name="wcag_nastepna">Whakamua</string>
+<string name="wcag_poprzednia">Whakamuri</string>
+<string name="wcag_udostepnij">Tiri pepapakitaki</string>
+<string name="wcag_ulubione">Aku tino pai</string>
+<string name="wcag_ustaw_tapete">Tautuhia ki te mata o te kāinga</string>
+<string name="wcag_ustaw_tapete_blokada">Whakatakotoria ki runga i te mata raka</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

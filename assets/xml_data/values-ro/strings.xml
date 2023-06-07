@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Imagini de fundal uimitoare 4K</string>
+<string name="udostepnij_tresc">Obține aplicația https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Setări</string>
+<string name="drawer_open">Deschideți</string>
+<string name="drawer_close">Aplicați aproape</string>
+<string name="change_wallpaper_index_message">Du-te la tapet</string>
+<string name="error_message_wrong_number">Numar invalid</string>
+<string name="set">A confirma</string>
+<string name="cancel">Anulare</string>
+<string name="notification_image_downloaded_show_image">Afișați imaginea de fundal</string>
+<string name="error">eroare</string>
+<string name="no_internet_connection">Fara conexiune internet</string>
+<string name="turn_on_wifi">Porniți internetul</string>
+<string name="try_again">Repeta te rog</string>
+<string name="exit">Ieșire</string>
+<string name="no_favorites_message">Faceți clic pentru a adăuga la favorite</string>
+<string name="back">Întoarcere</string>
+<string name="rate_the_app">Evaluează aplicația</string>
+<string name="info_loading_is_in_progress">Se incarca ...</string>
+<string name="wallpaper_has_been_set_message">Tapetul a fost schimbat</string>
+<string name="wallpaper_has_been_downloaded_message">Imaginea de fundal a fost salvată în galerie</string>
+<string name="wallpaper_is_loading_message">Te rog asteapta ...</string>
+<string name="exit_confirmation_message">Ești sigur că vrei să închizi aplicația?</string>
+<string name="wallpaper_changed">Tapetul a fost schimbat</string>
+<string name="message_on_download_complete">Imaginea de fundal a fost salvată în galerie</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Ești sigur că vrei să închizi aplicația?</string>
+<string name="wallpaper_changed_ekran_blokady">Tapetul ecranului de blocare a fost schimbat</string>
+<string name="wallpaper_changed_ekran_glowny">Tapetul ecranului de pornire a fost schimbat</string>
+<string name="wallpapers_download_message">Imaginea de fundal a fost salvată în galerie</string>
+<string name="please_wait">Te rog asteapta...</string>
+<string name="share_wallpapers">Partajați imaginea de fundal</string>
+<string name="categories">Categorii</string>
+<string name="search_category">Căutați categorii ...</string>
+<string name="set_lockscreen">Setați pe ecranul de blocare</string>
+<string name="set_screen">Setați în ecranul inițial</string>
+<string name="menu_najlepsze">Top</string>
+<string name="menu_najnowsze">Noile</string>
+<string name="menu_ulubione">Preferatele mele</string>
+<string name="exit_message">Vizualizați aplicațiile recomandate.</string>
+<string name="exit_polecamy">Ieșire</string>
+<string name="exit_share">Recomandați</string>
+<string name="exit_share_text">Obține aplicația</string>
+<string name="exit_rate_app">Adaugă evaluare</string>
+<string name="wcag_menu">Meniul</string>
+<string name="wcag_nastepna">Următorul</string>
+<string name="wcag_poprzednia">Anterior</string>
+<string name="wcag_udostepnij">Partajați imaginea de fundal</string>
+<string name="wcag_ulubione">Preferatele mele</string>
+<string name="wcag_ustaw_tapete">Setați în ecranul inițial</string>
+<string name="wcag_ustaw_tapete_blokada">Setați pe ecranul de blocare</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

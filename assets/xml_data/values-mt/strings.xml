@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Wallpapers tal-għaġeb 4K</string>
+<string name="udostepnij_tresc">Ġib app https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Settings</string>
+<string name="drawer_open">Tiftaħ</string>
+<string name="drawer_close">Applikazzjonijiet mill-qrib</string>
+<string name="change_wallpaper_index_message">Mur fil-wallpaper</string>
+<string name="error_message_wrong_number">Numru invalidu</string>
+<string name="set">Ikkonferma</string>
+<string name="cancel">Ikkanċella</string>
+<string name="notification_image_downloaded_show_image">Uri l-wallpaper</string>
+<string name="error">Żball</string>
+<string name="no_internet_connection">Ebda konnessjoni bl-internet</string>
+<string name="turn_on_wifi">Mexxi l-internet</string>
+<string name="try_again">Irrepeti</string>
+<string name="exit">Ħruġ</string>
+<string name="no_favorites_message">Ikklikkja biex iżżid mal-favoriti</string>
+<string name="back">Lura</string>
+<string name="rate_the_app">Rata l-programm</string>
+<string name="info_loading_is_in_progress">Tagħbija ...</string>
+<string name="wallpaper_has_been_set_message">Il-wallpaper inbidel</string>
+<string name="wallpaper_has_been_downloaded_message">Il-wallpaper ġie ffrankat fil-gallerija</string>
+<string name="wallpaper_is_loading_message">Tagħbija...</string>
+<string name="exit_confirmation_message">Int żgur li trid tagħlaq l-applikazzjoni?</string>
+<string name="wallpaper_changed">Il-wallpaper inbidel</string>
+<string name="message_on_download_complete">Il-wallpaper ġie ffrankat fil-gallerija</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Int żgur li trid tagħlaq l-applikazzjoni?</string>
+<string name="wallpaper_changed_ekran_blokady">Il-wallpaper tal-iskrin tal-illokkjar inbidel</string>
+<string name="wallpaper_changed_ekran_glowny">Il-wallpaper tal-iskrin tad-dar inbidel</string>
+<string name="wallpapers_download_message">Il-wallpaper ġie ffrankat fil-gallerija</string>
+<string name="please_wait">Stenna</string>
+<string name="share_wallpapers">Aqsam il-wallpaper</string>
+<string name="categories">Kategoriji</string>
+<string name="search_category">Fittex kategoriji ...</string>
+<string name="set_lockscreen">Issettja fuq l-iskrin tal-lock</string>
+<string name="set_screen">Issettja fuq l-iskrin tad-dar</string>
+<string name="menu_najlepsze">L-aqwa</string>
+<string name="menu_najnowsze">Ġodda</string>
+<string name="menu_ulubione">Il-favoriti tiegħi</string>
+<string name="exit_message">Ara apps oħra.</string>
+<string name="exit_polecamy">Ħruġ</string>
+<string name="exit_share">Qsim tal-app</string>
+<string name="exit_share_text">Ġib app</string>
+<string name="exit_rate_app">Rata app</string>
+<string name="wcag_menu">Menu</string>
+<string name="wcag_nastepna">Li jmiss</string>
+<string name="wcag_poprzednia">Preċedenti</string>
+<string name="wcag_udostepnij">Aqsam il-wallpaper</string>
+<string name="wcag_ulubione">Il-favoriti tiegħi</string>
+<string name="wcag_ustaw_tapete">Issettja fuq l-iskrin tad-dar</string>
+<string name="wcag_ustaw_tapete_blokada">Issettja fuq l-iskrin tal-lock</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

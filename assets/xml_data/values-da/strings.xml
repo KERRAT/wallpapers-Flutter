@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Fantastiske Baggrunde 4K</string>
+<string name="udostepnij_tresc">Hent app https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Indstillinger</string>
+<string name="drawer_open">Åben</string>
+<string name="drawer_close">Luk applikationer</string>
+<string name="change_wallpaper_index_message">Gå til tapetet</string>
+<string name="error_message_wrong_number">Ugyldigt nummer</string>
+<string name="set">Indsend</string>
+<string name="cancel">Afbestille</string>
+<string name="notification_image_downloaded_show_image">Vis baggrund</string>
+<string name="error">fejl</string>
+<string name="no_internet_connection">Ingen internetforbindelse</string>
+<string name="turn_on_wifi">Kør internet</string>
+<string name="try_again">Gentag venligst</string>
+<string name="exit">Afslut</string>
+<string name="no_favorites_message">For at tilføje tapet til dine favoritter klik på:</string>
+<string name="back">Tilbage</string>
+<string name="rate_the_app">Vurder appen</string>
+<string name="info_loading_is_in_progress">Indlæser er i gang ...</string>
+<string name="wallpaper_has_been_set_message">Tapetet er blevet ændret</string>
+<string name="wallpaper_has_been_downloaded_message">Tapetet er blevet gemt i galleriet</string>
+<string name="wallpaper_is_loading_message">Indlæser tapet ...</string>
+<string name="exit_confirmation_message">Er du sikker på, at du vil lukke applikationen?</string>
+<string name="wallpaper_changed">Tapetet er blevet ændret</string>
+<string name="message_on_download_complete">Tapetet er blevet gemt i galleriet</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Er du sikker på, at du vil lukke applikationen?</string>
+<string name="wallpaper_changed_ekran_blokady">Låseskærmtapet er ændret</string>
+<string name="wallpaper_changed_ekran_glowny">Startskærmtapet er ændret</string>
+<string name="wallpapers_download_message">Tapetet er blevet gemt i galleriet</string>
+<string name="please_wait">Vent venligst...</string>
+<string name="share_wallpapers">Del dit tapet</string>
+<string name="categories">Kategorier</string>
+<string name="search_category">Søg efter kategori ...</string>
+<string name="set_lockscreen">Indstil på låseskærmen</string>
+<string name="set_screen">Indstil på startskærmen</string>
+<string name="menu_najlepsze">Top</string>
+<string name="menu_najnowsze">Nye</string>
+<string name="menu_ulubione">Mine favoritter</string>
+<string name="exit_message">Se andre apps.</string>
+<string name="exit_polecamy">Afslut</string>
+<string name="exit_share">Anbefal app</string>
+<string name="exit_share_text">Hent app</string>
+<string name="exit_rate_app">Bedøm app</string>
+<string name="wcag_menu">Menu</string>
+<string name="wcag_nastepna">Næste</string>
+<string name="wcag_poprzednia">Tidligere</string>
+<string name="wcag_udostepnij">Del dit tapet</string>
+<string name="wcag_ulubione">Mine favoritter</string>
+<string name="wcag_ustaw_tapete">Indstil på startskærmen</string>
+<string name="wcag_ustaw_tapete_blokada">Indstil på låseskærmen</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Обои аҷиб 4K</string>
+<string name="udostepnij_tresc">Замимаро зеркашӣ кунед https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Танзимот</string>
+<string name="drawer_open">Кушодани</string>
+<string name="drawer_close">Пӯшидани барнома</string>
+<string name="change_wallpaper_index_message">Бирав ба обои</string>
+<string name="error_message_wrong_number">рақами нодуруст</string>
+<string name="set">Тасдиқи</string>
+<string name="cancel">Cancel</string>
+<string name="notification_image_downloaded_show_image">Намоиши акс</string>
+<string name="error">хатогӣ</string>
+<string name="no_internet_connection">Не пайвастшавӣ ба интернет</string>
+<string name="turn_on_wifi">интернет гурезад</string>
+<string name="try_again">такрор Лутфан</string>
+<string name="exit">Баромадгоҳ</string>
+<string name="no_favorites_message">Барои илова обои ба мунтахаб худ пахш кунед:</string>
+<string name="back">Бозгашт</string>
+<string name="rate_the_app">Барномаро арзёбӣ кунед</string>
+<string name="info_loading_is_in_progress">Боркунӣ идома дорад ...</string>
+<string name="wallpaper_has_been_set_message">обои таъғири</string>
+<string name="wallpaper_has_been_downloaded_message">Дар акс шудааст, ки ба долонҳо иловашуда</string>
+<string name="wallpaper_is_loading_message">Илтимос Истед ...</string>
+<string name="exit_confirmation_message">Шумо мутмаин ҳастед, ки мехоҳед барномаро пӯшед?</string>
+<string name="wallpaper_changed">обои таъғири</string>
+<string name="message_on_download_complete">Дар акс шудааст, ки ба долонҳо иловашуда</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Шумо мутмаин ҳастед, ки мехоҳед барномаро пӯшед?</string>
+<string name="wallpaper_changed_ekran_blokady">Девори экрани қулф иваз карда шуд</string>
+<string name="wallpaper_changed_ekran_glowny">Девори экрани хонагӣ иваз карда шуд</string>
+<string name="wallpapers_download_message">Дар акс шудааст, ки ба долонҳо иловашуда</string>
+<string name="please_wait">Илтимос истед...</string>
+<string name="share_wallpapers">Обои мубодила кунед</string>
+<string name="categories">Категорияҳо</string>
+<string name="search_category">Ҷустуҷӯи категорияҳо ...</string>
+<string name="set_lockscreen">Дар экрани қулф насб кунед</string>
+<string name="set_screen">Дар экрани асосӣ насб кунед</string>
+<string name="menu_najlepsze">Беҳтарини</string>
+<string name="menu_najnowsze">Нави</string>
+<string name="menu_ulubione">Мунтахаб</string>
+<string name="exit_message">Дидани барномаҳои тавсия дода мешавад.</string>
+<string name="exit_polecamy">Баромадгоҳ</string>
+<string name="exit_share">Мубодилаи барнома</string>
+<string name="exit_share_text">Замимаро зеркашӣ кунед</string>
+<string name="exit_rate_app">Илова кардани рейтинг</string>
+<string name="wcag_menu">Меню</string>
+<string name="wcag_nastepna">Баъдӣ</string>
+<string name="wcag_poprzednia">Previous</string>
+<string name="wcag_udostepnij">Обои мубодила кунед</string>
+<string name="wcag_ulubione">Мунтахаб</string>
+<string name="wcag_ustaw_tapete">Дар экрани асосӣ насб кунед</string>
+<string name="wcag_ustaw_tapete_blokada">Дар экрани қулф насб кунед</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

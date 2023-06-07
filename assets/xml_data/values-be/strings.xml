@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Дзіўныя шпалеры 4K</string>
+<string name="udostepnij_tresc">Атрымаць прыкладанне https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">налады</string>
+<string name="drawer_open">адкрыць</string>
+<string name="drawer_close">закрыццё прыкладанняў</string>
+<string name="change_wallpaper_index_message">Перайсці да фота</string>
+<string name="error_message_wrong_number">недапушчальны нумар</string>
+<string name="set">прадставіць</string>
+<string name="cancel">адмяніць</string>
+<string name="notification_image_downloaded_show_image">паказаць шпалеры</string>
+<string name="error">памылка</string>
+<string name="no_internet_connection">Няма падлучэння да Інтэрнэту</string>
+<string name="turn_on_wifi">запуск інтэрнэт</string>
+<string name="try_again">Паўтарыце яшчэ раз</string>
+<string name="exit">Bыйдзіце</string>
+<string name="no_favorites_message">Каб дадаць шпалеры да абраных, націсніце:</string>
+<string name="back">Back</string>
+<string name="rate_the_app">Ацаніць прыкладанне</string>
+<string name="info_loading_is_in_progress">Ён загружаецца ...</string>
+<string name="wallpaper_has_been_set_message">Шпалеры быў зменены</string>
+<string name="wallpaper_has_been_downloaded_message">Фатаграфія была дададзеная ў галерэю</string>
+<string name="wallpaper_is_loading_message">Loading ...</string>
+<string name="exit_confirmation_message">Вы хочаце выйсці з прыкладання?</string>
+<string name="wallpaper_changed">Шпалеры быў зменены</string>
+<string name="message_on_download_complete">Фатаграфія была дададзеная ў галерэю</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Вы хочаце выйсці з прыкладання?</string>
+<string name="wallpaper_changed_ekran_blokady">Шпалеры блакавання экрана былі зменены</string>
+<string name="wallpaper_changed_ekran_glowny">Шпалеры на галоўным экране былі зменены</string>
+<string name="wallpapers_download_message">Фатаграфія была дададзеная ў галерэю</string>
+<string name="please_wait">Калі ласка пачакай...</string>
+<string name="share_wallpapers">Падзяліцеся шпалерамі</string>
+<string name="categories">Катэгорыі</string>
+<string name="search_category">Пошук па катэгорыях ...</string>
+<string name="set_lockscreen">Усталюйце на экране блакавання</string>
+<string name="set_screen">Усталюйце на галоўным экране</string>
+<string name="menu_najlepsze">Лепшыя</string>
+<string name="menu_najnowsze">Новыя</string>
+<string name="menu_ulubione">Мае любімыя</string>
+<string name="exit_message">Глядзіце іншыя прыкладання.</string>
+<string name="exit_polecamy">Выхад</string>
+<string name="exit_share">Дзяліцеся сябрамі</string>
+<string name="exit_share_text">Атрымаць прыкладанне</string>
+<string name="exit_rate_app">Дадаць рэйтынг</string>
+<string name="wcag_menu">Меню</string>
+<string name="wcag_nastepna">Далей</string>
+<string name="wcag_poprzednia">Папярэдні</string>
+<string name="wcag_udostepnij">Падзяліцеся шпалерамі</string>
+<string name="wcag_ulubione">Мае любімыя</string>
+<string name="wcag_ustaw_tapete">Усталюйце на галоўным экране</string>
+<string name="wcag_ustaw_tapete_blokada">Усталюйце на экране блакавання</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

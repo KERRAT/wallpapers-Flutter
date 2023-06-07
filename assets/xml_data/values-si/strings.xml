@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Amazing Wallpapers 4K</string>
+<string name="udostepnij_tresc">යෙදුම ලබා ගන්න https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">සැකසුම්</string>
+<string name="drawer_open">විවෘත</string>
+<string name="drawer_close">යෙදුම් වැසීම</string>
+<string name="change_wallpaper_index_message">බිතුපතට යන්න</string>
+<string name="error_message_wrong_number">වැරදි අංකය</string>
+<string name="set">තහවුරු කරන්න</string>
+<string name="cancel">අවලංගු කරන්න</string>
+<string name="notification_image_downloaded_show_image">බිතුපත පෙන්වන්න</string>
+<string name="error">දෝෂයකි</string>
+<string name="no_internet_connection">අන්තර්ජාල සම්බන්ධතාවයක් නැත</string>
+<string name="turn_on_wifi">අන්තර්ජාලය භාවිතා කරන්න</string>
+<string name="try_again">නැවත නැවත කරන්න</string>
+<string name="exit">පිටවීම</string>
+<string name="no_favorites_message">ප්රියතම එකට එකතු කිරීමට ක්ලික් කරන්න</string>
+<string name="back">ආපසු</string>
+<string name="rate_the_app">යෙදුම අගයන්න</string>
+<string name="info_loading_is_in_progress">Loading ...</string>
+<string name="wallpaper_has_been_set_message">බිතුපත වෙනස් වී ඇත</string>
+<string name="wallpaper_has_been_downloaded_message">ගැලරිය එකතු කළ ඡායාරූප</string>
+<string name="wallpaper_is_loading_message">කරුණාකර රැඳී සිටින්න ...</string>
+<string name="exit_confirmation_message">යෙදුම වසා දැමීමට ඔබට අවශ්‍යද?</string>
+<string name="wallpaper_changed">බිතුපත වෙනස් වී ඇත</string>
+<string name="message_on_download_complete">ගැලරිය එකතු කළ ඡායාරූප</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">යෙදුම වසා දැමීමට ඔබට අවශ්‍යද?</string>
+<string name="wallpaper_changed_ekran_blokady">අගුළු තිරයේ බිතුපත වෙනස් කර ඇත</string>
+<string name="wallpaper_changed_ekran_glowny">අගුළු තිර පසුබිම යාවත්කාලීන කරන ලදි</string>
+<string name="wallpapers_download_message">ගැලරිය එකතු කළ ඡායාරූප</string>
+<string name="please_wait">කරුණාකර රැඳී සිටින්න...</string>
+<string name="share_wallpapers">බිතුපත බෙදා ගන්න</string>
+<string name="categories">ප්රවර්ග</string>
+<string name="search_category">කාණ්ඩ සඳහා සොයන්න ...</string>
+<string name="set_lockscreen">අගුළු තිරය මත සකසන්න</string>
+<string name="set_screen">මුල් තිරය මත සකසන්න</string>
+<string name="menu_najlepsze">හොඳම</string>
+<string name="menu_najnowsze">නව</string>
+<string name="menu_ulubione">මගේ ප්‍රියතමයන්</string>
+<string name="exit_message">නිර්දේශිත යෙදුම් බලන්න.</string>
+<string name="exit_polecamy">පිටවීම</string>
+<string name="exit_share">මිතුරන්ට යවන්න</string>
+<string name="exit_share_text">යෙදුම ලබා ගන්න</string>
+<string name="exit_rate_app">යෙදුම අගයන්න</string>
+<string name="wcag_menu">මෙනු</string>
+<string name="wcag_nastepna">ඊළඟ</string>
+<string name="wcag_poprzednia">කලින්</string>
+<string name="wcag_udostepnij">බිතුපත බෙදා ගන්න</string>
+<string name="wcag_ulubione">මගේ ප්‍රියතමයන්</string>
+<string name="wcag_ustaw_tapete">මුල් තිරය මත සකසන්න</string>
+<string name="wcag_ustaw_tapete_blokada">අගුළු තිරය මත සකසන්න</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

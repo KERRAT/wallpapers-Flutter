@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">საოცარი ფონები 4K</string>
+<string name="udostepnij_tresc">ჩამოტვირთეთ პროგრამა https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">პარამეტრები</string>
+<string name="drawer_open">გახსენით</string>
+<string name="drawer_close">დახურვა პროგრამები</string>
+<string name="change_wallpaper_index_message">გადავიდეთ ფონი</string>
+<string name="error_message_wrong_number">არასწორი ნომერი</string>
+<string name="set">წარუდგინოს</string>
+<string name="cancel">გაუქმება</string>
+<string name="notification_image_downloaded_show_image">სურათის ჩვენება</string>
+<string name="error">შეცდომა</string>
+<string name="no_internet_connection">ინტერნეტი არ არის დაკავშირებული</string>
+<string name="turn_on_wifi">ჩართეთ ინტერნეტში</string>
+<string name="try_again">გაიმეორეთ გთხოვთ</string>
+<string name="exit">გასვლა</string>
+<string name="no_favorites_message">ფოლკლორზე დასამატებლად დააჭირეთ ღილაკს:</string>
+<string name="back">უკან</string>
+<string name="rate_the_app">შეაფასეთ აპლიკაცია</string>
+<string name="info_loading_is_in_progress">იტვირთება ...</string>
+<string name="wallpaper_has_been_set_message">შეიცვალა ფონი</string>
+<string name="wallpaper_has_been_downloaded_message">ფოტო დაემატა გალერეაში</string>
+<string name="wallpaper_is_loading_message">იტვირთება ფონი ...</string>
+<string name="exit_confirmation_message">გსურთ განაცხადის გასვლა?</string>
+<string name="wallpaper_changed">შეიცვალა ფონი</string>
+<string name="message_on_download_complete">ფოტო დაემატა გალერეაში</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">გსურთ განაცხადის გასვლა?</string>
+<string name="wallpaper_changed_ekran_blokady">შეიცვალა საკეტის ეკრანის ფონი</string>
+<string name="wallpaper_changed_ekran_glowny">შეიცვალა საწყისი ეკრანის ფონი</string>
+<string name="wallpapers_download_message">ფოტო დაემატა გალერეაში</string>
+<string name="please_wait">გთხოვთ მოიცადოთ...</string>
+<string name="share_wallpapers">გააზიარეთ ფონი</string>
+<string name="categories">კატეგორიები</string>
+<string name="search_category">კატეგორიების ძებნა ...</string>
+<string name="set_lockscreen">დაბლოკვის ეკრანზე დაყენება</string>
+<string name="set_screen">სახლის ეკრანზე დააყენეთ</string>
+<string name="menu_najlepsze">საუკეთესო</string>
+<string name="menu_najnowsze">ახალი</string>
+<string name="menu_ulubione">ჩემი რჩეულები</string>
+<string name="exit_message">რეკომენდებული აპლიკაციების ნახვა.</string>
+<string name="exit_polecamy">გასვლა</string>
+<string name="exit_share">გაუზიარე მეგობრებს</string>
+<string name="exit_share_text">ჩამოტვირთეთ პროგრამა</string>
+<string name="exit_rate_app">შეფასება</string>
+<string name="wcag_menu">მენიუ</string>
+<string name="wcag_nastepna">შემდეგი</string>
+<string name="wcag_poprzednia">წინა</string>
+<string name="wcag_udostepnij">გააზიარეთ ფონი</string>
+<string name="wcag_ulubione">ჩემი რჩეულები</string>
+<string name="wcag_ustaw_tapete">სახლის ეკრანზე დააყენეთ</string>
+<string name="wcag_ustaw_tapete_blokada">დაბლოკვის ეკრანზე დაყენება</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

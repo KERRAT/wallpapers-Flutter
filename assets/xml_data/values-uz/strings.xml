@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Ajoyib fon rasmlari 4K</string>
+<string name="udostepnij_tresc">Ilova oling https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Sozlamalar</string>
+<string name="drawer_open">oching</string>
+<string name="drawer_close">Ilovalarni yopish</string>
+<string name="change_wallpaper_index_message">Rasmga o\'ting</string>
+<string name="error_message_wrong_number">Noto\'g\'ri raqam</string>
+<string name="set">Tasdiqlash</string>
+<string name="cancel">Bekor qiling</string>
+<string name="notification_image_downloaded_show_image">Fon rasmi ko\'rsatilsin</string>
+<string name="error">Xatolik</string>
+<string name="no_internet_connection">Internetga ulanish yo\'q</string>
+<string name="turn_on_wifi">Internetni yoqing</string>
+<string name="try_again">Iltimos, takrorlang</string>
+<string name="exit">Chiqish</string>
+<string name="no_favorites_message">Sevimlilarga qo\'shish uchun bosing</string>
+<string name="back">Orqaga</string>
+<string name="rate_the_app">Ilovani baholang</string>
+<string name="info_loading_is_in_progress">Yuklanmoqda ...</string>
+<string name="wallpaper_has_been_set_message">Fon rasmi o\'zgartirildi</string>
+<string name="wallpaper_has_been_downloaded_message">Gallereyaga rasm qo\'shilgan</string>
+<string name="wallpaper_is_loading_message">Fon rasmlari yuklanmoqda ...</string>
+<string name="exit_confirmation_message">Haqiqatan ham dasturni yopmoqchimisiz?</string>
+<string name="wallpaper_changed">Fon rasmi o\'zgartirildi</string>
+<string name="message_on_download_complete">Gallereyaga rasm qo\'shilgan</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Haqiqatan ham dasturni yopmoqchimisiz?</string>
+<string name="wallpaper_changed_ekran_blokady">Qulf ekranining fon rasmi o\'zgartirildi</string>
+<string name="wallpaper_changed_ekran_glowny">Uy ekranidagi devor qog\'ozi o\'zgartirildi</string>
+<string name="wallpapers_download_message">Gallereyaga rasm qo\'shilgan</string>
+<string name="please_wait">Iltimos kuting...</string>
+<string name="share_wallpapers">Fon rasmi bilan bo\'lishing</string>
+<string name="categories">Kategoriyalar</string>
+<string name="search_category">Kategoriyalarni qidirish ...</string>
+<string name="set_lockscreen">Qulf ekranida o\'rnating</string>
+<string name="set_screen">Asosiy ekranda o\'rnating</string>
+<string name="menu_najlepsze">Eng yaxshi</string>
+<string name="menu_najnowsze">Yangi</string>
+<string name="menu_ulubione">Mening sevimlilarim</string>
+<string name="exit_message">Tavsiya etilgan ilovalarni ko\'rib chiqing.</string>
+<string name="exit_polecamy">Chiqish</string>
+<string name="exit_share">Ilova almashish</string>
+<string name="exit_share_text">Ilova oling</string>
+<string name="exit_rate_app">Ilova reytingini qo‘shing</string>
+<string name="wcag_menu">Menyu</string>
+<string name="wcag_nastepna">Keyingisi</string>
+<string name="wcag_poprzednia">Oldingi</string>
+<string name="wcag_udostepnij">Fon rasmi bilan bo\'lishing</string>
+<string name="wcag_ulubione">Mening sevimlilarim</string>
+<string name="wcag_ustaw_tapete">Asosiy ekranda o\'rnating</string>
+<string name="wcag_ustaw_tapete_blokada">Qulf ekranida o\'rnating</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

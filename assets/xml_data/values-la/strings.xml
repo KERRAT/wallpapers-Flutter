@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Prodigiosus Wallpapers 4K</string>
+<string name="udostepnij_tresc">Per applicationem Download https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Optiones</string>
+<string name="drawer_open">Aperi</string>
+<string name="drawer_close">Claudere progressio</string>
+<string name="change_wallpaper_index_message">Go to the wallpaper</string>
+<string name="error_message_wrong_number">nefas est numerus</string>
+<string name="set">Constituo</string>
+<string name="cancel">Cancel</string>
+<string name="notification_image_downloaded_show_image">show wallpaper</string>
+<string name="error">error</string>
+<string name="no_internet_connection">No internet connection</string>
+<string name="turn_on_wifi">Turn on the internet</string>
+<string name="try_again">Repetere placet</string>
+<string name="exit">Exitus</string>
+<string name="no_favorites_message">Click to add favorites</string>
+<string name="back">Redi</string>
+<string name="rate_the_app">Rate de app</string>
+<string name="info_loading_is_in_progress">Loading ...</string>
+<string name="wallpaper_has_been_set_message">De photo est mutatum</string>
+<string name="wallpaper_has_been_downloaded_message">The wallpaper has been saved to the gallery</string>
+<string name="wallpaper_is_loading_message">Placet expectare ...</string>
+<string name="exit_confirmation_message">Es vos certus vos volo claudere applicationem?</string>
+<string name="wallpaper_changed">De photo est mutatum</string>
+<string name="message_on_download_complete">The wallpaper has been saved to the gallery</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Es vos certus vos volo claudere applicationem?</string>
+<string name="wallpaper_changed_ekran_blokady">Mutata in cincinno screen est wallpaper</string>
+<string name="wallpaper_changed_ekran_glowny">Mutata in domum screen est wallpaper</string>
+<string name="wallpapers_download_message">The wallpaper has been saved to the gallery</string>
+<string name="please_wait">Placet expectare ...</string>
+<string name="share_wallpapers">Share wallpaper</string>
+<string name="categories">categories</string>
+<string name="search_category">Search for ... genera</string>
+<string name="set_lockscreen">Constitue super screen in cincinno</string>
+<string name="set_screen">Constitue super domum screen</string>
+<string name="menu_najlepsze">Top</string>
+<string name="menu_najnowsze">New</string>
+<string name="menu_ulubione">My Favorites</string>
+<string name="exit_message">View recommended applications.</string>
+<string name="exit_polecamy">Exitus</string>
+<string name="exit_share">Share app</string>
+<string name="exit_share_text">Per applicationem Download</string>
+<string name="exit_rate_app">Rate app</string>
+<string name="wcag_menu">Menu</string>
+<string name="wcag_nastepna">Deinde</string>
+<string name="wcag_poprzednia">Antecedens</string>
+<string name="wcag_udostepnij">Share wallpaper</string>
+<string name="wcag_ulubione">My Favorites</string>
+<string name="wcag_ustaw_tapete">Constitue super domum screen</string>
+<string name="wcag_ustaw_tapete_blokada">Constitue super screen in cincinno</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">ພາບພື້ນຫຼັງທີ່ມະຫັດສະຈັນ 4K</string>
+<string name="udostepnij_tresc">ເອົາແອັບ https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">ການຕັ້ງຄ່າ</string>
+<string name="drawer_open">ເປີດ</string>
+<string name="drawer_close">ຄໍາຮ້ອງສະຫມັກປິດ</string>
+<string name="change_wallpaper_index_message">ໄປທີ່ວໍເປເປີ</string>
+<string name="error_message_wrong_number">ຈໍານວນບໍ່ຖືກຕ້ອງ</string>
+<string name="set">ຍື່ນສະເຫນີ</string>
+<string name="cancel">ຍົກເລີກການ</string>
+<string name="notification_image_downloaded_show_image">Show wallpaper</string>
+<string name="error">ຄວາມຜິດພາດ</string>
+<string name="no_internet_connection">No internet connection</string>
+<string name="turn_on_wifi">ເປີດນໍາໃຊ້ອິນເຕີເນັດ</string>
+<string name="try_again">try again</string>
+<string name="exit">Exit</string>
+<string name="no_favorites_message">ຄລິກເພື່ອເພີ່ມລາຍະການໂປດ</string>
+<string name="back">ກັບຄືນໄປບ່ອນ</string>
+<string name="rate_the_app">ອັດຕາ app</string>
+<string name="info_loading_is_in_progress">Loading is in progress</string>
+<string name="wallpaper_has_been_set_message">ວໍເປເປີທີ່ໄດ້ຮັບການປ່ຽນແປງ</string>
+<string name="wallpaper_has_been_downloaded_message">ຮູບພາບດັ່ງກ່າວໄດ້ຖືກເພີ່ມເຂົ້າໄປໃນວາງສະແດງຮູບ</string>
+<string name="wallpaper_is_loading_message">ກະ​ລຸ​ນາ​ລໍ​ຖ້າ ...</string>
+<string name="exit_confirmation_message">ທ່ານແນ່ໃຈບໍ່ວ່າທ່ານຕ້ອງການປິດໃບສະ ໝັກ?</string>
+<string name="wallpaper_changed">ວໍເປເປີທີ່ໄດ້ຮັບການປ່ຽນແປງ</string>
+<string name="message_on_download_complete">ຮູບພາບດັ່ງກ່າວໄດ້ຖືກເພີ່ມເຂົ້າໄປໃນວາງສະແດງຮູບ</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">ທ່ານແນ່ໃຈບໍ່ວ່າທ່ານຕ້ອງການປິດໃບສະ ໝັກ?</string>
+<string name="wallpaper_changed_ekran_blokady">ຮູບພາບ ໜ້າ ຈໍລັອກໄດ້ຖືກປ່ຽນແລ້ວ</string>
+<string name="wallpaper_changed_ekran_glowny">ປະຫວັດຄວາມເປັນມາຂອງ ໜ້າ ຈໍລັອກຖືກອັບເດດແລ້ວ</string>
+<string name="wallpapers_download_message">ຮູບພາບດັ່ງກ່າວໄດ້ຖືກເພີ່ມເຂົ້າໄປໃນວາງສະແດງຮູບ</string>
+<string name="please_wait">ກະ​ລຸ​ນາ​ລໍ​ຖ້າ...</string>
+<string name="share_wallpapers">ແບ່ງປັນຮູບວໍເປເປີ</string>
+<string name="categories">Categories</string>
+<string name="search_category">ຄົ້ນຫາ ...</string>
+<string name="set_lockscreen">ຕັ້ງຄ່າໃນ ໜ້າ ຈໍລັອກ</string>
+<string name="set_screen">ຕັ້ງຄ່າໃນຫນ້າຈໍເຮືອນ</string>
+<string name="menu_najlepsze">ດີ​ທີ່​ສຸດ</string>
+<string name="menu_najnowsze">ໃຫມ່</string>
+<string name="menu_ulubione">ຄວາມມັກຂອງຂ້ອຍ</string>
+<string name="exit_message">ເບິ່ງແອັບຯອື່ນໄດ້.</string>
+<string name="exit_polecamy">ອອກໄປ</string>
+<string name="exit_share">ແນະນຳແອັບ</string>
+<string name="exit_share_text">ເອົາແອັບ</string>
+<string name="exit_rate_app">ໃຫ້ຄະແນນແອັບ</string>
+<string name="wcag_menu">ເມນູ</string>
+<string name="wcag_nastepna">ຕໍ່ໄປ</string>
+<string name="wcag_poprzednia">ທີ່ຜ່ານມາ</string>
+<string name="wcag_udostepnij">ແບ່ງປັນຮູບວໍເປເປີ</string>
+<string name="wcag_ulubione">ຄວາມມັກຂອງຂ້ອຍ</string>
+<string name="wcag_ustaw_tapete">ຕັ້ງຄ່າໃນຫນ້າຈໍເຮືອນ</string>
+<string name="wcag_ustaw_tapete_blokada">ຕັ້ງຄ່າໃນ ໜ້າ ຈໍລັອກ</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

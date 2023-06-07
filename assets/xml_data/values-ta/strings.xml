@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">அற்புதமான வால்பேப்பர்கள் 4K</string>
+<string name="udostepnij_tresc">பயன்பாட்டைப் பெறுக https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">அமைப்புகள்</string>
+<string name="drawer_open">திற</string>
+<string name="drawer_close">பயன்பாடுகளை மூடு</string>
+<string name="change_wallpaper_index_message">வால்பேப்பருக்கு செல்க</string>
+<string name="error_message_wrong_number">தவறான எண்</string>
+<string name="set">உறுதிப்படுத்தவும்</string>
+<string name="cancel">ரத்து</string>
+<string name="notification_image_downloaded_show_image">வால்பேப்பர் காட்டு</string>
+<string name="error">பிழை</string>
+<string name="no_internet_connection">இணைய இணைப்பு இல்லை</string>
+<string name="turn_on_wifi">இணைய இயக்கவும்</string>
+<string name="try_again">மீண்டும் தயவுசெய்து</string>
+<string name="exit">வெளியேறு</string>
+<string name="no_favorites_message">உங்கள் பிடித்தவர்களுக்கான வால்பேப்பரை சேர்க்க கிளிக் செய்க:</string>
+<string name="back">திரும்ப</string>
+<string name="rate_the_app">பயன்பாட்டை மதிப்பிடுக</string>
+<string name="info_loading_is_in_progress">ஏற்றுகிறது ...</string>
+<string name="wallpaper_has_been_set_message">வால்பேப்பர் மாற்றப்பட்டது</string>
+<string name="wallpaper_has_been_downloaded_message">புகைப்படம் கேலரியில் சேர்க்கப்பட்டது</string>
+<string name="wallpaper_is_loading_message">காத்திருக்கவும் ...</string>
+<string name="exit_confirmation_message">விண்ணப்பத்தை மூட விரும்புகிறீர்களா?</string>
+<string name="wallpaper_changed">வால்பேப்பர் மாற்றப்பட்டது</string>
+<string name="message_on_download_complete">புகைப்படம் கேலரியில் சேர்க்கப்பட்டது</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">விண்ணப்பத்தை மூட விரும்புகிறீர்களா?</string>
+<string name="wallpaper_changed_ekran_blokady">பூட்டு திரை வால்பேப்பர் மாற்றப்பட்டுள்ளது</string>
+<string name="wallpaper_changed_ekran_glowny">முகப்புத் திரை வால்பேப்பர் மாற்றப்பட்டுள்ளது</string>
+<string name="wallpapers_download_message">புகைப்படம் கேலரியில் சேர்க்கப்பட்டது</string>
+<string name="please_wait">காத்திருக்கவும் ...</string>
+<string name="share_wallpapers">வால்பேப்பரைப் பகிரவும்</string>
+<string name="categories">Categories</string>
+<string name="search_category">வகைப்படி தேடுங்கள் ...</string>
+<string name="set_lockscreen">பூட்டு திரையில் அமைக்கவும்</string>
+<string name="set_screen">வீட்டுத் திரையில் அமைக்கவும்</string>
+<string name="menu_najlepsze">சிறந்த</string>
+<string name="menu_najnowsze">புதிய</string>
+<string name="menu_ulubione">பிடித்தவை</string>
+<string name="exit_message">பிற பயன்பாடுகளைப் பார்க்கவும்.</string>
+<string name="exit_polecamy">வெளியேறு</string>
+<string name="exit_share">பயன்பாட்டு பகிர்வு</string>
+<string name="exit_share_text">பயன்பாட்டைப் பெறுக</string>
+<string name="exit_rate_app">மதிப்பிடவும்</string>
+<string name="wcag_menu">பட்டியல்</string>
+<string name="wcag_nastepna">அடுத்தது</string>
+<string name="wcag_poprzednia">முந்தைய</string>
+<string name="wcag_udostepnij">வால்பேப்பரைப் பகிரவும்</string>
+<string name="wcag_ulubione">பிடித்தவை</string>
+<string name="wcag_ustaw_tapete">வீட்டுத் திரையில் அமைக்கவும்</string>
+<string name="wcag_ustaw_tapete_blokada">பூட்டு திரையில் அமைக்கவும்</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

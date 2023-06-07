@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Дивовижні шпалери 4K</string>
+<string name="udostepnij_tresc">Отримайте додаток https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Налаштування</string>
+<string name="drawer_open">Відкрий</string>
+<string name="drawer_close">Закрийте програму</string>
+<string name="change_wallpaper_index_message">Перейти на фото</string>
+<string name="error_message_wrong_number">Неправильний номер</string>
+<string name="set">Підтвердьте</string>
+<string name="cancel">Скасувати</string>
+<string name="notification_image_downloaded_show_image">Показати шпалери</string>
+<string name="error">Помилка</string>
+<string name="no_internet_connection">No internet connection</string>
+<string name="turn_on_wifi">Увімкніть Інтернет</string>
+<string name="try_again">Повторіть знову</string>
+<string name="exit">Закрити</string>
+<string name="no_favorites_message">Щоб додати шпалери у вибране, натисніть:</string>
+<string name="back">Повертайся</string>
+<string name="rate_the_app">Оцініть додаток</string>
+<string name="info_loading_is_in_progress">Завантаження ...</string>
+<string name="wallpaper_has_been_set_message">Шпалери були змінені</string>
+<string name="wallpaper_has_been_downloaded_message">Шпалери були збережені в галереї</string>
+<string name="wallpaper_is_loading_message">Завантаження шпалер ...</string>
+<string name="exit_confirmation_message">Ви впевнені, що хочете закрити програму?</string>
+<string name="wallpaper_changed">Шпалери були змінені</string>
+<string name="message_on_download_complete">Шпалери були збережені в галереї</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Ви впевнені, що хочете закрити програму?</string>
+<string name="wallpaper_changed_ekran_blokady">Шпалери блокованого екрана змінено</string>
+<string name="wallpaper_changed_ekran_glowny">Шпалери домашнього екрану змінено</string>
+<string name="wallpapers_download_message">Шпалери були збережені в галереї</string>
+<string name="please_wait">Будь ласка, зачекайте ...</string>
+<string name="share_wallpapers">Поділіться шпалерами</string>
+<string name="categories">Категорії</string>
+<string name="search_category">Шукати за категоріями ...</string>
+<string name="set_lockscreen">Встановіть на екрані блокування</string>
+<string name="set_screen">На початковому екрані</string>
+<string name="menu_najlepsze">Найкращі</string>
+<string name="menu_najnowsze">Нові</string>
+<string name="menu_ulubione">Мої улюблені</string>
+<string name="exit_message">Переглянути рекомендовані програми.</string>
+<string name="exit_polecamy">Вихід</string>
+<string name="exit_share">Поділіться друзями</string>
+<string name="exit_share_text">Отримайте додаток</string>
+<string name="exit_rate_app">Оцінити</string>
+<string name="wcag_menu">Меню</string>
+<string name="wcag_nastepna">Далі</string>
+<string name="wcag_poprzednia">Попередній</string>
+<string name="wcag_udostepnij">Поділіться шпалерами</string>
+<string name="wcag_ulubione">Мої улюблені</string>
+<string name="wcag_ustaw_tapete">На початковому екрані</string>
+<string name="wcag_ustaw_tapete_blokada">Встановіть на екрані блокування</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

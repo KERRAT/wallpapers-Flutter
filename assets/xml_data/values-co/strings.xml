@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Sfondi incredibili 4K</string>
+<string name="udostepnij_tresc">Accettà app https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Settings</string>
+<string name="drawer_open">Apre</string>
+<string name="drawer_close">Close the application</string>
+<string name="change_wallpaper_index_message">Va a u wallpaper</string>
+<string name="error_message_wrong_number">Invalid number</string>
+<string name="set">Confirmate</string>
+<string name="cancel">Annulla</string>
+<string name="notification_image_downloaded_show_image">Show wallpaper</string>
+<string name="error">Errore</string>
+<string name="no_internet_connection">Nisuna connexione internet</string>
+<string name="turn_on_wifi">Run internet</string>
+<string name="try_again">Repetite per piacè</string>
+<string name="exit">Exit</string>
+<string name="no_favorites_message">To add wallpaper to your favorites click:</string>
+<string name="back">Ritorna</string>
+<string name="rate_the_app">Valuta l\'app</string>
+<string name="info_loading_is_in_progress">Loading ...</string>
+<string name="wallpaper_has_been_set_message">U wallpaper hè statu cambiatu</string>
+<string name="wallpaper_has_been_downloaded_message">U wallpaper hè stata salvata in a galeria</string>
+<string name="wallpaper_is_loading_message">Agate ...</string>
+<string name="exit_confirmation_message">Hè sicuru chì vulete cercà l\'applicazione?</string>
+<string name="wallpaper_changed">U wallpaper hè statu cambiatu</string>
+<string name="message_on_download_complete">U wallpaper hè stata salvata in a galeria</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Hè sicuru chì vulete cercà l\'applicazione?</string>
+<string name="wallpaper_changed_ekran_blokady">U wallpaper di a pantalla di serratura hè stata cambiata</string>
+<string name="wallpaper_changed_ekran_glowny">U wallpaper di u screnu in casa hè statu cambiatu</string>
+<string name="wallpapers_download_message">U wallpaper hè stata salvata in a galeria</string>
+<string name="please_wait">Agate ...</string>
+<string name="share_wallpapers">Sparte u wallpaper</string>
+<string name="categories">Categurie</string>
+<string name="search_category">Cerca categurie ...</string>
+<string name="set_lockscreen">Set on the lock screen</string>
+<string name="set_screen">Figurate nantu à a pantalla di casa</string>
+<string name="menu_najlepsze">Migliori</string>
+<string name="menu_najnowsze">Novi</string>
+<string name="menu_ulubione">I mo preferiti</string>
+<string name="exit_message">Voir other apps.</string>
+<string name="exit_polecamy">Esci</string>
+<string name="exit_share">Spartera App</string>
+<string name="exit_share_text">Accettà app</string>
+<string name="exit_rate_app">Sparte l\'opinione</string>
+<string name="wcag_menu">Menu</string>
+<string name="wcag_nastepna">Dopu</string>
+<string name="wcag_poprzednia">Previous</string>
+<string name="wcag_udostepnij">Sparte u wallpaper</string>
+<string name="wcag_ulubione">I mo preferiti</string>
+<string name="wcag_ustaw_tapete">Figurate nantu à a pantalla di casa</string>
+<string name="wcag_ustaw_tapete_blokada">Set on the lock screen</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

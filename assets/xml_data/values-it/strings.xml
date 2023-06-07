@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Sfondi incredibili 4K</string>
+<string name="udostepnij_tresc">Ottieni l\'applicazione https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">impostazioni</string>
+<string name="drawer_open">Apri</string>
+<string name="drawer_close">Chiudere le applicazioni</string>
+<string name="change_wallpaper_index_message">Vai alla carta da parati</string>
+<string name="error_message_wrong_number">Numero non valido</string>
+<string name="set">Conferma</string>
+<string name="cancel">Annulla</string>
+<string name="notification_image_downloaded_show_image">Mostra foto</string>
+<string name="error">errore</string>
+<string name="no_internet_connection">Nessuna connessione Internet</string>
+<string name="turn_on_wifi">Accendere Internet</string>
+<string name="try_again">Ripeti prego</string>
+<string name="exit">Uscita</string>
+<string name="no_favorites_message">Per aggiungere sfondo ai tuoi preferiti clicca:</string>
+<string name="back">Ritorno</string>
+<string name="rate_the_app">Rate the app</string>
+<string name="info_loading_is_in_progress">Sta caricando ...</string>
+<string name="wallpaper_has_been_set_message">Carta da parati cambiata</string>
+<string name="wallpaper_has_been_downloaded_message">La carta da parati è stata salvata nella galleria</string>
+<string name="wallpaper_is_loading_message">Attendere prego ...</string>
+<string name="exit_confirmation_message">Sei sicuro di voler chiudere l\'applicazione?</string>
+<string name="wallpaper_changed">Carta da parati cambiata</string>
+<string name="message_on_download_complete">La carta da parati è stata salvata nella galleria</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Sei sicuro di voler chiudere l\'applicazione?</string>
+<string name="wallpaper_changed_ekran_blokady">Lo sfondo della schermata di blocco è stato modificato</string>
+<string name="wallpaper_changed_ekran_glowny">Lo sfondo della schermata principale è stato modificato</string>
+<string name="wallpapers_download_message">La carta da parati è stata salvata nella galleria</string>
+<string name="please_wait">Attendere prego...</string>
+<string name="share_wallpapers">Condividi sfondo</string>
+<string name="categories">Categorie</string>
+<string name="search_category">Cerca categorie ...</string>
+<string name="set_lockscreen">Imposta sulla schermata di blocco</string>
+<string name="set_screen">Imposta sulla schermata principale</string>
+<string name="menu_najlepsze">Migliori</string>
+<string name="menu_najnowsze">Nuove</string>
+<string name="menu_ulubione">I miei preferiti</string>
+<string name="exit_message">Visualizza le applicazioni raccomandate.</string>
+<string name="exit_polecamy">Uscita</string>
+<string name="exit_share">Consiglia app</string>
+<string name="exit_share_text">Ottieni l\'applicazione</string>
+<string name="exit_rate_app">Valutare</string>
+<string name="wcag_menu">Menù</string>
+<string name="wcag_nastepna">Prossimo</string>
+<string name="wcag_poprzednia">Precedente</string>
+<string name="wcag_udostepnij">Condividi sfondo</string>
+<string name="wcag_ulubione">I miei preferiti</string>
+<string name="wcag_ustaw_tapete">Imposta sulla schermata principale</string>
+<string name="wcag_ustaw_tapete_blokada">Imposta sulla schermata di blocco</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

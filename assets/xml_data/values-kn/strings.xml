@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">ಅದ್ಭುತ ವಾಲ್‌ಪೇಪರ್‌ಗಳು 4K</string>
+<string name="udostepnij_tresc">ಅಪ್ಲಿಕೇಶನ್ ಪಡೆಯಿರಿ https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">ಸೆಟ್ಟಿಂಗ್ಗಳು</string>
+<string name="drawer_open">ತೆರೆಯಿರಿ</string>
+<string name="drawer_close">ಅಪ್ಲಿಕೇಶನ್ಗಳನ್ನು ಮುಚ್ಚಿ</string>
+<string name="change_wallpaper_index_message">ವಾಲ್ಪೇಪರ್ಗೆ ಹೋಗಿ</string>
+<string name="error_message_wrong_number">ತಪ್ಪು ಸಂಖ್ಯೆ</string>
+<string name="set">ದೃಢೀಕರಿಸಿ</string>
+<string name="cancel">ರದ್ದುಮಾಡಿ</string>
+<string name="notification_image_downloaded_show_image">ವಾಲ್ಪೇಪರ್ ತೋರಿಸಿ</string>
+<string name="error">ದೋಷ</string>
+<string name="no_internet_connection">No internet connection</string>
+<string name="turn_on_wifi">ಇಂಟರ್ನೆಟ್ ಆನ್ ಮಾಡಿ</string>
+<string name="try_again">ಪುನರಾವರ್ತಿಸಿ</string>
+<string name="exit">ನಿರ್ಗಮಿಸಿ</string>
+<string name="no_favorites_message">ಮೆಚ್ಚಿನವುಗಳಿಗೆ ಸೇರಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ</string>
+<string name="back">Back</string>
+<string name="rate_the_app">ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ರೇಟ್ ಮಾಡಿ</string>
+<string name="info_loading_is_in_progress">ಲೋಡ್ ಆಗುತ್ತಿದೆ ...</string>
+<string name="wallpaper_has_been_set_message">ವಾಲ್ಪೇಪರ್ ಬದಲಾಗಿದೆ</string>
+<string name="wallpaper_has_been_downloaded_message">ವಾಲ್ಪೇಪರ್ ಅನ್ನು ಗ್ಯಾಲರಿಗೆ ಉಳಿಸಲಾಗಿದೆ</string>
+<string name="wallpaper_is_loading_message">ದಯಮಾಡಿ ನಿರೀಕ್ಷಿಸಿ ...</string>
+<string name="exit_confirmation_message">ನೀವು ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಮುಚ್ಚಲು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?</string>
+<string name="wallpaper_changed">ವಾಲ್ಪೇಪರ್ ಬದಲಾಗಿದೆ</string>
+<string name="message_on_download_complete">ವಾಲ್ಪೇಪರ್ ಅನ್ನು ಗ್ಯಾಲರಿಗೆ ಉಳಿಸಲಾಗಿದೆ</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">ನೀವು ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಮುಚ್ಚಲು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?</string>
+<string name="wallpaper_changed_ekran_blokady">ಲಾಕ್ ಸ್ಕ್ರೀನ್ ವಾಲ್‌ಪೇಪರ್ ಅನ್ನು ಬದಲಾಯಿಸಲಾಗಿದೆ</string>
+<string name="wallpaper_changed_ekran_glowny">ಹೋಮ್ ಸ್ಕ್ರೀನ್ ವಾಲ್‌ಪೇಪರ್ ಅನ್ನು ಬದಲಾಯಿಸಲಾಗಿದೆ</string>
+<string name="wallpapers_download_message">ವಾಲ್ಪೇಪರ್ ಅನ್ನು ಗ್ಯಾಲರಿಗೆ ಉಳಿಸಲಾಗಿದೆ</string>
+<string name="please_wait">ದಯಮಾಡಿ ನಿರೀಕ್ಷಿಸಿ...</string>
+<string name="share_wallpapers">ವಾಲ್‌ಪೇಪರ್ ಹಂಚಿಕೊಳ್ಳಿ</string>
+<string name="categories">ವರ್ಗಗಳು</string>
+<string name="search_category">ವರ್ಗಗಳಿಗಾಗಿ ಹುಡುಕಿ ...</string>
+<string name="set_lockscreen">ಲಾಕ್ ಪರದೆಯ ಮೇಲೆ ಹೊಂದಿಸಿ</string>
+<string name="set_screen">ಮನೆ ಪರದೆಯಲ್ಲಿ ಹೊಂದಿಸಿ</string>
+<string name="menu_najlepsze">ಟಾಪ್</string>
+<string name="menu_najnowsze">ಹೊಸ</string>
+<string name="menu_ulubione">ನನ್ನ ಅಚ್ಚುಮೆಚ್ಚುಗಳು</string>
+<string name="exit_message">ಶಿಫಾರಸು ಮಾಡಿದ ಅಪ್ಲಿಕೇಶನ್ಗಳನ್ನು ವೀಕ್ಷಿಸಿ.</string>
+<string name="exit_polecamy">ನಿರ್ಗಮಿಸಿ</string>
+<string name="exit_share">ಅಪ್ಲಿಕೇಶನ್ ಹಂಚಿಕೆ</string>
+<string name="exit_share_text">ಅಪ್ಲಿಕೇಶನ್ ಪಡೆಯಿರಿ</string>
+<string name="exit_rate_app">ರೇಟಿಂಗ್ ಸೇರಿಸಿ</string>
+<string name="wcag_menu">ಮೆನು</string>
+<string name="wcag_nastepna">ಮುಂದೆ</string>
+<string name="wcag_poprzednia">ಹಿಂದಿನ</string>
+<string name="wcag_udostepnij">ವಾಲ್‌ಪೇಪರ್ ಹಂಚಿಕೊಳ್ಳಿ</string>
+<string name="wcag_ulubione">ನನ್ನ ಅಚ್ಚುಮೆಚ್ಚುಗಳು</string>
+<string name="wcag_ustaw_tapete">ಮನೆ ಪರದೆಯಲ್ಲಿ ಹೊಂದಿಸಿ</string>
+<string name="wcag_ustaw_tapete_blokada">ಲಾಕ್ ಪರದೆಯ ಮೇಲೆ ಹೊಂದಿಸಿ</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

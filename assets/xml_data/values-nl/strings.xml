@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Geweldige achtergronden 4K</string>
+<string name="udostepnij_tresc">Verkrijg de app https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">instellingen</string>
+<string name="drawer_open">Open</string>
+<string name="drawer_close">Sluit toepassingen</string>
+<string name="change_wallpaper_index_message">Ga naar de behang</string>
+<string name="error_message_wrong_number">Ongeldig nummer</string>
+<string name="set">voorleggen</string>
+<string name="cancel">Annuleer</string>
+<string name="notification_image_downloaded_show_image">Toon behang</string>
+<string name="error">fout</string>
+<string name="no_internet_connection">Geen internet verbinding</string>
+<string name="turn_on_wifi">Internet draaien</string>
+<string name="try_again">Herhaal alstublieft</string>
+<string name="exit">Uitgang</string>
+<string name="no_favorites_message">Om wallpaper toe te voegen aan je favorieten klik op:</string>
+<string name="back">Terug</string>
+<string name="rate_the_app">Beoordeel de app</string>
+<string name="info_loading_is_in_progress">Het is aan het laden ...</string>
+<string name="wallpaper_has_been_set_message">Het behang is gewijzigd</string>
+<string name="wallpaper_has_been_downloaded_message">Het behang is opgeslagen in de galerij</string>
+<string name="wallpaper_is_loading_message">Even geduld aub ...</string>
+<string name="exit_confirmation_message">Weet u zeker dat u de toepassing wilt sluiten?</string>
+<string name="wallpaper_changed">Het behang is gewijzigd</string>
+<string name="message_on_download_complete">Het behang is opgeslagen in de galerij</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Weet u zeker dat u de toepassing wilt sluiten?</string>
+<string name="wallpaper_changed_ekran_blokady">De achtergrond van het vergrendelscherm is gewijzigd</string>
+<string name="wallpaper_changed_ekran_glowny">De achtergrond van het startscherm is gewijzigd</string>
+<string name="wallpapers_download_message">Het behang is opgeslagen in de galerij</string>
+<string name="please_wait">Even geduld aub...</string>
+<string name="share_wallpapers">Achtergrond delen</string>
+<string name="categories">Categorieën</string>
+<string name="search_category">Zoeken op categorie ...</string>
+<string name="set_lockscreen">Instellen op het vergrendelingsscherm</string>
+<string name="set_screen">Instellen op het startscherm</string>
+<string name="menu_najlepsze">Top</string>
+<string name="menu_najnowsze">Nieuwe</string>
+<string name="menu_ulubione">Mijn favorieten</string>
+<string name="exit_message">See other apps.</string>
+<string name="exit_polecamy">Uitgang</string>
+<string name="exit_share">App delen</string>
+<string name="exit_share_text">Verkrijg de app</string>
+<string name="exit_rate_app">Beoordeel app</string>
+<string name="wcag_menu">Menu</string>
+<string name="wcag_nastepna">Volgende</string>
+<string name="wcag_poprzednia">Achteruit</string>
+<string name="wcag_udostepnij">Achtergrond delen</string>
+<string name="wcag_ulubione">Mijn favorieten</string>
+<string name="wcag_ustaw_tapete">Instellen op het startscherm</string>
+<string name="wcag_ustaw_tapete_blokada">Instellen op het vergrendelingsscherm</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

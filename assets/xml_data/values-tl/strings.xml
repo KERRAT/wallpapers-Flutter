@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Kamangha-manghang Mga Wallpaper 4K</string>
+<string name="udostepnij_tresc">Makakuha ng app https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Mga Setting</string>
+<string name="drawer_open">Buksan</string>
+<string name="drawer_close">Isara ang mga application</string>
+<string name="change_wallpaper_index_message">Pumunta sa wallpaper</string>
+<string name="error_message_wrong_number">Di-wastong numero</string>
+<string name="set">Kumpirmahin</string>
+<string name="cancel">Kanselahin</string>
+<string name="notification_image_downloaded_show_image">Ipakita ang wallpaper</string>
+<string name="error">Error</string>
+<string name="no_internet_connection">Walang koneksyon sa internet</string>
+<string name="turn_on_wifi">Patakbuhin ang internet</string>
+<string name="try_again">Ulitin muli</string>
+<string name="exit">Lumabas</string>
+<string name="no_favorites_message">Upang magdagdag ng wallpaper sa iyong mga paborito click:</string>
+<string name="back">Bumalik</string>
+<string name="rate_the_app">I-rate ang app</string>
+<string name="info_loading_is_in_progress">Naglo-load ito ...</string>
+<string name="wallpaper_has_been_set_message">Ang wallpaper ay nabago</string>
+<string name="wallpaper_has_been_downloaded_message">Ang wallpaper ay nai-save sa gallery</string>
+<string name="wallpaper_is_loading_message">Naglo-load ng wallpaper ...</string>
+<string name="exit_confirmation_message">Sigurado ka bang nais mong isara ang application?</string>
+<string name="wallpaper_changed">Ang wallpaper ay nabago</string>
+<string name="message_on_download_complete">Ang wallpaper ay nai-save sa gallery</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Sigurado ka bang nais mong isara ang application?</string>
+<string name="wallpaper_changed_ekran_blokady">Nabago ang wallpaper ng lock screen</string>
+<string name="wallpaper_changed_ekran_glowny">Ang wallpaper ng home screen ay nabago</string>
+<string name="wallpapers_download_message">Ang wallpaper ay nai-save sa gallery</string>
+<string name="please_wait">Mangyaring maghintay ...</string>
+<string name="share_wallpapers">Magbahagi ng wallpaper</string>
+<string name="categories">Mga kategorya</string>
+<string name="search_category">Maghanap ...</string>
+<string name="set_lockscreen">Itakda sa lock screen</string>
+<string name="set_screen">Itakda sa home screen</string>
+<string name="menu_najlepsze">Tuktok</string>
+<string name="menu_najnowsze">Bagong</string>
+<string name="menu_ulubione">Mga paborito ko</string>
+<string name="exit_message">Tingnan ang iba pang apps.</string>
+<string name="exit_polecamy">Lumabas</string>
+<string name="exit_share">Ibahagi ang app</string>
+<string name="exit_share_text">Makakuha ng app</string>
+<string name="exit_rate_app">Rate</string>
+<string name="wcag_menu">Menu</string>
+<string name="wcag_nastepna">Susunod</string>
+<string name="wcag_poprzednia">Nakaraang</string>
+<string name="wcag_udostepnij">Magbahagi ng wallpaper</string>
+<string name="wcag_ulubione">Mga paborito ko</string>
+<string name="wcag_ustaw_tapete">Itakda sa home screen</string>
+<string name="wcag_ustaw_tapete_blokada">Itakda sa lock screen</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

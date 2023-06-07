@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">आश्चर्यजनक वालपेपर 4K</string>
+<string name="udostepnij_tresc">अनुप्रयोग पाउनुहोस् https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">सेटिङहरू</string>
+<string name="drawer_open">Open</string>
+<string name="drawer_close">आवेदन बन्द</string>
+<string name="change_wallpaper_index_message">Go to the wallpaper</string>
+<string name="error_message_wrong_number">अवैध नम्बर</string>
+<string name="set">पुष्टि</string>
+<string name="cancel">रद्द</string>
+<string name="notification_image_downloaded_show_image">वालपेपर शो</string>
+<string name="error">त्रुटि</string>
+<string name="no_internet_connection">कुनै पनि इन्टरनेट जडान</string>
+<string name="turn_on_wifi">Turn on the internet</string>
+<string name="try_again">कृपया दोहोरिन</string>
+<string name="exit">निकास</string>
+<string name="no_favorites_message">मनपर्ने थप्न क्लिक गर्नुहोस्</string>
+<string name="back">फर्किनु</string>
+<string name="rate_the_app">Rate the app</string>
+<string name="info_loading_is_in_progress">डाटा लोड गर्दै ...</string>
+<string name="wallpaper_has_been_set_message">वालपेपर परिवर्तन गरिएको छ</string>
+<string name="wallpaper_has_been_downloaded_message">फोटो ग्यालरी थपियो</string>
+<string name="wallpaper_is_loading_message">वालपेपर लोड गर्दै ...</string>
+<string name="exit_confirmation_message">अनुप्रयोगबाट निस्कनुहोस्?</string>
+<string name="wallpaper_changed">वालपेपर परिवर्तन गरिएको छ</string>
+<string name="message_on_download_complete">फोटो ग्यालरी थपियो</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">अनुप्रयोगबाट निस्कनुहोस्?</string>
+<string name="wallpaper_changed_ekran_blokady">लक स्क्रिन वालपेपर परिवर्तन गरिएको छ</string>
+<string name="wallpaper_changed_ekran_glowny">गृह स्क्रिन वालपेपर परिवर्तन गरिएको छ</string>
+<string name="wallpapers_download_message">फोटो ग्यालरी थपियो</string>
+<string name="please_wait">कृपया पर्खनुहोस्...</string>
+<string name="share_wallpapers">वालपेपर साझा गर्नुहोस्</string>
+<string name="categories">कोटिहरू</string>
+<string name="search_category">कोटिहरूको लागि खोजी गर्नुहोस् ...</string>
+<string name="set_lockscreen">लक स्क्रिनमा सेट गर्नुहोस्</string>
+<string name="set_screen">गृह स्क्रिनमा सेट गर्नुहोस्</string>
+<string name="menu_najlepsze">उत्तम</string>
+<string name="menu_najnowsze">नयाँ</string>
+<string name="menu_ulubione">मेरो मनपर्ने</string>
+<string name="exit_message">सिफारिस आवेदन हेर्नुहोस्।</string>
+<string name="exit_polecamy">बाहिर निस्कनुहोस्</string>
+<string name="exit_share">एप साझेदारी</string>
+<string name="exit_share_text">अनुप्रयोग पाउनुहोस्</string>
+<string name="exit_rate_app">दर</string>
+<string name="wcag_menu">मेनु</string>
+<string name="wcag_nastepna">अगाडि</string>
+<string name="wcag_poprzednia">अघिल्लो</string>
+<string name="wcag_udostepnij">वालपेपर साझा गर्नुहोस्</string>
+<string name="wcag_ulubione">मेरो मनपर्ने</string>
+<string name="wcag_ustaw_tapete">गृह स्क्रिनमा सेट गर्नुहोस्</string>
+<string name="wcag_ustaw_tapete_blokada">लक स्क्रिनमा सेट गर्नुहोस्</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Fantastiska bakgrundsbilder 4K</string>
+<string name="udostepnij_tresc">Hämta app https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">inställningar</string>
+<string name="drawer_open">Öppna</string>
+<string name="drawer_close">Stäng applikationer</string>
+<string name="change_wallpaper_index_message">Gå till tapetet</string>
+<string name="error_message_wrong_number">Ogiltigt nummer</string>
+<string name="set">Bekräfta</string>
+<string name="cancel">Annullera</string>
+<string name="notification_image_downloaded_show_image">Visa bakgrundsbild</string>
+<string name="error">fel</string>
+<string name="no_internet_connection">No internet connection</string>
+<string name="turn_on_wifi">Kör internet</string>
+<string name="try_again">försök igen</string>
+<string name="exit">Utgång</string>
+<string name="no_favorites_message">För att lägga till bakgrundsbilder till dina favoriter klickar du på:</string>
+<string name="back">Tillbaka</string>
+<string name="rate_the_app">Betygsätt appen</string>
+<string name="info_loading_is_in_progress">Laddar data ...</string>
+<string name="wallpaper_has_been_set_message">Ändrad tapeter</string>
+<string name="wallpaper_has_been_downloaded_message">Bakgrunden har sparats i galleriet</string>
+<string name="wallpaper_is_loading_message">Laddar bakgrundsbilder ...</string>
+<string name="exit_confirmation_message">Är du säker på att du vill stänga ansökan?</string>
+<string name="wallpaper_changed">Ändrad tapeter</string>
+<string name="message_on_download_complete">Bakgrunden har sparats i galleriet</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Är du säker på att du vill stänga ansökan?</string>
+<string name="wallpaper_changed_ekran_blokady">Bakgrundsbilden på låsskärmen har ändrats</string>
+<string name="wallpaper_changed_ekran_glowny">Bakgrundsbilden på hemskärmen har ändrats</string>
+<string name="wallpapers_download_message">Bakgrunden har sparats i galleriet</string>
+<string name="please_wait">Vänta...</string>
+<string name="share_wallpapers">Dela tapeter</string>
+<string name="categories">Kategorier</string>
+<string name="search_category">Sök efter kategorier ...</string>
+<string name="set_lockscreen">Sätt på låsskärmen</string>
+<string name="set_screen">Ställ in på startskärmen</string>
+<string name="menu_najlepsze">Bästa</string>
+<string name="menu_najnowsze">New</string>
+<string name="menu_ulubione">Mina favoriter</string>
+<string name="exit_message">View recommended applications.</string>
+<string name="exit_polecamy">Utgång</string>
+<string name="exit_share">Dela app</string>
+<string name="exit_share_text">Hämta app</string>
+<string name="exit_rate_app">Betygsätt app</string>
+<string name="wcag_menu">Meny</string>
+<string name="wcag_nastepna">Nästa</string>
+<string name="wcag_poprzednia">Tidigare</string>
+<string name="wcag_udostepnij">Dela tapeter</string>
+<string name="wcag_ulubione">Mina favoriter</string>
+<string name="wcag_ustaw_tapete">Ställ in på startskärmen</string>
+<string name="wcag_ustaw_tapete_blokada">Sätt på låsskärmen</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

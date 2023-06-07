@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Waraaqo Cajiib ah 4K</string>
+<string name="udostepnij_tresc">Soo degso dalabka https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Settings</string>
+<string name="drawer_open">Fur sawirka</string>
+<string name="drawer_close">Close codsiyada</string>
+<string name="change_wallpaper_index_message">Tag wallpaper ah</string>
+<string name="error_message_wrong_number">tirada Wrong</string>
+<string name="set">Xaqiiji</string>
+<string name="cancel">Ka laabato</string>
+<string name="notification_image_downloaded_show_image">show wallpaper</string>
+<string name="error">baadi</string>
+<string name="no_internet_connection">No internet</string>
+<string name="turn_on_wifi">Internet Orod</string>
+<string name="try_again">Ku celi Fadlan</string>
+<string name="exit">Exit</string>
+<string name="no_favorites_message">Si aad ku dari wallpaper inay ugu cadcad aad riix:</string>
+<string name="back">Back</string>
+<string name="rate_the_app">Ku qiimee app</string>
+<string name="info_loading_is_in_progress">Loading ...</string>
+<string name="wallpaper_has_been_set_message">wallpaper ayaa la beddelay</string>
+<string name="wallpaper_has_been_downloaded_message">Wallpaper ku daray in gallery ah</string>
+<string name="wallpaper_is_loading_message">Fadlan sug ...</string>
+<string name="exit_confirmation_message">Ma hubtaa inaad rabto inaad xirto arjiga?</string>
+<string name="wallpaper_changed">wallpaper ayaa la beddelay</string>
+<string name="message_on_download_complete">Wallpaper ku daray in gallery ah</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Ma hubtaa inaad rabto inaad xirto arjiga?</string>
+<string name="wallpaper_changed_ekran_blokady">Waraaqda shaashadda shaashadda ayaa la beddelay</string>
+<string name="wallpaper_changed_ekran_glowny">Muuqaalka shaashadda guriga ayaa la beddelay</string>
+<string name="wallpapers_download_message">Wallpaper ku daray in gallery ah</string>
+<string name="please_wait">Fadlan sug...</string>
+<string name="share_wallpapers">La wadaag darbiga</string>
+<string name="categories">Qaybaha</string>
+<string name="search_category">Raadi qaybaha ...</string>
+<string name="set_lockscreen">Ku rakib shaashadda qufulka</string>
+<string name="set_screen">Ku rakib shaashadda guriga</string>
+<string name="menu_najlepsze">Ugufiican</string>
+<string name="menu_najnowsze">Cusub</string>
+<string name="menu_ulubione">Kuwa ugu cadcad</string>
+<string name="exit_message">View codsiyada talinayaa.</string>
+<string name="exit_polecamy">Exit</string>
+<string name="exit_share">La wadaag abka</string>
+<string name="exit_share_text">Soo degso dalabka</string>
+<string name="exit_rate_app">Qiimee abka</string>
+<string name="wcag_menu">Menu</string>
+<string name="wcag_nastepna">Xiga</string>
+<string name="wcag_poprzednia">Hore</string>
+<string name="wcag_udostepnij">La wadaag darbiga</string>
+<string name="wcag_ulubione">Kuwa ugu cadcad</string>
+<string name="wcag_ustaw_tapete">Ku rakib shaashadda guriga</string>
+<string name="wcag_ustaw_tapete_blokada">Ku rakib shaashadda qufulka</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Զարմանալի պաստառներ 4K</string>
+<string name="udostepnij_tresc">Ներբեռնեք ծրագիրը https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Կարգավորումներ</string>
+<string name="drawer_open">Բացեք</string>
+<string name="drawer_close">Փակել դիմումները</string>
+<string name="change_wallpaper_index_message">Գնալ դեպի լուսանկար</string>
+<string name="error_message_wrong_number">Անվավեր համարը</string>
+<string name="set">Հաստատեք</string>
+<string name="cancel">Չեղարկել</string>
+<string name="notification_image_downloaded_show_image">Ցուցադրել լուսանկարը</string>
+<string name="error">Սխալը</string>
+<string name="no_internet_connection">Ինտերնետ կապ չկա</string>
+<string name="turn_on_wifi">Միացրեք ինտերնետին</string>
+<string name="try_again">Կրկնել</string>
+<string name="exit">Ելք</string>
+<string name="no_favorites_message">Սեղմեք, ընտրելու համար</string>
+<string name="back">Ետ</string>
+<string name="rate_the_app">Գնահատել հավելվածը</string>
+<string name="info_loading_is_in_progress">Բեռնում ...</string>
+<string name="wallpaper_has_been_set_message">Լուսանկարը փոխվեց</string>
+<string name="wallpaper_has_been_downloaded_message">Պաստառը ավելացվել է պատկերասրահին</string>
+<string name="wallpaper_is_loading_message">Բեռնում պաստառ ...</string>
+<string name="exit_confirmation_message">Doանկանո՞ւմ եք դուրս գալ դիմումից:</string>
+<string name="wallpaper_changed">Լուսանկարը փոխվեց</string>
+<string name="message_on_download_complete">Պաստառը ավելացվել է պատկերասրահին</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Doանկանո՞ւմ եք դուրս գալ դիմումից:</string>
+<string name="wallpaper_changed_ekran_blokady">Կողպեքի էկրանի պաստառները փոխվել են</string>
+<string name="wallpaper_changed_ekran_glowny">Հիմնական էկրանի պաստառները փոխվել են</string>
+<string name="wallpapers_download_message">Պաստառը ավելացվել է պատկերասրահին</string>
+<string name="please_wait">Խնդրում ենք սպասել...</string>
+<string name="share_wallpapers">Կիսվել պաստառով</string>
+<string name="categories">Կատեգորիաներ</string>
+<string name="search_category">Որոնեք կատեգորիաներ ...</string>
+<string name="set_lockscreen">Սահմանել կողպեքի էկրանին</string>
+<string name="set_screen">Սահմանել տնային էկրանին</string>
+<string name="menu_najlepsze">Լավագույն</string>
+<string name="menu_najnowsze">Նոր</string>
+<string name="menu_ulubione">Սիրվածներ</string>
+<string name="exit_message">Տես այլ ծրագրեր:</string>
+<string name="exit_polecamy">Ելք</string>
+<string name="exit_share">Կիսվել</string>
+<string name="exit_share_text">Ներբեռնեք ծրագիրը</string>
+<string name="exit_rate_app">Գնահատել</string>
+<string name="wcag_menu">Մենյու</string>
+<string name="wcag_nastepna">Հաջորդը</string>
+<string name="wcag_poprzednia">Նախորդ</string>
+<string name="wcag_udostepnij">Կիսվել պաստառով</string>
+<string name="wcag_ulubione">Սիրվածներ</string>
+<string name="wcag_ustaw_tapete">Սահմանել տնային էկրանին</string>
+<string name="wcag_ustaw_tapete_blokada">Սահմանել կողպեքի էկրանին</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

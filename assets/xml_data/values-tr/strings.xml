@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">İnanılmaz Duvar Kağıtları 4K</string>
+<string name="udostepnij_tresc">Uygulamayı al https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Ayarlar</string>
+<string name="drawer_open">aç</string>
+<string name="drawer_close">Uygulamaları kapat</string>
+<string name="change_wallpaper_index_message">Duvar kağıdına git</string>
+<string name="error_message_wrong_number">Yanlış numara</string>
+<string name="set">Onaylamak</string>
+<string name="cancel">İptal etmek</string>
+<string name="notification_image_downloaded_show_image">Duvar kağıdını göster</string>
+<string name="error">hata</string>
+<string name="no_internet_connection">İnternet bağlantısı yok</string>
+<string name="turn_on_wifi">Interneti çalıştır</string>
+<string name="try_again">tekrar dene</string>
+<string name="exit">Çıkış</string>
+<string name="no_favorites_message">Sık kullanılanlarınıza duvar kağıdı eklemek için tıklayın:</string>
+<string name="back">Dönüş</string>
+<string name="rate_the_app">Uygulamayı oyla</string>
+<string name="info_loading_is_in_progress">O yükleniyor ...</string>
+<string name="wallpaper_has_been_set_message">Duvar kağıdı değiştirildi</string>
+<string name="wallpaper_has_been_downloaded_message">Fotoğraf galeriye eklendi</string>
+<string name="wallpaper_is_loading_message">Duvar kağıdı yükleniyor ...</string>
+<string name="exit_confirmation_message">Uygulamayı kapatmak istediğinize emin misiniz?</string>
+<string name="wallpaper_changed">Duvar kağıdı değiştirildi</string>
+<string name="message_on_download_complete">Fotoğraf galeriye eklendi</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Uygulamayı kapatmak istediğinize emin misiniz?</string>
+<string name="wallpaper_changed_ekran_blokady">Kilit ekranı duvar kağıdı değiştirildi</string>
+<string name="wallpaper_changed_ekran_glowny">Ana ekran duvar kağıdı değiştirildi</string>
+<string name="wallpapers_download_message">Fotoğraf galeriye eklendi</string>
+<string name="please_wait">Lütfen bekle...</string>
+<string name="share_wallpapers">Duvar kağıdını paylaş</string>
+<string name="categories">Kategoriler</string>
+<string name="search_category">Kategoriye göre ara ...</string>
+<string name="set_lockscreen">Kilit ekranında ayarla</string>
+<string name="set_screen">Ana ekranda ayarlayın</string>
+<string name="menu_najlepsze">Üst</string>
+<string name="menu_najnowsze">Yeni</string>
+<string name="menu_ulubione">Favorilerim</string>
+<string name="exit_message">Diğer uygulamaları görün.</string>
+<string name="exit_polecamy">Çıkış</string>
+<string name="exit_share">Uygulamayı Paylaş</string>
+<string name="exit_share_text">Uygulamayı al</string>
+<string name="exit_rate_app">Görüş paylaş</string>
+<string name="wcag_menu">Menü</string>
+<string name="wcag_nastepna">Sonraki</string>
+<string name="wcag_poprzednia">Öncesi</string>
+<string name="wcag_udostepnij">Duvar kağıdını paylaş</string>
+<string name="wcag_ulubione">Favorilerim</string>
+<string name="wcag_ustaw_tapete">Ana ekranda ayarlayın</string>
+<string name="wcag_ustaw_tapete_blokada">Kilit ekranında ayarla</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

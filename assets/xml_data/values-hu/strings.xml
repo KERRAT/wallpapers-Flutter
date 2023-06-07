@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Csodálatos 4K háttérképek</string>
+<string name="udostepnij_tresc">Alkalmazás beszerzése https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Beállítások</string>
+<string name="drawer_open">Nyissa</string>
+<string name="drawer_close">Zárja be az alkalmazásokat</string>
+<string name="change_wallpaper_index_message">Menj a háttérképhez</string>
+<string name="error_message_wrong_number">Érvénytelen szám</string>
+<string name="set">Jóváhagy</string>
+<string name="cancel">Visszavon</string>
+<string name="notification_image_downloaded_show_image">Háttérkép megjelenítése</string>
+<string name="error">hiba</string>
+<string name="no_internet_connection">Nincs internetkapcsolat</string>
+<string name="turn_on_wifi">Fuss az interneten</string>
+<string name="try_again">try again</string>
+<string name="exit">Kijárat</string>
+<string name="no_favorites_message">Tapéta hozzáadása kedvenceihez kattintson:</string>
+<string name="back">Visszatérés</string>
+<string name="rate_the_app">Értékelje az alkalmazást</string>
+<string name="info_loading_is_in_progress">Betöltés ...</string>
+<string name="wallpaper_has_been_set_message">A tapéta megváltozott</string>
+<string name="wallpaper_has_been_downloaded_message">A fotót hozzáadták a galériához</string>
+<string name="wallpaper_is_loading_message">Háttérkép betöltése ...</string>
+<string name="exit_confirmation_message">Biztosan bezárja az alkalmazást?</string>
+<string name="wallpaper_changed">A tapéta megváltozott</string>
+<string name="message_on_download_complete">A fotót hozzáadták a galériához</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Biztosan bezárja az alkalmazást?</string>
+<string name="wallpaper_changed_ekran_blokady">A zárolási képernyő háttérképe megváltozott</string>
+<string name="wallpaper_changed_ekran_glowny">A kezdőképernyő háttérképe megváltozott</string>
+<string name="wallpapers_download_message">A fotót hozzáadták a galériához</string>
+<string name="please_wait">Kérlek várj...</string>
+<string name="share_wallpapers">Háttérkép megosztása</string>
+<string name="categories">Kategóriák</string>
+<string name="search_category">Keresés kategória szerint ...</string>
+<string name="set_lockscreen">Állítsa be a zár képernyőn</string>
+<string name="set_screen">Állítsa be a kezdőképernyőn</string>
+<string name="menu_najlepsze">A legjobb</string>
+<string name="menu_najnowsze">Új</string>
+<string name="menu_ulubione">A kedvenceim</string>
+<string name="exit_message">Az ajánlott alkalmazások megtekintése.</string>
+<string name="exit_polecamy">Kijárat</string>
+<string name="exit_share">Alkalmazásmegosztás</string>
+<string name="exit_share_text">Alkalmazás beszerzése</string>
+<string name="exit_rate_app">Értékelés hozzáadása</string>
+<string name="wcag_menu">Menü</string>
+<string name="wcag_nastepna">Következő</string>
+<string name="wcag_poprzednia">Előző</string>
+<string name="wcag_udostepnij">Háttérkép megosztása</string>
+<string name="wcag_ulubione">A kedvenceim</string>
+<string name="wcag_ustaw_tapete">Állítsa be a kezdőképernyőn</string>
+<string name="wcag_ustaw_tapete_blokada">Állítsa be a zár képernyőn</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">अद्भुत वॉलपेपर 4K</string>
+<string name="udostepnij_tresc">एप पाओ https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">सेटिंग्स</string>
+<string name="drawer_open">खोलो</string>
+<string name="drawer_close">कार्यक्रम बंद करो</string>
+<string name="change_wallpaper_index_message">वॉलपेपर पर जाएं</string>
+<string name="error_message_wrong_number">गलत नंबर</string>
+<string name="set">की पुष्टि करें</string>
+<string name="cancel">रद्द करना</string>
+<string name="notification_image_downloaded_show_image">Show wallpaper</string>
+<string name="error">त्रुटि</string>
+<string name="no_internet_connection">कोई इंटरनेट कनेक्शन नहीं</string>
+<string name="turn_on_wifi">इंटरनेट चालू करें</string>
+<string name="try_again">कृपया दोहराएँ</string>
+<string name="exit">निकास</string>
+<string name="no_favorites_message">पसंदीदा में जोड़ने के लिए क्लिक करें</string>
+<string name="back">वापसी</string>
+<string name="rate_the_app">एप्लिकेशन की श्रेणी बताओ</string>
+<string name="info_loading_is_in_progress">लोड हो रहा है ...</string>
+<string name="wallpaper_has_been_set_message">वॉलपेपर बदल दिया गया है</string>
+<string name="wallpaper_has_been_downloaded_message">वॉलपेपर को गैलरी में सहेजा गया है</string>
+<string name="wallpaper_is_loading_message">वॉलपेपर लोड हो रहा है ...</string>
+<string name="exit_confirmation_message">क्या आप वाकई एप्लिकेशन को बंद करना चाहते हैं?</string>
+<string name="wallpaper_changed">वॉलपेपर बदल दिया गया है</string>
+<string name="message_on_download_complete">वॉलपेपर को गैलरी में सहेजा गया है</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">क्या आप वाकई एप्लिकेशन को बंद करना चाहते हैं?</string>
+<string name="wallpaper_changed_ekran_blokady">लॉक स्क्रीन वॉलपेपर को बदल दिया गया है</string>
+<string name="wallpaper_changed_ekran_glowny">होम स्क्रीन वॉलपेपर बदल दिया गया है</string>
+<string name="wallpapers_download_message">वॉलपेपर को गैलरी में सहेजा गया है</string>
+<string name="please_wait">कृपया प्रतीक्षा करें...</string>
+<string name="share_wallpapers">वॉलपेपर साझा करें</string>
+<string name="categories">श्रेणियाँ</string>
+<string name="search_category">श्रेणियों के लिए खोजें ...</string>
+<string name="set_lockscreen">लॉक स्क्रीन पर सेट करें</string>
+<string name="set_screen">होम स्क्रीन पर सेट करें</string>
+<string name="menu_najlepsze">सबसे अच्छी</string>
+<string name="menu_najnowsze">नई</string>
+<string name="menu_ulubione">मेरी पसंदीदा</string>
+<string name="exit_message">अन्य ऐप्स देखें</string>
+<string name="exit_polecamy">बाहर निकलना</string>
+<string name="exit_share">ऐप की सिफारिश करें</string>
+<string name="exit_share_text">एप पाओ</string>
+<string name="exit_rate_app">रेटिंग जोड़ें</string>
+<string name="wcag_menu">मेन्यू</string>
+<string name="wcag_nastepna">अगला</string>
+<string name="wcag_poprzednia">पिछला</string>
+<string name="wcag_udostepnij">वॉलपेपर साझा करें</string>
+<string name="wcag_ulubione">मेरी पसंदीदा</string>
+<string name="wcag_ustaw_tapete">होम स्क्रीन पर सेट करें</string>
+<string name="wcag_ustaw_tapete_blokada">लॉक स्क्रीन पर सेट करें</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

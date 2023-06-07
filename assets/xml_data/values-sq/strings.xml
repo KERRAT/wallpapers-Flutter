@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Wallpapers të mahnitshëm 4K</string>
+<string name="udostepnij_tresc">Merr aplikacionin https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Cilësimet</string>
+<string name="drawer_open">Hapni</string>
+<string name="drawer_close">Mbyllni aplikimet</string>
+<string name="change_wallpaper_index_message">Go to the wallpaper</string>
+<string name="error_message_wrong_number">Numer i gabuar</string>
+<string name="set">konfirmoj</string>
+<string name="cancel">anuloj</string>
+<string name="notification_image_downloaded_show_image">Shfaq foto</string>
+<string name="error">gabim</string>
+<string name="no_internet_connection">Asnjë lidhje interneti</string>
+<string name="turn_on_wifi">Drejtoni internetin</string>
+<string name="try_again">Provo përsëri</string>
+<string name="exit">Mbylle</string>
+<string name="no_favorites_message">Për të shtuar sfond për të preferuarat tuaja klikoni:</string>
+<string name="back">Kthimi</string>
+<string name="rate_the_app">Vlerësoni aplikacionin</string>
+<string name="info_loading_is_in_progress">Loading është në progres ...</string>
+<string name="wallpaper_has_been_set_message">Sfondi është ndryshuar</string>
+<string name="wallpaper_has_been_downloaded_message">Fotografia është shtuar në galeri</string>
+<string name="wallpaper_is_loading_message">Po ngarkon sfond ...</string>
+<string name="exit_confirmation_message">A jeni i sigurt që dëshironi të mbyllni aplikacionin?</string>
+<string name="wallpaper_changed">Sfondi është ndryshuar</string>
+<string name="message_on_download_complete">Fotografia është shtuar në galeri</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">A jeni i sigurt që dëshironi të mbyllni aplikacionin?</string>
+<string name="wallpaper_changed_ekran_blokady">Muri i ekranit të bllokuar është ndryshuar</string>
+<string name="wallpaper_changed_ekran_glowny">Muri i ekranit në shtëpi është ndryshuar</string>
+<string name="wallpapers_download_message">Fotografia është shtuar në galeri</string>
+<string name="please_wait">Te lutem prit...</string>
+<string name="share_wallpapers">Ndani sfondin tuaj</string>
+<string name="categories">Kategoritë</string>
+<string name="search_category">Kërko për kategori ...</string>
+<string name="set_lockscreen">Vendoseni në ekranin e kyçjes</string>
+<string name="set_screen">Vendoseni në ekranin kryesor</string>
+<string name="menu_najlepsze">Top</string>
+<string name="menu_najnowsze">Reja</string>
+<string name="menu_ulubione">Te Preferuarat e mia</string>
+<string name="exit_message">Shikoni aplikacionet e rekomanduara.</string>
+<string name="exit_polecamy">Dil</string>
+<string name="exit_share">Ndani miq</string>
+<string name="exit_share_text">Merr aplikacionin</string>
+<string name="exit_rate_app">Shto vlerësim</string>
+<string name="wcag_menu">Menu</string>
+<string name="wcag_nastepna">Tjetra</string>
+<string name="wcag_poprzednia">E mëparshme</string>
+<string name="wcag_udostepnij">Ndani sfondin tuaj</string>
+<string name="wcag_ulubione">Te Preferuarat e mia</string>
+<string name="wcag_ustaw_tapete">Vendoseni në ekranin kryesor</string>
+<string name="wcag_ustaw_tapete_blokada">Vendoseni në ekranin e kyçjes</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

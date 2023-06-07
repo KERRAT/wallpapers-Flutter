@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">আশ্চর্যজনক ওয়ালপেপার 4K</string>
+<string name="udostepnij_tresc">অ্যাপ্লিকেশনটি ডাউনলোড করুন https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">সেটিংস</string>
+<string name="drawer_open">খোলো</string>
+<string name="drawer_close">অ্যাপ্লিকেশন বন্ধ করুন</string>
+<string name="change_wallpaper_index_message">ওয়ালপেপারে যান</string>
+<string name="error_message_wrong_number">ভুল নম্বর</string>
+<string name="set">জমা দিন</string>
+<string name="cancel">বাতিল</string>
+<string name="notification_image_downloaded_show_image">ওয়ালপেপার দেখান</string>
+<string name="error">এরর</string>
+<string name="no_internet_connection">ইন্টারনেট সংযোগ নেই</string>
+<string name="turn_on_wifi">ইন্টারনেট চালান</string>
+<string name="try_again">আবার চেষ্টা কর</string>
+<string name="exit">বাহির</string>
+<string name="no_favorites_message">আপনার পছন্দসই ক্লিক ওয়ালপেপার যোগ করতে:</string>
+<string name="back">Back</string>
+<string name="rate_the_app">অ্যাপ্লিকেশনটি রেট দিন</string>
+<string name="info_loading_is_in_progress">লোড হচ্ছে ...</string>
+<string name="wallpaper_has_been_set_message">ওয়ালপেপার পরিবর্তন করা হয়েছে</string>
+<string name="wallpaper_has_been_downloaded_message">গ্যালারিটিতে ছবি যোগ করা হয়েছে</string>
+<string name="wallpaper_is_loading_message">ওয়ালপেপার লোড হচ্ছে ...</string>
+<string name="exit_confirmation_message">আপনি কি নিশ্চিত যে আপনি অ্যাপ্লিকেশনটি বন্ধ করতে চান?</string>
+<string name="wallpaper_changed">ওয়ালপেপার পরিবর্তন করা হয়েছে</string>
+<string name="message_on_download_complete">গ্যালারিটিতে ছবি যোগ করা হয়েছে</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">আপনি কি নিশ্চিত যে আপনি অ্যাপ্লিকেশনটি বন্ধ করতে চান?</string>
+<string name="wallpaper_changed_ekran_blokady">লক স্ক্রিন ওয়ালপেপার পরিবর্তন করা হয়েছে</string>
+<string name="wallpaper_changed_ekran_glowny">হোম স্ক্রিন ওয়ালপেপার পরিবর্তন করা হয়েছে</string>
+<string name="wallpapers_download_message">গ্যালারিটিতে ছবি যোগ করা হয়েছে</string>
+<string name="please_wait">অনুগ্রহপূর্বক অপেক্ষা করুন...</string>
+<string name="share_wallpapers">ওয়ালপেপার ভাগ করুন</string>
+<string name="categories">বিভাগসমূহ</string>
+<string name="search_category">অনুসন্ধান করুন ...</string>
+<string name="set_lockscreen">লক পর্দা সেট করুন</string>
+<string name="set_screen">হোম পর্দায় সেট করুন</string>
+<string name="menu_najlepsze">সেরা</string>
+<string name="menu_najnowsze">নতুন</string>
+<string name="menu_ulubione">পছন্দসই</string>
+<string name="exit_message">অন্যান্য অ্যাপ্লিকেশন দেখুন</string>
+<string name="exit_polecamy">প্রস্থান করুন</string>
+<string name="exit_share">বন্ধুদের পাঠান</string>
+<string name="exit_share_text">অ্যাপ্লিকেশনটি ডাউনলোড করুন</string>
+<string name="exit_rate_app">হার</string>
+<string name="wcag_menu">তালিকা</string>
+<string name="wcag_nastepna">পরবর্তী</string>
+<string name="wcag_poprzednia">পিছনের দিকে</string>
+<string name="wcag_udostepnij">ওয়ালপেপার ভাগ করুন</string>
+<string name="wcag_ulubione">পছন্দসই</string>
+<string name="wcag_ustaw_tapete">হোম পর্দায় সেট করুন</string>
+<string name="wcag_ustaw_tapete_blokada">লক পর্দা সেট করুন</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

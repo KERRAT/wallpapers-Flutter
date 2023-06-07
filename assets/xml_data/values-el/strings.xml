@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Καταπληκτικές ταπετσαρίες 4K</string>
+<string name="udostepnij_tresc">Λάβε την εφαρμογή https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Ρυθμίσεις</string>
+<string name="drawer_open">Ανοίξτε</string>
+<string name="drawer_close">Κλείσιμο εφαρμογών</string>
+<string name="change_wallpaper_index_message">Μεταβείτε στην ταπετσαρία</string>
+<string name="error_message_wrong_number">Λάθος αριθμός</string>
+<string name="set">Επιβεβαιώνω</string>
+<string name="cancel">Cancel</string>
+<string name="notification_image_downloaded_show_image">Εμφάνιση ταπετσαρίας</string>
+<string name="error">λάθος</string>
+<string name="no_internet_connection">Δεν υπάρχει σύνδεση στο διαδίκτυο</string>
+<string name="turn_on_wifi">Εκτελέστε το διαδίκτυο</string>
+<string name="try_again">Επαναλάβετε παρακαλώ</string>
+<string name="exit">Eξοδος</string>
+<string name="no_favorites_message">Για να προσθέσετε ταπετσαρία στα αγαπημένα σας κάντε κλικ στο:</string>
+<string name="back">πίσω</string>
+<string name="rate_the_app">Αξιολογήστε την εφαρμογή</string>
+<string name="info_loading_is_in_progress">Φόρτωση ...</string>
+<string name="wallpaper_has_been_set_message">Η ταπετσαρία έχει αλλάξει</string>
+<string name="wallpaper_has_been_downloaded_message">Η ταπετσαρία έχει αποθηκευτεί στη συλλογή</string>
+<string name="wallpaper_is_loading_message">Φόρτωση ταπετσαρίας ...</string>
+<string name="exit_confirmation_message">Είστε βέβαιοι ότι θέλετε να κλείσετε την εφαρμογή;</string>
+<string name="wallpaper_changed">Η ταπετσαρία έχει αλλάξει</string>
+<string name="message_on_download_complete">Η ταπετσαρία έχει αποθηκευτεί στη συλλογή</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Είστε βέβαιοι ότι θέλετε να κλείσετε την εφαρμογή;</string>
+<string name="wallpaper_changed_ekran_blokady">Η ταπετσαρία οθόνης κλειδώματος έχει αλλάξει</string>
+<string name="wallpaper_changed_ekran_glowny">Η ταπετσαρία της αρχικής οθόνης έχει αλλάξει</string>
+<string name="wallpapers_download_message">Η ταπετσαρία έχει αποθηκευτεί στη συλλογή</string>
+<string name="please_wait">Παρακαλώ περιμένετε...</string>
+<string name="share_wallpapers">Κοινή χρήση ταπετσαρίας</string>
+<string name="categories">Κατηγορίες</string>
+<string name="search_category">Αναζήτηση ανά κατηγορία ...</string>
+<string name="set_lockscreen">Ορίστε στην οθόνη κλειδώματος</string>
+<string name="set_screen">Ορίστε στην αρχική οθόνη</string>
+<string name="menu_najlepsze">Best</string>
+<string name="menu_najnowsze">Νέες</string>
+<string name="menu_ulubione">Τα αγαπημένα μου</string>
+<string name="exit_message">Προβολή συνιστώμενων εφαρμογών.</string>
+<string name="exit_polecamy">Εξοδος</string>
+<string name="exit_share">Μοιραστείτε φίλους</string>
+<string name="exit_share_text">Λάβε την εφαρμογή</string>
+<string name="exit_rate_app">Μοιραστείτε γνώμη</string>
+<string name="wcag_menu">Μενού</string>
+<string name="wcag_nastepna">Επόμενο</string>
+<string name="wcag_poprzednia">Προηγούμενος</string>
+<string name="wcag_udostepnij">Κοινή χρήση ταπετσαρίας</string>
+<string name="wcag_ulubione">Τα αγαπημένα μου</string>
+<string name="wcag_ustaw_tapete">Ορίστε στην αρχική οθόνη</string>
+<string name="wcag_ustaw_tapete_blokada">Ορίστε στην οθόνη κλειδώματος</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<array name="category_ids">
+<item>0</item>
+<item>63</item>
+<item>64</item>
+<item>84</item>
+<item>25</item>
+<item>77</item>
+<item>81</item>
+<item>86</item>
+<item>4</item>
+<item>65</item>
+<item>12</item>
+<item>52</item>
+<item>14</item>
+<item>80</item>
+<item>15</item>
+<item>76</item>
+<item>55</item>
+<item>75</item>
+<item>68</item>
+<item>90</item>
+<item>8</item>
+<item>46</item>
+<item>45</item>
+<item>1</item>
+<item>22</item>
+<item>17</item>
+<item>70</item>
+<item>48</item>
+<item>31</item>
+<item>73</item>
+<item>18</item>
+<item>78</item>
+<item>35</item>
+<item>39</item>
+<item>49</item>
+<item>24</item>
+<item>54</item>
+<item>88</item>
+<item>13</item>
+<item>23</item>
+<item>28</item>
+<item>72</item>
+<item>34</item>
+<item>37</item>
+<item>27</item>
+<item>10</item>
+<item>85</item>
+<item>66</item>
+<item>59</item>
+<item>11</item>
+<item>38</item>
+<item>60</item>
+<item>33</item>
+<item>32</item>
+<item>30</item>
+<item>74</item>
+<item>9</item>
+<item>2</item>
+<item>51</item>
+<item>26</item>
+<item>56</item>
+<item>50</item>
+<item>87</item>
+<item>79</item>
+<item>20</item>
+<item>6</item>
+<item>58</item>
+<item>47</item>
+<item>19</item>
+<item>21</item>
+<item>16</item>
+<item>29</item>
+<item>82</item>
+<item>71</item>
+<item>3</item>
+<item>53</item>
+<item>83</item>
+<item>62</item>
+<item>5</item>
+<item>69</item>
+<item>42</item>
+<item>7</item>
+<item>61</item>
+<item>57</item>
+<item>67</item>
+</array>
+<array name="category_names">
+<item>تمام</item>
+<item>3D</item>
+<item>4 ڈی معیار</item>
+<item>Abstractions</item>
+<item>Beaches</item>
+<item>Coffees</item>
+<item>Graffiti</item>
+<item>Optical illusions</item>
+<item>Puppies</item>
+<item>Sports</item>
+<item>Volcanoes</item>
+<item>Women\'s Day</item>
+<item>جنگلات</item>
+<item>کھلونے</item>
+<item>آبشار</item>
+<item>آگ</item>
+<item>ایسٹر</item>
+<item>بائک</item>
+<item>باسکٹ بال</item>
+<item>برہمانڈی</item>
+<item>بلیوں</item>
+<item>بناوٹ</item>
+<item>بچوں</item>
+<item>جانور</item>
+<item>جزائر</item>
+<item>جھیلیں</item>
+<item>جہاز</item>
+<item>حالات</item>
+<item>خزاں</item>
+<item>خلائی جہاز</item>
+<item>درخت</item>
+<item>دیگر</item>
+<item>رات کے وقت شہر۔</item>
+<item>رنگ</item>
+<item>سالگرہ</item>
+<item>سبزیاں اور پھل</item>
+<item>شکرانے کا دن</item>
+<item>شیل</item>
+<item>صحرا</item>
+<item>طوفان</item>
+<item>طوفان</item>
+<item>طیارے۔</item>
+<item>عمارتیں</item>
+<item>عورتوں</item>
+<item>غروب آفتاب۔</item>
+<item>فطرت</item>
+<item>فنتاسی زمین</item>
+<item>فٹ بال</item>
+<item>محبت</item>
+<item>مرجان</item>
+<item>مرد</item>
+<item>مضحکہ خیز</item>
+<item>موسم بہار</item>
+<item>موسم سرما</item>
+<item>موسم گرما</item>
+<item>موٹر سائیکلیں</item>
+<item>مچھلیاں</item>
+<item>میٹھی جانور</item>
+<item>نئے سال</item>
+<item>نیلے سمندر</item>
+<item>ویلنٹائن ڈے</item>
+<item>ویڈنگ</item>
+<item>ٹوٹے دل</item>
+<item>پانی</item>
+<item>پتیوں</item>
+<item>پرندوں کی</item>
+<item>پریمپورن</item>
+<item>پس منظر</item>
+<item>پودوں</item>
+<item>پھول</item>
+<item>پہاڑوں</item>
+<item>چار موسم</item>
+<item>ڈرائنگ</item>
+<item>کاریں</item>
+<item>کتے</item>
+<item>کرسمس</item>
+<item>کریک سکرین</item>
+<item>کھوپڑی</item>
+<item>کیڑے</item>
+<item>گاڑیاں</item>
+<item>گلابی</item>
+<item>گھوڑوں</item>
+<item>ہارر</item>
+<item>ہالووین</item>
+<item>ہاکی</item>
+</array>
+<array name="category_hints">
+<item>تمام</item>
+<item>3D</item>
+<item>4 ڈی معیار</item>
+<item>Abstractions</item>
+<item>Beaches</item>
+<item>Coffees</item>
+<item>Graffiti</item>
+<item>Optical illusions</item>
+<item>Puppies</item>
+<item>Sports</item>
+<item>Volcanoes</item>
+<item>Women\'s Day Womens Day</item>
+<item>جنگلات</item>
+<item>کھلونے</item>
+<item>آبشار</item>
+<item>آگ</item>
+<item>ایسٹر</item>
+<item>بائک</item>
+<item>باسکٹ بال</item>
+<item>برہمانڈی</item>
+<item>بلیوں</item>
+<item>بناوٹ</item>
+<item>بچوں</item>
+<item>جانور</item>
+<item>جزائر</item>
+<item>جھیلیں</item>
+<item>جہاز</item>
+<item>حالات</item>
+<item>خزاں</item>
+<item>خلائی جہاز</item>
+<item>درخت</item>
+<item>دیگر</item>
+<item>رات کے وقت شہر۔</item>
+<item>رنگ</item>
+<item>سالگرہ</item>
+<item>سبزیاں اور پھل</item>
+<item>شکرانے کا دن</item>
+<item>شیل</item>
+<item>صحرا</item>
+<item>طوفان</item>
+<item>طوفان</item>
+<item>طیارے۔</item>
+<item>عمارتیں</item>
+<item>عورتوں</item>
+<item>غروب آفتاب۔</item>
+<item>فطرت</item>
+<item>فنتاسی زمین</item>
+<item>فٹ بال</item>
+<item>محبت</item>
+<item>مرجان</item>
+<item>مرد</item>
+<item>مضحکہ خیز</item>
+<item>موسم بہار</item>
+<item>موسم سرما</item>
+<item>موسم گرما</item>
+<item>موٹر سائیکلیں</item>
+<item>مچھلیاں</item>
+<item>میٹھی جانور</item>
+<item>نئے سال</item>
+<item>نیلے سمندر</item>
+<item>ویلنٹائن ڈے</item>
+<item>ویڈنگ</item>
+<item>ٹوٹے دل</item>
+<item>پانی</item>
+<item>پتیوں</item>
+<item>پرندوں کی</item>
+<item>پریمپورن</item>
+<item>پس منظر</item>
+<item>پودوں</item>
+<item>پھول</item>
+<item>پہاڑوں</item>
+<item>چار موسم</item>
+<item>ڈرائنگ</item>
+<item>کاریں</item>
+<item>کتے</item>
+<item>کرسمس</item>
+<item>کریک سکرین</item>
+<item>کھوپڑی</item>
+<item>کیڑے</item>
+<item>گاڑیاں</item>
+<item>گلابی</item>
+<item>گھوڑوں</item>
+<item>ہارر</item>
+<item>ہالووین</item>
+<item>ہاکی</item>
+</array>
+<integer-array name="category_images">
+<item>@drawable/c0</item>
+<item>@drawable/c63</item>
+<item>@drawable/c64</item>
+<item>@drawable/c84</item>
+<item>@drawable/c25</item>
+<item>@drawable/c77</item>
+<item>@drawable/c81</item>
+<item>@drawable/c86</item>
+<item>@drawable/c4</item>
+<item>@drawable/c65</item>
+<item>@drawable/c12</item>
+<item>@drawable/c52</item>
+<item>@drawable/c14</item>
+<item>@drawable/c80</item>
+<item>@drawable/c15</item>
+<item>@drawable/c76</item>
+<item>@drawable/c55</item>
+<item>@drawable/c75</item>
+<item>@drawable/c68</item>
+<item>@drawable/c90</item>
+<item>@drawable/c8</item>
+<item>@drawable/c46</item>
+<item>@drawable/c45</item>
+<item>@drawable/c1</item>
+<item>@drawable/c22</item>
+<item>@drawable/c17</item>
+<item>@drawable/c70</item>
+<item>@drawable/c48</item>
+<item>@drawable/c31</item>
+<item>@drawable/c73</item>
+<item>@drawable/c18</item>
+<item>@drawable/c78</item>
+<item>@drawable/c35</item>
+<item>@drawable/c39</item>
+<item>@drawable/c49</item>
+<item>@drawable/c24</item>
+<item>@drawable/c54</item>
+<item>@drawable/c88</item>
+<item>@drawable/c13</item>
+<item>@drawable/c23</item>
+<item>@drawable/c28</item>
+<item>@drawable/c72</item>
+<item>@drawable/c34</item>
+<item>@drawable/c37</item>
+<item>@drawable/c27</item>
+<item>@drawable/c10</item>
+<item>@drawable/c85</item>
+<item>@drawable/c66</item>
+<item>@drawable/c59</item>
+<item>@drawable/c11</item>
+<item>@drawable/c38</item>
+<item>@drawable/c60</item>
+<item>@drawable/c33</item>
+<item>@drawable/c32</item>
+<item>@drawable/c30</item>
+<item>@drawable/c74</item>
+<item>@drawable/c9</item>
+<item>@drawable/c2</item>
+<item>@drawable/c51</item>
+<item>@drawable/c26</item>
+<item>@drawable/c56</item>
+<item>@drawable/c50</item>
+<item>@drawable/c87</item>
+<item>@drawable/c79</item>
+<item>@drawable/c20</item>
+<item>@drawable/c6</item>
+<item>@drawable/c58</item>
+<item>@drawable/c47</item>
+<item>@drawable/c19</item>
+<item>@drawable/c21</item>
+<item>@drawable/c16</item>
+<item>@drawable/c29</item>
+<item>@drawable/c82</item>
+<item>@drawable/c71</item>
+<item>@drawable/c3</item>
+<item>@drawable/c53</item>
+<item>@drawable/c83</item>
+<item>@drawable/c62</item>
+<item>@drawable/c5</item>
+<item>@drawable/c69</item>
+<item>@drawable/c42</item>
+<item>@drawable/c7</item>
+<item>@drawable/c61</item>
+<item>@drawable/c57</item>
+<item>@drawable/c67</item>
+</integer-array>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Таңғажайып тұсқағаздар 4K</string>
+<string name="udostepnij_tresc">Қосымшаны жүктеп алыңыз https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Параметрлер</string>
+<string name="drawer_open">ашыңыз</string>
+<string name="drawer_close">Қолданбаларды жабыңыз</string>
+<string name="change_wallpaper_index_message">Фотосуретке өту</string>
+<string name="error_message_wrong_number">Қате нөмір</string>
+<string name="set">Растау</string>
+<string name="cancel">Cancel</string>
+<string name="notification_image_downloaded_show_image">Түсқағазды көрсету</string>
+<string name="error">Қате</string>
+<string name="no_internet_connection">Интернет байланысы жоқ</string>
+<string name="turn_on_wifi">Интернетті іске қосыңыз</string>
+<string name="try_again">Қайталауыңызды өтінеміз</string>
+<string name="exit">Шығу</string>
+<string name="no_favorites_message">Таңдаулыларға тұсқағаз қосу үшін нұқыңыз:</string>
+<string name="back">Қайтару</string>
+<string name="rate_the_app">Қолданбаны бағалаңыз</string>
+<string name="info_loading_is_in_progress">Деректер жүктелуде ...</string>
+<string name="wallpaper_has_been_set_message">Түсқағаз өзгертілді</string>
+<string name="wallpaper_has_been_downloaded_message">Фотосурет галереяға қосылды</string>
+<string name="wallpaper_is_loading_message">Тұсқағаз жүктеу ...</string>
+<string name="exit_confirmation_message">Сіз қолданбаны жапқыңыз келетініне сенімдісіз бе?</string>
+<string name="wallpaper_changed">Түсқағаз өзгертілді</string>
+<string name="message_on_download_complete">Фотосурет галереяға қосылды</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Сіз қолданбаны жапқыңыз келетініне сенімдісіз бе?</string>
+<string name="wallpaper_changed_ekran_blokady">Құлыптау экранының тұсқағазы өзгертілді</string>
+<string name="wallpaper_changed_ekran_glowny">Негізгі экранның тұсқағазы өзгертілді</string>
+<string name="wallpapers_download_message">Фотосурет галереяға қосылды</string>
+<string name="please_wait">Өтінемін күте тұрыңыз...</string>
+<string name="share_wallpapers">Тұсқағазды бөлісу</string>
+<string name="categories">Санаттар</string>
+<string name="search_category">Санаттарды іздеу ...</string>
+<string name="set_lockscreen">Бекіту экранында орнатыңыз</string>
+<string name="set_screen">Басты экранда орнатыңыз</string>
+<string name="menu_najlepsze">Үздік</string>
+<string name="menu_najnowsze">Жаңа</string>
+<string name="menu_ulubione">Менің сүйіктілерім</string>
+<string name="exit_message">Басқа қолданбаларды көріңіз.</string>
+<string name="exit_polecamy">Шығу</string>
+<string name="exit_share">Қолданбаны бөлісу</string>
+<string name="exit_share_text">Қосымшаны жүктеп алыңыз</string>
+<string name="exit_rate_app">Пікір бөлісу</string>
+<string name="wcag_menu">Мәзір</string>
+<string name="wcag_nastepna">Келесі</string>
+<string name="wcag_poprzednia">Артқа</string>
+<string name="wcag_udostepnij">Тұсқағазды бөлісу</string>
+<string name="wcag_ulubione">Менің сүйіктілерім</string>
+<string name="wcag_ustaw_tapete">Басты экранда орнатыңыз</string>
+<string name="wcag_ustaw_tapete_blokada">Бекіту экранында орнатыңыз</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

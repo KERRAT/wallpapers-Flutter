@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<array name="category_ids">
+<item>0</item>
+<item>63</item>
+<item>84</item>
+<item>34</item>
+<item>30</item>
+<item>11</item>
+<item>78</item>
+<item>59</item>
+<item>1</item>
+<item>79</item>
+<item>18</item>
+<item>31</item>
+<item>6</item>
+<item>47</item>
+<item>25</item>
+<item>87</item>
+<item>26</item>
+<item>3</item>
+<item>71</item>
+<item>45</item>
+<item>53</item>
+<item>48</item>
+<item>77</item>
+<item>39</item>
+<item>90</item>
+<item>62</item>
+<item>61</item>
+<item>35</item>
+<item>13</item>
+<item>82</item>
+<item>2</item>
+<item>7</item>
+<item>66</item>
+<item>8</item>
+<item>21</item>
+<item>20</item>
+<item>81</item>
+<item>54</item>
+<item>57</item>
+<item>32</item>
+<item>67</item>
+<item>38</item>
+<item>76</item>
+<item>86</item>
+<item>5</item>
+<item>22</item>
+<item>17</item>
+<item>24</item>
+<item>65</item>
+<item>16</item>
+<item>74</item>
+<item>37</item>
+<item>49</item>
+<item>10</item>
+<item>70</item>
+<item>51</item>
+<item>27</item>
+<item>55</item>
+<item>9</item>
+<item>72</item>
+<item>19</item>
+<item>28</item>
+<item>4</item>
+<item>64</item>
+<item>29</item>
+<item>60</item>
+<item>42</item>
+<item>83</item>
+<item>88</item>
+<item>73</item>
+<item>33</item>
+<item>68</item>
+<item>85</item>
+<item>46</item>
+<item>23</item>
+<item>56</item>
+<item>69</item>
+<item>58</item>
+<item>75</item>
+<item>12</item>
+<item>15</item>
+<item>50</item>
+<item>52</item>
+<item>80</item>
+<item>14</item>
+</array>
+<array name="category_names">
+<item>Omnes</item>
+<item>3D</item>
+<item>Abstractio</item>
+<item>Aedificia</item>
+<item>Aestas</item>
+<item>Alcyoneum scopulis</item>
+<item>Alius</item>
+<item>Amor</item>
+<item>Animalia</item>
+<item>Aqua</item>
+<item>Arbores</item>
+<item>Autumna</item>
+<item>Avium</item>
+<item>Backgrounds</item>
+<item>Beaches</item>
+<item>Broken hearts</item>
+<item>Caeruleis Oceanus</item>
+<item>Canibus</item>
+<item>Cars</item>
+<item>Children</item>
+<item>Christmas</item>
+<item>Circumstances</item>
+<item>Coffees</item>
+<item>Colorum</item>
+<item>Cosmos</item>
+<item>Cranium</item>
+<item>Dark Horror</item>
+<item>Decorus nocte</item>
+<item>Deserto</item>
+<item>Drawings</item>
+<item>Dulce animalibus</item>
+<item>Equos</item>
+<item>Eu</item>
+<item>Feles</item>
+<item>Flores</item>
+<item>Folia</item>
+<item>Graffiti</item>
+<item>Gratiarum actio Day</item>
+<item>Halloween</item>
+<item>Hiemis</item>
+<item>Hockey</item>
+<item>Homines</item>
+<item>Ignis</item>
+<item>Illusiones opticas</item>
+<item>Insects</item>
+<item>Islands</item>
+<item>Lakes</item>
+<item>Legumina et fructus</item>
+<item>Ludis</item>
+<item>Montibus</item>
+<item>Motorcycles</item>
+<item>Mulieris</item>
+<item>Natalis</item>
+<item>Naturae</item>
+<item>Navibus</item>
+<item>New Anno</item>
+<item>Occasum</item>
+<item>Paschae</item>
+<item>Piscibus</item>
+<item>Planes</item>
+<item>Plantae</item>
+<item>Procellas</item>
+<item>Puppies</item>
+<item>Qualis 4D</item>
+<item>Quattuor tempora</item>
+<item>Ridiculam</item>
+<item>Rosea</item>
+<item>Screen farris</item>
+<item>Shells</item>
+<item>Spaceships</item>
+<item>Spring</item>
+<item>Suspendisse</item>
+<item>Terra fantasy</item>
+<item>Texturas</item>
+<item>Tropicos</item>
+<item>Valentine \'Dies</item>
+<item>Vehicles</item>
+<item>Venereum</item>
+<item>Vivamus</item>
+<item>Vulcanorum</item>
+<item>Waterfalls</item>
+<item>Weddings</item>
+<item>Women \'Dies</item>
+<item>Nugas</item>
+<item>Siluas</item>
+</array>
+<array name="category_hints">
+<item>Omnes</item>
+<item>3D</item>
+<item>Abstractio</item>
+<item>Aedificia Aedificia </item>
+<item>Aestas</item>
+<item>Alcyoneum scopulis</item>
+<item>Alius</item>
+<item>Amor</item>
+<item>Animalia</item>
+<item>Aqua</item>
+<item>Arbores</item>
+<item>Autumna</item>
+<item>Avium</item>
+<item>Backgrounds</item>
+<item>Beaches Beaches </item>
+<item>Broken hearts</item>
+<item>Caeruleis Oceanus</item>
+<item>Canibus</item>
+<item>Cars</item>
+<item>Children</item>
+<item>Christmas</item>
+<item>Circumstances</item>
+<item>Coffees</item>
+<item>Colorum</item>
+<item>Cosmos</item>
+<item>Cranium</item>
+<item>Dark Horror</item>
+<item>Decorus nocte</item>
+<item>Deserto</item>
+<item>Drawings</item>
+<item>Dulce animalibus</item>
+<item>Equos</item>
+<item>Eu</item>
+<item>Feles</item>
+<item>Flores Flores,</item>
+<item>Folia</item>
+<item>Graffiti</item>
+<item>Gratiarum actio Day</item>
+<item>Halloween</item>
+<item>Hiemis</item>
+<item>Hockey</item>
+<item>Homines</item>
+<item>Ignis</item>
+<item>Illusiones opticas</item>
+<item>Insects</item>
+<item>Islands</item>
+<item>Lakes</item>
+<item>Legumina et fructus</item>
+<item>Ludis</item>
+<item>Montibus</item>
+<item>Motorcycles</item>
+<item>Mulieris</item>
+<item>Natalis</item>
+<item>Naturae</item>
+<item>Navibus</item>
+<item>New Anno</item>
+<item>Occasum</item>
+<item>Paschae</item>
+<item>Piscibus</item>
+<item>Planes</item>
+<item>Plantae</item>
+<item>Procellas</item>
+<item>Puppies</item>
+<item>Qualis 4D</item>
+<item>Quattuor tempora</item>
+<item>Ridiculam</item>
+<item>Rosea</item>
+<item>Screen farris</item>
+<item>Shells</item>
+<item>Spaceships</item>
+<item>Spring</item>
+<item>Suspendisse</item>
+<item>Terra fantasy</item>
+<item>Texturas</item>
+<item>Tropicos</item>
+<item>Valentine \'Dies Valentine Dies</item>
+<item>Vehicles</item>
+<item>Venereum</item>
+<item>Vivamus</item>
+<item>Vulcanorum</item>
+<item>Waterfalls</item>
+<item>Weddings</item>
+<item>Women \'Dies Women Dies</item>
+<item>Nugas</item>
+<item>Siluas</item>
+</array>
+<integer-array name="category_images">
+<item>@drawable/c0</item>
+<item>@drawable/c63</item>
+<item>@drawable/c84</item>
+<item>@drawable/c34</item>
+<item>@drawable/c30</item>
+<item>@drawable/c11</item>
+<item>@drawable/c78</item>
+<item>@drawable/c59</item>
+<item>@drawable/c1</item>
+<item>@drawable/c79</item>
+<item>@drawable/c18</item>
+<item>@drawable/c31</item>
+<item>@drawable/c6</item>
+<item>@drawable/c47</item>
+<item>@drawable/c25</item>
+<item>@drawable/c87</item>
+<item>@drawable/c26</item>
+<item>@drawable/c3</item>
+<item>@drawable/c71</item>
+<item>@drawable/c45</item>
+<item>@drawable/c53</item>
+<item>@drawable/c48</item>
+<item>@drawable/c77</item>
+<item>@drawable/c39</item>
+<item>@drawable/c90</item>
+<item>@drawable/c62</item>
+<item>@drawable/c61</item>
+<item>@drawable/c35</item>
+<item>@drawable/c13</item>
+<item>@drawable/c82</item>
+<item>@drawable/c2</item>
+<item>@drawable/c7</item>
+<item>@drawable/c66</item>
+<item>@drawable/c8</item>
+<item>@drawable/c21</item>
+<item>@drawable/c20</item>
+<item>@drawable/c81</item>
+<item>@drawable/c54</item>
+<item>@drawable/c57</item>
+<item>@drawable/c32</item>
+<item>@drawable/c67</item>
+<item>@drawable/c38</item>
+<item>@drawable/c76</item>
+<item>@drawable/c86</item>
+<item>@drawable/c5</item>
+<item>@drawable/c22</item>
+<item>@drawable/c17</item>
+<item>@drawable/c24</item>
+<item>@drawable/c65</item>
+<item>@drawable/c16</item>
+<item>@drawable/c74</item>
+<item>@drawable/c37</item>
+<item>@drawable/c49</item>
+<item>@drawable/c10</item>
+<item>@drawable/c70</item>
+<item>@drawable/c51</item>
+<item>@drawable/c27</item>
+<item>@drawable/c55</item>
+<item>@drawable/c9</item>
+<item>@drawable/c72</item>
+<item>@drawable/c19</item>
+<item>@drawable/c28</item>
+<item>@drawable/c4</item>
+<item>@drawable/c64</item>
+<item>@drawable/c29</item>
+<item>@drawable/c60</item>
+<item>@drawable/c42</item>
+<item>@drawable/c83</item>
+<item>@drawable/c88</item>
+<item>@drawable/c73</item>
+<item>@drawable/c33</item>
+<item>@drawable/c68</item>
+<item>@drawable/c85</item>
+<item>@drawable/c46</item>
+<item>@drawable/c23</item>
+<item>@drawable/c56</item>
+<item>@drawable/c69</item>
+<item>@drawable/c58</item>
+<item>@drawable/c75</item>
+<item>@drawable/c12</item>
+<item>@drawable/c15</item>
+<item>@drawable/c50</item>
+<item>@drawable/c52</item>
+<item>@drawable/c80</item>
+<item>@drawable/c14</item>
+</integer-array>
+</resources>

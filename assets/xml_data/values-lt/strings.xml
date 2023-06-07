@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Nuostabūs 4K tapetai</string>
+<string name="udostepnij_tresc">Gaukite programą https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Nustatymai</string>
+<string name="drawer_open">Atidarykite</string>
+<string name="drawer_close">Uždaryti programas</string>
+<string name="change_wallpaper_index_message">Eikite į nuotrauką</string>
+<string name="error_message_wrong_number">Neteisingas numeris</string>
+<string name="set">Pateikti</string>
+<string name="cancel">Atšaukti</string>
+<string name="notification_image_downloaded_show_image">Rodyti nuotrauką</string>
+<string name="error">Klaida</string>
+<string name="no_internet_connection">Nėra interneto ryšio</string>
+<string name="turn_on_wifi">Vykdyti internetą</string>
+<string name="try_again">Pakartokite prašome</string>
+<string name="exit">Išeiti</string>
+<string name="no_favorites_message">Spustelėkite, kad pridėtumėte prie mėgstamiausių</string>
+<string name="back">Grįžti</string>
+<string name="rate_the_app">Įvertinkite app</string>
+<string name="info_loading_is_in_progress">Tai kraunasi ...</string>
+<string name="wallpaper_has_been_set_message">Tapetai buvo pakeisti</string>
+<string name="wallpaper_has_been_downloaded_message">Užsklanda išsaugota galerijoje</string>
+<string name="wallpaper_is_loading_message">Įkeliama fono paveikslėlių ...</string>
+<string name="exit_confirmation_message">Ar tikrai norite uždaryti programą?</string>
+<string name="wallpaper_changed">Tapetai buvo pakeisti</string>
+<string name="message_on_download_complete">Užsklanda išsaugota galerijoje</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Ar tikrai norite uždaryti programą?</string>
+<string name="wallpaper_changed_ekran_blokady">Užrakto ekrano tapetai buvo pakeisti</string>
+<string name="wallpaper_changed_ekran_glowny">Pradinio ekrano tapetai buvo pakeisti</string>
+<string name="wallpapers_download_message">Užsklanda išsaugota galerijoje</string>
+<string name="please_wait">Prašau palauk...</string>
+<string name="share_wallpapers">Bendrinti foną</string>
+<string name="categories">Kategorijos</string>
+<string name="search_category">Ieškoti kategorijų ...</string>
+<string name="set_lockscreen">Nustatykite užrakto ekrane</string>
+<string name="set_screen">Nustatykite pagrindiniame ekrane</string>
+<string name="menu_najlepsze">Geriausias</string>
+<string name="menu_najnowsze">Naujos</string>
+<string name="menu_ulubione">Mano mėgstamiausi</string>
+<string name="exit_message">Peržiūrėkite rekomenduojamas programas.</string>
+<string name="exit_polecamy">Išeiti</string>
+<string name="exit_share">Siųsti draugams</string>
+<string name="exit_share_text">Gaukite programą</string>
+<string name="exit_rate_app">Įvertink</string>
+<string name="wcag_menu">Meniu</string>
+<string name="wcag_nastepna">Kitas</string>
+<string name="wcag_poprzednia">Ankstesnis</string>
+<string name="wcag_udostepnij">Bendrinti foną</string>
+<string name="wcag_ulubione">Mano mėgstamiausi</string>
+<string name="wcag_ustaw_tapete">Nustatykite pagrindiniame ekrane</string>
+<string name="wcag_ustaw_tapete_blokada">Nustatykite užrakto ekrane</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

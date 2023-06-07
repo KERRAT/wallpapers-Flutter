@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">驚人的壁紙4K</string>
+<string name="udostepnij_tresc">獲取應用 https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Settings</string>
+<string name="drawer_open">打開照片</string>
+<string name="drawer_close">關閉應用程序</string>
+<string name="change_wallpaper_index_message">去壁紙</string>
+<string name="error_message_wrong_number">無效號碼</string>
+<string name="set">提交</string>
+<string name="cancel">取消</string>
+<string name="notification_image_downloaded_show_image">顯示壁紙</string>
+<string name="error">錯誤</string>
+<string name="no_internet_connection">沒有網絡連接</string>
+<string name="turn_on_wifi">运行互联网</string>
+<string name="try_again">再試一次</string>
+<string name="exit">出口</string>
+<string name="no_favorites_message">要添加壁紙到您的收藏夾點擊：</string>
+<string name="back">背部</string>
+<string name="rate_the_app">評價應用程式</string>
+<string name="info_loading_is_in_progress">載入中......</string>
+<string name="wallpaper_has_been_set_message">壁紙已更改</string>
+<string name="wallpaper_has_been_downloaded_message">壁紙已保存到畫廊</string>
+<string name="wallpaper_is_loading_message">加載壁紙......</string>
+<string name="exit_confirmation_message">您確定要關閉該應用程序嗎？</string>
+<string name="wallpaper_changed">壁紙已更改</string>
+<string name="message_on_download_complete">壁紙已保存到畫廊</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">您確定要關閉該應用程序嗎？</string>
+<string name="wallpaper_changed_ekran_blokady">鎖屏壁紙已更改</string>
+<string name="wallpaper_changed_ekran_glowny">主屏幕牆紙已更改</string>
+<string name="wallpapers_download_message">壁紙已保存到畫廊</string>
+<string name="please_wait">請稍候...</string>
+<string name="share_wallpapers">分享牆紙</string>
+<string name="categories">分類目錄</string>
+<string name="search_category">按類別搜索...</string>
+<string name="set_lockscreen">設置在鎖定屏幕上</string>
+<string name="set_screen">設置在主屏幕上</string>
+<string name="menu_najlepsze">最好的</string>
+<string name="menu_najnowsze">新的</string>
+<string name="menu_ulubione">我最喜歡的</string>
+<string name="exit_message">查看推薦的應用。</string>
+<string name="exit_polecamy">出口</string>
+<string name="exit_share">推薦應用</string>
+<string name="exit_share_text">獲取應用</string>
+<string name="exit_rate_app">速度</string>
+<string name="wcag_menu">菜單</string>
+<string name="wcag_nastepna">下一個</string>
+<string name="wcag_poprzednia">以前的</string>
+<string name="wcag_udostepnij">分享牆紙</string>
+<string name="wcag_ulubione">我最喜歡的</string>
+<string name="wcag_ustaw_tapete">設置在主屏幕上</string>
+<string name="wcag_ustaw_tapete_blokada">設置在鎖定屏幕上</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

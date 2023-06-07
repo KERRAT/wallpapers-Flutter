@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Wallpaper Luar Biasa 4K</string>
+<string name="udostepnij_tresc">Dapatkan aplikasi https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Pengaturan</string>
+<string name="drawer_open">Buka</string>
+<string name="drawer_close">Tutup aplikasi</string>
+<string name="change_wallpaper_index_message">Pergi ke wallpaper</string>
+<string name="error_message_wrong_number">Nomor tidak valid</string>
+<string name="set">Menyerahkan</string>
+<string name="cancel">Membatalkan</string>
+<string name="notification_image_downloaded_show_image">Tampilkan wallpaper</string>
+<string name="error">error</string>
+<string name="no_internet_connection">Tidak ada koneksi internet</string>
+<string name="turn_on_wifi">Jalankan internet</string>
+<string name="try_again">ulangi</string>
+<string name="exit">Keluar</string>
+<string name="no_favorites_message">Untuk menambahkan wallpaper ke favorit Anda klik:</string>
+<string name="back">Kembali</string>
+<string name="rate_the_app">Beri nilai pada aplikasi</string>
+<string name="info_loading_is_in_progress">Memuat data ...</string>
+<string name="wallpaper_has_been_set_message">Wallpaper telah diubah</string>
+<string name="wallpaper_has_been_downloaded_message">Wallpaper telah disimpan ke galeri</string>
+<string name="wallpaper_is_loading_message">Memuat wallpaper ...</string>
+<string name="exit_confirmation_message">Anda yakin ingin menutup aplikasi?</string>
+<string name="wallpaper_changed">Wallpaper telah diubah</string>
+<string name="message_on_download_complete">Wallpaper telah disimpan ke galeri</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Anda yakin ingin menutup aplikasi?</string>
+<string name="wallpaper_changed_ekran_blokady">Wallpaper layar kunci telah diubah</string>
+<string name="wallpaper_changed_ekran_glowny">Wallpaper layar beranda telah diubah</string>
+<string name="wallpapers_download_message">Wallpaper telah disimpan ke galeri</string>
+<string name="please_wait">Mohon tunggu...</string>
+<string name="share_wallpapers">Bagikan wallpaper</string>
+<string name="categories">Kategori</string>
+<string name="search_category">Cari ...</string>
+<string name="set_lockscreen">Atur pada layar kunci</string>
+<string name="set_screen">Atur di layar beranda</string>
+<string name="menu_najlepsze">Terbaik</string>
+<string name="menu_najnowsze">Baru</string>
+<string name="menu_ulubione">Favorit saya</string>
+<string name="exit_message">View more apps.</string>
+<string name="exit_polecamy">KELUAR</string>
+<string name="exit_share">Berbagi aplikasi</string>
+<string name="exit_share_text">Dapatkan aplikasi</string>
+<string name="exit_rate_app">Nilai aplikasi</string>
+<string name="wcag_menu">Menu</string>
+<string name="wcag_nastepna">Lanjut</string>
+<string name="wcag_poprzednia">Sebelumnya</string>
+<string name="wcag_udostepnij">Bagikan wallpaper</string>
+<string name="wcag_ulubione">Favorit saya</string>
+<string name="wcag_ustaw_tapete">Atur di layar beranda</string>
+<string name="wcag_ustaw_tapete_blokada">Atur pada layar kunci</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

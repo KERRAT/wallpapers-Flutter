@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Horma-irudi harrigarriak 4K</string>
+<string name="udostepnij_tresc">Eskuratu aplikazioa https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Ezarpenak</string>
+<string name="drawer_open">Ireki</string>
+<string name="drawer_close">Itxi aplikazioak</string>
+<string name="change_wallpaper_index_message">Go to the wallpaper</string>
+<string name="error_message_wrong_number">Zenbaki baliogabea</string>
+<string name="set">Berretsi</string>
+<string name="cancel">Cancel</string>
+<string name="notification_image_downloaded_show_image">Erakutsi horma-papera</string>
+<string name="error">Errorea</string>
+<string name="no_internet_connection">Interneteko konexiorik ez</string>
+<string name="turn_on_wifi">Internet exekutatu</string>
+<string name="try_again">Errepikatu Mesedez</string>
+<string name="exit">Irten</string>
+<string name="no_favorites_message">Zure gogokoetarako horma-papera gehitzeko egin klik:</string>
+<string name="back">Itzuli</string>
+<string name="rate_the_app">Baloratu aplikazioa</string>
+<string name="info_loading_is_in_progress">Kargatzen ...</string>
+<string name="wallpaper_has_been_set_message">Argazki aldatu da</string>
+<string name="wallpaper_has_been_downloaded_message">The wallpaper has been saved to the gallery</string>
+<string name="wallpaper_is_loading_message">Atzeko planoa kargatzen ...</string>
+<string name="exit_confirmation_message">Ziur aplikazioa itxi nahi duzula?</string>
+<string name="wallpaper_changed">Argazki aldatu da</string>
+<string name="message_on_download_complete">The wallpaper has been saved to the gallery</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Ziur aplikazioa itxi nahi duzula?</string>
+<string name="wallpaper_changed_ekran_blokady">Blokeatu pantailako pantaila aldatu da</string>
+<string name="wallpaper_changed_ekran_glowny">Blokeatu pantailaren atzeko planoa eguneratu da</string>
+<string name="wallpapers_download_message">The wallpaper has been saved to the gallery</string>
+<string name="please_wait">Itxaron mesedez...</string>
+<string name="share_wallpapers">Partekatu horma papera</string>
+<string name="categories">Kategoriak</string>
+<string name="search_category">Bilatu kategoriak ...</string>
+<string name="set_lockscreen">Ezarri blokeo pantailan</string>
+<string name="set_screen">Ezarri hasierako pantailan</string>
+<string name="menu_najlepsze">Onenak</string>
+<string name="menu_najnowsze">Berriak</string>
+<string name="menu_ulubione">Nire gogokoenak</string>
+<string name="exit_message">Ikusi beste aplikazio batzuk.</string>
+<string name="exit_polecamy">Irten</string>
+<string name="exit_share">Partekatu lagunak</string>
+<string name="exit_share_text">Eskuratu aplikazioa</string>
+<string name="exit_rate_app">Gehitu balorazioa</string>
+<string name="wcag_menu">Menua</string>
+<string name="wcag_nastepna">Hurrengoa</string>
+<string name="wcag_poprzednia">Aurrekoa</string>
+<string name="wcag_udostepnij">Partekatu horma papera</string>
+<string name="wcag_ulubione">Nire gogokoenak</string>
+<string name="wcag_ustaw_tapete">Ezarri hasierako pantailan</string>
+<string name="wcag_ustaw_tapete_blokada">Ezarri blokeo pantailan</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

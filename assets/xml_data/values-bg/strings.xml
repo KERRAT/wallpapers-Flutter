@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Невероятни тапети 4K</string>
+<string name="udostepnij_tresc">Вземете приложение https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Настройки</string>
+<string name="drawer_open">Отворете</string>
+<string name="drawer_close">Затваряне на приложения</string>
+<string name="change_wallpaper_index_message">Отидете на тапета</string>
+<string name="error_message_wrong_number">Грешен номер</string>
+<string name="set">Подайте</string>
+<string name="cancel">Cancel</string>
+<string name="notification_image_downloaded_show_image">Показване на тапета</string>
+<string name="error">грешка</string>
+<string name="no_internet_connection">Няма връзка с интернет</string>
+<string name="turn_on_wifi">Включете интернет</string>
+<string name="try_again">Повторете отново</string>
+<string name="exit">Изход</string>
+<string name="no_favorites_message">Кликнете, за да добавите към предпочитаните</string>
+<string name="back">Bръщане</string>
+<string name="rate_the_app">Оценете приложението</string>
+<string name="info_loading_is_in_progress">Зареждане ...</string>
+<string name="wallpaper_has_been_set_message">Тапетът е променен</string>
+<string name="wallpaper_has_been_downloaded_message">Тапетът е запазен в галерията</string>
+<string name="wallpaper_is_loading_message">Тапетът се зарежда ...</string>
+<string name="exit_confirmation_message">Сигурни ли сте, че искате да затворите приложението?</string>
+<string name="wallpaper_changed">Тапетът е променен</string>
+<string name="message_on_download_complete">Тапетът е запазен в галерията</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Сигурни ли сте, че искате да затворите приложението?</string>
+<string name="wallpaper_changed_ekran_blokady">Тапетът на заключения екран е променен</string>
+<string name="wallpaper_changed_ekran_glowny">Тапетът на началния екран е променен</string>
+<string name="wallpapers_download_message">Тапетът е запазен в галерията</string>
+<string name="please_wait">Моля Изчакай...</string>
+<string name="share_wallpapers">Споделете тапет</string>
+<string name="categories">Категории</string>
+<string name="search_category">Търсене на категории ...</string>
+<string name="set_lockscreen">Задайте на заключения екран</string>
+<string name="set_screen">Задайте на началния екран</string>
+<string name="menu_najlepsze">Най-добре</string>
+<string name="menu_najnowsze">Нови</string>
+<string name="menu_ulubione">Любимите ми</string>
+<string name="exit_message">Вижте други приложения.</string>
+<string name="exit_polecamy">Излезте</string>
+<string name="exit_share">Споделете приятели</string>
+<string name="exit_share_text">Вземете приложение</string>
+<string name="exit_rate_app">Добавете рейтинг</string>
+<string name="wcag_menu">Меню</string>
+<string name="wcag_nastepna">Следващия</string>
+<string name="wcag_poprzednia">Предишен</string>
+<string name="wcag_udostepnij">Споделете тапет</string>
+<string name="wcag_ulubione">Любимите ми</string>
+<string name="wcag_ustaw_tapete">Задайте на началния екран</string>
+<string name="wcag_ustaw_tapete_blokada">Задайте на заключения екран</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

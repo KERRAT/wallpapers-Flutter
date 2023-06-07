@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Wallpapers mahagaga 4K</string>
+<string name="udostepnij_tresc">Ampidino ny fampiharana https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Settings</string>
+<string name="drawer_open">sokafy</string>
+<string name="drawer_close">Close fampiharana</string>
+<string name="change_wallpaper_index_message">Mandehana any amin\'ny temotra</string>
+<string name="error_message_wrong_number">Wrong isa</string>
+<string name="set">Hamarino</string>
+<string name="cancel">Cancel</string>
+<string name="notification_image_downloaded_show_image">Show temotra</string>
+<string name="error">fahadisoana</string>
+<string name="no_internet_connection">No aterineto connection</string>
+<string name="turn_on_wifi">Turn on the internet</string>
+<string name="try_again">Avereno Please</string>
+<string name="exit">Fivoahana</string>
+<string name="no_favorites_message">Tsindrio ny Add to Favorites</string>
+<string name="back">Miverena</string>
+<string name="rate_the_app">Rate the app</string>
+<string name="info_loading_is_in_progress">Loading ...</string>
+<string name="wallpaper_has_been_set_message">Ny temotra Novana</string>
+<string name="wallpaper_has_been_downloaded_message">Ny temotra Efa voavonjy ny Gallery</string>
+<string name="wallpaper_is_loading_message">Andraso azafady ...</string>
+<string name="exit_confirmation_message">Azo antoka ve fa te-hanidy ilay fampiharana ianao?</string>
+<string name="wallpaper_changed">Ny temotra Novana</string>
+<string name="message_on_download_complete">Ny temotra Efa voavonjy ny Gallery</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Azo antoka ve fa te-hanidy ilay fampiharana ianao?</string>
+<string name="wallpaper_changed_ekran_blokady">Novana ny rindrin\'ny efijery fanidy</string>
+<string name="wallpaper_changed_ekran_glowny">The home screen wallpaper has been changed</string>
+<string name="wallpapers_download_message">Ny temotra Efa voavonjy ny Gallery</string>
+<string name="please_wait">Andraso azafady...</string>
+<string name="share_wallpapers">Mizarà rindrina</string>
+<string name="categories">Sokajy</string>
+<string name="search_category">Mikaroka sokajy ...</string>
+<string name="set_lockscreen">Set on the lock screen</string>
+<string name="set_screen">Apetraka eo amin\'ny efijery an-trano</string>
+<string name="menu_najlepsze">Top</string>
+<string name="menu_najnowsze">Vaovao</string>
+<string name="menu_ulubione">Ireo tiako indrindra</string>
+<string name="exit_message">Jereo ny fampiharana hafa.</string>
+<string name="exit_polecamy">Fivoahana</string>
+<string name="exit_share">Mizara app</string>
+<string name="exit_share_text">Ampidino ny fampiharana</string>
+<string name="exit_rate_app">Hamarino ny app</string>
+<string name="wcag_menu">Tolotra</string>
+<string name="wcag_nastepna">Manaraka</string>
+<string name="wcag_poprzednia">Backwards</string>
+<string name="wcag_udostepnij">Mizarà rindrina</string>
+<string name="wcag_ulubione">Ireo tiako indrindra</string>
+<string name="wcag_ustaw_tapete">Apetraka eo amin\'ny efijery an-trano</string>
+<string name="wcag_ustaw_tapete_blokada">Set on the lock screen</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

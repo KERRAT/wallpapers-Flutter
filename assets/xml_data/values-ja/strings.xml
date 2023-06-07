@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">素晴らしい壁紙 4K</string>
+<string name="udostepnij_tresc">アプリを取得 https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">設定</string>
+<string name="drawer_open">開いた</string>
+<string name="drawer_close">アプリケーションを閉じる</string>
+<string name="change_wallpaper_index_message">壁紙に移動</string>
+<string name="error_message_wrong_number">間違った番号</string>
+<string name="set">確認</string>
+<string name="cancel">取り消す</string>
+<string name="notification_image_downloaded_show_image">壁紙を表示</string>
+<string name="error">エラー</string>
+<string name="no_internet_connection">インターネット接続なし</string>
+<string name="turn_on_wifi">インターネットを実行する</string>
+<string name="try_again">繰り返す</string>
+<string name="exit">出口</string>
+<string name="no_favorites_message">To add wallpaper to your favorites click:</string>
+<string name="back">バック</string>
+<string name="rate_the_app">アプリを評価する</string>
+<string name="info_loading_is_in_progress">データのロード ...</string>
+<string name="wallpaper_has_been_set_message">壁紙が変更されました</string>
+<string name="wallpaper_has_been_downloaded_message">壁紙はギャラリーに保存されました</string>
+<string name="wallpaper_is_loading_message">壁紙を読み込んでいます...</string>
+<string name="exit_confirmation_message">アプリケーションを閉じてもよろしいですか？</string>
+<string name="wallpaper_changed">壁紙が変更されました</string>
+<string name="message_on_download_complete">壁紙はギャラリーに保存されました</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">アプリケーションを閉じてもよろしいですか？</string>
+<string name="wallpaper_changed_ekran_blokady">ロック画面の壁紙が変更されました</string>
+<string name="wallpaper_changed_ekran_glowny">ホーム画面の壁紙が変更されました</string>
+<string name="wallpapers_download_message">壁紙はギャラリーに保存されました</string>
+<string name="please_wait">お待ちください...</string>
+<string name="share_wallpapers">壁紙を共有する</string>
+<string name="categories">カテゴリ</string>
+<string name="search_category">カテゴリで検索..。</string>
+<string name="set_lockscreen">ロック画面で設定</string>
+<string name="set_screen">ホーム画面に設定</string>
+<string name="menu_najlepsze">最高の写真</string>
+<string name="menu_najnowsze">新しい</string>
+<string name="menu_ulubione">私のお気に入り</string>
+<string name="exit_message">他のアプリを見る</string>
+<string name="exit_polecamy">出口</string>
+<string name="exit_share">友達に送る</string>
+<string name="exit_share_text">アプリを取得</string>
+<string name="exit_rate_app">評価を追加</string>
+<string name="wcag_menu">メニュー</string>
+<string name="wcag_nastepna">次</string>
+<string name="wcag_poprzednia">前</string>
+<string name="wcag_udostepnij">壁紙を共有する</string>
+<string name="wcag_ulubione">私のお気に入り</string>
+<string name="wcag_ustaw_tapete">ホーム画面に設定</string>
+<string name="wcag_ustaw_tapete_blokada">ロック画面で設定</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="id_app">999</string> 
+<string name="id_ad_app">ca-app-pub-5622552586235678~7142986362</string>             
+<string name="id_ad_banner">ca-app-pub-5622552586235678/2119798312</string>
+<string name="id_ad_fullscreen">ca-app-pub-5622552586235678/2014736978</string>
+
+<string name="serwer_1">http://cf-phonewall4k.com/android/serwery_glowna.json</string>
+<string name="serwer_2">http://phonewall4k.com/android/serwery_glowna.json</string>
+
+<string name="powiadomienia_push">http://phonewall4k.com/android/powiadomienia_push.php</string> 
+<string name="zglos_lubi">http://phonewall4k.com/zapisz.php?app=999&amp;id=[ID]&amp;gid=[GID]&amp;lubi=[LUBI]</string> 
+<string name="zglos_pobierz">http://phonewall4k.com/zapisz.php?app=999&amp;id=[ID]&amp;gid=[GID]&amp;download=tak</string> 
+<string name="zglos_ustaw">http://phonewall4k.com/zapisz.php?app=999&amp;id=[ID]&amp;gid=[GID]&amp;ustaw=tak</string> 
+<string name="polecane_wyjdz">http://cf-phonewall4k.com/android/wyjdz.json</string>
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Mirindaj Tapetoj 4K</string>
+<string name="udostepnij_tresc">Akiri app https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Agordoj</string>
+<string name="drawer_open">Malfermu</string>
+<string name="drawer_close">Fermi aplikojn</string>
+<string name="change_wallpaper_index_message">Iru al la tapeto</string>
+<string name="error_message_wrong_number">malĝusta nombro</string>
+<string name="set">Proponu</string>
+<string name="cancel">Nuligi</string>
+<string name="notification_image_downloaded_show_image">Montri wallpaper</string>
+<string name="error">eraro</string>
+<string name="no_internet_connection">Neniu retkonekto</string>
+<string name="turn_on_wifi">Kuru interreto</string>
+<string name="try_again">ripetu denove</string>
+<string name="exit">Eliro</string>
+<string name="no_favorites_message">Por aldoni wallpaper por via favoritos klaku:</string>
+<string name="back">Reveni</string>
+<string name="rate_the_app">Imposto la app</string>
+<string name="info_loading_is_in_progress">Ŝarĝante ...</string>
+<string name="wallpaper_has_been_set_message">La papertapeta estis ŝanĝita</string>
+<string name="wallpaper_has_been_downloaded_message">La wallpaper estas konservita al la galerio</string>
+<string name="wallpaper_is_loading_message">Bonvolu atendi ...</string>
+<string name="exit_confirmation_message">Ĉu vi certas, ke vi volas fermi la aplikon?</string>
+<string name="wallpaper_changed">La papertapeta estis ŝanĝita</string>
+<string name="message_on_download_complete">La wallpaper estas konservita al la galerio</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Ĉu vi certas, ke vi volas fermi la aplikon?</string>
+<string name="wallpaper_changed_ekran_blokady">La ekrano de la seruro de ekrano estas ŝanĝita</string>
+<string name="wallpaper_changed_ekran_glowny">Fono de ŝlosila ekrano ĝisdatigita</string>
+<string name="wallpapers_download_message">La wallpaper estas konservita al la galerio</string>
+<string name="please_wait">Bonvolu atendi...</string>
+<string name="share_wallpapers">Kunhavigi fonon</string>
+<string name="categories">Kategorioj</string>
+<string name="search_category">Serĉu laŭ kategorio ...</string>
+<string name="set_lockscreen">Agordu sur la serura ekrano</string>
+<string name="set_screen">En la ĉefa ekrano</string>
+<string name="menu_najlepsze">bonaj</string>
+<string name="menu_najnowsze">Novaj</string>
+<string name="menu_ulubione">Miaj plej ŝatataj</string>
+<string name="exit_message">Vidu alia apps.</string>
+<string name="exit_polecamy">Eliro</string>
+<string name="exit_share">Rekomendi apon</string>
+<string name="exit_share_text">Akiri app</string>
+<string name="exit_rate_app">Kunhavigu opinion</string>
+<string name="wcag_menu">Menuo</string>
+<string name="wcag_nastepna">Antaŭen</string>
+<string name="wcag_poprzednia">Antaŭa</string>
+<string name="wcag_udostepnij">Kunhavigi fonon</string>
+<string name="wcag_ulubione">Miaj plej ŝatataj</string>
+<string name="wcag_ustaw_tapete">En la ĉefa ekrano</string>
+<string name="wcag_ustaw_tapete_blokada">Agordu sur la serura ekrano</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Pārsteidzoši 4K fona attēli</string>
+<string name="udostepnij_tresc">Iegūstiet lietotni https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Iestatījumi</string>
+<string name="drawer_open">Atveriet</string>
+<string name="drawer_close">Aizveriet programmu</string>
+<string name="change_wallpaper_index_message">Iet uz tapeti</string>
+<string name="error_message_wrong_number">Nepareizs numurs</string>
+<string name="set">Apstiprināt</string>
+<string name="cancel">Atcelt</string>
+<string name="notification_image_downloaded_show_image">Parādīt fonu</string>
+<string name="error">Kļūda</string>
+<string name="no_internet_connection">Nav interneta savienojuma</string>
+<string name="turn_on_wifi">Turn on the internet</string>
+<string name="try_again">Atkārtojiet</string>
+<string name="exit">Izeja</string>
+<string name="no_favorites_message">To add wallpaper to your favorites click:</string>
+<string name="back">Atpakaļ</string>
+<string name="rate_the_app">Novērtējiet lietotni</string>
+<string name="info_loading_is_in_progress">Notiek ielāde notiek ...</string>
+<string name="wallpaper_has_been_set_message">Fona attēls ir mainīts</string>
+<string name="wallpaper_has_been_downloaded_message">Foto ir pievienots galerijai</string>
+<string name="wallpaper_is_loading_message">Notiek tapešu ielāde ...</string>
+<string name="exit_confirmation_message">Vai tiešām vēlaties aizvērt lietojumprogrammu?</string>
+<string name="wallpaper_changed">Fona attēls ir mainīts</string>
+<string name="message_on_download_complete">Foto ir pievienots galerijai</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Vai tiešām vēlaties aizvērt lietojumprogrammu?</string>
+<string name="wallpaper_changed_ekran_blokady">Bloķēšanas ekrāna fona attēls ir mainīts</string>
+<string name="wallpaper_changed_ekran_glowny">Sākuma ekrāna fona attēli ir mainīti</string>
+<string name="wallpapers_download_message">Foto ir pievienots galerijai</string>
+<string name="please_wait">Lūdzu uzgaidiet...</string>
+<string name="share_wallpapers">Kopīgot fonu</string>
+<string name="categories">Kategorijas</string>
+<string name="search_category">Meklēt kategorijas ...</string>
+<string name="set_lockscreen">Iestatiet bloķēšanas ekrānā</string>
+<string name="set_screen">Iestatiet sākuma ekrānā</string>
+<string name="menu_najlepsze">Labākās</string>
+<string name="menu_najnowsze">Jaunās</string>
+<string name="menu_ulubione">Mani mīļākie</string>
+<string name="exit_message">Skatīt ieteicamās lietojumprogrammas.</string>
+<string name="exit_polecamy">Izeja</string>
+<string name="exit_share">Ieteikt lietotni</string>
+<string name="exit_share_text">Iegūstiet lietotni</string>
+<string name="exit_rate_app">Likme</string>
+<string name="wcag_menu">Izvēlne</string>
+<string name="wcag_nastepna">Nākamais</string>
+<string name="wcag_poprzednia">Iepriekšējais</string>
+<string name="wcag_udostepnij">Kopīgot fonu</string>
+<string name="wcag_ulubione">Mani mīļākie</string>
+<string name="wcag_ustaw_tapete">Iestatiet sākuma ekrānā</string>
+<string name="wcag_ustaw_tapete_blokada">Iestatiet bloķēšanas ekrānā</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

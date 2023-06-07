@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Неверојатни позадини 4K</string>
+<string name="udostepnij_tresc">Добијте апликација https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Подесувања</string>
+<string name="drawer_open">Отворете</string>
+<string name="drawer_close">Затворете ја програмата</string>
+<string name="change_wallpaper_index_message">Оди на фотографијата</string>
+<string name="error_message_wrong_number">Погрешен број</string>
+<string name="set">Потврди</string>
+<string name="cancel">Откажи</string>
+<string name="notification_image_downloaded_show_image">Прикажи позадина</string>
+<string name="error">Грешка</string>
+<string name="no_internet_connection">Нема интернет врска</string>
+<string name="turn_on_wifi">Стартувај интернет</string>
+<string name="try_again">Повторете</string>
+<string name="exit">Излез</string>
+<string name="no_favorites_message">Кликни за да додадете во омилени</string>
+<string name="back">Hазад</string>
+<string name="rate_the_app">Оценете ја апликацијата</string>
+<string name="info_loading_is_in_progress">Се вчитува ...</string>
+<string name="wallpaper_has_been_set_message">Заднината е сменета</string>
+<string name="wallpaper_has_been_downloaded_message">Заднината е зачувана во галеријата</string>
+<string name="wallpaper_is_loading_message">Вчитување на позадина ...</string>
+<string name="exit_confirmation_message">Излезете од апликацијата?</string>
+<string name="wallpaper_changed">Заднината е сменета</string>
+<string name="message_on_download_complete">Заднината е зачувана во галеријата</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Дали сте сигурни дека сакате да ја затворите апликацијата?</string>
+<string name="wallpaper_changed_ekran_blokady">Поставена е позадина за заклучување на екранот</string>
+<string name="wallpaper_changed_ekran_glowny">Позадината на почетниот екран е сменета</string>
+<string name="wallpapers_download_message">Заднината е зачувана во галеријата</string>
+<string name="please_wait">Ве молам почекајте...</string>
+<string name="share_wallpapers">Споделете позадина</string>
+<string name="categories">Категории</string>
+<string name="search_category">Пребарај категории ...</string>
+<string name="set_lockscreen">Поставете го екранот за заклучување</string>
+<string name="set_screen">Поставете на почетниот екран</string>
+<string name="menu_najlepsze">Најдобри</string>
+<string name="menu_najnowsze">Нови</string>
+<string name="menu_ulubione">Мои фаворити</string>
+<string name="exit_message">Погледнете ги препорачаните апликации.</string>
+<string name="exit_polecamy">Излезете</string>
+<string name="exit_share">Споделете пријатели</string>
+<string name="exit_share_text">Добијте апликација</string>
+<string name="exit_rate_app">Оцени</string>
+<string name="wcag_menu">Мени</string>
+<string name="wcag_nastepna">Следно</string>
+<string name="wcag_poprzednia">Претходна</string>
+<string name="wcag_udostepnij">Споделете позадина</string>
+<string name="wcag_ulubione">Мои фаворити</string>
+<string name="wcag_ustaw_tapete">Поставете на почетниот екран</string>
+<string name="wcag_ustaw_tapete_blokada">Поставете го екранот за заклучување</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

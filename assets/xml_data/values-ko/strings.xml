@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">놀라운 배경 화면 4K</string>
+<string name="udostepnij_tresc">앱 받기 https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">설정</string>
+<string name="drawer_open">사진을 엽니 다.</string>
+<string name="drawer_close">응용 프로그램 닫기</string>
+<string name="change_wallpaper_index_message">배경 화면으로 이동</string>
+<string name="error_message_wrong_number">잘못된 번호</string>
+<string name="set">확인</string>
+<string name="cancel">Cancel</string>
+<string name="notification_image_downloaded_show_image">사진 표시</string>
+<string name="error">오류</string>
+<string name="no_internet_connection">인터넷에 연결되어 있지 않습니다.</string>
+<string name="turn_on_wifi">인터넷을 실행하십시오.</string>
+<string name="try_again">다시 반복하십시오</string>
+<string name="exit">출구</string>
+<string name="no_favorites_message">즐겨 찾기에 추가하려면 클릭하십시오.</string>
+<string name="back">반환</string>
+<string name="rate_the_app">앱 평가하기</string>
+<string name="info_loading_is_in_progress">로드 중입니다 ...</string>
+<string name="wallpaper_has_been_set_message">배경 화면이 변경되었습니다.</string>
+<string name="wallpaper_has_been_downloaded_message">배경 화면이 갤러리에 저장되었습니다.</string>
+<string name="wallpaper_is_loading_message">벽지로드 중 ...</string>
+<string name="exit_confirmation_message">응용 프로그램을 닫으시겠습니까?</string>
+<string name="wallpaper_changed">배경 화면이 변경되었습니다.</string>
+<string name="message_on_download_complete">배경 화면이 갤러리에 저장되었습니다.</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">응용 프로그램을 닫으시겠습니까?</string>
+<string name="wallpaper_changed_ekran_blokady">잠금 화면 배경 화면이 변경되었습니다</string>
+<string name="wallpaper_changed_ekran_glowny">홈 화면 배경 화면이 변경되었습니다</string>
+<string name="wallpapers_download_message">배경 화면이 갤러리에 저장되었습니다.</string>
+<string name="please_wait">잠시만 기다려주십시오 ...</string>
+<string name="share_wallpapers">배경 화면 공유</string>
+<string name="categories">카테고리</string>
+<string name="search_category">카테고리로 검색 ...</string>
+<string name="set_lockscreen">잠금 화면에서 설정</string>
+<string name="set_screen">홈 화면에서 설정</string>
+<string name="menu_najlepsze">상단</string>
+<string name="menu_najnowsze">New</string>
+<string name="menu_ulubione">즐겨 찾기</string>
+<string name="exit_message">다른 앱보기.</string>
+<string name="exit_polecamy">출구</string>
+<string name="exit_share">앱 추천</string>
+<string name="exit_share_text">앱 받기</string>
+<string name="exit_rate_app">평가 추가</string>
+<string name="wcag_menu">메뉴</string>
+<string name="wcag_nastepna">다음</string>
+<string name="wcag_poprzednia">이전의</string>
+<string name="wcag_udostepnij">배경 화면 공유</string>
+<string name="wcag_ulubione">즐겨 찾기</string>
+<string name="wcag_ustaw_tapete">홈 화면에서 설정</string>
+<string name="wcag_ustaw_tapete_blokada">잠금 화면에서 설정</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

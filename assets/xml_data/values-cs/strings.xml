@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Úžasné tapety 4K</string>
+<string name="udostepnij_tresc">Získejte aplikaci https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Nastavení</string>
+<string name="drawer_open">Otevřete</string>
+<string name="drawer_close">Zavřete aplikace</string>
+<string name="change_wallpaper_index_message">Přejděte na tapetu</string>
+<string name="error_message_wrong_number">Neplatné číslo</string>
+<string name="set">Předložit</string>
+<string name="cancel">zrušit</string>
+<string name="notification_image_downloaded_show_image">Zobrazit tapetu</string>
+<string name="error">chyba</string>
+<string name="no_internet_connection">Žádné internetové připojení</string>
+<string name="turn_on_wifi">Spusťte internet</string>
+<string name="try_again">zkus to znovu</string>
+<string name="exit">Zavřete</string>
+<string name="no_favorites_message">Chcete-li přidat oblíbené tapety, klikněte na:</string>
+<string name="back">Vrať</string>
+<string name="rate_the_app">Ohodnoťte aplikaci</string>
+<string name="info_loading_is_in_progress">Načítání ...</string>
+<string name="wallpaper_has_been_set_message">Tapeta byla změněna</string>
+<string name="wallpaper_has_been_downloaded_message">Tapeta byla uložena do galerie</string>
+<string name="wallpaper_is_loading_message">Načítání tapety ...</string>
+<string name="exit_confirmation_message">Opravdu chcete aplikaci zavřít?</string>
+<string name="wallpaper_changed">Tapeta byla změněna</string>
+<string name="message_on_download_complete">Tapeta byla uložena do galerie</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Opravdu chcete aplikaci zavřít?</string>
+<string name="wallpaper_changed_ekran_blokady">Tapeta zámku obrazovky byla změněna</string>
+<string name="wallpaper_changed_ekran_glowny">Tapeta na domovské obrazovce byla změněna</string>
+<string name="wallpapers_download_message">Tapeta byla uložena do galerie</string>
+<string name="please_wait">Prosím, čekejte...</string>
+<string name="share_wallpapers">Sdílet tapetu</string>
+<string name="categories">Kategorie</string>
+<string name="search_category">Hledat kategorie ...</string>
+<string name="set_lockscreen">Nastavte na obrazovce uzamčení</string>
+<string name="set_screen">Nastavení na domovské obrazovce</string>
+<string name="menu_najlepsze">Nejlepší</string>
+<string name="menu_najnowsze">New</string>
+<string name="menu_ulubione">Moje oblíbené</string>
+<string name="exit_message">Zobrazit doporučené aplikace.</string>
+<string name="exit_polecamy">Výstup</string>
+<string name="exit_share">Sdílejte přátele</string>
+<string name="exit_share_text">Získejte aplikaci</string>
+<string name="exit_rate_app">Přidat hodnocení</string>
+<string name="wcag_menu">Jídelní lístek</string>
+<string name="wcag_nastepna">Další</string>
+<string name="wcag_poprzednia">Předchozí</string>
+<string name="wcag_udostepnij">Sdílet tapetu</string>
+<string name="wcag_ulubione">Moje oblíbené</string>
+<string name="wcag_ustaw_tapete">Nastavení na domovské obrazovce</string>
+<string name="wcag_ustaw_tapete_blokada">Nastavte na obrazovce uzamčení</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

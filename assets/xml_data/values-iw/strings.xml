@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">טפטים מדהימים 4K</string>
+<string name="udostepnij_tresc">קבל אפליקציה https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">הגדרות</string>
+<string name="drawer_open">פתח את</string>
+<string name="drawer_close">סגור יישומים</string>
+<string name="change_wallpaper_index_message">עבור אל הטפט</string>
+<string name="error_message_wrong_number">טעות במספר</string>
+<string name="set">Submit</string>
+<string name="cancel">לְבַטֵל</string>
+<string name="notification_image_downloaded_show_image">הצג את הטפט</string>
+<string name="error">שְׁגִיאָה</string>
+<string name="no_internet_connection">אין חיבור אינטרנט</string>
+<string name="turn_on_wifi">הפעל את האינטרנט</string>
+<string name="try_again">חזור שוב</string>
+<string name="exit">יְצִיאָה</string>
+<string name="no_favorites_message">כדי להוסיף טפט למועדפים לחץ על:</string>
+<string name="back">חזור</string>
+<string name="rate_the_app">דרג את האפליקציה</string>
+<string name="info_loading_is_in_progress">הטעינה מתבצעת ...</string>
+<string name="wallpaper_has_been_set_message">הטפט השתנה</string>
+<string name="wallpaper_has_been_downloaded_message">הטפט נשמר לגלריה</string>
+<string name="wallpaper_is_loading_message">טוען טפט ...</string>
+<string name="exit_confirmation_message">האם אתה בטוח שברצונך לסגור את היישום?</string>
+<string name="wallpaper_changed">הטפט השתנה</string>
+<string name="message_on_download_complete">הטפט נשמר לגלריה</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">האם אתה בטוח שברצונך לסגור את היישום?</string>
+<string name="wallpaper_changed_ekran_blokady">טפט מסך הנעילה השתנה</string>
+<string name="wallpaper_changed_ekran_glowny">טפט מסך הבית השתנה</string>
+<string name="wallpapers_download_message">הטפט נשמר לגלריה</string>
+<string name="please_wait">המתן בבקשה</string>
+<string name="share_wallpapers">שתף טפט</string>
+<string name="categories">קטגוריות</string>
+<string name="search_category">חפש לפי קטגוריה ...</string>
+<string name="set_lockscreen">הגדר על מסך הנעילה</string>
+<string name="set_screen">הגדר על המסך הראשי</string>
+<string name="menu_najlepsze">הטובות ביותר</string>
+<string name="menu_najnowsze">New</string>
+<string name="menu_ulubione">המועדפים שלי</string>
+<string name="exit_message">ראה אפליקציות אחרות.</string>
+<string name="exit_polecamy">יְצִיאָה</string>
+<string name="exit_share">שלח לחברים</string>
+<string name="exit_share_text">קבל אפליקציה</string>
+<string name="exit_rate_app">הוסף דירוג</string>
+<string name="wcag_menu">תַפרִיט</string>
+<string name="wcag_nastepna">הַבָּא</string>
+<string name="wcag_poprzednia">קודם</string>
+<string name="wcag_udostepnij">שתף טפט</string>
+<string name="wcag_ulubione">המועדפים שלי</string>
+<string name="wcag_ustaw_tapete">הגדר על המסך הראשי</string>
+<string name="wcag_ustaw_tapete_blokada">הגדר על מסך הנעילה</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

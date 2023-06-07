@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Pepa Matagofie 4K</string>
+<string name="udostepnij_tresc">Maua le app https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">tulaga</string>
+<string name="drawer_open">Tatala</string>
+<string name="drawer_close">talosaga Close</string>
+<string name="change_wallpaper_index_message">Alu i le pepa puipui</string>
+<string name="error_message_wrong_number">numera sese</string>
+<string name="set">faamaonia</string>
+<string name="cancel">solo</string>
+<string name="notification_image_downloaded_show_image">Faaali pepa puipui</string>
+<string name="error">error</string>
+<string name="no_internet_connection">No internet connection</string>
+<string name="turn_on_wifi">Turn on the internet</string>
+<string name="try_again">toe taumafai</string>
+<string name="exit">Ulufalega</string>
+<string name="no_favorites_message">To add wallpaper to your favorites click:</string>
+<string name="back">Tua</string>
+<string name="rate_the_app">Rate the app</string>
+<string name="info_loading_is_in_progress">Loading ...</string>
+<string name="wallpaper_has_been_set_message">pepa puipui suia</string>
+<string name="wallpaper_has_been_downloaded_message">ua faaopoopo i ai le ata i le toele</string>
+<string name="wallpaper_is_loading_message">Faamolemole faatali ...</string>
+<string name="exit_confirmation_message">E te mautinoa e te manaʻo e tapuni le talosaga?</string>
+<string name="wallpaper_changed">pepa puipui suia</string>
+<string name="message_on_download_complete">ua faaopoopo i ai le ata i le toele</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">E te mautinoa e te manaʻo e tapuni le talosaga?</string>
+<string name="wallpaper_changed_ekran_blokady">Ua suia le pepa puipui o laupepa</string>
+<string name="wallpaper_changed_ekran_glowny">O le home screen wallpaper ua suia</string>
+<string name="wallpapers_download_message">ua faaopoopo i ai le ata i le toele</string>
+<string name="please_wait">Faamolemole faatali ...</string>
+<string name="share_wallpapers">Faasoa pepa puipui</string>
+<string name="categories">Categories</string>
+<string name="search_category">Saili mo vaega ...</string>
+<string name="set_lockscreen">Seti le lau loka</string>
+<string name="set_screen">Set on the home screen</string>
+<string name="menu_najlepsze">Sili</string>
+<string name="menu_najnowsze">Fou</string>
+<string name="menu_ulubione">Ou fiafia iai</string>
+<string name="exit_message">Vaai talosaga fautuaina.</string>
+<string name="exit_polecamy">Exit</string>
+<string name="exit_share">Fautuaina le app</string>
+<string name="exit_share_text">Maua le app</string>
+<string name="exit_rate_app">Rate app</string>
+<string name="wcag_menu">Menu</string>
+<string name="wcag_nastepna">Sosoo ai</string>
+<string name="wcag_poprzednia">Previous</string>
+<string name="wcag_udostepnij">Faasoa pepa puipui</string>
+<string name="wcag_ulubione">Ou fiafia iai</string>
+<string name="wcag_ustaw_tapete">Set on the home screen</string>
+<string name="wcag_ustaw_tapete_blokada">Seti le lau loka</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

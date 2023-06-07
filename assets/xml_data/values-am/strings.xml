@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">አስገራሚ የግድግዳ ወረቀቶች 4 ኪ</string>
+<string name="udostepnij_tresc">መተግበሪያ ያግኙ https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">ቅንብሮች</string>
+<string name="drawer_open">ይክፈቱ</string>
+<string name="drawer_close">ትግበራዎችን ዝጋ</string>
+<string name="change_wallpaper_index_message">ወደ ፎቶ ይሂዱ</string>
+<string name="error_message_wrong_number">ልክ ያልሆነ ቁጥር</string>
+<string name="set">አረጋግጥ</string>
+<string name="cancel">Cancel</string>
+<string name="notification_image_downloaded_show_image">ፎቶ አሳይ</string>
+<string name="error">ስህተት</string>
+<string name="no_internet_connection">ምንም የበይነመረብ ግንኙነት የለም</string>
+<string name="turn_on_wifi">በይነመረብን ያብሩ</string>
+<string name="try_again">እባክዎ ይድገሙት</string>
+<string name="exit">ውጣ</string>
+<string name="no_favorites_message">ለተወዳጆችዎ ልጣፍ ለማከል ጠቅ ያድርጉ:</string>
+<string name="back">ተመለስ</string>
+<string name="rate_the_app">ለመተግበሪያው ደረጃ ይስጡት</string>
+<string name="info_loading_is_in_progress">በመጫን ላይ ...</string>
+<string name="wallpaper_has_been_set_message">ልጣፍ ተቀይሯል</string>
+<string name="wallpaper_has_been_downloaded_message">ልጣፍ ወደ ማእከል ታክሏል</string>
+<string name="wallpaper_is_loading_message">ልጣፍ በመጫን ላይ ...</string>
+<string name="exit_confirmation_message">እርግጠኛ ነዎት መተግበሪያውን መዝጋት ይፈልጋሉ?</string>
+<string name="wallpaper_changed">ልጣፍ ተቀይሯል</string>
+<string name="message_on_download_complete">ልጣፍ ወደ ማእከል ታክሏል</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">እርግጠኛ ነዎት መተግበሪያውን መዝጋት ይፈልጋሉ?</string>
+<string name="wallpaper_changed_ekran_blokady">The lock screen wallpaper has been changed</string>
+<string name="wallpaper_changed_ekran_glowny">የማያ ቆልፍ ዳራ ዘምኗል</string>
+<string name="wallpapers_download_message">ልጣፍ ወደ ማእከል ታክሏል</string>
+<string name="please_wait">ቆይ በናተህ...</string>
+<string name="share_wallpapers">የግድግዳ ወረቀት ያጋሩ</string>
+<string name="categories">ምድቦች</string>
+<string name="search_category">በምድብ ይፈልጉ ...</string>
+<string name="set_lockscreen">በመቆለፊያ ማያ ገጹ ላይ ያዘጋጁ</string>
+<string name="set_screen">በመነሻ ማያ ገጹ ላይ ያዘጋጁ</string>
+<string name="menu_najlepsze">ምርጥ</string>
+<string name="menu_najnowsze">አዲስ</string>
+<string name="menu_ulubione">የእኔ ተወዳጆች</string>
+<string name="exit_message">View recommended applications.</string>
+<string name="exit_polecamy">ገጠመ</string>
+<string name="exit_share">መተግበሪያ አጋራ</string>
+<string name="exit_share_text">መተግበሪያ ያግኙ</string>
+<string name="exit_rate_app">ደረጃ ይስጡ</string>
+<string name="wcag_menu">ምናሌ</string>
+<string name="wcag_nastepna">Next</string>
+<string name="wcag_poprzednia">ቀዳሚ</string>
+<string name="wcag_udostepnij">የግድግዳ ወረቀት ያጋሩ</string>
+<string name="wcag_ulubione">የእኔ ተወዳጆች</string>
+<string name="wcag_ustaw_tapete">በመነሻ ማያ ገጹ ላይ ያዘጋጁ</string>
+<string name="wcag_ustaw_tapete_blokada">በመቆለፊያ ማያ ገጹ ላይ ያዘጋጁ</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

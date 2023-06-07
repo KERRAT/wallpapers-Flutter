@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">אַמייזינג וואַללפּאַפּערס</string>
+<string name="udostepnij_tresc">באַקומען אַפּ https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">סעטטינגס</string>
+<string name="drawer_open">עפענען</string>
+<string name="drawer_close">נאָענט אַפּלאַקיישאַנז</string>
+<string name="change_wallpaper_index_message">גיין צו די טאַפּעטן</string>
+<string name="error_message_wrong_number">פאַרקריפּלט נומער</string>
+<string name="set">פאָרלייגן</string>
+<string name="cancel">באָטל מאַכן</string>
+<string name="notification_image_downloaded_show_image">ווייַזן טאַפּעטן</string>
+<string name="error">טעות</string>
+<string name="no_internet_connection">ניט קיין אינטערנעט קשר</string>
+<string name="turn_on_wifi">לויפן אינטערנעט</string>
+<string name="try_again">פּרובירן ווידער</string>
+<string name="exit">אַרויסגאַנג</string>
+<string name="no_favorites_message">צו לייגן טאַפּעטן צו דיין favorites גיט:</string>
+<string name="back">צוריק</string>
+<string name="rate_the_app">קורס דעם אַפּ</string>
+<string name="info_loading_is_in_progress">עס איז לאָודינג ...</string>
+<string name="wallpaper_has_been_set_message">די טאַפּעטן איז געטוישט געווארן</string>
+<string name="wallpaper_has_been_downloaded_message">די טאַפּעטן האט שוין געראטעוועט צו דער גאַלעריע</string>
+<string name="wallpaper_is_loading_message">ביטע ווארט ...</string>
+<string name="exit_confirmation_message">צי איר ווילן צו אַרויסגאַנג די אַפּלאַקיישאַן?</string>
+<string name="wallpaper_changed">די טאַפּעטן איז געטוישט געווארן</string>
+<string name="message_on_download_complete">די טאַפּעטן האט שוין געראטעוועט צו דער גאַלעריע</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">צי איר ווילן צו אַרויסגאַנג די אַפּלאַקיישאַן?</string>
+<string name="wallpaper_changed_ekran_blokady">די טאַפּעטן פון די שלאָס פאַרשטעלן איז פארענדערט</string>
+<string name="wallpaper_changed_ekran_glowny">די טאַפּעטן פון דער היים פאַרשטעלן זענען פארענדערט</string>
+<string name="wallpapers_download_message">די טאַפּעטן האט שוין געראטעוועט צו דער גאַלעריע</string>
+<string name="please_wait">ביטע ווארט...</string>
+<string name="share_wallpapers">שער דיין טאַפּעטן</string>
+<string name="categories">קאַטעגאָריעס</string>
+<string name="search_category">זוך פאר קאטעגאריעס ...</string>
+<string name="set_lockscreen">שטעלן אויף די שלאָס פאַרשטעלן</string>
+<string name="set_screen">שטעלן אויף די היים פאַרשטעלן</string>
+<string name="menu_najlepsze">בעסטער</string>
+<string name="menu_najnowsze">ניו</string>
+<string name="menu_ulubione">מיין פאַוואָריטעס</string>
+<string name="exit_message">זען אנדערע אַפּס.</string>
+<string name="exit_polecamy">אַרויסגאַנג</string>
+<string name="exit_share">אַפּ ייַנטיילונג</string>
+<string name="exit_share_text">באַקומען אַפּ</string>
+<string name="exit_rate_app">קורס אַפּ</string>
+<string name="wcag_menu">מעניו</string>
+<string name="wcag_nastepna">ווייַטער</string>
+<string name="wcag_poprzednia">פֿריִערדיקע</string>
+<string name="wcag_udostepnij">שער דיין טאַפּעטן</string>
+<string name="wcag_ulubione">מיין פאַוואָריטעס</string>
+<string name="wcag_ustaw_tapete">שטעלן אויף די היים פאַרשטעלן</string>
+<string name="wcag_ustaw_tapete_blokada">שטעלן אויף די שלאָס פאַרשטעלן</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

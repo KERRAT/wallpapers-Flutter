@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Fuskokin bangon ban mamaki 4K</string>
+<string name="udostepnij_tresc">Samu app https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Saituna</string>
+<string name="drawer_open">Bude</string>
+<string name="drawer_close">Rufe shirin</string>
+<string name="change_wallpaper_index_message">Ka je wa wallpaper</string>
+<string name="error_message_wrong_number">mara yawan</string>
+<string name="set">tabbatar da</string>
+<string name="cancel">soke</string>
+<string name="notification_image_downloaded_show_image">Nuna wallpaper</string>
+<string name="error">kuskure</string>
+<string name="no_internet_connection">No internet connection</string>
+<string name="turn_on_wifi">Kunna intanet</string>
+<string name="try_again">gwada kuma</string>
+<string name="exit">Saída</string>
+<string name="no_favorites_message">Don ƙara wallpaper to your favorites danna:</string>
+<string name="back">Komawa</string>
+<string name="rate_the_app">Rate the app</string>
+<string name="info_loading_is_in_progress">Loading ...</string>
+<string name="wallpaper_has_been_set_message">A wallpaper an canza</string>
+<string name="wallpaper_has_been_downloaded_message">A wallpaper An ajiye zuwa gallery</string>
+<string name="wallpaper_is_loading_message">Loading wallpaper ...</string>
+<string name="exit_confirmation_message">Ka tabbata kana son rufe aikin?</string>
+<string name="wallpaper_changed">A wallpaper an canza</string>
+<string name="message_on_download_complete">A wallpaper An ajiye zuwa gallery</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Ka tabbata kana son rufe aikin?</string>
+<string name="wallpaper_changed_ekran_blokady">The lock screen wallpaper has been changed</string>
+<string name="wallpaper_changed_ekran_glowny">An canza fuskar bangon allo ta gida</string>
+<string name="wallpapers_download_message">A wallpaper An ajiye zuwa gallery</string>
+<string name="please_wait">Don Allah jira...</string>
+<string name="share_wallpapers">Share wallpaper</string>
+<string name="categories">Categories</string>
+<string name="search_category">Binciko ta fanni ...</string>
+<string name="set_lockscreen">Saita allon kulle</string>
+<string name="set_screen">Saita a allon gida</string>
+<string name="menu_najlepsze">Kyawun</string>
+<string name="menu_najnowsze">New</string>
+<string name="menu_ulubione">Da na fi so</string>
+<string name="exit_message">Dubi sauran apps.</string>
+<string name="exit_polecamy">Fita</string>
+<string name="exit_share">Raba app</string>
+<string name="exit_share_text">Samu app</string>
+<string name="exit_rate_app">Rate app</string>
+<string name="wcag_menu">Menu</string>
+<string name="wcag_nastepna">Na gaba</string>
+<string name="wcag_poprzednia">A baya</string>
+<string name="wcag_udostepnij">Share wallpaper</string>
+<string name="wcag_ulubione">Da na fi so</string>
+<string name="wcag_ustaw_tapete">Saita a allon gida</string>
+<string name="wcag_ustaw_tapete_blokada">Saita allon kulle</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>

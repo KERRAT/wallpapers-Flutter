@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Dîwarên Amazing 4K</string>
+<string name="udostepnij_tresc">Serîlêdanê dakêşin https://play.google.com/store/apps/details?id=brak_ustawienia_GLOWNA_nazwa_paczki_app</string> 
+
+<string name="action_settings">Mîhengên</string>
+<string name="drawer_open">vekin</string>
+<string name="drawer_close">Close the application</string>
+<string name="change_wallpaper_index_message">Go to the wallpaper</string>
+<string name="error_message_wrong_number">Hejmarek çewt e</string>
+<string name="set">Tesdîqkirin</string>
+<string name="cancel">Bişûndekirin</string>
+<string name="notification_image_downloaded_show_image">Wêneyê nîşan bide</string>
+<string name="error">şaşî</string>
+<string name="no_internet_connection">Naveroka înternetê tune</string>
+<string name="turn_on_wifi">Înternetê bikî</string>
+<string name="try_again">dubare</string>
+<string name="exit">Exit</string>
+<string name="no_favorites_message">Click here to add to favorites</string>
+<string name="back">Vegerr</string>
+<string name="rate_the_app">Binirxînin</string>
+<string name="info_loading_is_in_progress">Loading ...</string>
+<string name="wallpaper_has_been_set_message">Guherandinên wallpaper</string>
+<string name="wallpaper_has_been_downloaded_message">Wêne li galeriyê zêde kir</string>
+<string name="wallpaper_is_loading_message">Loading wallpaper...</string>
+<string name="exit_confirmation_message">Ma hûn guman dikin ku hûn dixwazin serlêdanê nêz bikin?</string>
+<string name="wallpaper_changed">Guherandinên wallpaper</string>
+<string name="message_on_download_complete">Wêne li galeriyê zêde kir</string>
+<string name="czy_napewno_chcesz_wyjsc_z_aplikacji">Ma hûn guman dikin ku hûn dixwazin serlêdanê nêz bikin?</string>
+<string name="wallpaper_changed_ekran_blokady">Fabrîka tapûyê ya pelgeyê hate guhertin</string>
+<string name="wallpaper_changed_ekran_glowny">The home screen wallpaper has been changed</string>
+<string name="wallpapers_download_message">Wêne li galeriyê zêde kir</string>
+<string name="please_wait">Ji kerema xwe bixwazin ...</string>
+<string name="share_wallpapers">Share wallpaper</string>
+<string name="categories">Kategorî</string>
+<string name="search_category">Li kategoriyan bigerin ...</string>
+<string name="set_lockscreen">Set on the lock screen</string>
+<string name="set_screen">Li ser dîmenderê malê bicîh bikin</string>
+<string name="menu_najlepsze">Çêtirîn</string>
+<string name="menu_najnowsze">Nû</string>
+<string name="menu_ulubione">Bijareyên min</string>
+<string name="exit_message">See other apps.</string>
+<string name="exit_polecamy">Derî</string>
+<string name="exit_share">Parvekirina app</string>
+<string name="exit_share_text">Serîlêdanê dakêşin</string>
+<string name="exit_rate_app">Rayê parve bikin</string>
+<string name="wcag_menu">Qerta xûrekê</string>
+<string name="wcag_nastepna">Piştî</string>
+<string name="wcag_poprzednia">Pêşî</string>
+<string name="wcag_udostepnij">Share wallpaper</string>
+<string name="wcag_ulubione">Bijareyên min</string>
+<string name="wcag_ustaw_tapete">Li ser dîmenderê malê bicîh bikin</string>
+<string name="wcag_ustaw_tapete_blokada">Set on the lock screen</string>
+<string name="ad_fullscreen_introduction_message">Ads loading...</string>
+<string name="default_notification_channel_id">default_notification_channel_id</string>
+<string name="default_notification_channel_name">News</string>
+</resources>
