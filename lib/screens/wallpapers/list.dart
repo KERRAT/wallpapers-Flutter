@@ -29,7 +29,7 @@ class PhotosList extends StatelessWidget {
       padding: EdgeInsets.zero,
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 2,
-        childAspectRatio: 320/568,
+        childAspectRatio: 6/9,
         crossAxisSpacing: 0,
         mainAxisSpacing: 0,
       ),

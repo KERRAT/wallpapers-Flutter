@@ -61,9 +61,9 @@ class CustomDrawer extends StatelessWidget {
                             'assets/categories/0.svg',
                           ),
                         ),
-                        title: Text(
+                        title: const Text(
                           '123',
-                          style: const TextStyle(
+                          style: TextStyle(
                             fontWeight: FontWeight.bold,
                             color: Colors.black,
                           ),

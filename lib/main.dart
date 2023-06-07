@@ -27,7 +27,6 @@ void main() async {
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.leanBack);
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
     statusBarColor: Colors.transparent,
-    statusBarIconBrightness: Brightness.dark,
   ));
 
   // Setting preferred device orientation

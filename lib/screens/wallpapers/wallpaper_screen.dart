@@ -1,3 +1,6 @@
+import 'dart:math';
+
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_tasks_app/screens/wallpapers/wallpaper_screen_elements/displayed_wallpaper.dart';
 import 'package:flutter_tasks_app/screens/wallpapers/wallpaper_screen_elements/return_button.dart';
@@ -36,12 +39,13 @@ class CreatePhotoForm extends StatefulWidget {
   _CreatePhotoFormState createState() => _CreatePhotoFormState();
 }
 
-
 class _CreatePhotoFormState extends State<CreatePhotoForm> {
   late final PageController _pageController;
   late final int initialPage;
   late int currentPhotoId;
   static const double viewportFraction = 1.2;
+  final Map<int, ImageProvider> precachedImages = {};
+  int? currentIndex;
 
   @override
   void initState() {
@@ -49,67 +53,92 @@ class _CreatePhotoFormState extends State<CreatePhotoForm> {
     initialPage = widget.photoIds.indexOf(widget.photoId);
     _pageController = PageController(
       initialPage: initialPage,
-      viewportFraction: viewportFraction, // control the number of pages you want to show in a view
+      viewportFraction:
+          viewportFraction, // control the number of pages you want to show in a view
     );
     currentPhotoId = widget.photoId;
     _logger.info('Initialized CreatePhotoFormState');
     WidgetsBinding.instance.addPostFrameCallback((_) async {
-      await Provider.of<LikeState>(context, listen: false).checkLikeStatus(currentPhotoId);
+      _precacheImages(initialPage); // Перенесіть виклик цього методу сюди
+      await Provider.of<LikeState>(context, listen: false)
+          .checkLikeStatus(currentPhotoId);
     });
+  }
+
+  void _precacheImages(int index) async {
+    for (int i = max(index - 6, 0);
+        i <= min(index + 6, widget.photoIds.length - 1);
+        i++) {
+      if (!precachedImages.containsKey(widget.photoIds[i])) {
+        final image = NetworkImage(
+            widget.linkShow.replaceAll('[ID]', "${widget.photoIds[i]}"));
+        await precacheImage(image, context);
+        precachedImages[widget.photoIds[i]] = image;
+      }
+    }
   }
 
   @override
   Widget build(BuildContext context) {
     _logger.info('Building CreatePhotoForm widget');
     bool isTablet = LayoutHelpers.isTablet(context);
-    return Scaffold(
+    return Dialog(
+      insetPadding:
+          EdgeInsets.zero, // Це змусить діалог розтягнутися на весь екран
       backgroundColor: Colors.transparent,
-      body: SafeArea(
-        child: Stack(
-          children: [
-            PageView.builder(
-              controller: _pageController,
-              itemCount: widget.photoIds.length,
-              onPageChanged: (int index) async {
-                setState(() {
-                  currentPhotoId = widget.photoIds[index];
-                });
-                await Provider.of<LikeState>(context, listen: false).checkLikeStatus(currentPhotoId);
-              },
-              itemBuilder: (BuildContext context, int index) {
-                if (index < widget.photoIds.length + 5) { // ensure that only next 5 images are precached
-                  precacheImage(NetworkImage(widget.linkShow.replaceAll('[ID]', "${widget.photoIds[index]}")), context); // precacheImage is used to prefetch the images
-                }
-                return DisplayPhoto(
-                  photoId: widget.photoIds[index],
-                  lng: widget.lng,
-                );
-              },
-              pageSnapping: false,
-              physics: const PageOverscrollPhysics(velocityPerOverscroll: 1000), // Add this line to enable the scroll physics of your choice. This one is for inertia
+      child: Stack(
+        children: [
+          PageView.builder(
+            controller: _pageController,
+            itemCount: widget.photoIds.length,
+            onPageChanged: (int index) {
+              setState(() {
+                currentIndex = index;
+                _precacheImages(currentIndex!);
+                currentPhotoId = widget.photoIds[index];
+              });
+              Provider.of<LikeState>(context, listen: false)
+                  .checkLikeStatus(currentPhotoId);
+            },
+            itemBuilder: (BuildContext context, int index) {
+              final photoId = widget.photoIds[index];
+              final image = precachedImages.containsKey(photoId)
+                  ? precachedImages[photoId]!
+                  : NetworkImage(
+                      widget.linkShow.replaceAll('[ID]', "$photoId"));
+              return DisplayPhoto(
+                photoId: photoId,
+                lng: widget.lng,
+                image: image, // Pass the image instead of imageProvider
+              );
+            },
+            pageSnapping: false,
+            physics: const PageOverscrollPhysics(velocityPerOverscroll: 1000),
+          ),
+          NavigationCircles(_pageController),
+          Align(
+            alignment: Alignment.topRight,
+            child: Padding(
+              padding: const EdgeInsets.all(20.0),
+              child: ReturnButton(onPressed: _handleBack),
             ),
-            NavigationCircles(_pageController),
-            Align(
-              alignment: Alignment.topRight,
-              child: Padding(
-                padding: const EdgeInsets.all(20.0),
-                child: ReturnButton(onPressed: _handleBack),
+          ),
+          Align(
+            alignment: Alignment.bottomCenter,
+            child: Consumer<LikeState>(
+              builder: (context, likeState, _) => BottomRow(
+                isLiked: likeState.isLiked,
+                toggleLike: () => {
+                  likeState.toggleLike(currentPhotoId),
+                  widget.onLikeToggle()
+                },
+                widget: widget,
+                currentPhotoId: currentPhotoId,
+                isTablet: isTablet,
               ),
             ),
-            Align(
-              alignment: Alignment.bottomCenter,
-              child: Consumer<LikeState>(
-                builder: (context, likeState, _) => BottomRow(
-                  isLiked: likeState.isLiked,
-                  toggleLike: () => {likeState.toggleLike(currentPhotoId), widget.onLikeToggle()},
-                  widget: widget,
-                  currentPhotoId: currentPhotoId,
-                  isTablet: isTablet,
-                ),
-              ),
-            ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }
@@ -119,7 +148,6 @@ class _CreatePhotoFormState extends State<CreatePhotoForm> {
     Navigator.pop(context);
   }
 }
-
 
 class PageOverscrollPhysics extends ScrollPhysics {
   final double velocityPerOverscroll;
@@ -141,11 +169,13 @@ class PageOverscrollPhysics extends ScrollPhysics {
   }
 
   double _getTargetPixels(ScrollMetrics position, double velocity) {
-    double page = (position.pixels - position.viewportDimension * (1 - viewportFraction) / 2) /
+    double page = (position.pixels -
+            position.viewportDimension * (1 - viewportFraction) / 2) /
         (position.viewportDimension * viewportFraction);
     page += velocity / (velocityPerOverscroll * viewportFraction);
-    double pixels = page.roundToDouble() * (position.viewportDimension * viewportFraction) -
-        position.viewportDimension * (1 - viewportFraction) / 2;
+    double pixels =
+        page.roundToDouble() * (position.viewportDimension * viewportFraction) -
+            position.viewportDimension * (1 - viewportFraction) / 2;
     return pixels;
   }
 
