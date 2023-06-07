@@ -167,8 +167,7 @@ class MyHomePageState extends State<MyHomePage> {
         } else if (snapshot.hasError) {
           return Scaffold(
             body: Center(
-              child: Text(AppLocalizations.of(context)?.error_occurred ??
-                  'An error has occurred!'),
+              child: Text(AppLocalizations.of(context).error),
             ),
           );
         } else {

@@ -54,7 +54,7 @@ class InternetConnectionCheckerState extends State<InternetConnectionChecker> wi
       if (_connected != currentConnection) {
         setState(() {
           _connected = currentConnection;
-          _message = _connected ? "Connected" : AppLocalizations.of(context)?.no_internet ?? 'No internet connection';
+          _message = _connected ? "Connected" : AppLocalizations.of(context).no_internet_connection;
         });
         _logger.finest('Internet connection status changed: $_connected');
       }
