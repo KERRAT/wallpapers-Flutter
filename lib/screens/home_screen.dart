@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tasks_app/main.dart';
 import 'package:flutter_tasks_app/screens/drawers/custom_drawer.dart';
 import 'package:flutter_tasks_app/models/app_data_singleton.dart';
 import 'package:flutter_tasks_app/screens/wallpapers/list.dart';
@@ -146,6 +145,7 @@ class MyHomePageState extends State<MyHomePage> {
             ),
             drawer: CustomDrawer(
               onCategorySelected: _onCategorySelected,
+              lng: widget.language,
             ),
           );
         } else if (snapshot.hasError) {
