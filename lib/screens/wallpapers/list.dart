@@ -64,6 +64,18 @@ class PhotosList extends StatelessWidget {
               child: CachedNetworkImage(
                 imageUrl: appData.imagesList.replaceAll('[ID]', photoId.toString()),
                 fit: BoxFit.cover,
+                placeholder: (context, url) => Container(
+                  color: Colors.black26,
+                  child: const Center(
+                    child: SizedBox(
+                      width: 50,
+                      child: LinearProgressIndicator(
+                        backgroundColor: Colors.white24,
+                        valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
+                      ),
+                    ),
+                  ),
+                ),
               ),
             ),
           ),

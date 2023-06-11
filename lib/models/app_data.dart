@@ -54,6 +54,8 @@ class AppData {
     required this.top,
   });
 
+
+
   factory AppData.fromJson(Map<String, dynamic> json) {
     return AppData(
       connection: json['polaczenie'] as String,
@@ -80,6 +82,39 @@ class AppData {
       blockAndRedirect: json['blokuj_i_przekieruj'] as String,
       newItems: (json['new'] as String).split(',').map(int.parse).toList(),
       top: (json['top'] as String).split(',').map(int.parse).toList(),
+    );
+  }
+
+  AppData copyWith({
+    List<int>? newItems,
+    List<int>? top,
+  }) {
+    return AppData(
+      newItems: newItems ?? this.newItems,
+      top: top ?? this.top,
+      // copy all other fields from the current instance
+      connection: this.connection,
+      dataGen: this.dataGen,
+      imagesList: this.imagesList,
+      imagesPreview: this.imagesPreview,
+      imagesSetWallpapers: this.imagesSetWallpapers,
+      imagesDownload: this.imagesDownload,
+      imagesShare: this.imagesShare,
+      categories: this.categories,
+      downloadButton: this.downloadButton,
+      fullAdOptionBreakSeconds: this.fullAdOptionBreakSeconds,
+      fullAdOptionShow: this.fullAdOptionShow,
+      fullAdListLoadingMs: this.fullAdListLoadingMs,
+      fullAdLoadingMs: this.fullAdLoadingMs,
+      fullAdListLoading: this.fullAdListLoading,
+      fullAdAmount: this.fullAdAmount,
+      fullAdSetMain: this.fullAdSetMain,
+      fullAdSet: this.fullAdSet,
+      fullAdDownload: this.fullAdDownload,
+      fullAdShare: this.fullAdShare,
+      fullAdMore: this.fullAdMore,
+      bottomAd: this.bottomAd,
+      blockAndRedirect: this.blockAndRedirect,
     );
   }
 }

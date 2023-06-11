@@ -26,7 +26,7 @@ class MyHomePageState extends State<MyHomePage> {
   late Future<AppData> _appDataFuture;
   late AppData _appData;
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
-  String _selectedCategoryId = '';
+  String _selectedCategoryId = '0';
   late String _currentLanguage;
   SelectedButton _selectedButton = SelectedButton.newPhotos;
 
@@ -66,6 +66,7 @@ class MyHomePageState extends State<MyHomePage> {
     _logger.finest('Category selected: $categoryId');
     setState(() {
       _selectedCategoryId = categoryId;
+      _appDataFuture = AppDataRepository().fetchCategoryData(categoryId);
     });
   }
 
@@ -144,6 +145,7 @@ class MyHomePageState extends State<MyHomePage> {
               ],
             ),
             drawer: CustomDrawer(
+              selectedCategory: _selectedCategoryId,
               onCategorySelected: _onCategorySelected,
               lng: widget.language,
             ),

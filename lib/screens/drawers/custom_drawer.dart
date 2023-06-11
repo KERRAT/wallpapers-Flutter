@@ -9,13 +9,14 @@ import '../../models/categories.dart';
 final Logger _logger = Logger('CustomDrawer');
 
 class CustomDrawer extends StatefulWidget {
+  final String selectedCategory;
   final String lng;
   final ValueChanged<String> onCategorySelected;
 
   const CustomDrawer({
     Key? key,
     required this.onCategorySelected,
-    required this.lng,
+    required this.lng, required this.selectedCategory,
   }) : super(key: key);
 
   @override
@@ -86,30 +87,35 @@ class _CustomDrawerState extends State<CustomDrawer> {
                           padding: const EdgeInsets.only(top: 5, bottom: 50),
                           itemCount: categories.length,
                           itemBuilder: (context, index) {
-                            return ListTile(
-                              leading: Container(
-                                width: 40.0,
-                                height: 40.0,
-                                decoration: const BoxDecoration(
-                                  shape: BoxShape.circle,
+                            return Container(
+                              color: widget.selectedCategory == categories[index].id
+                                  ? Colors.lightBlueAccent // Змініть це на колір, який ви хочете для виділеної категорії
+                                  : Colors.transparent, // Це за замовчуванням колір
+                              child: ListTile(
+                                leading: Container(
+                                  width: 40.0,
+                                  height: 40.0,
+                                  decoration: const BoxDecoration(
+                                    shape: BoxShape.circle,
+                                  ),
+                                  child: Image.asset(
+                                    categories[index].image,
+                                  ),
                                 ),
-                                child: Image.asset(
-                                  categories[index].image,
+                                title:  Text(
+                                  categories[index].name,
+                                  style: const TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.black,
+                                  ),
                                 ),
+                                onTap: () {
+                                  _logger.info(
+                                      'Category selected: ${categories[index].id}');
+                                  widget.onCategorySelected(categories[index].id);
+                                  Navigator.pop(context);
+                                },
                               ),
-                              title:  Text(
-                                categories[index].name,
-                                style: const TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.black,
-                                ),
-                              ),
-                              onTap: () {
-                                _logger.info(
-                                    'Category selected: ${categories[index].id}');
-                                widget.onCategorySelected(categories[index].id);
-                                Navigator.pop(context);
-                              },
                             );
                           },
                         );
