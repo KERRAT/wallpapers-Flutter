@@ -19,6 +19,7 @@ class CreatePhotoForm extends StatefulWidget {
   final VoidCallback onLikeToggle;
   final String lng;
   final String linkShow;
+  final String linkList;
   final String linkSet;
   final String linkShare;
   final String linkDownload;
@@ -32,7 +33,7 @@ class CreatePhotoForm extends StatefulWidget {
     required this.linkSet,
     required this.linkShare,
     required this.linkDownload,
-    required this.onLikeToggle,
+    required this.onLikeToggle, required this.linkList,
   }) : super(key: key);
 
   @override
@@ -105,11 +106,15 @@ class _CreatePhotoFormState extends State<CreatePhotoForm> {
               final image = precachedImages.containsKey(photoId)
                   ? precachedImages[photoId]!
                   : NetworkImage(
-                      widget.linkShow.replaceAll('[ID]', "$photoId"));
+                  widget.linkShow.replaceAll('[ID]', "$photoId"));
+              final placeholderImage = CachedNetworkImageProvider(
+                  widget.linkList.replaceAll('[ID]', "$photoId")
+              );
               return DisplayPhoto(
                 photoId: photoId,
                 lng: widget.lng,
-                image: image, // Pass the image instead of imageProvider
+                placeholderImage: placeholderImage,
+                mainImage: image,
               );
             },
             pageSnapping: false,

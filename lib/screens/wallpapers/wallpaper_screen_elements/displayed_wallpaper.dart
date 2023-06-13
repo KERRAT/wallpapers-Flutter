@@ -3,13 +3,15 @@ import 'package:flutter/material.dart';
 class DisplayPhoto extends StatelessWidget {
   final int photoId;
   final String lng;
-  final ImageProvider image;
+  final ImageProvider placeholderImage;
+  final ImageProvider mainImage;
 
   const DisplayPhoto({
     Key? key,
     required this.photoId,
     required this.lng,
-    required this.image,
+    required this.placeholderImage,
+    required this.mainImage,
   }) : super(key: key);
 
   @override
@@ -19,9 +21,18 @@ class DisplayPhoto extends StatelessWidget {
     return SizedBox(
       width: screenSize.width,
       height: screenSize.height,
-      child: Image(
-        image: image,
-        fit: BoxFit.cover,
+      child: Stack(
+        fit: StackFit.expand,
+        children: <Widget>[
+          Image(
+            image: placeholderImage,
+            fit: BoxFit.cover,
+          ),
+          Image(
+            image: mainImage,
+            fit: BoxFit.cover,
+          ),
+        ],
       ),
     );
   }
