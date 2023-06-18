@@ -25,11 +25,14 @@ class CustomDrawer extends StatefulWidget {
 
 class _CustomDrawerState extends State<CustomDrawer> {
   late Future<List<Category>> categoriesFuture;
+  final TextEditingController _searchController = TextEditingController();
+  List<Category> filteredCategories = [];
 
   @override
   void initState() {
     super.initState();
     categoriesFuture = _loadCategories(widget.lng);
+    _searchController.addListener(_onSearchChanged);
   }
 
   Future<List<Category>> _loadCategories(String lng) async {
@@ -40,8 +43,25 @@ class _CustomDrawerState extends State<CustomDrawer> {
       categories.add(Category.fromJson(jsonMap, i));
     }
     _logger.info('Categories was loaded');
+    filteredCategories = categories;
     return categories;
   }
+
+
+  void _onSearchChanged() {
+    categoriesFuture.then((categories) {
+      setState(() {
+        if (_searchController.text.isEmpty) {
+          filteredCategories = categories;
+        } else {
+          filteredCategories = categories.where((element) =>
+              element.name.toLowerCase().contains(_searchController.text.toLowerCase())
+          ).toList();
+        }
+      });
+    });
+  }
+
 
   @override
   Widget build(BuildContext context) {
@@ -77,18 +97,40 @@ class _CustomDrawerState extends State<CustomDrawer> {
                     ],
                   ),
                 ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                  child: TextField(
+                    controller: _searchController,
+                    decoration: const InputDecoration(
+                      labelText: "Search",
+                      hintText: "Search",
+                      prefixIcon: Icon(Icons.search),
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.all(Radius.circular(25.0)),
+                      ),
+                    ),
+                  ),
+                ),
                 Expanded(
                   child: FutureBuilder<List<Category>>(
                     future: categoriesFuture,
                     builder: (BuildContext context, AsyncSnapshot<List<Category>> snapshot) {
                       if (snapshot.hasData) {
                         List<Category> categories = snapshot.data!;
+                        if (_searchController.text.isNotEmpty) {
+                          filteredCategories = categories.where((element) =>
+                              element.name.toLowerCase().contains(_searchController.text.toLowerCase())
+                          ).toList();
+                        }
+                        else {
+                          filteredCategories = categories;
+                        }
                         return ListView.builder(
                           padding: const EdgeInsets.only(top: 5, bottom: 50),
-                          itemCount: categories.length,
+                          itemCount: filteredCategories.length,
                           itemBuilder: (context, index) {
                             return Container(
-                              color: widget.selectedCategory == categories[index].id
+                              color: widget.selectedCategory == filteredCategories[index].id
                                   ? Colors.lightBlueAccent // Змініть це на колір, який ви хочете для виділеної категорії
                                   : Colors.transparent, // Це за замовчуванням колір
                               child: ListTile(
@@ -99,11 +141,11 @@ class _CustomDrawerState extends State<CustomDrawer> {
                                     shape: BoxShape.circle,
                                   ),
                                   child: Image.asset(
-                                    categories[index].image,
+                                    filteredCategories[index].image,
                                   ),
                                 ),
                                 title:  Text(
-                                  categories[index].name,
+                                  filteredCategories[index].name,
                                   style: const TextStyle(
                                     fontWeight: FontWeight.bold,
                                     color: Colors.black,
@@ -111,8 +153,8 @@ class _CustomDrawerState extends State<CustomDrawer> {
                                 ),
                                 onTap: () {
                                   _logger.info(
-                                      'Category selected: ${categories[index].id}');
-                                  widget.onCategorySelected(categories[index].id);
+                                      'Category selected: ${filteredCategories[index].id}');
+                                  widget.onCategorySelected(filteredCategories[index].id);
                                   Navigator.pop(context);
                                 },
                               ),
