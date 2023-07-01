@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tasks_app/screens/drawers/custom_drawer.dart';
 import 'package:flutter_tasks_app/models/app_data_singleton.dart';
-import 'package:flutter_tasks_app/screens/wallpapers/list.dart';
+import 'package:flutter_tasks_app/screens/wallpapers/photos_stack.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../gen_l10n/app_localizations.dart';
 import 'package:flutter_tasks_app/models/app_data.dart';
 import 'package:logging/logging.dart';
-import 'package:flutter_svg/svg.dart';
+
+import 'drawers/end_drawer.dart';
 
 final _logger = Logger('MyHomePage');
 
-// MyHomePage is a StatefulWidget that displays the main screen.
 class MyHomePage extends StatefulWidget {
   final String language;
   const MyHomePage({Key? key, required this.language}) : super(key: key);
@@ -36,7 +36,6 @@ class MyHomePageState extends State<MyHomePage> {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     _favoritePhotos = prefs.getStringList('likedPhotos')?.map((photoId) => int.parse(photoId)).toList() ?? [];
   }
-
 
   @override
   void initState() {
@@ -70,7 +69,6 @@ class MyHomePageState extends State<MyHomePage> {
     });
   }
 
-  // build returns the widget tree for MyHomePage.
   @override
   Widget build(BuildContext context) {
     _logger.finest('Building MyHomePage');
@@ -98,57 +96,23 @@ class MyHomePageState extends State<MyHomePage> {
 
           return Scaffold(
             key: _scaffoldKey,
-            body: Stack(
-              children: [
-                PhotosList(
-                  photos: photos,
-                  lng: _currentLanguage,
-                  appData: _appData,
-                  onLikeToggle: refreshFavoritePhotos,
-                ),
-                Positioned(
-                  top: 50,
-                  left: 10,
-                  child: FloatingActionButton(
-                    heroTag: 'menu_fab', // Add a unique hero tag
-                    onPressed: () {
-                      _scaffoldKey.currentState?.openDrawer();
-                    },
-                    backgroundColor: Colors.transparent,
-                    elevation: 20,
-                    child: Transform.scale(
-                      scale: 1.5, // adjust the scale factor to the desired size
-                      child: SvgPicture.asset(
-                        'assets/menu/menu_hamburger-01.svg',
-                      ),
-                    ),
-                  ),
-                ),
-                Positioned(
-                  bottom: 30,
-                  child: SizedBox(
-                    width: MediaQuery.of(context).size.width,
-                    child: Center(
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          _buildButton(SelectedButton.newPhotos, AppLocalizations.of(context).menu_najnowsze),
-                          const SizedBox(width: 20),
-                          _buildButton(SelectedButton.top, AppLocalizations.of(context).menu_najlepsze),
-                          const SizedBox(width: 20),
-                          _buildButton(SelectedButton.favorite, AppLocalizations.of(context).menu_ulubione),
-                        ],
-                      ),
-                    ),
-                  ),
-                ),
-              ],
+            body: PhotosStack(
+              photos: photos,
+              currentLanguage: _currentLanguage,
+              appData: _appData,
+              refreshFavoritePhotos: refreshFavoritePhotos,
+              selectedButton: _selectedButton,
+              scaffoldKey: _scaffoldKey,
+              onButtonSelected: (button) => _onButtonSelected(button),
             ),
             drawer: CustomDrawer(
               selectedCategory: _selectedCategoryId,
               onCategorySelected: _onCategorySelected,
               lng: widget.language,
             ),
+            endDrawer: _selectedButton == SelectedButton.favorite
+                ? SettingsDrawer(favoritePhotos: _favoritePhotos, linkSet: _appData.imagesSetWallpapers,)
+                : null,
           );
         } else if (snapshot.hasError) {
           return Scaffold(
@@ -164,18 +128,6 @@ class MyHomePageState extends State<MyHomePage> {
           );
         }
       },
-    );
-  }
-
-  Widget _buildButton(SelectedButton button, String title) {
-    return ElevatedButton(
-      onPressed: () => _onButtonSelected(button),
-      style: ButtonStyle(
-        backgroundColor: MaterialStateProperty.all<Color>(
-          _selectedButton == button ? Colors.blue : Colors.grey,
-        ),
-      ),
-      child: Text(title),
     );
   }
 }

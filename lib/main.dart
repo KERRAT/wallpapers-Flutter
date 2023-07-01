@@ -1,12 +1,14 @@
 // Importing necessary packages
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_tasks_app/screens/drawers/end_drawer.dart';
 import 'package:flutter_tasks_app/screens/internet_connection_checker.dart';
 import 'package:flutter_tasks_app/widgets/like_controller.dart';
 import 'package:logging/logging.dart';
 import 'package:logging_appenders/logging_appenders.dart';
 import 'package:provider/provider.dart';
 import 'package:sizer/sizer.dart';
+import 'package:workmanager/workmanager.dart';
 
 import 'gen_l10n/app_localizations.dart';
 
@@ -40,6 +42,13 @@ void main() async {
   if (!isLocaleSupported) {
     deviceLocale = const Locale('en');
   }
+
+
+  // This will initialize the WorkManager with an entrypoint of backgroundCallbackDispatcher (see below)
+  await Workmanager().initialize(
+    callbackDispatcher,
+    isInDebugMode: true, // Should be false in production code.
+  );
 
   // Running the app
   runApp(

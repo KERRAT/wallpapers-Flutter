@@ -53,13 +53,14 @@ class _WallpaperButtonsState extends State<WallpaperButtons> {
                 builder: (BuildContext context) {
                   return FutureBuilder<String>(
                     future: WallpaperHandler.setWallpaperHome(
-                        widget.linkSet,
-                        widget.currentPhotoId,
-                        AppLocalizations.of(context)
+                        link: widget.linkSet,
+                        photoId: widget.currentPhotoId,
+                        resize: isHuawei,
+                        width: width,
+                        height: height,
+                        successTest: AppLocalizations.of(context)
                             .wallpaper_changed_ekran_glowny,
-                        AppLocalizations.of(context).error,
-                        isHuawei,
-                        width, height),
+                        errorText: AppLocalizations.of(context).error),
                     builder:
                         (BuildContext context, AsyncSnapshot<String> snapshot) {
                       if (snapshot.connectionState == ConnectionState.waiting) {
@@ -100,13 +101,14 @@ class _WallpaperButtonsState extends State<WallpaperButtons> {
                 builder: (BuildContext context) {
                   return FutureBuilder<String>(
                     future: WallpaperHandler.setWallpaperLock(
-                        widget.linkSet,
-                        widget.currentPhotoId,
-                        AppLocalizations.of(context)
+                        link: widget.linkSet,
+                        photoId: widget.currentPhotoId,
+                        successTest: AppLocalizations.of(context)
                             .wallpaper_changed_ekran_blokady,
-                        AppLocalizations.of(context).error,
-                        isHuawei,
-                        width, height),
+                        errorText: AppLocalizations.of(context).error,
+                        resize: isHuawei,
+                        width: width,
+                        height: height),
                     builder:
                         (BuildContext context, AsyncSnapshot<String> snapshot) {
                       if (snapshot.connectionState == ConnectionState.waiting) {
@@ -137,5 +139,3 @@ class _WallpaperButtonsState extends State<WallpaperButtons> {
     );
   }
 }
-
-

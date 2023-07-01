@@ -41,6 +41,8 @@ dependencies:
   snapping_page_scroll: ^2.1.0
   image: ^4.0.17
   flutter_image_compress: ^2.0.3
+  workmanager: ^0.5.1
+  fluttertoast: ^8.2.2
 
 dev_dependencies:
   bloc_test: ^9.0.0
