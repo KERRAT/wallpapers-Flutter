@@ -92,7 +92,6 @@ class AppData {
     return AppData(
       newItems: newItems ?? this.newItems,
       top: top ?? this.top,
-      // copy all other fields from the current instance
       connection: this.connection,
       dataGen: this.dataGen,
       imagesList: this.imagesList,

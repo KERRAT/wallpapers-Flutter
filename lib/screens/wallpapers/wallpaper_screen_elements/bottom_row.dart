@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tasks_app/screens/wallpapers/wallpaper_screen_elements/set_wallpaper_buttons.dart';
 
+import '../../../widgets/image_share.dart';
 import '../wallpaper_screen.dart';
 
 class BottomRow extends StatelessWidget {
@@ -10,7 +11,7 @@ class BottomRow extends StatelessWidget {
   final bool isTablet;
   final bool isLiked;
 
-  BottomRow({
+  const BottomRow({
     Key? key,
     required this.isLiked,
     required this.toggleLike,
@@ -47,7 +48,10 @@ class BottomRow extends StatelessWidget {
             backgroundColor: Colors.white,
             child: IconButton(
               icon: const Icon(Icons.share),
-              onPressed: () {},
+                onPressed: () {
+                  String link = widget.linkSet.replaceAll('[ID]', currentPhotoId.toString());
+                  shareImage(link);
+                }
             ),
           ),
         ],
