@@ -7,6 +7,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:workmanager/workmanager.dart';
 
 import '../../gen_l10n/app_localizations.dart';
+import '../../widgets/battery_optimization.dart';
 import '../../widgets/check_device_manufacturer.dart';
 import '../../widgets/set_wallpaper.dart';
 import 'package:fluttertoast/fluttertoast.dart';
@@ -62,7 +63,7 @@ class SettingsDrawerState extends State<SettingsDrawer> {
 
     if(likedPhotoLinks.isEmpty){
       Fluttertoast.showToast(
-          msg: "no wallpapes added",
+          msg: "No wallpapes added",
           toastLength: Toast.LENGTH_SHORT,
           gravity: ToastGravity.BOTTOM,
           timeInSecForIosWeb: 1,
@@ -73,6 +74,49 @@ class SettingsDrawerState extends State<SettingsDrawer> {
       return;
     }
 
+    bool isIgnoringBatteryOptimizations = await BatteryOptimization.isIgnoringBatteryOptimizations();
+
+    // Exit the function if the battery optimization settings are not ignored.
+    if (!isIgnoringBatteryOptimizations) {
+      await _showBatteryOptimizationDialog();
+      isIgnoringBatteryOptimizations = await BatteryOptimization.isIgnoringBatteryOptimizations();
+      if (!isIgnoringBatteryOptimizations) {
+        return;
+      }
+    }
+
+    await _applyWallpaperSettings(likedPhotoLinks);
+  }
+
+  Future<void> _showBatteryOptimizationDialog() {
+    return showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: const Text('Need for configuration'),
+          content: const Text('For the correct operation of the program, please remove the restrictions on the use of battery resources.'),
+          actions: <Widget>[
+            TextButton(
+              child: const Text('Cancel'),
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+            ),
+            TextButton(
+              child: const Text('Go to settings'),
+              onPressed: () {
+                Navigator.of(context).pop();
+                BatteryOptimization.openBatteryOptimizationSettings();
+              },
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+
+  Future<void> _applyWallpaperSettings(List<String> likedPhotoLinks) async {
     List<String> cachedLinks = await copyFilesToCache(likedPhotoLinks);
     await _sharedPrefs.setStringList('cachedPhotoLinks', cachedLinks);
     await _sharedPrefs.setDouble('changeInterval', _changeInterval);
@@ -84,8 +128,6 @@ class SettingsDrawerState extends State<SettingsDrawer> {
     await _sharedPrefs.setString('changedEkranGlowny', changedEkranGlowny);
     await _sharedPrefs.setString('error', error);
     await _sharedPrefs.setInt('currentIndex', 0);
-
-
 
     // This unique name is used to identify this task. It must be unique among all tasks.
     const simpleTaskKey = "simpleTask";
