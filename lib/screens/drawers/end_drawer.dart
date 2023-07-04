@@ -21,10 +21,10 @@ class SettingsDrawer extends StatefulWidget {
       {super.key, required this.favoritePhotos, required this.linkSet});
 
   @override
-  _SettingsDrawerState createState() => _SettingsDrawerState();
+  SettingsDrawerState createState() => SettingsDrawerState();
 }
 
-class _SettingsDrawerState extends State<SettingsDrawer> {
+class SettingsDrawerState extends State<SettingsDrawer> {
   late SharedPreferences _sharedPrefs;
   double _changeInterval = 15.0;
   String changedEkranGlowny = '';
@@ -240,6 +240,7 @@ class _SettingsDrawerState extends State<SettingsDrawer> {
   }
 }
 
+@pragma('vm:entry-point')
 void callbackDispatcher() {
   Workmanager().executeTask((task, inputData) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();

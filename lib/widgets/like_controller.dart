@@ -14,7 +14,7 @@ class LikeState extends ChangeNotifier {
     _dio = Dio();
   }
 
-  Future<void> toggleLike(int currentPhotoId, String linkSet) async {
+  Future<void> toggleLike(int currentPhotoId, String linkSet, VoidCallback refreshFavoritePhotos) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     _isLiked = !_isLiked;
     if (_isLiked) {
@@ -30,6 +30,7 @@ class LikeState extends ChangeNotifier {
     await prefs.setStringList('likedPhotos', _likedPhotos);
     await prefs.setStringList('likedPhotoLinks', _likedPhotoLinks);
     notifyListeners();  // Notify listeners that _isLiked has changed
+    refreshFavoritePhotos();
   }
 
   Future<void> checkLikeStatus(int currentPhotoId) async {

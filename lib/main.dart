@@ -20,8 +20,13 @@ void main() async {
   // Attaching color formatter to logger
   PrintAppender(formatter: const ColorFormatter()).attachToLogger(Logger.root);
 
-  // Ensuring Widgets are initialized
   WidgetsFlutterBinding.ensureInitialized();
+
+  // This will initialize the WorkManager with an entrypoint of backgroundCallbackDispatcher (see below)
+  await Workmanager().initialize(
+    callbackDispatcher,
+    isInDebugMode: true, // Should be false in production code.
+  );
 
   // Setting system UI mode and style
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.leanBack);
@@ -43,12 +48,6 @@ void main() async {
     deviceLocale = const Locale('en');
   }
 
-
-  // This will initialize the WorkManager with an entrypoint of backgroundCallbackDispatcher (see below)
-  await Workmanager().initialize(
-    callbackDispatcher,
-    isInDebugMode: true, // Should be false in production code.
-  );
 
   // Running the app
   runApp(

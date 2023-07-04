@@ -134,8 +134,8 @@ class _CreatePhotoFormState extends State<CreatePhotoForm> {
               builder: (context, likeState, _) => BottomRow(
                 isLiked: likeState.isLiked,
                 toggleLike: () => {
-                  likeState.toggleLike(currentPhotoId, widget.linkSet),
-                  widget.onLikeToggle()
+                  likeState.toggleLike(currentPhotoId, widget.linkSet, widget.onLikeToggle),
+
                 },
                 widget: widget,
                 currentPhotoId: currentPhotoId,
