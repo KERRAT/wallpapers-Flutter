@@ -1,110 +1,139 @@
-import 'dart:io';
-import 'dart:math';
-
 import 'package:flutter/material.dart';
-import 'package:path_provider/path_provider.dart';
+import 'package:flutter_tasks_app/screens/drawers/end_drawer_functions/wallpaper_change_method.dart';
+import 'package:logging/logging.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:workmanager/workmanager.dart';
 
 import '../../gen_l10n/app_localizations.dart';
 import '../../widgets/battery_optimization.dart';
 import '../../widgets/check_device_manufacturer.dart';
-import '../../widgets/set_wallpaper.dart';
+import '../../widgets/copy_files_to_cache .dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
-enum WallpaperChangeMethod { sequential, random }
+import 'end_drawer_elements/change_interval.dart';
+import 'end_drawer_elements/change_method.dart';
+
+final _logger = Logger('SettingsDrawer');
 
 class SettingsDrawer extends StatefulWidget {
   final List<int> favoritePhotos;
   final String linkSet;
+  late SharedPreferences sharedPrefs;
 
-  const SettingsDrawer(
-      {super.key, required this.favoritePhotos, required this.linkSet});
+  Future<void> initializeSharedPreferences() async {
+    sharedPrefs = await SharedPreferences.getInstance();
+    _logger.info("SharedPreferences initialized");
+  }
+
+  SettingsDrawer({
+    Key? key,
+    required this.favoritePhotos,
+    required this.linkSet,
+  }) : super(key: key) {
+    _logger.info("Initializing SharedPreferences");
+    initializeSharedPreferences();
+  }
 
   @override
   SettingsDrawerState createState() => SettingsDrawerState();
 }
 
 class SettingsDrawerState extends State<SettingsDrawer> {
-  late SharedPreferences _sharedPrefs;
-  double _changeInterval = 15.0;
+  late double _changeInterval;
   String changedEkranGlowny = '';
   String error = '';
   double width = 0;
   double height = 0;
   bool isHuawei = false;
-  WallpaperChangeMethod _changeMethod = WallpaperChangeMethod.sequential;
+  late WallpaperChangeMethod _changeMethod;
 
   @override
   void initState() {
     super.initState();
-    SharedPreferences.getInstance().then((prefs) {
-      setState(() {
-        _sharedPrefs = prefs;
-        _changeInterval =
-            prefs.getDouble('changeInterval') ?? 15.0; // default to 10 minutes
-        _changeMethod = WallpaperChangeMethod
-            .values[prefs.getInt('changeMethod') ?? 0]; // default to sequential
-      });
-    });
+    _logger.info("initState called");
+
+    _changeInterval = widget.sharedPrefs.getDouble('changeInterval') ??
+        15.0; // default to 10 minutes
+    _logger.info("Change interval retrieved: $_changeInterval");
+
+    _changeMethod = WallpaperChangeMethod.values[
+    widget.sharedPrefs.getInt('changeMethod') ?? 0]; // default to sequential
+    _logger.info("Change method retrieved: $_changeMethod");
+
+    _logger.info("Checking device manufacturer");
     checkDeviceManufacturer('huawei').then((result) {
       setState(() {
         isHuawei = result;
+        _logger.info("Device is Huawei: $isHuawei");
         if (isHuawei) {
           width = MediaQuery.of(context).size.width;
           height = MediaQuery.of(context).size.height;
+          _logger.info("Device dimensions: width: $width, height: $height");
         }
       });
     });
   }
 
   void _applySettings() async {
-    List<String> likedPhotoLinks = _sharedPrefs.getStringList('likedPhotoLinks') ?? [];
+    _logger.info("Applying settings");
 
-    if(likedPhotoLinks.isEmpty){
+    List<String> likedPhotoLinks =
+        widget.sharedPrefs.getStringList('likedPhotoLinks') ?? [];
+
+    if (likedPhotoLinks.isEmpty) {
       Fluttertoast.showToast(
-          msg: "No wallpapes added",
+          msg: "No wallpapers added",
           toastLength: Toast.LENGTH_SHORT,
           gravity: ToastGravity.BOTTOM,
           timeInSecForIosWeb: 1,
           backgroundColor: Colors.red,
           textColor: Colors.white,
-          fontSize: 16.0
-      );
+          fontSize: 16.0);
+      _logger.warning("No wallpapers added, exiting settings application");
       return;
     }
 
-    bool isIgnoringBatteryOptimizations = await BatteryOptimization.isIgnoringBatteryOptimizations();
+    _logger.info("Checking battery optimization settings");
+    bool isIgnoringBatteryOptimizations =
+    await BatteryOptimization.isIgnoringBatteryOptimizations();
 
     // Exit the function if the battery optimization settings are not ignored.
     if (!isIgnoringBatteryOptimizations) {
+      _logger.warning("Battery optimization settings are not ignored, showing dialog");
       await _showBatteryOptimizationDialog();
-      isIgnoringBatteryOptimizations = await BatteryOptimization.isIgnoringBatteryOptimizations();
+      isIgnoringBatteryOptimizations =
+      await BatteryOptimization.isIgnoringBatteryOptimizations();
       if (!isIgnoringBatteryOptimizations) {
+        _logger.warning("User chose not to ignore battery optimizations, exiting settings application");
         return;
       }
     }
 
+    _logger.info("Applying wallpaper settings");
     await _applyWallpaperSettings(likedPhotoLinks);
   }
 
   Future<void> _showBatteryOptimizationDialog() {
+    _logger.info("Showing battery optimization dialog");
     return showDialog(
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
           title: const Text('Need for configuration'),
-          content: const Text('For the correct operation of the program, please remove the restrictions on the use of battery resources.'),
+          content: const Text(
+              'For the correct operation of the program, please remove the restrictions on the use of battery resources.'),
           actions: <Widget>[
             TextButton(
               child: const Text('Cancel'),
               onPressed: () {
+                _logger.info("User canceled battery optimization dialog");
                 Navigator.of(context).pop();
               },
             ),
             TextButton(
               child: const Text('Go to settings'),
               onPressed: () {
+                _logger.info("User chose to go to battery optimization settings");
                 Navigator.of(context).pop();
                 BatteryOptimization.openBatteryOptimizationSettings();
               },
@@ -115,24 +144,27 @@ class SettingsDrawerState extends State<SettingsDrawer> {
     );
   }
 
-
   Future<void> _applyWallpaperSettings(List<String> likedPhotoLinks) async {
+    _logger.info("Copying files to cache");
     List<String> cachedLinks = await copyFilesToCache(likedPhotoLinks);
-    await _sharedPrefs.setStringList('cachedPhotoLinks', cachedLinks);
-    await _sharedPrefs.setDouble('changeInterval', _changeInterval);
-    await _sharedPrefs.setInt('changeMethod', _changeMethod.index);
-    await _sharedPrefs.setString('linkSet', widget.linkSet);
-    await _sharedPrefs.setBool('isHuawei', isHuawei);
-    await _sharedPrefs.setDouble('width', width);
-    await _sharedPrefs.setDouble('height', height);
-    await _sharedPrefs.setString('changedEkranGlowny', changedEkranGlowny);
-    await _sharedPrefs.setString('error', error);
-    await _sharedPrefs.setInt('currentIndex', 0);
+
+    _logger.info("Saving settings to SharedPreferences");
+    await widget.sharedPrefs.setStringList('cachedPhotoLinks', cachedLinks);
+    await widget.sharedPrefs.setDouble('changeInterval', _changeInterval);
+    await widget.sharedPrefs.setInt('changeMethod', _changeMethod.index);
+    await widget.sharedPrefs.setString('linkSet', widget.linkSet);
+    await widget.sharedPrefs.setBool('isHuawei', isHuawei);
+    await widget.sharedPrefs.setDouble('width', width);
+    await widget.sharedPrefs.setDouble('height', height);
+    await widget.sharedPrefs.setString('changedEkranGlowny', changedEkranGlowny);
+    await widget.sharedPrefs.setString('error', error);
+    await widget.sharedPrefs.setInt('currentIndex', 0);
 
     // This unique name is used to identify this task. It must be unique among all tasks.
     const simpleTaskKey = "simpleTask";
 
     // This will stop any previous task and schedule a new one
+    _logger.info("Cancelling previous task");
     await Workmanager().cancelByUniqueName(simpleTaskKey);
 
     Fluttertoast.showToast(
@@ -142,9 +174,9 @@ class SettingsDrawerState extends State<SettingsDrawer> {
         timeInSecForIosWeb: 1,
         backgroundColor: Colors.red,
         textColor: Colors.white,
-        fontSize: 16.0
-    );
+        fontSize: 16.0);
 
+    _logger.info("Registering new periodic task");
     await Workmanager().registerPeriodicTask(
       simpleTaskKey,
       "simplePeriodicTask",
@@ -152,48 +184,9 @@ class SettingsDrawerState extends State<SettingsDrawer> {
     );
   }
 
-  Future<List<String>> copyFilesToCache(List<String> fileLinks) async {
-    List<String> cachedFiles = [];
-    for (String link in fileLinks) {
-      File file = File(link);
-      String fileName = link.split('/').last; // split the link by '/' and get the last item
-      Directory cacheDir = await getTemporaryDirectory();
-      String newPath = '${cacheDir.path}/$fileName';
-      await file.copy(newPath);
-      cachedFiles.add(newPath);
-    }
-    return cachedFiles;
-  }
-
-
-  String getReadableInterval(double value) {
-    if (value < 60.0) {
-      return '${value.round().toString()} m';
-    } else {
-      return '${(value / 60.0).round().toString()} hr';
-    }
-  }
-
-  double getSliderValue(double value) {
-    if (value <= 60.0) {
-      return value / 5.0;
-    } else {
-      return 12.0 + (value - 60.0) / 60.0;
-    }
-  }
-
-  double getRealValue(double value) {
-    if (value <= 12.0) {
-      return value * 5.0;
-    } else {
-      return 60.0 + (value - 12.0) * 60.0;
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
-    changedEkranGlowny = AppLocalizations.of(context).wallpaper_changed_ekran_glowny;
-    error = AppLocalizations.of(context).error;
+    _logger.info("Building SettingsDrawerState");
     return Drawer(
       child: ListView(
         padding: EdgeInsets.zero,
@@ -204,73 +197,21 @@ class SettingsDrawerState extends State<SettingsDrawer> {
             ),
             child: Text('Settings'),
           ),
-          ListTile(
-            title: const Text('Change Interval'),
-            subtitle: Slider(
-              value: getSliderValue(_changeInterval),
-              min: 3.0,
-              max: 35.0, // 12 * 5 minutes + 24 hours
-              divisions: 32, // to provide 5 minutes and 1 hour steps
-              onChanged: (newValue) {
-                setState(() {
-                  _changeInterval = getRealValue(newValue);
-                });
-              },
-              label: getReadableInterval(_changeInterval),
-            ),
-            trailing: SizedBox(
-              width: 35.0, // you can adjust this value as per your requirement
-              child: Text(
-                getReadableInterval(_changeInterval),
-                textAlign: TextAlign.right,
-              ),
-            ),
+          ChangeIntervalTile(
+            changeInterval: _changeInterval,
+            onChanged: (newValue) {
+              setState(() {
+                _changeInterval = newValue;
+              });
+            },
           ),
-          ListTile(
-            title: const Text('Change Method'),
-            subtitle: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: <Widget>[
-                ElevatedButton(
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: _changeMethod == WallpaperChangeMethod.sequential
-                        ? Colors.blue
-                        : Colors.grey,
-                  ),
-                  onPressed: () {
-                    setState(() {
-                      _changeMethod = WallpaperChangeMethod.sequential;
-                    });
-                  },
-                  child: const Text(
-                    'Sequential',
-                    style: TextStyle(
-                      fontSize: 16.0,
-                      color: Colors.white,
-                    ),
-                  ),
-                ),
-                ElevatedButton(
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: _changeMethod == WallpaperChangeMethod.random
-                        ? Colors.blue
-                        : Colors.grey,
-                  ),
-                  onPressed: () {
-                    setState(() {
-                      _changeMethod = WallpaperChangeMethod.random;
-                    });
-                  },
-                  child: const Text(
-                    'Random',
-                    style: TextStyle(
-                      fontSize: 16.0,
-                      color: Colors.white,
-                    ),
-                  ),
-                ),
-              ],
-            ),
+          ChangeMethodTile(
+            changeMethod: _changeMethod,
+            onChanged: (newMethod) {
+              setState(() {
+                _changeMethod = newMethod;
+              });
+            },
           ),
           ElevatedButton(
             onPressed: _applySettings,
@@ -280,48 +221,4 @@ class SettingsDrawerState extends State<SettingsDrawer> {
       ),
     );
   }
-}
-
-@pragma('vm:entry-point')
-void callbackDispatcher() {
-  Workmanager().executeTask((task, inputData) async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    int changeMethodIndex = prefs.getInt('changeMethod') ?? 0;
-    WallpaperChangeMethod changeMethod =
-    WallpaperChangeMethod.values[changeMethodIndex];
-
-    List<String> cachedPhotoLinks = prefs.getStringList('cachedPhotoLinks') ?? [];
-    bool isHuawei = prefs.getBool('isHuawei') ?? false;
-    double width = prefs.getDouble('width') ?? 0;
-    double height = prefs.getDouble('height') ?? 0;
-    String changedEkranGlowny = prefs.getString('changedEkranGlowny') ?? '';
-    String error = prefs.getString('error') ?? '';
-
-    if (changeMethod == WallpaperChangeMethod.sequential) {
-      int currentIndex = prefs.getInt('currentIndex') ?? 0;
-      if (currentIndex >= cachedPhotoLinks.length) {
-        currentIndex = 0;
-      }
-      await WallpaperHandler.setWallpaperHome(
-          file: File(cachedPhotoLinks[currentIndex]),
-          successTest: changedEkranGlowny,
-          errorText: error,
-          resize: isHuawei,
-          width: width,
-          height: height);
-      prefs.setInt('currentIndex', currentIndex + 1);
-    } else {
-      var rng = Random();
-      int randomIndex = rng.nextInt(cachedPhotoLinks.length);
-      await WallpaperHandler.setWallpaperHome(
-          file: File(cachedPhotoLinks[randomIndex]),
-          successTest: changedEkranGlowny,
-          errorText: error,
-          resize: isHuawei,
-          width: width,
-          height: height);
-    }
-
-    return Future.value(true);
-  });
 }

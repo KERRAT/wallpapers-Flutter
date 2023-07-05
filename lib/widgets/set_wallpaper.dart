@@ -2,8 +2,11 @@ import 'dart:io';
 import 'dart:typed_data';
 import 'package:http/http.dart' as http;
 import 'package:async_wallpaper/async_wallpaper.dart';
+import 'package:logging/logging.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:image/image.dart' as img;
+
+final _logger = Logger('WallpaperHandler');
 
 class WallpaperHandler {
   static Future<String> setWallpaperHome({
@@ -16,6 +19,7 @@ class WallpaperHandler {
     double width = 0,
     double height = 0,
   }) async {
+    _logger.info('setWallpaperHome started.');
     return setWallpaper(
       link: link,
       file: file,
@@ -41,6 +45,7 @@ class WallpaperHandler {
     double width = 0,
     double height = 0,
   }) async {
+    _logger.info('setWallpaperLock started.');
     return setWallpaper(
       link: link,
       file: file,
@@ -120,8 +125,9 @@ class WallpaperHandler {
       http.Response response;
       try {
         response = await client.get(Uri.parse(link));
+        _logger.info('Started image download: $link');
       } catch (e) {
-        print('Failed to load image: $e');
+        _logger.warning('Failed to load image: $e');
         return null;
       }
 
@@ -130,13 +136,15 @@ class WallpaperHandler {
         if (contentType != null && contentType.startsWith('image/')) {
           Uint8List? imageBytes = response.bodyBytes;
           await File(filePath!).writeAsBytes(imageBytes);
+          _logger.info('Image download complete: $link');
           return filePath;
         } else {
-          print('Not an image file: $link');
+          _logger.warning('Not an image file: $link');
           return null;
         }
       }
     } else if (file != null) {
+      _logger.info('Loaded image from file.');
       return file.path; // return the path of the original file
     }
     return null;
@@ -146,9 +154,11 @@ class WallpaperHandler {
     try {
       final result = await InternetAddress.lookup('google.com');
       if (result.isNotEmpty && result[0].rawAddress.isNotEmpty) {
+        _logger.info('Internet connection available.');
         return true;
       }
     } on SocketException catch (_) {
+      _logger.warning('No internet connection available.');
       return false;
     }
     return false;
@@ -159,6 +169,7 @@ class WallpaperHandler {
       var originalImage = img.decodeImage(imageBytes);
       var thumbnail = img.copyResize(originalImage!, width: width?.toInt() ?? 0, height: height?.toInt() ?? 0);
       var resizedBytes = img.encodePng(thumbnail);
+      _logger.info('Image resized.');
 
       filePath = await getFilePath(photoId: photoId, tempId: '${tempId}_resized');
       await File(filePath).writeAsBytes(resizedBytes);
@@ -185,6 +196,12 @@ class WallpaperHandler {
     )
         ? '$successTest ✔️'
         : errorText;
+
+    if(result == '$successTest ✔️') {
+      _logger.info('Wallpaper successfully set from file.');
+    } else {
+      _logger.severe('Failed to set wallpaper from file: $result');
+    }
 
     // Clear cache after setting wallpaper
     if(file != null) {

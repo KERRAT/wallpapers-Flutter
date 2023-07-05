@@ -1,0 +1,1 @@
+enum WallpaperChangeMethod { sequential, random }
