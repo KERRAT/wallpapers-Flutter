@@ -1,4 +1,5 @@
 // Importing necessary packages
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_tasks_app/screens/drawers/end_drawer_functions/callbacks.dart';
@@ -19,6 +20,8 @@ final _logger = Logger('main');
 void main() async {
   // Attaching color formatter to logger
   PrintAppender(formatter: const ColorFormatter()).attachToLogger(Logger.root);
+
+  Logger.root.level = kReleaseMode ? Level.INFO : Level.ALL;  // Defaults to Level.ALL in non-release mode
 
   WidgetsFlutterBinding.ensureInitialized();
 

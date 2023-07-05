@@ -50,8 +50,6 @@ class SettingsDrawerState extends State<SettingsDrawer> {
   @override
   void initState() {
     super.initState();
-    _logger.info("initState called");
-
     _changeInterval = widget.sharedPrefs.getDouble('changeInterval') ??
         15.0; // default to 10 minutes
     _logger.info("Change interval retrieved: $_changeInterval");
@@ -60,7 +58,6 @@ class SettingsDrawerState extends State<SettingsDrawer> {
     widget.sharedPrefs.getInt('changeMethod') ?? 0]; // default to sequential
     _logger.info("Change method retrieved: $_changeMethod");
 
-    _logger.info("Checking device manufacturer");
     checkDeviceManufacturer('huawei').then((result) {
       setState(() {
         isHuawei = result;
@@ -75,8 +72,6 @@ class SettingsDrawerState extends State<SettingsDrawer> {
   }
 
   void _applySettings() async {
-    _logger.info("Applying settings");
-
     List<String> likedPhotoLinks =
         widget.sharedPrefs.getStringList('likedPhotoLinks') ?? [];
 
@@ -93,7 +88,6 @@ class SettingsDrawerState extends State<SettingsDrawer> {
       return;
     }
 
-    _logger.info("Checking battery optimization settings");
     bool isIgnoringBatteryOptimizations =
     await BatteryOptimization.isIgnoringBatteryOptimizations();
 
@@ -104,7 +98,6 @@ class SettingsDrawerState extends State<SettingsDrawer> {
       isIgnoringBatteryOptimizations =
       await BatteryOptimization.isIgnoringBatteryOptimizations();
       if (!isIgnoringBatteryOptimizations) {
-        _logger.warning("User chose not to ignore battery optimizations, exiting settings application");
         return;
       }
     }
@@ -145,10 +138,8 @@ class SettingsDrawerState extends State<SettingsDrawer> {
   }
 
   Future<void> _applyWallpaperSettings(List<String> likedPhotoLinks) async {
-    _logger.info("Copying files to cache");
     List<String> cachedLinks = await copyFilesToCache(likedPhotoLinks);
 
-    _logger.info("Saving settings to SharedPreferences");
     await widget.sharedPrefs.setStringList('cachedPhotoLinks', cachedLinks);
     await widget.sharedPrefs.setDouble('changeInterval', _changeInterval);
     await widget.sharedPrefs.setInt('changeMethod', _changeMethod.index);
@@ -164,8 +155,16 @@ class SettingsDrawerState extends State<SettingsDrawer> {
     const simpleTaskKey = "simpleTask";
 
     // This will stop any previous task and schedule a new one
-    _logger.info("Cancelling previous task");
     await Workmanager().cancelByUniqueName(simpleTaskKey);
+
+    _logger.info('Registering new task with the following parameters:\n'
+        'number_of_photos: ${cachedLinks.length}\n'
+        'changeInterval: $_changeInterval\n'
+        'changeMethod: $_changeMethod\n'
+        'linkSet: ${widget.linkSet}\n'
+        'isHuawei: $isHuawei\n'
+        'width: $width\n'
+        'height: $height\n');
 
     Fluttertoast.showToast(
         msg: "Periodic task registered",
