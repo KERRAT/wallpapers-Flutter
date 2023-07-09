@@ -50,6 +50,8 @@ class SettingsDrawerState extends State<SettingsDrawer> {
   late WallpaperChangeMethod _changeMethod;
 
   final periodicTaskKey = "change_wallpaper_over_time";
+  bool _changePeriodically = false;
+  bool _changeOnLockScreen = false;
 
 
   @override
@@ -217,8 +219,6 @@ class SettingsDrawerState extends State<SettingsDrawer> {
         fontSize: 16.0);
   }
 
-
-
   startService() async {
     List<String>? likedPhotoLinks = await checkLikedPhotoLinks();
 
@@ -236,13 +236,41 @@ class SettingsDrawerState extends State<SettingsDrawer> {
         'height: $height\n');
 
     String _ = await platform.invokeMethod('startService');
+
+    Fluttertoast.showToast(
+        msg: "Service registered",
+        toastLength: Toast.LENGTH_SHORT,
+        gravity: ToastGravity.BOTTOM,
+        timeInSecForIosWeb: 1,
+        backgroundColor: Colors.red,
+        textColor: Colors.white,
+        fontSize: 16.0);
+
   }
 
   stopService() async {
     try {
       await platform.invokeMethod('stopService');
+
+      Fluttertoast.showToast(
+          msg: "Service stopped",
+          toastLength: Toast.LENGTH_SHORT,
+          gravity: ToastGravity.BOTTOM,
+          timeInSecForIosWeb: 1,
+          backgroundColor: Colors.red,
+          textColor: Colors.white,
+          fontSize: 16.0);
     } on PlatformException catch (e) {
       _logger.warning("Failed to stop service: '${e.message}'.");
+    }
+  }
+
+  void _applySelectedOptions() {
+    if (_changePeriodically) {
+      _applySettings();
+    }
+    if (_changeOnLockScreen) {
+      startService();
     }
   }
 
@@ -259,11 +287,30 @@ class SettingsDrawerState extends State<SettingsDrawer> {
             ),
             child: Text('Settings'),
           ),
-          ChangeIntervalTile(
-            changeInterval: _changeInterval,
-            onChanged: (newValue) {
+          SwitchListTile(
+            title: const Text('Change periodically'),
+            value: _changePeriodically,
+            onChanged: (bool value) {
               setState(() {
-                _changeInterval = newValue;
+                _changePeriodically = value;
+              });
+            },
+          ),
+          if (_changePeriodically)
+            ChangeIntervalTile(
+              changeInterval: _changeInterval,
+              onChanged: (newValue) {
+                setState(() {
+                  _changeInterval = newValue;
+                });
+              },
+            ),
+          SwitchListTile(
+            title: const Text('Change on lock screen'),
+            value: _changeOnLockScreen,
+            onChanged: (bool value) {
+              setState(() {
+                _changeOnLockScreen = value;
               });
             },
           ),
@@ -276,20 +323,16 @@ class SettingsDrawerState extends State<SettingsDrawer> {
             },
           ),
           ElevatedButton(
-            onPressed: _applySettings,
-            child: const Text('startWorkManagerService'),
+            onPressed: _applySelectedOptions,
+            child: const Text('Apply settings'),
           ),
           ElevatedButton(
             onPressed: unregisterPeriodicTask,
-            child: const Text('stopWorkManagerService'),
-          ),
-          ElevatedButton(
-            onPressed: startService,
-            child: const Text('startService'),
+            child: const Text('stop changes over time'),
           ),
           ElevatedButton(
             onPressed: stopService,
-            child: const Text('stopService'),
+            child: const Text('stop changes on lock'),
           ),
         ],
       ),
