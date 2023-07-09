@@ -17,13 +17,20 @@ import 'gen_l10n/app_localizations.dart';
 // Setting up logger for the main file
 final _logger = Logger('main');
 
+@pragma('vm:entry-point')
+void myBackgroundTask() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  _logger.info('App started as serviceOpenedApp');
+  await setWallpaperNoApp();
+}
+
 void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
   // Attaching color formatter to logger
   PrintAppender(formatter: const ColorFormatter()).attachToLogger(Logger.root);
-
   Logger.root.level = kReleaseMode ? Level.INFO : Level.ALL;  // Defaults to Level.ALL in non-release mode
-
-  WidgetsFlutterBinding.ensureInitialized();
 
   // This will initialize the WorkManager with an entrypoint of backgroundCallbackDispatcher (see below)
   await Workmanager().initialize(
@@ -51,7 +58,6 @@ void main() async {
     deviceLocale = const Locale('en');
   }
 
-
   // Running the app
   runApp(
     MultiProvider(
@@ -65,6 +71,7 @@ void main() async {
     ),
   );
 }
+
 
 class MyApp extends StatefulWidget {
   final Locale language;

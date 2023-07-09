@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_tasks_app/screens/drawers/end_drawer_functions/wallpaper_change_method.dart';
 import 'package:logging/logging.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -45,7 +46,11 @@ class SettingsDrawerState extends State<SettingsDrawer> {
   double width = 0;
   double height = 0;
   bool isHuawei = false;
+  final platform = const MethodChannel('com.example.wallpapers/battery_optimization');
   late WallpaperChangeMethod _changeMethod;
+
+  final periodicTaskKey = "change_wallpaper_over_time";
+
 
   @override
   void initState() {
@@ -72,10 +77,25 @@ class SettingsDrawerState extends State<SettingsDrawer> {
   }
 
   void _applySettings() async {
-    List<String> likedPhotoLinks =
-        widget.sharedPrefs.getStringList('likedPhotoLinks') ?? [];
+    List<String>? likedPhotoLinks = await checkLikedPhotoLinks();
 
-    if (likedPhotoLinks.isEmpty) {
+    if (likedPhotoLinks == null) return;
+
+    if (!await checkBatteryOptimizations()) return;
+
+    _logger.info("Applying wallpaper settings");
+    List<String> cachedLinks = await updateSharedPrefs(likedPhotoLinks);
+
+    _logger.info("Registering new periodic task");
+    await registerPeriodicTask(cachedLinks);
+  }
+
+
+  Future<List<String>?> checkLikedPhotoLinks() async {
+    List<String>? likedPhotoLinks =
+    widget.sharedPrefs.getStringList('likedPhotoLinks');
+
+    if (likedPhotoLinks == null || likedPhotoLinks.isEmpty) {
       Fluttertoast.showToast(
           msg: "No wallpapers added",
           toastLength: Toast.LENGTH_SHORT,
@@ -85,9 +105,13 @@ class SettingsDrawerState extends State<SettingsDrawer> {
           textColor: Colors.white,
           fontSize: 16.0);
       _logger.warning("No wallpapers added, exiting settings application");
-      return;
+      return null;
     }
 
+    return likedPhotoLinks;
+  }
+
+  Future<bool> checkBatteryOptimizations() async {
     bool isIgnoringBatteryOptimizations =
     await BatteryOptimization.isIgnoringBatteryOptimizations();
 
@@ -97,13 +121,9 @@ class SettingsDrawerState extends State<SettingsDrawer> {
       await _showBatteryOptimizationDialog();
       isIgnoringBatteryOptimizations =
       await BatteryOptimization.isIgnoringBatteryOptimizations();
-      if (!isIgnoringBatteryOptimizations) {
-        return;
-      }
     }
 
-    _logger.info("Applying wallpaper settings");
-    await _applyWallpaperSettings(likedPhotoLinks);
+    return isIgnoringBatteryOptimizations;
   }
 
   Future<void> _showBatteryOptimizationDialog() {
@@ -137,11 +157,10 @@ class SettingsDrawerState extends State<SettingsDrawer> {
     );
   }
 
-  Future<void> _applyWallpaperSettings(List<String> likedPhotoLinks) async {
+  Future<List<String>> updateSharedPrefs(List<String> likedPhotoLinks) async {
     List<String> cachedLinks = await copyFilesToCache(likedPhotoLinks);
 
     await widget.sharedPrefs.setStringList('cachedPhotoLinks', cachedLinks);
-    await widget.sharedPrefs.setDouble('changeInterval', _changeInterval);
     await widget.sharedPrefs.setInt('changeMethod', _changeMethod.index);
     await widget.sharedPrefs.setString('linkSet', widget.linkSet);
     await widget.sharedPrefs.setBool('isHuawei', isHuawei);
@@ -151,11 +170,12 @@ class SettingsDrawerState extends State<SettingsDrawer> {
     await widget.sharedPrefs.setString('error', error);
     await widget.sharedPrefs.setInt('currentIndex', 0);
 
-    // This unique name is used to identify this task. It must be unique among all tasks.
-    const simpleTaskKey = "simpleTask";
+    return cachedLinks;
+  }
 
+  Future<void> registerPeriodicTask(List<String> cachedLinks) async {
     // This will stop any previous task and schedule a new one
-    await Workmanager().cancelByUniqueName(simpleTaskKey);
+    await Workmanager().cancelByUniqueName(periodicTaskKey);
 
     _logger.info('Registering new task with the following parameters:\n'
         'number_of_photos: ${cachedLinks.length}\n'
@@ -175,12 +195,55 @@ class SettingsDrawerState extends State<SettingsDrawer> {
         textColor: Colors.white,
         fontSize: 16.0);
 
-    _logger.info("Registering new periodic task");
     await Workmanager().registerPeriodicTask(
-      simpleTaskKey,
+      periodicTaskKey,
       "simplePeriodicTask",
       frequency: Duration(minutes: _changeInterval.toInt()),
     );
+  }
+
+  Future<void> unregisterPeriodicTask() async {
+    await Workmanager().cancelByUniqueName(periodicTaskKey);
+
+    _logger.info('Unregistering task with the name: $periodicTaskKey');
+
+    Fluttertoast.showToast(
+        msg: "Periodic task unregistered",
+        toastLength: Toast.LENGTH_SHORT,
+        gravity: ToastGravity.BOTTOM,
+        timeInSecForIosWeb: 1,
+        backgroundColor: Colors.red,
+        textColor: Colors.white,
+        fontSize: 16.0);
+  }
+
+
+
+  startService() async {
+    List<String>? likedPhotoLinks = await checkLikedPhotoLinks();
+
+    if (likedPhotoLinks == null) return;
+
+    List<String> cachedLinks = await updateSharedPrefs(likedPhotoLinks);
+
+    _logger.info('Registering new task with the following parameters:\n'
+        'number_of_photos: ${cachedLinks.length}\n'
+        'changeInterval: $_changeInterval\n'
+        'changeMethod: $_changeMethod\n'
+        'linkSet: ${widget.linkSet}\n'
+        'isHuawei: $isHuawei\n'
+        'width: $width\n'
+        'height: $height\n');
+
+    String _ = await platform.invokeMethod('startService');
+  }
+
+  stopService() async {
+    try {
+      await platform.invokeMethod('stopService');
+    } on PlatformException catch (e) {
+      _logger.warning("Failed to stop service: '${e.message}'.");
+    }
   }
 
   @override
@@ -214,7 +277,19 @@ class SettingsDrawerState extends State<SettingsDrawer> {
           ),
           ElevatedButton(
             onPressed: _applySettings,
-            child: const Text('Apply'),
+            child: const Text('startWorkManagerService'),
+          ),
+          ElevatedButton(
+            onPressed: unregisterPeriodicTask,
+            child: const Text('stopWorkManagerService'),
+          ),
+          ElevatedButton(
+            onPressed: startService,
+            child: const Text('startService'),
+          ),
+          ElevatedButton(
+            onPressed: stopService,
+            child: const Text('stopService'),
           ),
         ],
       ),

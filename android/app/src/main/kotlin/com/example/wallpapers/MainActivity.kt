@@ -13,22 +13,45 @@ import io.flutter.plugin.common.MethodChannel
 class MainActivity: FlutterActivity() {
     private val CHANNEL = "com.example.wallpapers/battery_optimization"
 
+    private lateinit var flutterEngine: FlutterEngine
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
 
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)
+        this.flutterEngine = flutterEngine
         MethodChannel(flutterEngine.dartExecutor.binaryMessenger, CHANNEL).setMethodCallHandler { call, result ->
             if (call.method == "openBatteryOptimizationSettings") {
                 openBatteryOptimizationSettings()
                 result.success(null)
             } else if (call.method == "isIgnoringBatteryOptimizations") {
                 result.success(isIgnoringBatteryOptimizations())
+            } else if (call.method == "startService") {
+                startForegroundService()
+                result.success("Foreground Service Started")
+            } else if (call.method == "stopService") {
+                stopForegroundService()
+                result.success("Foreground Service Stopped")
             } else {
                 result.notImplemented()
             }
         }
+    }
+
+    private fun startForegroundService() {
+        val serviceIntent = Intent(this, MyForegroundService::class.java)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            startForegroundService(serviceIntent)
+        } else {
+            startService(serviceIntent)
+        }
+    }
+
+    private fun stopForegroundService() {
+        val serviceIntent = Intent(this, MyForegroundService::class.java)
+        stopService(serviceIntent)
     }
 
     private fun openBatteryOptimizationSettings() {

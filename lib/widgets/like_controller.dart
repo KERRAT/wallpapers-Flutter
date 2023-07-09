@@ -22,7 +22,6 @@ class LikeState extends ChangeNotifier {
       SharedPreferences prefs = await SharedPreferences.getInstance();
       _isLiked = !_isLiked;
       _logger.info("New like status: $_isLiked");
-      notifyListeners();
 
       if (_isLiked) {
         String url = linkSet.replaceAll('[ID]', currentPhotoId.toString());
@@ -39,6 +38,7 @@ class LikeState extends ChangeNotifier {
 
       await prefs.setStringList('likedPhotos', _likedPhotos);
       await prefs.setStringList('likedPhotoLinks', _likedPhotoLinks);
+      notifyListeners();
       refreshFavoritePhotos();
     } catch (e) {
       _logger.severe("Error occurred while toggling like: $e");
