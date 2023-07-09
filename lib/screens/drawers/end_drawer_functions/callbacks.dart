@@ -13,12 +13,16 @@ final _logger = Logger('Background callbacks');
 @pragma('vm:entry-point')
 void callbackDispatcher() {
   Workmanager().executeTask((task, inputData) async {
+
     await setWallpaperNoApp();
 
     return Future.value(true);
   });
 }
 
+Future<void> callbackForeground() async {
+  await setWallpaperNoApp();
+}
 
 @pragma('vm:entry-point')
 Future<void> setWallpaperNoApp() async {

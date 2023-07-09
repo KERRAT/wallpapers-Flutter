@@ -46,23 +46,25 @@ class SettingsDrawerState extends State<SettingsDrawer> {
   double width = 0;
   double height = 0;
   bool isHuawei = false;
-  final platform = const MethodChannel('com.example.wallpapers/battery_optimization');
+  final platform =
+      const MethodChannel('com.example.wallpapers/battery_optimization');
   late WallpaperChangeMethod _changeMethod;
 
   final periodicTaskKey = "change_wallpaper_over_time";
+  bool isIgnoringBatteryOptimizations = false;
   bool _changePeriodically = false;
   bool _changeOnLockScreen = false;
-
 
   @override
   void initState() {
     super.initState();
     _changeInterval = widget.sharedPrefs.getDouble('changeInterval') ??
-        15.0; // default to 10 minutes
+        60.0; // default to 60 minutes
     _logger.info("Change interval retrieved: $_changeInterval");
 
     _changeMethod = WallpaperChangeMethod.values[
-    widget.sharedPrefs.getInt('changeMethod') ?? 0]; // default to sequential
+        widget.sharedPrefs.getInt('changeMethod') ??
+            0]; // default to sequential
     _logger.info("Change method retrieved: $_changeMethod");
 
     checkDeviceManufacturer('huawei').then((result) {
@@ -79,6 +81,8 @@ class SettingsDrawerState extends State<SettingsDrawer> {
   }
 
   void _applySettings() async {
+    stopService();
+
     List<String>? likedPhotoLinks = await checkLikedPhotoLinks();
 
     if (likedPhotoLinks == null) return;
@@ -92,10 +96,9 @@ class SettingsDrawerState extends State<SettingsDrawer> {
     await registerPeriodicTask(cachedLinks);
   }
 
-
   Future<List<String>?> checkLikedPhotoLinks() async {
     List<String>? likedPhotoLinks =
-    widget.sharedPrefs.getStringList('likedPhotoLinks');
+        widget.sharedPrefs.getStringList('likedPhotoLinks');
 
     if (likedPhotoLinks == null || likedPhotoLinks.isEmpty) {
       Fluttertoast.showToast(
@@ -115,14 +118,15 @@ class SettingsDrawerState extends State<SettingsDrawer> {
 
   Future<bool> checkBatteryOptimizations() async {
     bool isIgnoringBatteryOptimizations =
-    await BatteryOptimization.isIgnoringBatteryOptimizations();
+        await BatteryOptimization.isIgnoringBatteryOptimizations();
 
     // Exit the function if the battery optimization settings are not ignored.
     if (!isIgnoringBatteryOptimizations) {
-      _logger.warning("Battery optimization settings are not ignored, showing dialog");
+      _logger.warning(
+          "Battery optimization settings are not ignored, showing dialog");
       await _showBatteryOptimizationDialog();
       isIgnoringBatteryOptimizations =
-      await BatteryOptimization.isIgnoringBatteryOptimizations();
+          await BatteryOptimization.isIgnoringBatteryOptimizations();
     }
 
     return isIgnoringBatteryOptimizations;
@@ -148,7 +152,8 @@ class SettingsDrawerState extends State<SettingsDrawer> {
             TextButton(
               child: const Text('Go to settings'),
               onPressed: () {
-                _logger.info("User chose to go to battery optimization settings");
+                _logger
+                    .info("User chose to go to battery optimization settings");
                 Navigator.of(context).pop();
                 BatteryOptimization.openBatteryOptimizationSettings();
               },
@@ -168,7 +173,8 @@ class SettingsDrawerState extends State<SettingsDrawer> {
     await widget.sharedPrefs.setBool('isHuawei', isHuawei);
     await widget.sharedPrefs.setDouble('width', width);
     await widget.sharedPrefs.setDouble('height', height);
-    await widget.sharedPrefs.setString('changedEkranGlowny', changedEkranGlowny);
+    await widget.sharedPrefs
+        .setString('changedEkranGlowny', changedEkranGlowny);
     await widget.sharedPrefs.setString('error', error);
     await widget.sharedPrefs.setInt('currentIndex', 0);
 
@@ -208,18 +214,11 @@ class SettingsDrawerState extends State<SettingsDrawer> {
     await Workmanager().cancelByUniqueName(periodicTaskKey);
 
     _logger.info('Unregistering task with the name: $periodicTaskKey');
-
-    Fluttertoast.showToast(
-        msg: "Periodic task unregistered",
-        toastLength: Toast.LENGTH_SHORT,
-        gravity: ToastGravity.BOTTOM,
-        timeInSecForIosWeb: 1,
-        backgroundColor: Colors.red,
-        textColor: Colors.white,
-        fontSize: 16.0);
   }
 
   startService() async {
+    unregisterPeriodicTask();
+
     List<String>? likedPhotoLinks = await checkLikedPhotoLinks();
 
     if (likedPhotoLinks == null) return;
@@ -245,21 +244,11 @@ class SettingsDrawerState extends State<SettingsDrawer> {
         backgroundColor: Colors.red,
         textColor: Colors.white,
         fontSize: 16.0);
-
   }
 
   stopService() async {
     try {
       await platform.invokeMethod('stopService');
-
-      Fluttertoast.showToast(
-          msg: "Service stopped",
-          toastLength: Toast.LENGTH_SHORT,
-          gravity: ToastGravity.BOTTOM,
-          timeInSecForIosWeb: 1,
-          backgroundColor: Colors.red,
-          textColor: Colors.white,
-          fontSize: 16.0);
     } on PlatformException catch (e) {
       _logger.warning("Failed to stop service: '${e.message}'.");
     }
@@ -290,9 +279,30 @@ class SettingsDrawerState extends State<SettingsDrawer> {
           SwitchListTile(
             title: const Text('Change periodically'),
             value: _changePeriodically,
-            onChanged: (bool value) {
+            onChanged: (bool value) async {
+              if (value) {
+                isIgnoringBatteryOptimizations =
+                    await BatteryOptimization.isIgnoringBatteryOptimizations();
+              }
               setState(() {
                 _changePeriodically = value;
+                if (value) {
+                  _changeOnLockScreen =
+                      false; // disable the other option if this one is enabled
+                }
+              });
+            },
+          ),
+          SwitchListTile(
+            title: const Text('Change on lock screen'),
+            value: _changeOnLockScreen,
+            onChanged: (bool value) {
+              setState(() {
+                _changeOnLockScreen = value;
+                if (value) {
+                  _changePeriodically =
+                      false; // disable the other option if this one is enabled
+                }
               });
             },
           ),
@@ -305,15 +315,6 @@ class SettingsDrawerState extends State<SettingsDrawer> {
                 });
               },
             ),
-          SwitchListTile(
-            title: const Text('Change on lock screen'),
-            value: _changeOnLockScreen,
-            onChanged: (bool value) {
-              setState(() {
-                _changeOnLockScreen = value;
-              });
-            },
-          ),
           ChangeMethodTile(
             changeMethod: _changeMethod,
             onChanged: (newMethod) {
@@ -322,18 +323,47 @@ class SettingsDrawerState extends State<SettingsDrawer> {
               });
             },
           ),
-          ElevatedButton(
+          if (_changePeriodically || _changeOnLockScreen)
+            ElevatedButton(
             onPressed: _applySelectedOptions,
             child: const Text('Apply settings'),
           ),
-          ElevatedButton(
-            onPressed: unregisterPeriodicTask,
-            child: const Text('stop changes over time'),
-          ),
-          ElevatedButton(
-            onPressed: stopService,
-            child: const Text('stop changes on lock'),
-          ),
+          if (_changePeriodically && !isIgnoringBatteryOptimizations)
+            const ListTile(
+              leading: Icon(Icons.warning, color: Colors.yellow),
+              title: Text(
+                  'Disable battery optimization for the correct changes over time'),
+            ),
+          if (_changePeriodically) // Show 'stop' button only if the option is active
+            ElevatedButton(
+              onPressed: () => {
+                unregisterPeriodicTask(),
+                Fluttertoast.showToast(
+                    msg: "Periodic task unregistered",
+                    toastLength: Toast.LENGTH_SHORT,
+                    gravity: ToastGravity.BOTTOM,
+                    timeInSecForIosWeb: 1,
+                    backgroundColor: Colors.red,
+                    textColor: Colors.white,
+                    fontSize: 16.0),
+              },
+              child: const Text('stop changes over time'),
+            ),
+          if (_changeOnLockScreen) // Show 'stop' button only if the option is active
+            ElevatedButton(
+              onPressed: () => {
+                stopService(),
+                Fluttertoast.showToast(
+                    msg: "Service stopped",
+                    toastLength: Toast.LENGTH_SHORT,
+                    gravity: ToastGravity.BOTTOM,
+                    timeInSecForIosWeb: 1,
+                    backgroundColor: Colors.red,
+                    textColor: Colors.white,
+                    fontSize: 16.0),
+              },
+              child: const Text('stop changes on lock'),
+            ),
         ],
       ),
     );

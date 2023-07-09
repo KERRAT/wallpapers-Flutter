@@ -22,7 +22,7 @@ void myBackgroundTask() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   _logger.info('App started as serviceOpenedApp');
-  await setWallpaperNoApp();
+  await callbackForeground();
 }
 
 void main() async {
@@ -30,7 +30,7 @@ void main() async {
 
   // Attaching color formatter to logger
   PrintAppender(formatter: const ColorFormatter()).attachToLogger(Logger.root);
-  Logger.root.level = kReleaseMode ? Level.INFO : Level.ALL;  // Defaults to Level.ALL in non-release mode
+  Logger.root.level = kReleaseMode ? Level.WARNING : Level.ALL;  // Defaults to Level.ALL in non-release mode
 
   // This will initialize the WorkManager with an entrypoint of backgroundCallbackDispatcher (see below)
   await Workmanager().initialize(
