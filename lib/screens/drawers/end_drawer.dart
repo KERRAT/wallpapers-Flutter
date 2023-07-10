@@ -59,7 +59,11 @@ class SettingsDrawerState extends State<SettingsDrawer> {
   void initState() {
     super.initState();
     _changeInterval = widget.sharedPrefs.getDouble('changeInterval') ??
-        60.0; // default to 60 minutes
+        60.0;
+    _changeOnLockScreen = widget.sharedPrefs.getBool('changeOnLockScreen') ??
+        false;
+    _changePeriodically = widget.sharedPrefs.getBool('changePeriodically') ??
+        false;
     _logger.info("Change interval retrieved: $_changeInterval");
 
     _changeMethod = WallpaperChangeMethod.values[
@@ -286,9 +290,11 @@ class SettingsDrawerState extends State<SettingsDrawer> {
               }
               setState(() {
                 _changePeriodically = value;
+                widget.sharedPrefs.setBool('changePeriodically', value);
                 if (value) {
                   _changeOnLockScreen =
-                      false; // disable the other option if this one is enabled
+                      false;
+                  widget.sharedPrefs.setBool('changeOnLockScreen', false);
                 }
               });
             },
@@ -299,9 +305,12 @@ class SettingsDrawerState extends State<SettingsDrawer> {
             onChanged: (bool value) {
               setState(() {
                 _changeOnLockScreen = value;
+                widget.sharedPrefs.setBool('changeOnLockScreen', value);
                 if (value) {
                   _changePeriodically =
-                      false; // disable the other option if this one is enabled
+                      false;
+                  widget.sharedPrefs.setBool('changePeriodically', false);
+
                 }
               });
             },

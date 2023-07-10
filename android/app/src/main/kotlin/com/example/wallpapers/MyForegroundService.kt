@@ -58,8 +58,6 @@ class MyForegroundService : Service() {
 
     override fun onTaskRemoved(rootIntent: Intent) {
         super.onTaskRemoved(rootIntent)
-
-        stopSelf()
     }
 
     override fun onDestroy() {
