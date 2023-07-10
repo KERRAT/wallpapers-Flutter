@@ -6,9 +6,17 @@ final _logger = Logger('BatteryOptimization');
 class BatteryOptimization {
   static const platform = const MethodChannel('com.example.wallpapers/battery_optimization');
 
-  static Future<void> openBatteryOptimizationSettings() async {
+  static Future<void> openApplicationSettings() async {
     try {
-      await platform.invokeMethod('openBatteryOptimizationSettings');
+      await platform.invokeMethod('openApplicationSettings');
+    } on PlatformException catch (e) {
+      _logger.warning(e);
+    }
+  }
+
+  static Future<void> openPermissionDialog() async {
+    try {
+      await platform.invokeMethod('openPermissionDialog');
     } on PlatformException catch (e) {
       _logger.warning(e);
     }

@@ -124,11 +124,19 @@ class SettingsDrawerState extends State<SettingsDrawer> {
               },
             ),
             TextButton(
+              child: const Text('Ask permissions'),
+              onPressed: () {
+                _logger.info("User chose to open permission dialog");
+                Navigator.of(context).pop();
+                BatteryOptimization.openPermissionDialog();
+              },
+            ),
+            TextButton(
               child: const Text('Go to settings'),
               onPressed: () {
                 _logger.info("User chose to go to battery optimization settings");
                 Navigator.of(context).pop();
-                BatteryOptimization.openBatteryOptimizationSettings();
+                BatteryOptimization.openApplicationSettings();
               },
             ),
           ],

@@ -204,7 +204,7 @@ class WallpaperHandler {
     }
 
     // Clear cache after setting wallpaper
-    if(file != null) {
+    if(file == null) {
       File(filePath).delete();
     }
 
